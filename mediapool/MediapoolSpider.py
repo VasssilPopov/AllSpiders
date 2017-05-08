@@ -3,8 +3,16 @@ import scrapy
 import logging
 import json
 from sys import exit, path
-# path.append('/home/peio/dev/Scrapy')
-path.append('C:\STUDY_PYTHON\Projects\LIBRARIES')
+import platform
+
+if platform.system() == 'Linux':
+	path.append('/home/peio/dev/AllSpiders/_LIBRARY/')
+elif platform.system() == 'Windows':
+	path.append('C:\STUDY_SPIDERS\Spiders\Library')
+else: 
+	print 'Unknown platform' 
+	exit() 
+
 from ScrapingHelpers import *
 from datetime import date, timedelta
 
