@@ -1,6 +1,6 @@
 About data
 
-The main folder is Spiders.
+The main folder is AllSpiders.
 
 It contains the following subfolders:
 	_DOCs 		- documents related to the system
@@ -47,6 +47,6 @@ How to get sources
 	3. Create the local repository
 		git init
 	4. Get all sources into c:/Insects
-		git clone username@host:/path/to/repository
+		git clone https://github.com/VasssilPopov/AllSpiders.git
 
 
