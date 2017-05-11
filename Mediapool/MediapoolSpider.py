@@ -7,7 +7,15 @@ from sys import exit, path
 path.append('C:\STUDY_PYTHON\Projects\LIBRARIES')
 from ScrapingHelpers import *
 from datetime import date, timedelta
+import platform
 
+if platform.system() == 'Linux':
+	path.append('/home/peio/dev/AllSpiders/_LIBRARY/')
+elif platform.system() == 'Windows':
+	path.append('C:\STUDY_SPIDERS\Spiders\Library')
+else: 
+	print 'Unknown platform' 
+	exit() 
 # scrapy runspider MediapoolSpider.py -o Reports/Mediapool-30-Apr-2017.json -t json>Logs/output.txt
 # runIt 2017-05-08
 

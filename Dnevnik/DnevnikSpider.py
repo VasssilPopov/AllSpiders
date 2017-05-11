@@ -2,6 +2,7 @@
 import scrapy
 import logging
 import json
+import sys
 from sys import exit, path
 import platform
 
@@ -15,15 +16,19 @@ else:
 
 from ScrapingHelpers import *
 from datetime import date, timedelta
-
+import os
 '$ scrapy crawl Dnevnik -o Dnevnik.json -t jsonlines'
 'scrapy runspider DNSpider.py -o Dnevnik-28-Apr-2017.json -t json'
 'scrapy runspider DNSpider3.py -o Dnevnik-28-Apr-2017.json -t json'
 
 'Get the yesterday date'
 yesterday = date.today() - timedelta(1)
-Yesterday = yesterday.strftime("%d-%b-%Y")
+Yesterday = yesterday.strftime("%Y-%m-%d")
+translateMonth={u'януари':'january',u'февруари':'february',u'март':'march',u'април':'april',u'май':'may',u'юни':'june',u'юли':'july',u'август':'august',u'септември':'september',u'октомври':'october',u'ноември':'november',u'декември':'december'}
 
+
+cwd = os.getcwd()
+print cwd
 
 class DnevnikSpider(scrapy.Spider):
 	name = 'Dnevnik'
@@ -36,12 +41,18 @@ class DnevnikSpider(scrapy.Spider):
 	def __init__(self):
 
 		self.urls = ["http://m.dnevnik.bg/allnews/yesterday"]
-		#[  'http://www.dnevnik.bg/allnews/today/']
+
 		# Their date format is: http://www.dnevnik.bg/allnews/2017/03/19/
 		# 'http://www.dnevnik.bg/rss/'
 
-		self.json_datafile = 'Dnevnik-'+Yesterday+'.json'
+		self.json_datafile = 'Reports/Dnevnik-'+Yesterday+'.json'
 		self.links_seen = self.get_ids(self.json_datafile)
+		
+		# Prepare links_seen data structure
+		#self.links_seen=read_ids(self.json_datafile)
+
+		print 'links_seen : %d' %(len(self.links_seen))
+		
 		
 	def get_ids(self, json_datafile):
 		ids = []
@@ -95,9 +106,21 @@ class DnevnikSpider(scrapy.Spider):
 		
 		article = ''.join(response.css('div.article-content>p::text').extract()).strip()
 
-		yield {
-			'url': url,
-			'title': title,
-			'text': article
+		#pubDate=response.xpath('//div[@class="info wbig"]/text()').extract_first()
+		pubDate=response.xpath('//div[@class="article-tools"]/time/text()').extract_first()
+		
+		#extract and prepare Article date
+		dateParts=pubDate.split()
+		pubDate= ('%s-%s-%s' %(dateParts[1],dateParts[2],'20'+dateParts[3])).lower()
+		articleDate=pubDate.replace(dateParts[2],translateMonth[dateParts[2]])
+		todaysDate=yesterday.strftime("%d-%b-%Y").lower()
+		
+		# Filter on todays date
+		if (articleDate == todaysDate):
+			yield {
+				'url': url,
+				'title': title,
+				'text': article,
+				'date': pubDate
 
-		}	
+			}	
