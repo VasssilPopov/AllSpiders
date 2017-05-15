@@ -27,12 +27,10 @@ Yesterday = yesterday.strftime("%Y-%m-%d")
 translateMonth={u'януари':'january',u'февруари':'february',u'март':'march',u'април':'april',u'май':'may',u'юни':'june',u'юли':'july',u'август':'august',u'септември':'september',u'октомври':'october',u'ноември':'november',u'декември':'december'}
 
 
-cwd = os.getcwd()
-print cwd
-
 class DnevnikSpider(scrapy.Spider):
 	name = 'Dnevnik'
 	allowed_domains = ['dnevnik.bg']
+
 	custom_settings = {
         'FEED_EXPORT_ENCODING': 'utf-8'
     }
