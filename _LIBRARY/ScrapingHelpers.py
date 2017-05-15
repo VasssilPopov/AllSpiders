@@ -29,11 +29,15 @@ def read_json(file):
 def read_ids(file):
 	'Read the urls of the already processed publications '
 	json_data = []
-	json_data = read_json(file)
+	
+	try: 
+		json_data = read_json(file)
+		ids = []
+		for i in range(0,len(json_data)):
+			ids.append(json_data[i]['url'])
+	except IOError:
+		ids = []
 
-	ids = []
-	for i in range(0,len(json_data)):
-		ids.append(json_data[i]['url'])
 	return ids
 
 def list_urls(file):
