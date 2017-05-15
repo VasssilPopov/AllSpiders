@@ -3,10 +3,6 @@ import scrapy
 import logging
 import json
 from sys import exit, path
-path.append('C:\STUDY_SPIDERS\_AllSpiders\_LIBRARY')
-
-
-from ScrapingHelpers import *
 from datetime import date, timedelta
 import urllib
 import platform
@@ -19,6 +15,7 @@ else:
 	print 'Unknown platform' 
 	exit() 
 
+from ScrapingHelpers import *
 
 # scrapy runspider PIKSpider.py -o PIK-2017-05-17.json -t jsonlines
 # RunIt 2017-05-17
@@ -26,16 +23,18 @@ else:
 'Get the yesterday date'
 yesterday = date.today() - timedelta(1)
 Yesterday = yesterday.strftime("%Y-%m-%d")
-# today = date.today()
-# Today = today.strftime("%Y-%m-%d")
-# Today = (date.today()).strftime("%Y-%m-%d")
+today = date.today()
+Today = today.strftime("%Y-%m-%d")
+Today = (date.today()).strftime("%Y-%m-%d")
 
 
 class PIKSpider(scrapy.Spider):
 	name = 'PIK'
 	allowed_domains = ['pik.bg']
+
 	start_urls = [
 		"http://pik.bg/политика-cat6.html"
+
     ]
 	custom_settings = {
         'FEED_EXPORT_ENCODING': 'utf-8'
@@ -109,54 +108,11 @@ class PIKSpider(scrapy.Spider):
 		# 'We need the titles, links and times to index and follow'
 		
 		links=response.xpath('//div[@class="right_part"]/a/@href').extract()
-		dateSeries=response.xpath('//*[@id="content"]/div[@class="list_news_column"]/div[@class="right_part"]/div[@class="left w100 info-list"]/div[@class="date_time"]/text()').extract()
-		
-		
-		dateSeries=[s.split()[2] for s in dateSeries]
-		
-		condToday = date.today().strftime("%d.%m.%Y")
-		# print 'type(condToday):%s' %(type(condToday))
-		print 'condToday:%s'%(condToday)
-		
-		yesterday = date.today() - timedelta(1)
-		condYesterday = yesterday.strftime("%d.%m.%Y")
-		self.pubTime=condYesterday
-		
-		print 'condYesterday:%s'%(condYesterday)
-		
-		preyesterday = yesterday - timedelta(1)
-		condPreYesterdayToday = preyesterday.strftime("%d.%m.%Y")
-		print 'condBeforeYesterday:%s'%(condPreYesterdayToday)
-		# print 'type(dateSeries):%s'%(type(dateSeries))
-		
-		# get index of first date in dateSeries for yesterday
-		try:
-			LStart=dateSeries.index(condYesterday)
-			if (LStart==-1):
-				LStart=None
-		except:
-			LStart=None
-			
-			
-		# get index of first date in dateSeries for before yesterday
-		try:
-			LEnd=dateSeries.index(condPreYesterdayToday)
-			if (LEnd==-1):
-				LEnd=None
-		except:
-			LEnd=None
-			
-		# slice yesterday's portion of links data
-		print '-4.1- parse -- start for yesterday:  %d , start for preyesterday: %d' %(LStart, LEnd)
-		links=links[LStart:LEnd]
-			
-	
 
 		# links=links[:todayArticles]
 		
 		# print type(self.links_seen)
-		
-		
+				
 		# Както и механизъм за проследяване на следваща страница
 		for link in links:
 			# print type(link)
@@ -189,10 +145,12 @@ class PIKSpider(scrapy.Spider):
 		art_alternatives = list( filter( lambda str: str != u'' , art_alternatives.values() ) )	
 
 		# assert len(art_alternatives) == 1, 'Issue with %s'%url		
-		
 
 		article=' '.join(art_alternatives)
 		
+		(day,month,year) = response.css('time.left::text').extract()[0].split('|')[1].split('.')
+		time = year+"-"+month+"-"+day
+
 		self.cnt=self.cnt+1
 		# print '-5- saved - %s -'%(self.cnt)
 		
@@ -204,6 +162,6 @@ class PIKSpider(scrapy.Spider):
 			'url': url,
 			'title': title,
 			'text': article,
-			'time': self.pubTime
+			'time': time
 
 		}	
