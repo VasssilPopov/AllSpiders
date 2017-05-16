@@ -37,7 +37,6 @@ class DnevnikSpider(scrapy.Spider):
         'FEED_EXPORT_ENCODING': 'utf-8'
     }
 	
-
 	def __init__(self):
 
 		self.urls = ["http://m.dnevnik.bg/allnews/yesterday"]

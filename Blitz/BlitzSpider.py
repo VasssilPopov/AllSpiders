@@ -35,6 +35,7 @@ class BlitzSpider(scrapy.Spider):
 		#[  'http://www.dnevnik.bg/allnews/today/']
 		self.json_datafile = 'Blitz-'+Today+'.json'
 		self.links_seen = self.get_ids(self.json_datafile)
+		print 'link seen %s'%(len(self.links_seen))
 		
 	def get_ids(self, json_datafile):
 		ids = []
@@ -52,15 +53,11 @@ class BlitzSpider(scrapy.Spider):
 
 	def parse(self, response):
 	
-		# hxs = HtmlXPathSelector(response)
-		# qqq = hxs.select("/html/head/link[@type='application/rss+xml']/@href").extract()
-	
 		# 'We need the titles, links and times to index and follow'
 		# links = response.xpath("//a[@class='news_in_a']/@href").extract()
 		links = response.xpath("//article/a/@href").extract()
 		for link in links:
 			if link not in self.links_seen:
-				print '>>> '+link
 				yield scrapy.Request(url=link, callback=self.parse_page)
 
 	def parse_page(self, response):
