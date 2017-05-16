@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import json
 from sys import exit
+import json_lines
+import codecs 
 
 json_data = []
 
@@ -27,16 +29,44 @@ def read_json(file):
 	return json_data
 
 def read_ids(file):
+
 	'Read the urls of the already processed publications '
-	json_data = []
+
+	ids=set()
 	
-	try: 
-		json_data = read_json(file)
-		ids = []
-		for i in range(0,len(json_data)):
-			ids.append(json_data[i]['url'])
+	try:
+		with open(file, 'rb') as f:
+			for item in json_lines.reader(f):
+				ids.add(item["url"])
 	except IOError:
 		ids = []
+		# print 'error'
+
+	return ids
+
+def read_json_lines(file):
+
+	'Read the urls of the already processed publications '
+
+	ids=list()
+	
+	try:
+		# with open(file, 'rb') as f:
+			# for item in json_lines.reader(f):
+				# ids.add(item)
+				
+
+		f = codecs.open(file, encoding='utf-8') 
+		lines = f.readlines()
+		f.close() 		
+
+		for item in lines:
+			ids.add(item)
+				
+				
+	except IOError:
+		ids = list()
+		# print 'error'
 
 	return ids
 
