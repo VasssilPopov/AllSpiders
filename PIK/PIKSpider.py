@@ -83,6 +83,6 @@ class PIKSpider(scrapy.Spider):
 			'url': url,
 			'title': title,
 			'text': article,
-			'time': time
+			'date': time
 
 		}	
