@@ -44,8 +44,6 @@ class PIKSpider(scrapy.Spider):
 		self.links_seen = read_ids(self.json_datafile)
 		print 'links_seen: %d'%(len(self.links_seen))
 		
-		
-		
 	def start_requests(self):
 		print '2. start_requests'
 		for url in self.urls:
@@ -56,13 +54,12 @@ class PIKSpider(scrapy.Spider):
 		print '3. parse'
 		# 'We need the titles, links and times to index and follow'
 		links=response.xpath('//div[@class="right_part"]/a/@href').extract()
+		
+		'take only the end of the PIK url. The number after the news string:'
+		self.links_seen = map(lambda url: url.split('news')[1] , self.links_seen)
+		
 		for link in links:
-			# print '>>>',str(link) in self.links_seen, 'links_seen: %d'%(len(self.links_seen))
-
-			if link not in self.links_seen:
-			# if quote( link.encode('utf-8') ).replace("%3A", ':').replace("%26quot",'') not in self.links_seen:
-				# print type(link)
-				# print quote( link.encode('utf-8') ).replace("%3A", ':').replace("%26quot",'')
+			if link.split('news')[1] not in self.links_seen:
 				yield scrapy.Request(url=link, callback=self.parse_page)
 
 	def parse_page(self, response):
