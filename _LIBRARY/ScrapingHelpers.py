@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import json
 from sys import exit
-import json_lines
+# import json_lines
 import codecs 
 
 json_data = []
