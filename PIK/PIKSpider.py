@@ -4,7 +4,6 @@ import logging
 import json
 from sys import exit, path
 from datetime import date, timedelta
-import urllib
 import platform
 
 if platform.system() == 'Linux':
@@ -18,7 +17,7 @@ else:
 from ScrapingHelpers import *
 from urllib2 import quote
 
-# scrapy runspider PIKSpider.py -o PIK-2017-05-17.json -t jsonlines
+# scrapy runspider PIKSpider.py -o Reports/PIK-2017-05-17.json -t jsonlines
 # RunIt 2017-05-17
 
 'Get the yesterday date'
