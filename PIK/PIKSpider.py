@@ -74,8 +74,10 @@ class PIKSpider(scrapy.Spider):
 		art_alternatives[2] = response.xpath('//*[@id="content"]/div[@class="item left first"]/div[@class="text2"]/p/span/text()').extract()
 		art_alternatives[3] = response.xpath('//*[@id="content"]/div[@class="item left first"]/div[@class="text2"]/div[@class="lead"]/p/text()').extract()
 		art_alternatives[4] = response.xpath('//*[@id="content"]/div[@class="item left first"]/div[@class="text2"]/div/p/text()|//*[@id="content"]/div[@class="item left first"]/div[@class="text2"]/div/p/strong/text()').extract()
-		# art_alternatives[5] = response.xpath('//*[@id="box_10021152d12926"]/div[@class="article_body"]/p/text()').extract()
-		
+		art_alternatives[5] = response.xpath('//*[@id="id_591b40067b1098c59050244"]/p/text()').extract()
+		art_alternatives[6] = response.xpath('//*[@id="content"]/div[@class="item left first"]/div[@class="text2"]/div/div[@class="text-wrapper"]/div[@class="article-text-inner-wrapper"]/p/text()').extract()
+		art_alternatives[7] = response.xpath('//*[@id="content"]/div[@class="item left first"]/div[@class="text2"]/div/div[@class="text-wrapper"]/div[@class="article-text-inner-wrapper"]/p/text()').extract()
+		# art_alternatives[6] = response.xpath('//*[@id="box_10021152d12926"]/div[@class="article_body"]/p/text()').extract()
 		
 		for key in art_alternatives:
 			art_alternatives[key] = list( map   ( lambda str: str.strip(), art_alternatives[key] ) )
