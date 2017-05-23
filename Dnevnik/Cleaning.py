@@ -20,9 +20,9 @@ from datetime import date, timedelta
 
 'Get the yesterday date'
 yesterday = date.today() - timedelta(1)
-Yesterday = yesterday.strftime("%d-%b-%Y")
+Yesterday = yesterday.strftime("%Y-%m-%d")
 
 # Dnevnik za Yesterday
-json_datafile = 'Dnevnik-'+Yesterday+'.json'
+json_datafile = 'Reports\Dnevnik-'+Yesterday+'.json'
 
 check_empty(json_datafile)
