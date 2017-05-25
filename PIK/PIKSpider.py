@@ -2,6 +2,7 @@
 import scrapy
 import logging
 import json
+import os
 from sys import exit, path
 from datetime import date, timedelta
 import platform
@@ -17,6 +18,10 @@ else:
 from ScrapingHelpers import *
 from urllib2 import quote
 
+'-------------------- Version 1.0 --------------------'
+
+
+
 # scrapy runspider PIKSpider.py -o Reports/PIK-2017-05-17.json -t jsonlines
 # RunIt 2017-05-17
 
@@ -25,48 +30,57 @@ yesterday = date.today() - timedelta(1)
 Yesterday = yesterday.strftime("%Y-%m-%d")
 today = date.today()
 Today = today.strftime("%Y-%m-%d")
+urlDate=yesterday.strftime("%d-%m-%Y")
+
 
 class PIKSpider(scrapy.Spider):
-	name = 'PIK'
-	allowed_domains = ['pik.bg']
+    name = "PIK"
+    allowed_domains = ['pik.bg']
+    start_urls = ["http://pik.bg/novini-za-"+urlDate+".html"]
 
-
-	custom_settings = {
+    custom_settings = {
         'FEED_EXPORT_ENCODING': 'utf-8'
     }
+    def __init__(self):
 
-	def __init__(self):
-		print '1. __init__'
-		# self.urls = ["http://pik.bg/политика-cat6.html"]
-		urlDate=yesterday.strftime("%d-%m-%Y")
-		self.urls = ["http://pik.bg/novini-za-"+urlDate+".html"]
 		self.json_datafile = 'Reports/PIK-'+Yesterday+'.json'
+		# remove existing report file
+		try:
+			os.remove(self.json_datafile)
+		except OSError:
+			pass
 		self.links_seen = read_ids(self.json_datafile)
-		print 'links_seen: %d'%(len(self.links_seen))
-		
-	def start_requests(self):
-		print '2. start_requests'
-		for url in self.urls:
-			yield scrapy.Request(url=url, callback=self.parse)    
+		# print 'links_seen: %d'%(len(self.links_seen))
 
-	def parse(self, response):
-	
-		print '3. parse'
-		# 'We need the titles, links and times to index and follow'
-		links=response.xpath('//div[@class="right_part"]/a/@href').extract()
-		
+    def parse(self, response):
+		self.links=response.xpath('//div[@class="right_part"]/a/@href').extract()
 		'take only the end of the PIK url. The number after the news string:'
-		self.links_seen = map(lambda url: url.split('news')[1] , self.links_seen)
+		# self.links_seen = map(lambda url: url.split('news')[1] , self.links_seen)
+		self.links = map(lambda url: url.split('news')[1] , self.links)
+
+        # urls = response.css('div.quote > span > a::attr(href)').extract()
+		urls = response.xpath('//div[@class="right_part"]/a/@href').extract()
+		# print 'Will parse ',len(urls)
+		for url in urls:
+			if (url.split('news'))[1] not in self.links_seen:
+				url = response.urljoin(url)
+				yield scrapy.Request(url=url, callback=self.parse_details)
 		
-		for link in links:
-			if link.split('news')[1] not in self.links_seen:
-				yield scrapy.Request(url=link, callback=self.parse_page)
-
-	def parse_page(self, response):
-
-		print '4. parse_page'
+        # follow pagination link
+        # next_page_url = response.css('li.next > a::attr(href)').extract_first()
+		next_page_url = response.xpath('//div[@id="content"]/div[@class="pagination_wrap"]/a[@class="next_page"]/@href').extract_first()
+		if next_page_url:
+			print "next_page_url: %s"%(next_page_url)
+			next_page_url = response.urljoin(next_page_url)
+			yield scrapy.Request(url=next_page_url, callback=self.parse)
+		
+    def parse_details(self, response):
 		url   = response.url
 		title = response.xpath('//*[@id="hdscrolll"]/div/text()').extract_first()
+		
+		'exclude all jokes'
+		if url.split('news')[0] == 'http://pik.bg/-':
+			return
 		
 		art_alternatives = {}
 		art_alternatives[0] = response.xpath('//*[@id="content"]/div[@class="item left first"]/div[@class="text2"]/div[@class="page-header"]/p/text()')
@@ -77,8 +91,8 @@ class PIKSpider(scrapy.Spider):
 		art_alternatives[5] = response.xpath('//*[@id="id_591b40067b1098c59050244"]/p/text()').extract()
 		art_alternatives[6] = response.xpath('//*[@id="content"]/div[@class="item left first"]/div[@class="text2"]/div/div[@class="text-wrapper"]/div[@class="article-text-inner-wrapper"]/p/text()').extract()
 		art_alternatives[7] = response.xpath('//*[@id="content"]/div[@class="item left first"]/div[@class="text2"]/div/div[@class="text-wrapper"]/div[@class="article-text-inner-wrapper"]/p/text()').extract()
-		# art_alternatives[6] = response.xpath('//*[@id="box_10021152d12926"]/div[@class="article_body"]/p/text()').extract()
-		
+		art_alternatives[8] = response.xpath('//div[@id="content"]/div[@class="item left first"]/div[@class="text2"]/div[@class="page-header"]/text()').extract()
+		art_alternatives[9] = response.xpath('//div[@id="content"]/div[@class="item left first"]/div[@class="text2"]/div/text()').extract()
 		for key in art_alternatives:
 			art_alternatives[key] = list( map   ( lambda str: str.strip(), art_alternatives[key] ) )
 			art_alternatives[key] = list( filter( lambda str: str != u'' , art_alternatives[key] ) )
@@ -91,7 +105,7 @@ class PIKSpider(scrapy.Spider):
 		(day,month,year) = response.css('time.left::text').extract()[0].split('|')[1].split('.')
 		time = year+"-"+month+"-"+day.strip()
 
-		print '5. yield'
+		# print '>>',url
 
 		yield {
 			'url': url,
