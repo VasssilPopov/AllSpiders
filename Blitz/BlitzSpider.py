@@ -1,76 +1,106 @@
 # -*- coding: utf-8 -*-
 import scrapy
-import logging
-import json
-from sys import exit, path
-# path.append('/home/peio/dev/Scrapy')
-path.append('C:\STUDY_SPIDERS\Spiders\Library')
-from ScrapingHelpers import *
 from datetime import date, timedelta
-# from scrapy.selector import HtmlXPathSelector
+import json
+import json_lines
+from scrapy.exceptions import CloseSpider
 
-# '$ scrapy crawl Dnevnik -o Dnevnik.json -t jsonlines'
-# scrapy runspider BlitzSpider.py -o Blitz-03-May-2017.json -t json
+# scrapy runspider BlitzSpider.py -o Reports/PIK-2017-05-17.json -t jsonlines
+# RunIt 2017-05-17
 
 'Get the yesterday date'
 # yesterday = date.today() - timedelta(1)
+# Yesterday = yesterday.strftime("%Y-%m-%d")
 today = date.today()
-Today = today.strftime("%d-%b-%Y")
-# Today = (date.today()).strftime("%Y-%m-%d")
+Today = today.strftime("%Y-%m-%d")
+strToday = today.strftime("%d %B %Y").lower()
 
+def read_ids(file):
+
+    'Read latest 11 chars from urls of the already processed publications '
+    ids=set()
+
+    try:
+        with open(file, 'rb') as f:
+            for item in json_lines.reader(f):
+                ids.add(item["url"])
+    except IOError:
+        ids = set()
+	# print 'error'
+
+    return ids
+
+def translateDateBG_EN(strDate):
+
+    monthsBG_EN={u'януари':u'january',u'февруари':u'february',u'март':u'march',u'април':u'april',u'май':u'may',u'юни':u'june',u'юли':u'july',u'август':u'august',u'септември':u'september',u'октомври':u'october',u'ноември':u'november',u'декември':u'december'}
+
+    dateParts=strDate.split()
+    v=dateParts[1].lower()
+    dateParts[1] = monthsBG_EN[v]
+    result = ' '.join(dateParts[:3])
+    return result
+
+	
 class BlitzSpider(scrapy.Spider):
-	name = 'Blitz'
+	name = "Blitz"
 	allowed_domains = ['www.blitz.bg']
 	start_urls = [
-		"www.blitz.bg/politika"
-    ]
+		"http://www.blitz.bg/politika"
+	]
 	custom_settings = {
-        'FEED_EXPORT_ENCODING': 'utf-8'
-    }
-
+		'FEED_EXPORT_ENCODING': 'utf-8'
+	}
+	
 	def __init__(self):
-		self.urls = ["http://www.blitz.bg/politika",
-		"http://www.blitz.bg/obshtestvo",
-		"http://www.blitz.bg/obshtestvo/regioni"]
-		#[  'http://www.dnevnik.bg/allnews/today/']
-		self.json_datafile = 'Blitz-'+Today+'.json'
-		self.links_seen = self.get_ids(self.json_datafile)
-		print 'link seen %s'%(len(self.links_seen))
-		
-	def get_ids(self, json_datafile):
-		ids = []
-		
-		try:
-			ids = read_ids(json_datafile)
-		except (IOError,ValueError):
-			return set(ids)
-
-		return set(ids)
-
-	def start_requests(self):
-		for url in self.urls:
-			yield scrapy.Request(url=url, callback=self.parse)    
+		print '1.__init__'
+		self.json_datafile = 'Reports/Blitz-'+Today+'.json'
+		self.links_seen = read_ids(self.json_datafile)
+		'take only the end of the Mediapool url. The number after the news string:'
+		self.links_seen = map(lambda url: url.split('news')[1] , self.links_seen)
+		print 'links_seen:', len(self.links_seen)
 
 	def parse(self, response):
-	
-		# 'We need the titles, links and times to index and follow'
-		# links = response.xpath("//a[@class='news_in_a']/@href").extract()
-		links = response.xpath("//article/a/@href").extract()
-		for link in links:
-			if link not in self.links_seen:
-				yield scrapy.Request(url=link, callback=self.parse_page)
 
-	def parse_page(self, response):
+		urls=response.xpath('//article[@class="simple-post simple-big clearfix"]/a/@href | //header[@class="news-details"]/h3[@class="news-title"]/a/@href').extract()
+		for url in urls:
+			if url.split('news')[1] not in self.links_seen:
+				url = response.urljoin(url)
+				yield scrapy.Request(url=url, callback=self.parse_details)
+
+		# follow pagination link
+		next_page_url=response.xpath('//div[@class="row pagination"]/div[2]/a[@class="btn next pull-right"]/@href').extract_first()
+		print 'next_page_url: ', next_page_url
+		if next_page_url:
+			next_page_url = response.urljoin(next_page_url)
+			yield scrapy.Request(url=next_page_url, callback=self.parse)
+
+	def parse_details(self, response):
 
 		url     = response.url
-		# title   = response.xpath('//div[@class="main_left"]/h1/text()').extract()[0].strip()
+		
 		title   = response.xpath('//header/h1[@class="post-title"]/text()').extract()[0].strip()
+
 		introStr = response.xpath('//div[@class="intro"]/text()').extract()[0].strip()
- 		article = introStr.join(response.xpath('//div[@id="articleContent"]/text()').extract()).strip()
+		texts= ' '.join(response.xpath('//div[@id="articleContent"]/strong/text() | //div[@id="articleContent"]/text()| //div[@id="articleContent"]/p/strong/text()| //div[@id="articleContent"]/p/text()').extract())
+		article = introStr + texts
 
-		yield {
-			'url': url,
-			'title': title,
-			'text': article
+		pubDate=response.xpath('//*[@id="page-container"]/div[1]/div/div/article/header/div/ul/li[2]/text()').extract_first()
+	
+		articleDate=translateDateBG_EN(pubDate.split(',')[0])
+		print 'articleDate: ', articleDate
+		print 'strToday: ', strToday
+		print '>>>>',url
+		# Filter on todays date
+		if (articleDate == strToday):
+			print 'save data'
+			yield {
+				'url': url,
+				'title': title,
+				'text': article,
+				'date': pubDate
 
-		}	
+			}
+		else:
+			raise CloseSpider('Index date changed')
+		print '--done--'
+
