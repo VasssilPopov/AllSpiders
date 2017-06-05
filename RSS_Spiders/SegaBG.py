@@ -15,5 +15,5 @@ class SegabgSpider(XMLFeedSpider):
         i['title'] = selector.select('title').extract()
         i['text'] = selector.select('description').extract()
 		i['date'] = '-'.join(selector.select('pubDate').split()[1:4])
-		
+		# test
 		return i

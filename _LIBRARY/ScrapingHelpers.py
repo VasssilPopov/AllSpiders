@@ -82,12 +82,13 @@ def check_empty(file):
 	'Check if there are missing fields from the retrieved publications'
 	json_data = []
 	json_data = read_json(file)
+	print '%s records will be checked'%(len(json_data))
 	for i in range(0,len(json_data)):
 		for key,val in json_data[i].items():
 			if val == u"":
-				print key,'is empty'
+				print key,'is empty'.upper()
 				print 'Url is:', json_data[i]['url']
-				print 'Title is:', json_data[i]['title'].encode('utf-8')
+				# print 'Title is:', json_data[i]['title'].encode('utf-8')
 	
 	print "Check complete"				
 

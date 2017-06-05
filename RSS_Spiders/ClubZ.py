@@ -10,8 +10,10 @@ class ClubzSpider(XMLFeedSpider):
     itertag = 'item' # change it accordingly
 
     def parse_node(self, response, selector):
+	print selector
         i = {}
         i['link'] = selector.select('link').extract()
         i['title'] = selector.select('title').extract()
         i['description'] = selector.select('description').extract()
+        i['date'] = selector.select('pubDate').extract()
         return i

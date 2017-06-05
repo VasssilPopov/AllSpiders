@@ -18,10 +18,6 @@ else:
 from ScrapingHelpers import *
 from urllib2 import quote
 
-'-------------------- Version 1.0 --------------------'
-
-
-
 # scrapy runspider PIKSpider.py -o Reports/PIK-2017-05-17.json -t jsonlines
 # RunIt 2017-05-17
 
@@ -32,39 +28,50 @@ today = date.today()
 Today = today.strftime("%Y-%m-%d")
 urlDate=yesterday.strftime("%d-%m-%Y")
 
+# def fileRemove(path, fileName):
+
+    # currentPath= os.getcwd()
+    # try:
+        # os.chdir(path)
+        # os.remove(fileName)
+    # except:
+        # pass
+
+    # os.chdir(currentPath)
+
+
 
 class PIKSpider(scrapy.Spider):
     name = "PIK"
+    # start_urls = ['http://quotes.toscrape.com']
     allowed_domains = ['pik.bg']
     start_urls = ["http://pik.bg/novini-za-"+urlDate+".html"]
 
     custom_settings = {
         'FEED_EXPORT_ENCODING': 'utf-8'
     }
-    def __init__(self):
-
-		self.json_datafile = 'Reports/PIK-'+Yesterday+'.json'
-		# remove existing report file
-		try:
-			os.remove(self.json_datafile)
-		except OSError:
-			pass
-		self.links_seen = read_ids(self.json_datafile)
-		# print 'links_seen: %d'%(len(self.links_seen))
-
+	
+	
+ 
     def parse(self, response):
+	
+		# "Empty output file"
+		fileName="Reports/PIK-%s.json"%(Yesterday)
+		f = open(fileName, 'w').close()
+	
 		self.links=response.xpath('//div[@class="right_part"]/a/@href').extract()
+
 		'take only the end of the PIK url. The number after the news string:'
 		# self.links_seen = map(lambda url: url.split('news')[1] , self.links_seen)
 		self.links = map(lambda url: url.split('news')[1] , self.links)
 
         # urls = response.css('div.quote > span > a::attr(href)').extract()
 		urls = response.xpath('//div[@class="right_part"]/a/@href').extract()
-		# print 'Will parse ',len(urls)
+		print '2. parse',len(urls)
 		for url in urls:
-			if (url.split('news'))[1] not in self.links_seen:
-				url = response.urljoin(url)
-				yield scrapy.Request(url=url, callback=self.parse_details)
+			# if (url.split('news'))[1] not in self.links_seen:
+			url = response.urljoin(url)
+			yield scrapy.Request(url=url, callback=self.parse_details)
 		
         # follow pagination link
         # next_page_url = response.css('li.next > a::attr(href)').extract_first()
@@ -74,11 +81,12 @@ class PIKSpider(scrapy.Spider):
 			next_page_url = response.urljoin(next_page_url)
 			yield scrapy.Request(url=next_page_url, callback=self.parse)
 		
+		print '------------- it is done ----------------'
     def parse_details(self, response):
 		url   = response.url
 		title = response.xpath('//*[@id="hdscrolll"]/div/text()').extract_first()
 		
-		'exclude all jokes'
+
 		if url.split('news')[0] == 'http://pik.bg/-':
 			return
 		
@@ -104,8 +112,6 @@ class PIKSpider(scrapy.Spider):
 		# print article
 		(day,month,year) = response.css('time.left::text').extract()[0].split('|')[1].split('.')
 		time = year+"-"+month+"-"+day.strip()
-
-		# print '>>',url
 
 		yield {
 			'url': url,
