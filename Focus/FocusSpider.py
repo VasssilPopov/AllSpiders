@@ -22,6 +22,9 @@ Yesterday = yesterday.strftime("%Y-%m-%d")
 class FocusSpider(scrapy.Spider):
 	name = "focus"
 	start_urls = ['http://www.focus-news.net/news/Yesterday/']
+	custom_settings = {
+		'FEED_EXPORT_ENCODING': 'utf-8'
+	}
 
 
 	def __init__(self):
@@ -29,7 +32,7 @@ class FocusSpider(scrapy.Spider):
 		cwd = os.getcwd()
 		print 'Yesterday information will be collected. Date: %s'%(Yesterday)
 
-		self.json_datafile = 'Reports/Focus-'+Yesterday+'.json'
+		self.json_datafile = 'Focus/Reports/Focus-'+Yesterday+'.json'
 		self.links_seen = self.get_ids(self.json_datafile)
 		self.links_seen = set (map( lambda str: str[31:49], self.links_seen))	
 		
@@ -48,7 +51,7 @@ class FocusSpider(scrapy.Spider):
 	def parse(self, response):
 
 		# "Empty output file"
-		fileName="Reports/Focus-%s.json"%(Yesterday)
+		fileName="Focus/Reports/Focus-%s.json"%(Yesterday)
 		f = open(fileName, 'w').close()
 	
 		links=response.xpath('//div[@class="cnk-ttl"]/h2/a/@href').extract()
