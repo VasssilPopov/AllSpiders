@@ -4,7 +4,7 @@ from datetime import date, timedelta
 import json
 import json_lines
 from scrapy.exceptions import CloseSpider
-
+import os
 # scrapy runspider BlitzSpider.py -o Reports/PIK-2017-05-17.json -t jsonlines
 # RunIt 2017-05-17
 
@@ -14,6 +14,9 @@ from scrapy.exceptions import CloseSpider
 today = date.today()
 Today = today.strftime("%Y-%m-%d")
 strToday = today.strftime("%d %B %Y").lower()
+#----------------------------------------------------
+print 'Version: ',0.2
+#----------------------------------------------------
 
 def read_ids(file):
 
@@ -52,8 +55,8 @@ class BlitzSpider(scrapy.Spider):
 	}
 	
 	def __init__(self):
-		print '1.__init__'
-		self.json_datafile = 'Reports/Blitz-'+Today+'.json'
+		print os.getcwd()
+		self.json_datafile = 'Blitz/Reports/Blitz-'+Today+'.json'
 		self.links_seen = read_ids(self.json_datafile)
 		'take only the end of the Mediapool url. The number after the news string:'
 		self.links_seen = map(lambda url: url.split('news')[1] , self.links_seen)
@@ -87,9 +90,7 @@ class BlitzSpider(scrapy.Spider):
 		pubDate=response.xpath('//*[@id="page-container"]/div[1]/div/div/article/header/div/ul/li[2]/text()').extract_first()
 	
 		articleDate=translateDateBG_EN(pubDate.split(',')[0])
-		print 'articleDate: ', articleDate
-		print 'strToday: ', strToday
-		print '>>>>',url
+		print 'articleDate: ', articleDate, 'strToday: ', strToday, (articleDate == strToday)
 		# Filter on todays date
 		if (articleDate == strToday):
 			print 'save data'
