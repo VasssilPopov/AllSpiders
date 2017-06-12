@@ -56,7 +56,7 @@ class PIKSpider(scrapy.Spider):
     def parse(self, response):
 	
 		# "Empty output file"
-		fileName="Reports/PIK-%s.json"%(Yesterday)
+		fileName="PIK/Reports/PIK-%s.json"%(Yesterday)
 		f = open(fileName, 'w').close()
 	
 		self.links=response.xpath('//div[@class="right_part"]/a/@href').extract()
