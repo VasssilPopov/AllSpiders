@@ -51,7 +51,7 @@ class OffNewsSpider(scrapy.Spider):
 
     def parse(self, response):
 		# "Empty output file"
-		fileName="Reports/OffNews-%s.json"%(Yesterday)
+		fileName="OffNews/Reports/OffNews-%s.json"%(Yesterday)
 		f = open(fileName, 'w').close()
 
 		urls = response.xpath('//div[@class="content"]/div[@class="cat_list_s"]/div[@class="cat_list_s_int"]/div[@class="cat_list_s_title"]/a/@href').extract()
