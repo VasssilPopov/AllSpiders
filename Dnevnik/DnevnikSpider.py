@@ -22,7 +22,7 @@ class DnevnikSpider(scrapy.Spider):
     def parse(self, response):
 	
 		# "Empty output file"
-		fileName="Reports/Dnevnik-%s.json"%(Yesterday)
+		fileName="Dnevnik/Reports/Dnevnik-%s.json"%(Yesterday)
 		f = open(fileName, 'w').close()
 
  		urls=response.xpath('//article[@class="secondary-article-v2 border-top list-item"]/div[@class="text"]/h2/a/@href').extract()
