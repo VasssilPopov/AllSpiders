@@ -53,7 +53,7 @@ class MediapoolSpider(scrapy.Spider):
     def __init__(self):
 
         self.start_urls = ["http://mediapool.bg/today.html"]
-        self.json_datafile = 'Reports/Mediapool-'+Today+'.json'
+        self.json_datafile = 'Mediapool/Reports/Mediapool-'+Today+'.json'
         self.links_seen = read_ids(self.json_datafile)
 
     def parse(self, response):
