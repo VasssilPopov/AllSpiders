@@ -26,13 +26,16 @@ class NewsSpider(scrapy.Spider):
 
 	name = "news"
 	start_urls = ['https://news.bg/yesterday']
+	custom_settings = {
+		'FEED_EXPORT_ENCODING': 'utf-8'
+	}
 
 	
 	def parse(self, response):
 
 
 		# "Empty output file"
-		fileName="Reports/News-%s.json"%(Yesterday)
+		fileName="News/Reports/News-%s.json"%(Yesterday)
 		f = open(fileName, 'w').close()
 
 		urls = response.xpath('//div[@id="content-main"]/div[@class="inner-page"]/div[@class="main-news"]/a[@class="main-thumb"]/@href | //div[@class="topic"]/div[@class="topic-information"]/h2/a[@class="title"]/@href').extract()
