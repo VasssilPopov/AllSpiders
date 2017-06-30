@@ -1,0 +1,3 @@
+Input file Blitz/Reports/Blitz-2017-06-30.json
+23 records will be checked
+Check complete
