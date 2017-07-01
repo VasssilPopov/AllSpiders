@@ -1,0 +1,3 @@
+Check for News/Reports/News-2017-06-30.json
+118 records will be checked
+Check complete

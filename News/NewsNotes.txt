@@ -1,0 +1,35 @@
+news.bg
+----------------------------------------------
+start_urls = ['https://news.bg/yesterday']
+
+urls = response.xpath('//div[@id="content-main"]/div[@class="inner-page"]/div[@class="main-news"]/a[@class="main-thumb"]/@href | //div[@class="topic"]/div[@class="topic-information"]/h2/a[@class="title"]/@href').extract()
+(21)
+
+next_page_url=response.xpath('//ul[@class="pagination"]/li[last()]/a/@href').extract_first()
+news.bg
+-------------------------------------------------------------
+next_page_url --> https://news.bg/yesterday?page=2
+
+pageTitle = response.xpath('//div[@id="content-main"]/article[@class="article-inner"]/header/h1/text()').extract_first()
+
+Обвинения в корупция при избора на Gripen в Унгария и Чехия
+
+
+pageText = response.xpath('//div[@id="content-main"]/article[@class="article-inner"]/div[@class="article-text"]/p/text() | //div[@id="content-main"]/article[@class="article-inner"]/div[@class="article-text"]/p/strong/text()').extract()
+
+Изборът на самолети Gripen в Чехия и Унгария е свързан с корупционни практики, в които са вложени 12.6 милиона евро. Сред замесените лица са премиерите на Унгария - Виктор Орбан, и на Чехия .......................................
+посочени Чехия, Унгария и Австрия), за да се гарантира, че ще бъдат предпочетени самолетите Gripen.От своя страна шведската прокуратура продължава разследването на сделките с Gripen в Чехия, Унгария и Южна Африка.
+
+
+pageDate = response.xpath('//div[@id="content-main"]/article[@class="article-inner"]/header/div[@class="article-info"]/p[@class="time"]/@content').extract_first()
+
+[u'2017-06-28T23:44:43+03:00']
+
+ pageDate=pageDate.split('T')
+ pageDate=pageDate[0].replace('-','.')
+
+u'2017.06.28'
+
+
+Problems:
+Itroduce output filtering using pageDate and Yesterday
