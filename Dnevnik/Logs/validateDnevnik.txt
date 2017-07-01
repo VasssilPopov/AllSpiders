@@ -1,0 +1,3 @@
+Check for Dnevnik/Reports/Dnevnik-2017-06-30.json
+80 records will be checked
+Check complete

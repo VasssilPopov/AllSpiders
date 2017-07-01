@@ -9,7 +9,6 @@ yesterday = date.today() - timedelta(1)
 Yesterday = yesterday.strftime("%Y-%m-%d")
 translateMonth={u'януари':'january',u'февруари':'february',u'март':'march',u'април':'april',u'май':'may',u'юни':'june',u'юли':'july',u'август':'august',u'септември':'september',u'октомври':'october',u'ноември':'november',u'декември':'december'}
 
-
 	
 class DnevnikSpider(scrapy.Spider):
     name = "Dnevnik"
@@ -18,15 +17,16 @@ class DnevnikSpider(scrapy.Spider):
     custom_settings = {
         'FEED_EXPORT_ENCODING': 'utf-8'
 	}
-
-    def parse(self, response):
-	
+    def __init__(self):
 		# "Empty output file"
 		fileName="Dnevnik/Reports/Dnevnik-%s.json"%(Yesterday)
 		f = open(fileName, 'w').close()
+		print '-'*10,'Dnevnik v(1.0)','-'*10
+    def parse(self, response):
 
  		urls=response.xpath('//article[@class="secondary-article-v2 border-top list-item"]/div[@class="text"]/h2/a/@href').extract()
-		print len(urls),' urls collected'
+		print "url: %s selected: %d" %(response.url, len(urls))
+
 		for url in urls:
 			url = response.urljoin(url)
 			yield scrapy.Request(url=url, callback=self.parse_page)
@@ -44,7 +44,6 @@ class DnevnikSpider(scrapy.Spider):
 
 		todaysDate=yesterday.strftime("%d-%B-%Y").lower()
 		self.count = self.count + 1
-		print self.count, articleDate, todaysDate, len(article), ((articleDate == todaysDate) and ( len(article) > 0))
 		# Filter on todays date
 		if ((articleDate == todaysDate) and ( len(article)) > 0):
 			yield {
@@ -55,4 +54,4 @@ class DnevnikSpider(scrapy.Spider):
 
 			}	
 		else:
-			print 'rejected'
+			pass
