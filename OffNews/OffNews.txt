@@ -1,0 +1,17 @@
+https://offnews.bg/2017-06-28
+------------------------------------
+
+
+urls = response.xpath('//div[@class="content"]/div[@class="cat_list_s"]/div[@class="cat_list_s_int"]/div[@class="cat_list_s_title"]/a/@href').extract()
+
+(20)
+
+urls[0] -->'/news/Futbol_18793/Chili-na-final-bi-Portugaliia-s-duzpi_659316.html'
+
+next_page_url = response.xpath('//div[@class="pageBox bb3y"]/a[@class="next"]/@href').extract_first()
+
+next_page_url --> ?page_which=20
+
+https://offnews.bg/futbol/meksikanski-fen-kazal-che-otiva-za-tcigari-i-se-ozoval-v-rusia-659311.html
+
+text = u''.join(texts)
