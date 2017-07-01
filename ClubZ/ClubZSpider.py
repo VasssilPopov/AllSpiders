@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-# import logging
+import logging
 from datetime import date, timedelta
 import json
 import json_lines
