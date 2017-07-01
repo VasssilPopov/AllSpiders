@@ -1,0 +1,68 @@
+2017-07-01 07:49:12 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: scrapybot)
+2017-07-01 07:49:12 [scrapy.utils.log] INFO: Overridden settings: {'SPIDER_LOADER_WARN_ONLY': True, 'FEED_URI': 'Duma/Reports/Duma-2017-07-01.json'}
+2017-07-01 07:49:13 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-07-01 07:49:14 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-07-01 07:49:14 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-07-01 07:49:14 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-07-01 07:49:14 [scrapy.core.engine] INFO: Spider opened
+2017-07-01 07:49:14 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-07-01 07:49:14 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-07-01 07:49:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://duma.bg/taxonomy/term/2> (referer: None)
+2017-07-01 07:49:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://duma.bg/taxonomy/term/1> (referer: None)
+2017-07-01 07:49:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://duma.bg/node/148340> (referer: http://duma.bg/taxonomy/term/2)
+2017-07-01 07:49:18 [scrapy.core.engine] INFO: Closing spider (Index date changed)
+2017-07-01 07:49:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://duma.bg/node/148439> (referer: http://duma.bg/taxonomy/term/2)
+2017-07-01 07:49:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://duma.bg/node/148342> (referer: http://duma.bg/taxonomy/term/2)
+2017-07-01 07:49:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://duma.bg/node/148341> (referer: http://duma.bg/taxonomy/term/2)
+2017-07-01 07:49:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://duma.bg/taxonomy/term/3/1> (referer: None)
+2017-07-01 07:49:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://duma.bg/node/148343> (referer: http://duma.bg/taxonomy/term/2)
+2017-07-01 07:49:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://duma.bg/node/148432> (referer: http://duma.bg/taxonomy/term/2)
+2017-07-01 07:49:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://duma.bg/taxonomy/term/2?page=1> (referer: http://duma.bg/taxonomy/term/2)
+2017-07-01 07:49:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://duma.bg/node/148460> (referer: http://duma.bg/taxonomy/term/1)
+2017-07-01 07:49:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://duma.bg/node/148433> (referer: http://duma.bg/taxonomy/term/2)
+2017-07-01 07:49:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://duma.bg/node/148434> (referer: http://duma.bg/taxonomy/term/2)
+2017-07-01 07:49:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://duma.bg/node/148438> (referer: http://duma.bg/taxonomy/term/2)
+2017-07-01 07:49:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://duma.bg/node/148435> (referer: http://duma.bg/taxonomy/term/2)
+2017-07-01 07:49:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://duma.bg/node/148436> (referer: http://duma.bg/taxonomy/term/2)
+2017-07-01 07:49:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://duma.bg/node/148437> (referer: http://duma.bg/taxonomy/term/2)
+2017-07-01 07:49:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://duma.bg/node/148455> (referer: http://duma.bg/taxonomy/term/1)
+2017-07-01 07:49:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://duma.bg/taxonomy/term/1?page=1> (referer: http://duma.bg/taxonomy/term/1)
+2017-07-01 07:49:24 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 5964,
+ 'downloader/request_count': 19,
+ 'downloader/request_method_count/GET': 19,
+ 'downloader/response_bytes': 165992,
+ 'downloader/response_count': 19,
+ 'downloader/response_status_count/200': 19,
+ 'finish_reason': 'Index date changed',
+ 'finish_time': datetime.datetime(2017, 7, 1, 5, 49, 24, 940000),
+ 'log_count/DEBUG': 20,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 2,
+ 'response_received_count': 19,
+ 'scheduler/dequeued': 19,
+ 'scheduler/dequeued/memory': 19,
+ 'scheduler/enqueued': 68,
+ 'scheduler/enqueued/memory': 68,
+ 'start_time': datetime.datetime(2017, 7, 1, 5, 49, 14, 285000)}
+2017-07-01 07:49:24 [scrapy.core.engine] INFO: Spider closed (Index date changed)

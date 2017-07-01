@@ -1,9 +1,7 @@
 import jsonlines
 import os
-
-
-
-##{'url':'','title':'','text':'','date':'',}
+# dates
+from datetime import date, timedelta
 def textHasData(line):
     return (line['text'] != "")
 
@@ -30,12 +28,6 @@ def getRowCount(fileName):
     return count
    
 
-#print getSetOfDates("PIK-May.json")
-##import subprocess
-##subprocess.call("python script2.py 1", shell=True)
-
-# dates
-from datetime import date, timedelta
 
 'Get the Today adn Yesterday dates'
 ##Today = date.today().strftime("%Y-%m-%d")
@@ -50,7 +42,11 @@ Yesterday = yesterday.strftime("%Y-%m-%d")
 
 headings='%-15s %-12s %7s'%('Source','Date','Records')
 recs=[{'Source':'Blitz','Date':Today,'Records':0},
+    {'Source':'24chasa','Date':Today,'Records':0},
+    {'Source':'Trud','Date':Today,'Records':0},
+    {'Source':'Duma','Date':Today,'Records':0},
     {'Source':'Mediapool','Date':Today,'Records':0},
+    {'Source':'ClubZ','Date':Today,'Records':0},
     {'Source':'Dnevnik','Date':Yesterday,'Records':0},
     {'Source':'Focus','Date':Yesterday,'Records':0},
     {'Source':'News','Date':Yesterday,'Records':0},
@@ -59,8 +55,8 @@ recs=[{'Source':'Blitz','Date':Today,'Records':0},
      ]
 
 line= '-'*36
-print 'Summary'
-print 'Current directory: '+'\n'+os.getcwd()+'\n'+line
+print 'Daily Summary Report'
+print 'Today: '+Today+'\n'+line
 print headings+'\n'+line
 for rec in recs:
     path=rec['Source']+'/Reports/'+rec['Source']+'-'+rec['Date']+'.json'

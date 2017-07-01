@@ -1,0 +1,65 @@
+http://duma.bg
+-------------------------------------------------------
+Дума/България
+http://duma.bg/taxonomy/term/1
+
+Дума/Свят
+http://duma.bg/taxonomy/term/3/1
+
+
+urls=response.xpath('//div[@class="views-field-title"]/span[@class="field-content"]/a/@href').extract()
+(13)
+
+urls[0]--> http://duma.bg/node/148280'
+
+
+next_page = response.xpath('//div[@class="item-list"]/ul[@class="pager"]/li[@class="pager-next"]/a[@class="active"]/@href').extract_first()
+
+http://duma.bg/taxonomy/term/1?page=1
+
+http://duma.bg/node/148280
+
+title = response.xpath('//div[@class="container"]/p[@class="title"]/a/text()').extract_first()
+Борисов върна Боршош, взе НДК от Павлова
+
+text = response.xpath('//div[@class="container"]/div[@class="meta"]/div[@class="content"]/p/text() | //div[@class="container"]/div[@class="meta"]/div[@class="content"]/p/strong/text()').extract()
+text=u''.join(text)
+Бойко Борисов върна изненадващо като директор на НДК уволнения ден по-рано Мирослав Боршош. Премиерът също така отне двореца от министъра на българското председателство на Съвета на ЕС Лиляна Павлова и правата на държавата преминават към министъра на културата Боил Банов. Това било решено вчера на среща между Борисов,
+Боршош, Павлова и Банов. На нея са били "изчистени противоречията" за начина на
+управление на НДК.
+В понеделник като мотив за отстраняването на Боршош Лиляна Павлова посочи системно неизпълнение на указанията и риск от провал на председателството.
+Бившият вицепремиер за европредседателството Деница Златева коментира по-рано, че ремонтът на НДК е започнат от правителството "Борисов 2" без технически проект, само на базата на идея.
+
+date =response.xpath('//div[@class="container"]/div[@class="meta"]/span[@class="date-display-single"]/text()').extract_first()
+
+28. Юни 2017
+
+
+Problems:
+Convert cyrillic month names into two digit numbers
+'28. Юни 2017' --> 2017.06.28
+--  ---------------------------------------------------------
+import os
+def bgMonthstoNumber(monthName):
+    monthName=monthName.lower()
+    months= {u'януари':'01',u'февруари':'02', u'март':'03',
+             u'април':'04',u'май':'05', u'юни':'06',
+             u'юли':'07',u'август':'08', u'септември':'09',
+             u'октомври':'10',u'ноември':'11', u'декември':'12'}
+
+    if (monthName in months):
+        return months[monthName]
+    else:
+        return'??'
+
+# input date
+# '22. Юни 2017' --> 2017.06.22
+def convertDate(aDate):
+    aDate=aDate.replace('.','')
+    dateParts=aDate.split()
+    print dateParts
+    dateParts[1]=str(bgMonthstoNumber(dateParts[1]))
+    aDate='%s.%s.%s'%(dateParts[2],dateParts[1],dateParts[0])
+    return aDate
+    
+--  ---------------------------------------------------------

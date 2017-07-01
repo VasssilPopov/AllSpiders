@@ -1,3 +1,3 @@
-Input file 24chasa/Reports/24chasa-2017-06-30.json
-105 records will be checked
+Input file 24chasa/Reports/24chasa-2017-07-01.json
+7 records will be checked
 Check complete

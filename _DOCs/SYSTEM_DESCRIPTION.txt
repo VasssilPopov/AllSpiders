@@ -1,0 +1,68 @@
+
+
+---------------- _AllSpiders CONTENT ----------------
+
+updated 2017-06-26
+
+
+CONTENT OF ROOT DIRECTORY
+
+Run a single spider from python script. The scripts are two types for today date and for yesterday date.
+The result of script work is written as follow:
+   Subdirectory Logs:
+     output<spider name>.txt  - example outputBlitz.txt standart output, it contains a log of spider works.
+	It can be used if there is some error. to read system messages and etc
+     validate<spider name>.txt - example validateBlitz.txt, it contains messages of report output 
+        validation. Currenly this is check for empty columns.
+ 
+   Subdirectory Reports:
+     <spider name>-YYYY-mm-dd.json - example Blitz-2017-06-15.json, it contains a url, title, 
+	description, date.
+
+This is the list of all spider's scripts
+
+	RunBlitzSpider.py (Python script) Run only BlitzSpider.py with relevant date (Today date)
+	RunMediapoolSpider.py (Python script) Run only MediapoolSpider.py with relevant date (Today date)
+	RunDnevnikSpider.py (Python script) Run only DnevnikSpider.py with relevant date (Yesterday date)
+	RunNewsSpider.py (Python script) Run only NewsSpider.py with relevant date (Yesterday date)
+	RunOffNewsSpider.py (Python script) Run only OffNewsSpider.py with relevant date (Yesterday date)
+	RunPIKSpider.py (Python script) Run only PIKSpider.py with relevant date ((Yesterday  date)
+	RunFocusSpider.py (Python script) Run only FocusSpider.py with relevant date ((Yesterday  date)
+
+This is the list of spider's scripts grouped by date usage
+
+	RunTodaySpiders.py (Python script) Run only Spiders using today's date (Today date)
+	RunYesterdaySpiders.py (Python script) Run only Spiders using yesterday's date (Yesteroday date)
+
+This is a batch file and a python script that call consecutively all spiders
+
+	RunAllSpiders.bat (windows batch file) Run consecutively all spiders with relevant dates
+	RunAllSpiders.py  (Python script) Run consecutively all spiders with relevant dates
+
+This is a python script that creates Daily summary report for all spiders into root subdirectory 
+	_DailySummaryReports of the root directory. The name is YYYY-mm-dd.txt (one report for each day, 
+	The latest run report will stay)
+
+	SummaryReport.py (Python script) Run only SummaryReport.py and create YYYY-mm-dd.txt file of 
+	daily summary report.
+
+
+Daily Summary Report
+Today: 2017-06-25			--> Report creation date
+------------------------------------
+Source          Date         Records	--> Source - Spider name, Date - date used for data collection
+------------------------------------	    Records - number of collected records
+Blitz           2017-06-25        20
+Mediapool       2017-06-25        28
+Dnevnik         2017-06-24        51
+Focus           2017-06-24       228
+News            2017-06-24        44
+OffNews         2017-06-24        44
+PIK             2017-06-24       203
+------------------------------------
+
+
+
+
+
+
