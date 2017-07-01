@@ -21,7 +21,7 @@ yesterday = date.today() - timedelta(1)
 Yesterday = yesterday.strftime("%Y-%m-%d")
 
 # File to check
-json_datafile = 'Reports/Focus-'+Yesterday+'.json'
+json_datafile = 'Focus/Reports/Focus-'+Yesterday+'.json'
 print 'Check for empty column values in %s' %(json_datafile)
 check_empty(json_datafile)
 

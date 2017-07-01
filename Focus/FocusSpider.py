@@ -29,13 +29,17 @@ class FocusSpider(scrapy.Spider):
 
 	def __init__(self):
 
-		cwd = os.getcwd()
-		print 'Yesterday information will be collected. Date: %s'%(Yesterday)
+		# cwd = os.getcwd()
+		# print 'Yesterday information will be collected. Date: %s'%(Yesterday)
 
 		self.json_datafile = 'Focus/Reports/Focus-'+Yesterday+'.json'
 		self.links_seen = self.get_ids(self.json_datafile)
 		self.links_seen = set (map( lambda str: str[31:49], self.links_seen))	
-		
+		# "Empty output file"
+		fileName="Focus/Reports/Focus-%s.json"%(Yesterday)
+		f = open(fileName, 'w').close()
+		print '-'*10,'Focus v(1.0)','-'*10
+
 
 	def get_ids(self, json_datafile):
 		ids = []
@@ -49,24 +53,11 @@ class FocusSpider(scrapy.Spider):
 		
 		
 	def parse(self, response):
-
-		# "Empty output file"
-		fileName="Focus/Reports/Focus-%s.json"%(Yesterday)
-		f = open(fileName, 'w').close()
 	
 		links=response.xpath('//div[@class="cnk-ttl"]/h2/a/@href').extract()
 		links = list (map( lambda str: 'http://www.focus-news.net'+str[1:], links))		
-		print 'links: %d'%(len(links))
+		print "url: %s selected: %d" %(response.url, len(links))
 		
-		# for link in links:
-			# if link[31:49] not in self.links_seen:
-				# try:
-					# print 'save data: %s'% link 
-					# yield scrapy.Request(url=link, callback=self.parse_page)
-				# except:
-					# e = sys.exc_info()[1]
-					# print "Error: %s" %(e)
-
 		for link in links:
 			yield scrapy.Request(url=link, callback=self.parse_page)
 

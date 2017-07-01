@@ -1,0 +1,26 @@
+www.focus-news.net
+-----------------------------------------
+start_urls = ['http://www.focus-news.net/news/Yesterday/']
+
+links=response.xpath('//div[@class="cnk-ttl"]/h2/a/@href').extract()
+(424)
+
+links[0]-->http://www.focus-news.net/news/2017/06/28/2409858/afp-sasht-predpriemat-oshte-po-strogi-merki-za-sigurnost-pri-poletite.html
+
+
+title = response.xpath('//div[@class="inside-top-title"]/h1/text()').extract_first().strip()
+			
+AFP: САЩ предприемат още по-строги мерки за сигурност при полетите
+
+article = u''.join(response.xpath('//div[@class="print-content font-resize-content"]/div[@class="inside-body-content jstf"]/text() | //div[@class="print-content font-resize-content"]/div[@class="inside-body-content jstf"]/b/text()').extract()).strip()
+
+
+Администрацията на САЩ ще предприеме нови, още по-строги мерки за сигурност по отношение на полетите до САЩ, съобщава AFP.
+Мерките включват тотална забрана на лаптопите и таблетите в пътническия салон на самолетите, обяви в сряда секретарят по вътрешната сигурност на САЩ Джон Кели.
+В момента забраната е в сила за 10 мюсюлмански държави с директни полети до САЩ.
+Силите за сигурност твърдят, че е възможно взривно устройство да бъде маскирано
+като батерия на лаптоп или таблет.
+Болшинството от пътниците се оплакват и искат да могат да ползват електронните си устройствата, особено на по-дългите, презокеански полети. Николай Братанов
+
+pubDate = yesterday <-- (date.today() - timedelta(1))
+
