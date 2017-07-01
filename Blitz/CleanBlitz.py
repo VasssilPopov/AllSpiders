@@ -21,7 +21,7 @@ yesterday = date.today() - timedelta(1)
 Yesterday = yesterday.strftime("%Y-%m-%d")
 
 # File to check
-json_datafile = 'Reports/Blitz-'+Today+'.json'
+json_datafile = 'Blitz/Reports/Blitz-'+Today+'.json'
 print 'Input file %s' %(json_datafile)
 check_empty(json_datafile)
 

@@ -1,0 +1,73 @@
+https://www.blitz.bg/politika
+----------------------------------------------------------------------------
+start_url --> "http://www.blitz.bg/politika"
+
+----------------------------------------------------------------------------
+urls=response.xpath('//article[@class="simple-post simple-big clearfix"]/a/@href | //header[@class="news-details"]/h3[@class="news-title"]/a/@href').extract()
+----------------------------------------------------------------------------
+(15)
+
+----------------------------------------------------------------------------
+next_page_url=response.xpath('//div[@class="row pagination"]/div[2]/a[@class="btn next pull-right"]/@href').extract_first()
+----------------------------------------------------------------------------
+next_page_url--> u'https://www.blitz.bg/politika?page=2'
+
+----------------------------------------------------------------------------
+urls[0]--> https://www.blitz.bg/politika/karakachanov-s-vzrivyavashch-komentar-za-bezreditsite-v-asenovgrad_news525823.html
+----------------------------------------------------------------------------
+
+title   = response.xpath('//header/h1[@class="post-title"]/text()').extract()[0].strip()
+----------------------------------------------------------------------------
+Каракачанов с взривяващ коментар за безредиците в Асеновград!
+
+----------------------------------------------------------------------------
+introStr = response.xpath('//div[@class="intro"]/text()').extract()[0].strip()
+
+texts= ' '.join(response.xpath('//div[@id="articleContent"]/strong/text() | //div[@id="articleContent"]/text()| //div[@id="articleContent"]/p/strong/text()| //div[@id="articleContent"]/p/text()').extract())
+
+article = introStr + texts
+----------------------------------------------------------------------------
+
+
+Не може с полумерки или псевдо мерки да ги интегрираме в обществото. Законът е за всички без значение българин или ром. Това заяви в "Събуди се" министърът на отбраната и лидер на ВМРО Красимир Каракачанов.
+"Когато населението разбере, че може да прави каквото си иска и няма последици,
+придобива допълнителна смелост. Други, които работят си казва "Добре, за едните
+може, за другите не?". Те са питат защо те да работят, а други да получават помощи, без да правят нищо. Законът трябва да е за всички", добави той.
+"Има фалшиви новини в България. Има много медии, които боравят само с измислена
+информация. Както беше казал известен пропагандатор на Хитлер - "Дай ми 10% истина и аз ще я направя 100%", каза Каракачанов.
+"Ако преди 2 години, когато беше случаят в Гърмен, всичко беше докарано докрай и всичко беше съборено, това щеше да е добър пример. Асеновград е поредната възможност държавата да докаже, че си е на мястото и, че си върши работата", заяви министърът.
+
+----------------------------------------------------------------------------
+pubDate=response.xpath('//*[@id="page-container"]/div[1]/div/div/article/header/div/ul/li[2]/text()').extract_first()
+----------------------------------------------------------------------------
+
+01 Юли 2017, 09:17 --> 2017.07.01
+
+helper functions
+
+
+strDate=strDate.split(',')[0]
+print strDate
+# print translateDateBG_EN(strDate)
+def bgMonthstoNumber(monthName):
+    monthName=monthName.lower()
+    months= {u'януари':'01',u'февруари':'02', u'март':'03',
+             u'април':'04',u'май':'05', u'юни':'06',
+             u'юли':'07',u'август':'08', u'септември':'09',
+             u'октомври':'10',u'ноември':'11', u'декември':'12'}
+
+    if (monthName in months):
+        return months[monthName]
+    else:
+        return'??'
+
+# input date
+# '22. Юни 2017' --> 2017.06.22
+def convertDate(aDate):
+    aDate=aDate.replace('.','')
+    dateParts=aDate.split()
+    dateParts[1]=str(bgMonthstoNumber(dateParts[1]))
+    aDate='%s.%s.%s'%(dateParts[2],dateParts[1],dateParts[0])
+    return aDate
+
+print convertDate(u'01 Юли 2017')

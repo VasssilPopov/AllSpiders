@@ -5,18 +5,15 @@ import json
 import json_lines
 from scrapy.exceptions import CloseSpider
 import os
-# scrapy runspider BlitzSpider.py -o Reports/PIK-2017-05-17.json -t jsonlines
-# RunIt 2017-05-17
+# cd _AllSpiders
+# Python RunBlitzSpider.py
 
 'Get the yesterday date'
 # yesterday = date.today() - timedelta(1)
 # Yesterday = yesterday.strftime("%Y-%m-%d")
 today = date.today()
 Today = today.strftime("%Y-%m-%d")
-strToday = today.strftime("%d %B %Y").lower()
-#----------------------------------------------------
-print 'Version: ',0.2
-#----------------------------------------------------
+strToday = today.strftime("%Y.%m.%d").lower()
 
 def read_ids(file):
 
@@ -43,7 +40,28 @@ def translateDateBG_EN(strDate):
     result = ' '.join(dateParts[:3])
     return result
 
-	
+def bgMonthstoNumber(monthName):
+    monthName=monthName.lower()
+    months= {u'януари':'01',u'февруари':'02', u'март':'03',
+             u'април':'04',u'май':'05', u'юни':'06',
+             u'юли':'07',u'август':'08', u'септември':'09',
+             u'октомври':'10',u'ноември':'11', u'декември':'12'}
+
+    if (monthName in months):
+        return months[monthName]
+    else:
+        return'??'
+
+# input date
+# '22. Юни 2017' --> 2017.06.22
+def convertDate(aDate):
+    aDate=aDate.replace(',','')
+    dateParts=aDate.split()
+    dateParts[1]=str(bgMonthstoNumber(dateParts[1]))
+    aDate='%s.%s.%s'%(dateParts[2],dateParts[1],dateParts[0])
+    return aDate
+
+
 class BlitzSpider(scrapy.Spider):
 	name = "Blitz"
 	allowed_domains = ['www.blitz.bg']
@@ -55,16 +73,16 @@ class BlitzSpider(scrapy.Spider):
 	}
 	
 	def __init__(self):
-		print os.getcwd()
 		self.json_datafile = 'Blitz/Reports/Blitz-'+Today+'.json'
 		self.links_seen = read_ids(self.json_datafile)
 		'take only the end of the Mediapool url. The number after the news string:'
 		self.links_seen = map(lambda url: url.split('news')[1] , self.links_seen)
-		print 'links_seen:', len(self.links_seen)
+		print '-'*10,'Blitz v(1.0)','-'*10
 
 	def parse(self, response):
 
 		urls=response.xpath('//article[@class="simple-post simple-big clearfix"]/a/@href | //header[@class="news-details"]/h3[@class="news-title"]/a/@href').extract()
+		print "url: %s selected: %d" %(response.url, len(urls))
 		for url in urls:
 			if url.split('news')[1] not in self.links_seen:
 				url = response.urljoin(url)
@@ -72,7 +90,6 @@ class BlitzSpider(scrapy.Spider):
 
 		# follow pagination link
 		next_page_url=response.xpath('//div[@class="row pagination"]/div[2]/a[@class="btn next pull-right"]/@href').extract_first()
-		print 'next_page_url: ', next_page_url
 		if next_page_url:
 			next_page_url = response.urljoin(next_page_url)
 			yield scrapy.Request(url=next_page_url, callback=self.parse)
@@ -88,12 +105,12 @@ class BlitzSpider(scrapy.Spider):
 		article = introStr + texts
 
 		pubDate=response.xpath('//*[@id="page-container"]/div[1]/div/div/article/header/div/ul/li[2]/text()').extract_first()
-	
-		articleDate=translateDateBG_EN(pubDate.split(',')[0])
-		print 'articleDate: ', articleDate, 'strToday: ', strToday, (articleDate == strToday)
+		pubDate = convertDate(pubDate)
+		# print '>>', pubDate, strToday
+		# articleDate=translateDateBG_EN(pubDate.split(',')[0])
+		# print 'artDate: %s url= %s ' %(articleDate, url)
 		# Filter on todays date
-		if (articleDate == strToday):
-			print 'save data'
+		if (pubDate == strToday):
 			yield {
 				'url': url,
 				'title': title,
@@ -103,5 +120,4 @@ class BlitzSpider(scrapy.Spider):
 			}
 		else:
 			raise CloseSpider('Index date changed')
-		print '--done--'
 
