@@ -1,0 +1,3 @@
+Check for Mediapool/Reports/Mediapool-2017-06-30.json
+41 records will be checked
+Check complete

@@ -1,0 +1,26 @@
+http://www.mediapool.bg/
+------------------------------------
+http://www.mediapool.bg/today.html
+
+links = response.xpath("//a[@class='news_in_a']/@href").extract()
+(44)
+
+links[0]--> u'http://www.mediapool.bg/eksshefove-na-energiyniya-regulator-otivat-na-sad-news265933.html'
+
+title   = response.xpath('//div[@class="main_left"]/h1/text()').extract()[0].strip()
+
+Ексшефове на енергийния регулатор отиват на съд
+
+article = ''.join(response.xpath('//div[@class="main_left"]/div/p/text()| //div[@class="main_left"]/div[@id="art_font_size"]/p/b/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/text()| //div[@class="main_left"]/div[@id="art_font_size"]/div/div/div/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/div/text()').extract()).strip() 
+
+
+Двама бивши председатели на енергийния регулатор се сдобиха с обвинения за престъпления по служба и им е наложена мярка за неотклонение "подписка", съобщиха от
+прокуратурата в сряда.
+
+...........
+От прокуратурата напомнят, че се разследва и сегашният състав на енергийния регулатор за начина на определянето на цените на газа и парното в страната,
+както и на водата в София от началото на април 2017 г., както и дали комисията е проверила извършени ли са заявените от газоразпределителните дружествата в бизнесплановете им инвестиции.
+
+pubDate=response.xpath('//div[@class="info wbig"]/text()').extract_first()
+		
+17:36 | 28 юни 2017 |

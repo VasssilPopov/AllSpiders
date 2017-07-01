@@ -52,13 +52,15 @@ class MediapoolSpider(scrapy.Spider):
 
     def __init__(self):
 
-        self.start_urls = ["http://mediapool.bg/today.html"]
-        self.json_datafile = 'Mediapool/Reports/Mediapool-'+Today+'.json'
-        self.links_seen = read_ids(self.json_datafile)
+		self.start_urls = ["http://mediapool.bg/today.html"]
+		self.json_datafile = 'Mediapool/Reports/Mediapool-'+Today+'.json'
+		self.links_seen = read_ids(self.json_datafile)
+		print '-'*10,'Mediapool v(1.0)','-'*10
 
     def parse(self, response):
  
 		links = response.xpath("//a[@class='news_in_a']/@href").extract()
+		print "url: %s selected: %d" %(response.url, len(links))
 		'take only the end of the Mediapool url. The number after the news string:'
 		self.links_seen = map(lambda url: url.split('news')[1] , self.links_seen)
 
@@ -66,25 +68,22 @@ class MediapoolSpider(scrapy.Spider):
 			if link.split('news')[1] not in self.links_seen:
 				yield scrapy.Request(url=link, callback=self.parse_page)
 
-		print '-- Done --'	
-			
-
     def parse_page(self, response):
 		url     = response.url
 		title   = response.xpath('//div[@class="main_left"]/h1/text()').extract()[0].strip()
-		article = ''.join(response.xpath('//div[@class="main_left"]/div/p/text()| //div[@class="main_left"]/div[@id="art_font_size"]/p/b/text()').extract()).strip() 
+		article = ''.join(response.xpath('//div[@class="main_left"]/div/p/text()| //div[@class="main_left"]/div[@id="art_font_size"]/p/b/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/text()| //div[@class="main_left"]/div[@id="art_font_size"]/div/div/div/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/div/text()').extract()).strip() 
 
 		pubDate=response.xpath('//div[@class="info wbig"]/text()').extract_first()
-
-
+			
 		#extract and prepare Article date
 		dateParts=pubDate.split()
+		if (dateParts[0]=='|'):
+			dateParts=dateParts[1:]
 		trMonth=translateMonth[dateParts[3]]
 		articleDate= ('%s-%s-%s' %(dateParts[2],trMonth,dateParts[4])).lower()
 
 		todaysDate=date.today().strftime("%d-%B-%Y").lower()
 		
-		print articleDate, todaysDate,(articleDate == todaysDate)
 		# Filter on todays date
 		if (articleDate == todaysDate):
 			yield {
