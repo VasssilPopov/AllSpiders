@@ -64,9 +64,18 @@ def convertDate(aDate):
 
 class BlitzSpider(scrapy.Spider):
 	name = "Blitz"
-	allowed_domains = ['www.blitz.bg']
+	allowed_domains = ['www.blitz.bg','blitz.bg']
 	start_urls = [
-		"http://www.blitz.bg/politika"
+		"https://www.blitz.bg/svyat",
+		"http://www.blitz.bg/politika",
+		"https://www.blitz.bg/obshtestvo",
+		"https://www.blitz.bg/ikonomika",
+		"https://www.blitz.bg/kriminalni",
+		"https://www.blitz.bg/intsidenti",
+		"https://www.blitz.bg/zdrave",
+		"https://www.blitz.bg/lyubopitno",
+		"https://www.blitz.bg/layfstayl"
+		
 	]
 	custom_settings = {
 		'FEED_EXPORT_ENCODING': 'utf-8'
@@ -110,7 +119,9 @@ class BlitzSpider(scrapy.Spider):
 		# articleDate=translateDateBG_EN(pubDate.split(',')[0])
 		# print 'artDate: %s url= %s ' %(articleDate, url)
 		# Filter on todays date
+		print pubDate, strToday,(pubDate == strToday)
 		if (pubDate == strToday):
+			print 'saved :%s'% (url)
 			yield {
 				'url': url,
 				'title': title,
