@@ -1,4 +1,4 @@
-Input file Duma/Reports/Duma-2017-07-01.json
-Can't determine the format of % Duma/Reports/Duma-2017-07-01.json
+Input file Duma/Reports/Duma-2017-07-02.json
+Can't determine the format of % Duma/Reports/Duma-2017-07-02.json
 0 records will be checked
 Check complete

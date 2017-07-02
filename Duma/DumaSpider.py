@@ -69,6 +69,7 @@ class DumaSpider(scrapy.Spider):
 		"http://duma.bg/taxonomy/term/1",
 		"http://duma.bg/taxonomy/term/2",
 		"http://duma.bg/taxonomy/term/3/1",
+		"http://duma.bg/taxonomy/term/4",
 	]
 	custom_settings = {
 		'FEED_EXPORT_ENCODING': 'utf-8'
