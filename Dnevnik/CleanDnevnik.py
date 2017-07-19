@@ -26,3 +26,6 @@ print 'Check for %s' %(json_datafile)
 check_empty(json_datafile)
 
 
+#checkReport('Dnevnik/Reports/Dnevnik-2017-07-18.json')
+checkReport(json_datafile)
+
