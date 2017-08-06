@@ -1,6 +1,8 @@
 ﻿http://dnevnik.bg
 -------------------------------------------------
-http://dnevnik.bg/allnews/2017/07/15
+http://dnevnik.bg/allnews/2017/07/30
+http://dnevnik.bg/allnews/2017/07/21
+-------------------------------------------------
 
 urls=response.xpath('//article[@class="secondary-article-v2 border-top list-item"]/div[@class="text"]/h2/a/@href').extract()
 103
@@ -27,6 +29,11 @@ article=u''.join(response.xpath('//div[@class="article-content"]/p/text() | //di
 
 <new>----
 article=u''.join(response.xpath('//div[@class="article-content"]/p/text()|//div[@class="article-content"]/h2/text()| //div[@class="article-content"]/p/a/text()| //div[@class="article-content"]/div[@class="story"]/p/text() | //div[@class="article-content"]/div[@class="story"]/text()').extract())
+
+
+article=u''.join(response.xpath('//div[@class="article-content"]/p/text()|//div[@class="article-content"]/h2/text()| //div[@class="article-content"]/p/a/text()| //div[@class="article-content"]/div[@class="story"]/p/text() | 
+//div[@class="article-content"]/div[@class="story"]/text() | 
+//div[@class="module"]/div[@class="site-block"]/div[@class="the-picture-summary article"]/p/text()').extract())
 <new>----
 
 
