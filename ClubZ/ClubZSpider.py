@@ -14,7 +14,7 @@ import os
 # Yesterday = yesterday.strftime("%Y-%m-%d")
 today = date.today()
 Today = today.strftime("%Y-%m-%d")
-strToday = today.strftime("%d.%m.%Y").lower()
+strToday = today.strftime("%Y.%m.%d").lower()
 logger = logging.getLogger('myLogger')
 
 def read_ids(file):
@@ -73,20 +73,25 @@ class ClubZSpider(scrapy.Spider):
 		
 		pageTitle=response.xpath('//div[@class="views-field views-field-title"]/span[@class="field-content"]/a/text()').extract_first()
 
-		pageText=response.xpath('//div[@class="views-field views-field-body"]/div[@class="field-content"]/p/text()').extract()
+		# pageText=response.xpath('//div[@class="views-field views-field-body"]/div[@class="field-content"]/p/text()').extract()
+		pageText=response.xpath('//div[@class="views-field views-field-body"]/div[@class="field-content"]/p/text() | //div[@id="not-first"]/div/a/text()').extract()
 		pageText=u' '.join(pageText)
 
 		pageDate=response.xpath('//div[@class="views-field views-field-published-at"]/span[@class="field-content"]/text()').extract_first()
-		pageDate = pageDate.split(',')[0]
+		# pageDate = pageDate.split(',')[0]
+		(day,month,year)=pageDate.split(',')[0].split('.')
+		pageDate='%s.%s.%s'%(year,month,day)
+		
 		# print 'pageDate: %s url= %s ' %(pageDate, url)
 		# Filter on todays date
+		print pageDate, strToday,(pageDate == strToday), url
+		print 'Mark-1'
 		if (pageDate == strToday):
 			yield {
 				'url': url,
 				'title': pageTitle,
 				'text': pageText,
 				'date': pageDate
-
 			}
 		else:
 			raise CloseSpider('Index date changed')

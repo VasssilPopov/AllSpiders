@@ -1,4 +1,14 @@
-Input file Blitz/Reports/Blitz-2017-07-01.json
-Can't determine the format of % Blitz/Reports/Blitz-2017-07-01.json
-0 records will be checked
-Check complete
+VALIDATIONS for ClubZ/Reports/ClubZ-2017-08-05.json
+
+Report Duplicates for (ClubZ/Reports/ClubZ-2017-08-05.json) 
+----------------------------------------------------------------------------------------
+Files                                                          All Recs  Dupl Recs
+----------------------------------------------------------------------------------------
+ClubZ/Reports/ClubZ-2017-08-05.json                                   1          0
+
+--------------------ClubZ/Reports/ClubZ-2017-08-05.json--------------------
+
+----------------------------------------------------------------------------------
+Valid records: 1 of 1
+----------------------------------------------------------------------------------
+
