@@ -1,3 +1,14 @@
-Input file Blitz/Reports/Blitz-2017-07-02.json
-48 records will be checked
-Check complete
+VALIDATIONS for Blitz/Reports/Blitz-2017-08-05.json
+
+Report Duplicates for (Blitz/Reports/Blitz-2017-08-05.json) 
+----------------------------------------------------------------------------------------
+Files                                                          All Recs  Dupl Recs
+----------------------------------------------------------------------------------------
+Blitz/Reports/Blitz-2017-08-05.json                                  34          0
+
+--------------------Blitz/Reports/Blitz-2017-08-05.json--------------------
+
+----------------------------------------------------------------------------------
+Valid records: 34 of 34
+----------------------------------------------------------------------------------
+

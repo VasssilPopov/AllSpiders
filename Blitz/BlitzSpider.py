@@ -1,12 +1,25 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from datetime import date, timedelta
+import logging
 import json
 import json_lines
 from scrapy.exceptions import CloseSpider
 import os
-# cd _AllSpiders
-# Python RunBlitzSpider.py
+from sys import exit, path
+from datetime import date, timedelta
+import platform
+
+if platform.system() == 'Linux':
+	path.append('/home/peio/dev/AllSpiders/_LIBRARY/')
+elif platform.system() == 'Windows':
+	path.append('C:\STUDY_SPIDERS\_AllSpiders\_LIBRARY')
+else: 
+	print 'Unknown platform' 
+	exit() 
+
+from ScrapingHelpers import *
+from Dates import *
+from urllib2 import quote
 
 'Get the yesterday date'
 # yesterday = date.today() - timedelta(1)
@@ -30,57 +43,28 @@ def read_ids(file):
 
     return ids
 
-def translateDateBG_EN(strDate):
-
-    monthsBG_EN={u'януари':u'january',u'февруари':u'february',u'март':u'march',u'април':u'april',u'май':u'may',u'юни':u'june',u'юли':u'july',u'август':u'august',u'септември':u'september',u'октомври':u'october',u'ноември':u'november',u'декември':u'december'}
-
-    dateParts=strDate.split()
-    v=dateParts[1].lower()
-    dateParts[1] = monthsBG_EN[v]
-    result = ' '.join(dateParts[:3])
-    return result
-
-def bgMonthstoNumber(monthName):
-    monthName=monthName.lower()
-    months= {u'януари':'01',u'февруари':'02', u'март':'03',
-             u'април':'04',u'май':'05', u'юни':'06',
-             u'юли':'07',u'август':'08', u'септември':'09',
-             u'октомври':'10',u'ноември':'11', u'декември':'12'}
-
-    if (monthName in months):
-        return months[monthName]
-    else:
-        return'??'
-
-# input date
-# '22. Юни 2017' --> 2017.06.22
-def convertDate(aDate):
-    aDate=aDate.replace(',','')
-    dateParts=aDate.split()
-    dateParts[1]=str(bgMonthstoNumber(dateParts[1]))
-    aDate='%s.%s.%s'%(dateParts[2],dateParts[1],dateParts[0])
-    return aDate
-
-
 class BlitzSpider(scrapy.Spider):
 	name = "Blitz"
-	allowed_domains = ['www.blitz.bg','blitz.bg']
+	allowed_domains = ['blitz.bg']
 	start_urls = [
 		"https://www.blitz.bg/svyat",
 		"http://www.blitz.bg/politika",
-		"https://www.blitz.bg/obshtestvo",
-		"https://www.blitz.bg/ikonomika",
-		"https://www.blitz.bg/kriminalni",
-		"https://www.blitz.bg/intsidenti",
-		"https://www.blitz.bg/zdrave",
-		"https://www.blitz.bg/lyubopitno",
-		"https://www.blitz.bg/layfstayl"
+		# "https://www.blitz.bg/obshtestvo",
+		# "https://www.blitz.bg/ikonomika",
+		# "https://www.blitz.bg/kriminalni",
+		# "https://www.blitz.bg/intsidenti",
+		# "https://www.blitz.bg/zdrave",
+		# "https://www.blitz.bg/lyubopitno",
+		# "https://www.blitz.bg/layfstayl"
 		
 	]
 	custom_settings = {
-		'FEED_EXPORT_ENCODING': 'utf-8'
+		'FEED_EXPORT_ENCODING': 'utf-8',
+		'DOWNLOAD_DELAY':'5',
+		'COOKIES_ENABLED':'False',
+		# 'CONCURRENT_REQUESTS_PER_DOMAIN':'1',
 	}
-	
+
 	def __init__(self):
 		self.json_datafile = 'Blitz/Reports/Blitz-'+Today+'.json'
 		self.links_seen = read_ids(self.json_datafile)
@@ -100,6 +84,10 @@ class BlitzSpider(scrapy.Spider):
 		# follow pagination link
 		next_page_url=response.xpath('//div[@class="row pagination"]/div[2]/a[@class="btn next pull-right"]/@href').extract_first()
 		if next_page_url:
+			if (next_page_url[-1:]=='6'):
+				print '>1> ',next_page_url
+				raise CloseSpider('Index date changed')
+
 			next_page_url = response.urljoin(next_page_url)
 			yield scrapy.Request(url=next_page_url, callback=self.parse)
 
@@ -114,7 +102,8 @@ class BlitzSpider(scrapy.Spider):
 		article = introStr + texts
 
 		pubDate=response.xpath('//*[@id="page-container"]/div[1]/div/div/article/header/div/ul/li[2]/text()').extract_first()
-		pubDate = convertDate(pubDate)
+		pubDate = dcBlitz(pubDate)
+		#pubDate = convertDate(pubDate)
 		# print '>>', pubDate, strToday
 		# articleDate=translateDateBG_EN(pubDate.split(',')[0])
 		# print 'artDate: %s url= %s ' %(articleDate, url)
@@ -130,5 +119,6 @@ class BlitzSpider(scrapy.Spider):
 
 			}
 		else:
-			raise CloseSpider('Index date changed')
+			# raise CloseSpider('Index date changed')
+			pass
 
