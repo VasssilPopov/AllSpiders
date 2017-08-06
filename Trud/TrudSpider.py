@@ -14,7 +14,7 @@ import os
 today = date.today()
 Today = today.strftime("%Y-%m-%d")
 # strToday = today.strftime("%d.%m.%Y")
-strToday = today.strftime("%d.%m.%Y")
+strToday = today.strftime("%Y.%m.%d")
 
 def read_ids(file):
 
@@ -65,7 +65,7 @@ class TrudSpider(scrapy.Spider):
 	def parse(self, response):
 
 		urls = response.xpath('//ol[@class="list-of-entities clearfix"]/li/div[@class="story-item-link"]/div[@class="story-item-body"]/h3[@class="story-item-body-headline"]/a/@href').extract()
-		print "url: %s selected: %d" %(response.url, len(urls))
+		
 		for url in urls:
 			# code=url.split('article/')[1]
 			if url not in self.links_seen:
@@ -86,19 +86,26 @@ class TrudSpider(scrapy.Spider):
 		title   = response.xpath('//header[@class="article-header"]/h1[@class="headline-heading"]/text()').extract_first()
 
 		article = u' '.join(response.xpath('//div[@class="article-content"]/p/text()').extract())
-		
 		pubDate=response.xpath('//time[@class="entry-time meta-property--date"]/span[@class="meta-property--date-date"]/text()').extract_first()
 		# 23.06.2017
-		articleDate=pubDate.split()[0]
-		# Filter on todays date
 
+		(day, month, year) = pubDate.split('.')
+		articleDate = '%s.%s.%s'%(year, month, day)
+		
+		# dateParts=pubDate.split('.')
+		# tmp=dateParts[0]
+		# dateParts[0]=dateParts[2]
+		# dateParts[2]=tmp
+		# articleDate='.'.join(dateParts)
+		# Filter on todays date
+		print articleDate,strToday,(articleDate == strToday)
 		if (articleDate == strToday):
 
 			yield {
 				'url': url,
 				'title': title,
 				'text': article,
-				'date': pubDate
+				'date': articleDate
 			}
 		else:
 			raise CloseSpider('Index date changed')

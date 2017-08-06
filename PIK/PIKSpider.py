@@ -32,7 +32,6 @@ urlDate=yesterday.strftime("%d-%m-%Y")
 
 class PIKSpider(scrapy.Spider):
     name = "PIK"
-    # start_urls = ['http://quotes.toscrape.com']
     allowed_domains = ['pik.bg']
     start_urls = ["http://pik.bg/novini-za-"+urlDate+".html"]
 
@@ -96,15 +95,18 @@ class PIKSpider(scrapy.Spider):
 
 		art_alternatives = list( filter( lambda str: str != u'' , art_alternatives.values() ) )	
 
-		article=' '.join(art_alternatives)
+		article=u' '.join(art_alternatives)
 		# print article
-		(day,month,year) = response.css('time.left::text').extract()[0].split('|')[1].split('.')
-		time = year+"-"+month+"-"+day.strip()
-
+		# (day,month,year) = response.css('time.left::text').extract()[0].split('|')[1].split('.')
+		# time = year+"."+month+"."+day.strip()
+		pubTime=response.xpath('//div[@class="left info"]/div[@class ="left info_left"]/div[@class="left clock"]/time[@class="left text"]/text()').extract_first()
+		(day,month,year) = pubTime.split('|')[1].strip().split('.')
+		pubDate='%s.%s.%s'%(year,month,day)
+		
 		yield {
 			'url': url,
 			'title': title,
 			'text': article,
-			'date': time
+			'date': pubDate
 
 		}	

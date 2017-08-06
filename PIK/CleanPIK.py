@@ -2,6 +2,7 @@
 import scrapy
 import logging
 import json
+import os
 from sys import exit, path
 import platform
 if platform.system() == 'Linux':
@@ -13,16 +14,25 @@ else:
 	exit() 
 
 from ScrapingHelpers import *
+import HelperTools
+import Duplicates
 from datetime import date, timedelta
 
-'Get the Today adn Yesterday dates'
+#Get the Today adn Yesterday dates  ------------------------------
 Today = date.today().strftime("%Y-%m-%d")
 yesterday = date.today() - timedelta(1)
 Yesterday = yesterday.strftime("%Y-%m-%d")
 
-# File to check
+# "standart" validation contai a value, Date format etc.----------
 json_datafile = 'PIK/Reports/PIK-'+Yesterday+'.json'
-print 'Check for %s' %(json_datafile)
-check_empty(json_datafile)
 
+print 'VALIDATIONS for %s' %(json_datafile)
+print
+
+if os.path.isfile(json_datafile):
+	#check for duplicates ---------------------------------------------
+	Duplicates.reportDuplicates (json_datafile)
+
+	#checkReport('Dnevnik/Reports/Dnevnik-2017-07-18.json')------------
+	HelperTools.checkReport(json_datafile)
 
