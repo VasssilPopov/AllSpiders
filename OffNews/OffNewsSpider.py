@@ -13,10 +13,11 @@ from scrapy.spiders import Rule
 'Get the yesterday date'
 yesterday = date.today() - timedelta(1)
 Yesterday = yesterday.strftime("%Y-%m-%d")
+stdDate= yesterday.strftime("%Y.%m.%d")
 today = date.today()
 Today = today.strftime("%Y-%m-%d")
 strToday = today.strftime("%d %b %Y").lower()
-
+counter = 0
 
 def read_ids(file):
 
@@ -35,10 +36,9 @@ def read_ids(file):
 
 class OffNewsSpider(scrapy.Spider):
     name = "offnews"
-    allowed_domains = ['m.offnews.bg']
+    allowed_domains = ['offnews.bg']
 
-	# https://m.offnews.bg/2017-06-28/
-    start_urls = ['https://m.offnews.bg/'+Yesterday+'/']
+    start_urls = ['https://offnews.bg/'+Yesterday+'/']
     custom_settings = {
 		'FEED_EXPORT_ENCODING': 'utf-8'
 	}
@@ -51,29 +51,34 @@ class OffNewsSpider(scrapy.Spider):
 
 
     def parse(self, response):
-		urls = response.xpath('//div[@class="content"]/div[@class="cat_list_s"]/div[@class="cat_list_s_int"]/div[@class="cat_list_s_title"]/a/@href').extract()
-		print "url: %s selected: %d" %(response.url, len(urls))
+		urls = response.xpath('//article/h1/a/@href').extract()
+		print ">> new page url: %s selected: %d" %(response.url, len(urls))
 		for url in urls:
 			url = response.urljoin(url)
 			yield scrapy.Request(url=url, callback=self.parse_details)
 
 		# follow pagination link
-		next_page_url = response.xpath('//div[@class="pageBox bb3y"]/a[@class="next"]/@href').extract_first()
+		next_page_url = response.xpath('//div[@class="row-1 paging"]/div/a[@class="next1"]/@href').extract_first()
 		if next_page_url != '#':
 			next_page_url = response.urljoin(next_page_url)
 			yield scrapy.Request(url=next_page_url, callback=self.parse)
 
     def parse_details(self, response):
-        url=response.url
-        if (url.startswith('http://mamaninja.bg/')):
-		    return
-        title = response.xpath('//div[@class="news_box"]/h1[@class="news_box_title"]/text()').extract_first()
-        textStrong = response.xpath('//div[@class="newsdet"]/p/strong/text()').extract_first()
-        texts = response.xpath('//div[@class="newsdet"]/p/strong/text() | //div[@class="newsdet"]/p/text()').extract()
-        text = u''.join(texts)
-        yield {
+		url=response.url
+		if (url.startswith('http://mamaninja.bg/')):
+			return
+		title = response.xpath('//div[@class="content art-title"]/h1/text()').extract_first()
+		# texts=response.xpath('//div/div[@class="newsdet"]/p/text() | //div/div[@class="newsdet"]/p/strong/text()').extract()
+		# texts=response.xpath('//div[@class="site_box_content"]/div[@class="content"]/div/div[@class="newsdet"]/p/text()').extract()
+		texts=response.xpath('//div[@class="site_box_content"]/div[@class="content"]/div/div[@class="newsdet"]/p/text() | //div[@class="content"]/div[@class="art-wrap mt20"]/ div[@class="left"]/div[@class="left-int"]/p/text() | //div[@class="content"]/div[@class="art-wrap mt20"]/ div[@class="left"]/div[@class="left-int"]/p/strong/text()').extract()
+		text = u''.join(texts)
+		global counter
+		counter +=1
+		print ' %d url:%s' %( counter,url)
+		
+		yield {
 			'url': url,
 			'title': title,
 			'text': text,
-			'date': Yesterday
+			'date': stdDate
 		}
