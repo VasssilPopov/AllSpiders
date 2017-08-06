@@ -1,0 +1,83 @@
+
+12533 4 авг. 2017
+---------------------------------------------------------
+"http://www.segabg.com/index.php?iid=12528&sid=2",
+"http://www.segabg.com/index.php?iid=12528&sid=3",
+"http://www.segabg.com/index.php?iid=12528&sid=4",
+"http://www.segabg.com/index.php?iid=12528&sid=5", 
+"http://www.segabg.com/index.php?iid=12528&sid=6",
+"http://www.segabg.com/index.php?iid=12528&sid=12",
+
+"http://www.segabg.com/index.php?iid=12528&sid=2 България
+"http://www.segabg.com/index.php?iid=12528&sid=3 Икономика
+"http://www.segabg.com/index.php?iid=12528&sid=4 Чужбина
+"http://www.segabg.com/index.php?iid=12528&sid=5 Наблюдател
+"http://www.segabg.com/index.php?iid=12528&sid=6 Култура
+"http://www.segabg.com/index.php?iid=12528&sid=12 Спорт
+
+
+http://www.segabg.com/index.php?iid=12493&sid=4 Чужбина
+http://www.segabg.com/index.php?iid=12528&sid=12 Спорт
+---------------------------------------------------------
+
+---------------------------------------------------------
+urls=response.xpath('//tr/td/div[@class="article"]/div[@class="a_title"]/a/@href').extract()
+
+
+urls=response.xpath('//div[@class="article"]/div[@class="a_title"]/a/@href').extract()
+
+---------------------------------------------------------
+16
+
+http://www.segabg.com/article.php?id=864741
+http://www.segabg.com/article.php?id=864739
+http://www.segabg.com/article.php?id=864738
+http://www.segabg.com/article.php?id=864737
+http://www.segabg.com/article.php?id=864735
+http://www.segabg.com/article.php?id=864733
+http://www.segabg.com/article.php?id=864731
+http://www.segabg.com/article.php?id=864730
+http://www.segabg.com/article.php?id=864727
+http://www.segabg.com/article.php?id=864725
+http://www.segabg.com/article.php?id=864723
+http://www.segabg.com/article.php?id=864721
+http://www.segabg.com/article.php?id=864720
+http://www.segabg.com/article.php?id=864717
+http://www.segabg.com/article.php?id=864715
+http://www.segabg.com/article.php?id=864714
+
+---------------------------------------------------------
+title=response.xpath('//div[@class="article"]/div[@class="a_title"]/h3[@class="a_title"]/text()').extract_first()
+---------------------------------------------------------
+
+Треньорът на "ЦСКА-София" е на крачка от уволнение
+
+---------------------------------------------------------
+text = response.xpath('//div[@class="article"]/div[@class="a_content"]/text()').extract()
+
+textPage=u' '.join(text)
+---------------------------------------------------------
+Треньорска смяна се обсъжда в "ЦСКА-София" заради слабия старт на сезона - равенство със "Славия" и загуба от "Лудогорец". Наставникът Стамен Белчев може да се прости с поста си, ако не спечели тежкото гостуване срещу "Ботев" (Пд) в неделя. А може и изобщо да не получи шанс дотогава, ако шефовете му решат да го уволнят по-рано. Според "Спортал" най-вероятният следващ треньор на отбора е Красимир Балъков. Той изгледа мача с "Лудогорец" в компанията на повечето ръководни фактори в клуба - президента Трифон Попов, главния мениджър Стойчо Стоилов и спортния директор Пламен Марков. От думите на Стоилов след загубата стана ясно, че в "ЦСКА-София
+
+---------------------------------------------------------
+date=response.xpath('//div[@id="issue_number"]/text()').extract()
+pubDate=u' '.join(date)
+parts= pubDate.split()
+(day, month, year)=parts[-3:]
+month=Months[month.lower()]
+pubDate='%s.%s.%s'%(year,month,day)
+
+
+
+
+
+http://www.segabg.com/article.php?id=864741
+
+//div[@class="head"]/div[@class="right"]/text()
+
+date=response.xpath('/html/body/div[@class="head"]/div[@class="right"]/text()').extract()
+
+date=response.xpath('//div[@class="head"]/div[@class="right"]/text()[3]').extract–first()
+
+date=response.xpath('//div[@id="issue_number"]/text()').extract()
+

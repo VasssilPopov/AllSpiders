@@ -1,0 +1,106 @@
+2017-08-05 10:59:32 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: scrapybot)
+2017-08-05 10:59:32 [scrapy.utils.log] INFO: Overridden settings: {'SPIDER_LOADER_WARN_ONLY': True, 'FEED_URI': 'SegaBG/Reports/SegaBG-2017-08-04.json'}
+2017-08-05 10:59:32 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-08-05 10:59:33 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-08-05 10:59:33 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-08-05 10:59:33 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-08-05 10:59:33 [scrapy.core.engine] INFO: Spider opened
+2017-08-05 10:59:33 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-05 10:59:33 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-08-05 10:59:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/index.php?iid=12527&sid=2> (referer: None)
+2017-08-05 10:59:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/index.php?iid=12527&sid=3> (referer: None)
+2017-08-05 10:59:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/index.php?iid=12527&sid=4> (referer: None)
+2017-08-05 10:59:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/index.php?iid=12527&sid=5> (referer: None)
+2017-08-05 10:59:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/index.php?iid=12527&sid=6> (referer: None)
+2017-08-05 11:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/index.php?iid=12527&sid=12> (referer: None)
+2017-08-05 11:00:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865425> (referer: http://www.segabg.com/index.php?iid=12527&sid=2)
+2017-08-05 11:00:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865412> (referer: http://www.segabg.com/index.php?iid=12527&sid=2)
+2017-08-05 11:00:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865417> (referer: http://www.segabg.com/index.php?iid=12527&sid=2)
+2017-08-05 11:00:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865421> (referer: http://www.segabg.com/index.php?iid=12527&sid=2)
+2017-08-05 11:00:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865427> (referer: http://www.segabg.com/index.php?iid=12527&sid=2)
+2017-08-05 11:00:33 [scrapy.extensions.logstats] INFO: Crawled 11 pages (at 11 pages/min), scraped 0 items (at 0 items/min)
+2017-08-05 11:00:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865413> (referer: http://www.segabg.com/index.php?iid=12527&sid=2)
+2017-08-05 11:00:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865418> (referer: http://www.segabg.com/index.php?iid=12527&sid=2)
+2017-08-05 11:00:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865423> (referer: http://www.segabg.com/index.php?iid=12527&sid=2)
+2017-08-05 11:00:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865428> (referer: http://www.segabg.com/index.php?iid=12527&sid=2)
+2017-08-05 11:01:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865415> (referer: http://www.segabg.com/index.php?iid=12527&sid=2)
+2017-08-05 11:01:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865419> (referer: http://www.segabg.com/index.php?iid=12527&sid=2)
+2017-08-05 11:01:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865408> (referer: http://www.segabg.com/index.php?iid=12527&sid=3)
+2017-08-05 11:01:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865406> (referer: http://www.segabg.com/index.php?iid=12527&sid=3)
+2017-08-05 11:01:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865391> (referer: http://www.segabg.com/index.php?iid=12527&sid=4)
+2017-08-05 11:01:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865377> (referer: http://www.segabg.com/index.php?iid=12527&sid=5)
+2017-08-05 11:01:33 [scrapy.extensions.logstats] INFO: Crawled 21 pages (at 10 pages/min), scraped 0 items (at 0 items/min)
+2017-08-05 11:01:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865363> (referer: http://www.segabg.com/index.php?iid=12527&sid=6)
+2017-08-05 11:01:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865330> (referer: http://www.segabg.com/index.php?iid=12527&sid=12)
+2017-08-05 11:01:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865331> (referer: http://www.segabg.com/index.php?iid=12527&sid=12)
+2017-08-05 11:01:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865333> (referer: http://www.segabg.com/index.php?iid=12527&sid=12)
+2017-08-05 11:02:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865335> (referer: http://www.segabg.com/index.php?iid=12527&sid=12)
+2017-08-05 11:02:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865338> (referer: http://www.segabg.com/index.php?iid=12527&sid=12)
+2017-08-05 11:02:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865339> (referer: http://www.segabg.com/index.php?iid=12527&sid=12)
+2017-08-05 11:02:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865340> (referer: http://www.segabg.com/index.php?iid=12527&sid=12)
+2017-08-05 11:02:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865341> (referer: http://www.segabg.com/index.php?iid=12527&sid=12)
+2017-08-05 11:02:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865344> (referer: http://www.segabg.com/index.php?iid=12527&sid=12)
+2017-08-05 11:02:33 [scrapy.extensions.logstats] INFO: Crawled 31 pages (at 10 pages/min), scraped 0 items (at 0 items/min)
+2017-08-05 11:02:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865345> (referer: http://www.segabg.com/index.php?iid=12527&sid=12)
+2017-08-05 11:02:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865347> (referer: http://www.segabg.com/index.php?iid=12527&sid=12)
+2017-08-05 11:02:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865349> (referer: http://www.segabg.com/index.php?iid=12527&sid=12)
+2017-08-05 11:02:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865350> (referer: http://www.segabg.com/index.php?iid=12527&sid=12)
+2017-08-05 11:03:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865351> (referer: http://www.segabg.com/index.php?iid=12527&sid=12)
+2017-08-05 11:03:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865353> (referer: http://www.segabg.com/index.php?iid=12527&sid=12)
+2017-08-05 11:03:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865355> (referer: http://www.segabg.com/index.php?iid=12527&sid=12)
+2017-08-05 11:03:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865365> (referer: http://www.segabg.com/index.php?iid=12527&sid=6)
+2017-08-05 11:03:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865367> (referer: http://www.segabg.com/index.php?iid=12527&sid=6)
+2017-08-05 11:03:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865379> (referer: http://www.segabg.com/index.php?iid=12527&sid=5)
+2017-08-05 11:03:33 [scrapy.extensions.logstats] INFO: Crawled 41 pages (at 10 pages/min), scraped 0 items (at 0 items/min)
+2017-08-05 11:03:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865383> (referer: http://www.segabg.com/index.php?iid=12527&sid=5)
+2017-08-05 11:03:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865388> (referer: http://www.segabg.com/index.php?iid=12527&sid=5)
+2017-08-05 11:03:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865392> (referer: http://www.segabg.com/index.php?iid=12527&sid=4)
+2017-08-05 11:03:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865401> (referer: http://www.segabg.com/index.php?iid=12527&sid=4)
+2017-08-05 11:04:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865393> (referer: http://www.segabg.com/index.php?iid=12527&sid=4)
+2017-08-05 11:04:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865403> (referer: http://www.segabg.com/index.php?iid=12527&sid=4)
+2017-08-05 11:04:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865395> (referer: http://www.segabg.com/index.php?iid=12527&sid=4)
+2017-08-05 11:04:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865405> (referer: http://www.segabg.com/index.php?iid=12527&sid=4)
+2017-08-05 11:04:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865399> (referer: http://www.segabg.com/index.php?iid=12527&sid=4)
+2017-08-05 11:04:33 [scrapy.extensions.logstats] INFO: Crawled 50 pages (at 9 pages/min), scraped 0 items (at 0 items/min)
+2017-08-05 11:04:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865407> (referer: http://www.segabg.com/index.php?iid=12527&sid=3)
+2017-08-05 11:04:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865409> (referer: http://www.segabg.com/index.php?iid=12527&sid=3)
+2017-08-05 11:04:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.segabg.com/article.php?id=865411> (referer: http://www.segabg.com/index.php?iid=12527&sid=3)
+2017-08-05 11:04:47 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-08-05 11:04:47 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 15116,
+ 'downloader/request_count': 53,
+ 'downloader/request_method_count/GET': 53,
+ 'downloader/response_bytes': 647870,
+ 'downloader/response_count': 53,
+ 'downloader/response_status_count/200': 53,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 8, 5, 9, 4, 47, 558000),
+ 'log_count/DEBUG': 54,
+ 'log_count/INFO': 12,
+ 'request_depth_max': 1,
+ 'response_received_count': 53,
+ 'scheduler/dequeued': 53,
+ 'scheduler/dequeued/memory': 53,
+ 'scheduler/enqueued': 53,
+ 'scheduler/enqueued/memory': 53,
+ 'start_time': datetime.datetime(2017, 8, 5, 8, 59, 33, 529000)}
+2017-08-05 11:04:47 [scrapy.core.engine] INFO: Spider closed (finished)
