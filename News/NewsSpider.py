@@ -6,9 +6,15 @@ import json
 import json_lines
 from scrapy.exceptions import CloseSpider
 from scrapy.spiders import Rule
-#from scrapy.linkextractors import Linkextractor
-
-# Python RunNewsSpider.py 
+from sys import exit, path
+import platform
+if platform.system() == 'Linux':
+	path.append('/home/peio/dev/AllSpiders/_LIBRARY/')
+elif platform.system() == 'Windows':
+	path.append('C:\STUDY_SPIDERS\_AllSpiders\_LIBRARY')
+else: 
+	print 'Unknown platform' 
+	exit() 
 
 'Prepare standart set of dates (Yesterday, Today, strToday)'
 yesterday = date.today() - timedelta(1)
@@ -22,13 +28,15 @@ class NewsSpider(scrapy.Spider):
 	name = "news"
 	start_urls = ['https://news.bg/yesterday']
 	custom_settings = {
-		'FEED_EXPORT_ENCODING': 'utf-8'
+		'FEED_EXPORT_ENCODING': 'utf-8',
+		'DOWNLOAD_DELAY':'5',
+		'COOKIES_ENABLED':'False',
 	}
 
 	def __init__(self):
 	
 		# "Empty output report file."
-		fileName="News/Reports/News-%s.json"%(Yesterday)
+		fileName="News/Reports/News-%s.json"%(yesterday.strftime("%Y-%m-%d"))
 		f = open(fileName, 'w').close()
 		
 		print '-'*10,'News v(1.0)','-'*10
@@ -60,7 +68,7 @@ class NewsSpider(scrapy.Spider):
 		pageDate = response.xpath('//div[@id="content-main"]/article[@class="article-inner"]/header/div[@class="article-info"]/p[@class="time"]/@content').extract_first()
 		pageDate=pageDate.split('T')
 		pageDate=pageDate[0].replace('-','.')
-		# print pageDate,Yesterday, pageDate==Yesterday
+		print pageDate,Yesterday, pageDate==Yesterday
 		if (pageDate == Yesterday):
 			# print 'saved'
 			yield {
