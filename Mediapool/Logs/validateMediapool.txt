@@ -1,3 +1,14 @@
-Check for Mediapool/Reports/Mediapool-2017-06-30.json
-41 records will be checked
-Check complete
+VALIDATIONS for Mediapool/Reports/Mediapool-2017-08-05.json
+
+Report Duplicates for (Mediapool/Reports/Mediapool-2017-08-05.json) 
+----------------------------------------------------------------------------------------
+Files                                                          All Recs  Dupl Recs
+----------------------------------------------------------------------------------------
+Mediapool/Reports/Mediapool-2017-08-05.json                           2          0
+
+--------------------Mediapool/Reports/Mediapool-2017-08-05.json--------------------
+
+----------------------------------------------------------------------------------
+Valid records: 2 of 2
+----------------------------------------------------------------------------------
+

@@ -1,22 +1,22 @@
 # -*- coding: utf-8 -*-
 import scrapy
-import logging
-import json
-from sys import exit, path
-# path.append('/home/peio/dev/Scrapy')
-path.append('C:\STUDY_PYTHON\Projects\LIBRARIES')
-from ScrapingHelpers import *
+import os
 from datetime import date, timedelta
 import platform
-import json_lines
-
+import sys
+from sys import exit, path
+from datetime import date, timedelta
 if platform.system() == 'Linux':
 	path.append('/home/peio/dev/AllSpiders/_LIBRARY/')
 elif platform.system() == 'Windows':
-	path.append('C:\STUDY_SPIDERS\Spiders\Library')
+	path.append('C:\STUDY_SPIDERS\_AllSpiders\_LIBRARY')
 else: 
 	print 'Unknown platform' 
 	exit() 
+from ScrapingHelpers import *
+import HelperTools
+
+
 	
 # scrapy runspider MediapoolSpider.py -o Reports/Mediapool-30-Apr-2017.json -t json>Logs/output.txt
 # runIt 2017-05-08
@@ -44,8 +44,8 @@ def read_ids(file):
 	
 class MediapoolSpider(scrapy.Spider):
     name = "mediapool"
-    # start_urls = ['http://quotes.toscrape.com']
-    allowed_domains = ['mediapool.bg', 'www.mediapool.bg']
+    #allowed_domains = ['mediapool.bg', 'www.mediapool.bg']
+    allowed_domains = ['mediapool.bg']
     custom_settings = {
 		'FEED_EXPORT_ENCODING': 'utf-8'
     }
@@ -76,16 +76,19 @@ class MediapoolSpider(scrapy.Spider):
 		pubDate=response.xpath('//div[@class="info wbig"]/text()').extract_first()
 			
 		#extract and prepare Article date
-		dateParts=pubDate.split()
-		if (dateParts[0]=='|'):
-			dateParts=dateParts[1:]
-		trMonth=translateMonth[dateParts[3]]
-		articleDate= ('%s-%s-%s' %(dateParts[2],trMonth,dateParts[4])).lower()
+		(day, month, year)=pubDate.split('|')[1].split()
+		month=HelperTools.bgMonthstoNumber(month)
+		pubDate='%s.%s.%s'%(year,month,day)
+		# dateParts=pubDate.split()
+		# if (dateParts[0]=='|'):
+			# dateParts=dateParts[1:]
+		# trMonth=translateMonth[dateParts[3]]
+		# articleDate= ('%s-%s-%s' %(dateParts[2],trMonth,dateParts[4])).lower()
 
-		todaysDate=date.today().strftime("%d-%B-%Y").lower()
+		todaysDate=date.today().strftime("%Y.%m.%d")
 		
 		# Filter on todays date
-		if (articleDate == todaysDate):
+		if (pubDate == todaysDate):
 			yield {
 				'url': url,
 				'title': title,
