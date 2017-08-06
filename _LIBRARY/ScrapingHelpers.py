@@ -103,3 +103,7 @@ def list_keywords(file, keywords):
 			if keyword in line['article']:
 				print line['url']
 
+def eho(m):
+	import os
+	print m
+	print os.getcwd()
