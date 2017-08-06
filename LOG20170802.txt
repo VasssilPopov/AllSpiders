@@ -1,0 +1,307 @@
+
+C:\STUDY_SPIDERS\_AllSpiders>Python RunAllSpiders.py
+Script Version:  0.1
+Today: 2017-08-02 --------------------
+---------- Blitz v(1.0) ----------
+url: https://www.blitz.bg/svyat selected: 15
+url: https://www.blitz.bg/obshtestvo selected: 15
+url: https://www.blitz.bg/ikonomika selected: 15
+url: https://www.blitz.bg/kriminalni selected: 15
+url: https://www.blitz.bg/intsidenti selected: 15
+url: https://www.blitz.bg/zdrave selected: 15
+url: https://www.blitz.bg/lyubopitno selected: 15
+url: https://www.blitz.bg/layfstayl selected: 15
+2017.??.02 2017.08.02 False
+url: https://www.blitz.bg/svyat?page=2 selected: 15
+2017.??.02 2017.08.02 False
+2017.??.02 2017.08.02 False
+2017.??.02 2017.08.02 False
+2017.??.02 2017.08.02 False
+2017.??.02 2017.08.02 False
+2017.??.02 2017.08.02 False
+url: https://www.blitz.bg/politika selected: 15
+2017.??.02 2017.08.02 False
+url: https://www.blitz.bg/obshtestvo?page=2 selected: 15
+url: https://www.blitz.bg/ikonomika?page=2 selected: 15
+url: https://www.blitz.bg/kriminalni?page=2 selected: 15
+url: https://www.blitz.bg/intsidenti?page=2 selected: 15
+url: https://www.blitz.bg/zdrave?page=2 selected: 15
+url: https://www.blitz.bg/lyubopitno?page=2 selected: 15
+url: https://www.blitz.bg/layfstayl?page=2 selected: 15
+2017.??.01 2017.08.02 False
+url: https://www.blitz.bg/svyat?page=3 selected: 15
+2017.??.02 2017.08.02 False
+2017.??.02 2017.08.02 False
+2017.??.02 2017.08.02 False
+2017.??.02 2017.08.02 False
+2017.??.02 2017.08.02 False
+2017.??.02 2017.08.02 False
+url: https://www.blitz.bg/politika?page=2 selected: 15
+2017.??.01 2017.08.02 False
+url: https://www.blitz.bg/obshtestvo?page=3 selected: 15
+url: https://www.blitz.bg/ikonomika?page=3 selected: 15
+url: https://www.blitz.bg/kriminalni?page=3 selected: 15
+url: https://www.blitz.bg/intsidenti?page=3 selected: 15
+url: https://www.blitz.bg/zdrave?page=3 selected: 15
+url: https://www.blitz.bg/lyubopitno?page=3 selected: 15
+url: https://www.blitz.bg/layfstayl?page=3 selected: 15
+2017.??.01 2017.08.02 False
+url: https://www.blitz.bg/svyat?page=4 selected: 15
+2017.??.01 2017.08.02 False
+2017.??.01 2017.08.02 False
+2017.??.01 2017.08.02 False
+2017.??.01 2017.08.02 False
+2017.??.01 2017.08.02 False
+2017.??.01 2017.08.02 False
+url: https://www.blitz.bg/politika?page=3 selected: 15
+2017.07.31 2017.08.02 False
+url: https://www.blitz.bg/obshtestvo?page=4 selected: 15
+url: https://www.blitz.bg/ikonomika?page=4 selected: 15
+url: https://www.blitz.bg/kriminalni?page=4 selected: 15
+url: https://www.blitz.bg/intsidenti?page=4 selected: 15
+url: https://www.blitz.bg/zdrave?page=4 selected: 15
+url: https://www.blitz.bg/lyubopitno?page=4 selected: 15
+url: https://www.blitz.bg/layfstayl?page=4 selected: 15
+2017.07.31 2017.08.02 False
+url: https://www.blitz.bg/svyat?page=5 selected: 15
+>1>  https://www.blitz.bg/svyat?page=6
+2017.??.01 2017.08.02 False
+2017.??.01 2017.08.02 False
+2017.??.01 2017.08.02 False
+2017.??.01 2017.08.02 False
+2017.??.01 2017.08.02 False
+2017.??.01 2017.08.02 False
+url: https://www.blitz.bg/politika?page=4 selected: 15
+2017.07.30 2017.08.02 False
+url: https://www.blitz.bg/obshtestvo?page=5 selected: 15
+>1>  https://www.blitz.bg/obshtestvo?page=6
+url: https://www.blitz.bg/ikonomika?page=5 selected: 15
+>1>  https://www.blitz.bg/ikonomika?page=6
+url: https://www.blitz.bg/kriminalni?page=5 selected: 15
+>1>  https://www.blitz.bg/kriminalni?page=6
+url: https://www.blitz.bg/intsidenti?page=5 selected: 15
+>1>  https://www.blitz.bg/intsidenti?page=6
+url: https://www.blitz.bg/zdrave?page=5 selected: 15
+>1>  https://www.blitz.bg/zdrave?page=6
+url: https://www.blitz.bg/lyubopitno?page=5 selected: 15
+>1>  https://www.blitz.bg/lyubopitno?page=6
+url: https://www.blitz.bg/layfstayl?page=5 selected: 15
+>1>  https://www.blitz.bg/layfstayl?page=6
+2017.07.31 2017.08.02 False
+---------- Trud v(1.0) ----------
+seen: 0
+2017.08.02 2017.08.02 True
+2017.08.01 2017.08.02 False
+2017.08.01 2017.08.02 False
+2017.08.01 2017.08.02 False
+2017.08.01 2017.08.02 False
+2017.08.01 2017.08.02 False
+2017.08.01 2017.08.02 False
+2017.08.01 2017.08.02 False
+2017.08.01 2017.08.02 False
+2017.08.01 2017.08.02 False
+2017.08.01 2017.08.02 False
+2017.08.01 2017.08.02 False
+2017.08.01 2017.08.02 False
+2017.08.01 2017.08.02 False
+2017.08.01 2017.08.02 False
+2017.08.01 2017.08.02 False
+2017.08.01 2017.08.02 False
+2017.08.01 2017.08.02 False
+2017.08.01 2017.08.02 False
+2017.08.01 2017.08.02 False
+---------- Duma v(1.0) ----------
+seen: 0
+url: http://duma.bg/taxonomy/term/1 selected: 13
+http://duma.bg/taxonomy/term/1?page=1
+2017.08.02 2017.08.02 True http://duma.bg/node/150215
+url: http://duma.bg/taxonomy/term/1?page=1 selected: 13
+http://duma.bg/taxonomy/term/1?page=2
+2017.08.02 2017.08.02 True http://duma.bg/node/150201
+2017.08.02 2017.08.02 True http://duma.bg/node/150202
+2017.08.02 2017.08.02 True http://duma.bg/node/150203
+2017.08.02 2017.08.02 True http://duma.bg/node/150204
+2017.08.02 2017.08.02 True http://duma.bg/node/150205
+2017.08.02 2017.08.02 True http://duma.bg/node/150206
+2017.08.02 2017.08.02 True http://duma.bg/node/150207
+2017.08.02 2017.08.02 True http://duma.bg/node/150208
+2017.08.02 2017.08.02 True http://duma.bg/node/150211
+2017.08.02 2017.08.02 True http://duma.bg/node/150212
+2017.08.02 2017.08.02 True http://duma.bg/node/150213
+2017.08.02 2017.08.02 True http://duma.bg/node/150200
+url: http://duma.bg/taxonomy/term/1?page=2 selected: 13
+http://duma.bg/taxonomy/term/1?page=3
+2017.08.01 2017.08.02 False http://duma.bg/node/150148
+2017.08.01 2017.08.02 False http://duma.bg/node/150149
+2017.08.01 2017.08.02 False http://duma.bg/node/150150
+2017.08.01 2017.08.02 False http://duma.bg/node/150151
+2017.08.01 2017.08.02 False http://duma.bg/node/150152
+2017.08.01 2017.08.02 False http://duma.bg/node/150153
+2017.08.01 2017.08.02 False http://duma.bg/node/150154
+2017.08.01 2017.08.02 False http://duma.bg/node/150155
+2017.08.02 2017.08.02 True http://duma.bg/node/150197
+2017.08.02 2017.08.02 True http://duma.bg/node/150198
+2017.08.02 2017.08.02 True http://duma.bg/node/150199
+url: http://duma.bg/taxonomy/term/1?page=3 selected: 13
+http://duma.bg/taxonomy/term/1?page=4
+2017.07.31 2017.08.02 False http://duma.bg/node/150074
+2017.07.31 2017.08.02 False http://duma.bg/node/150075
+2017.07.31 2017.08.02 False http://duma.bg/node/150076
+2017.07.31 2017.08.02 False http://duma.bg/node/150077
+2017.08.01 2017.08.02 False http://duma.bg/node/150140
+---------- Mediapool v(1.0) ----------
+url: http://www.mediapool.bg/today.html selected: 51
+---------- ClubZ v(1.0) ----------
+url: http://clubz.bg/news selected: 24
+2017.08.02 2017.08.02 True http://clubz.bg/56841-polsha_iska_reparacii_ot_germaniq_za_vtorata_svetovna_vojna
+Mark-1
+2017.08.01 2017.08.02 False http://clubz.bg/56832-trima_banditi_ubiti_pri_strelba_v_moskovski_syd
+Mark-1
+2017.08.01 2017.08.02 False http://clubz.bg/56829-v_izrael_grant_podpisva_s_levski_v_chetvyrtyk_v_sofiq_delio_rosi_pristigna
+Mark-1
+2017.08.01 2017.08.02 False http://clubz.bg/56834-nejmar_podpisva_s_psj_na_7_avgust_stava_naj_skypiqt_v_sveta
+Mark-1
+2017.08.01 2017.08.02 False http://clubz.bg/56827-bylgariq_i_makedoniq_sa_vdyhnovenie_za_celiq_region
+Mark-1
+2017.08.01 2017.08.02 False http://clubz.bg/56826-kak_kandidatstvame_za_evropejska_agenciq
+Mark-1
+2017.08.01 2017.08.02 False http://clubz.bg/56835-shramajer_trqbva_da_sprat_vyzpaleniqta_mejdu_sofiq_i_skopie
+Mark-1
+2017.08.01 2017.08.02 False http://clubz.bg/56816-haknaha_kompyutrite_na_hbo_iztekoha_li_epizodi_na_igra_na_tronove
+Mark-1
+2017.08.01 2017.08.02 False http://clubz.bg/56828-todor_stoqnov_cigularqt_ot_podleza_na_rektorata_video
+Mark-1
+2017.08.02 2017.08.02 True http://clubz.bg/56836-shtqhte_da_usetite_ako_putin_be_reshil_da_se_bori_po_qrostno_sys_sasht
+Mark-1
+2017.08.02 2017.08.02 True http://clubz.bg/56838-noviqt_shef_na_fbr_rej_kristofyr_rej
+Mark-1
+2017.08.01 2017.08.02 False http://clubz.bg/56821-one_dance_week%C2%A0pokazva_edin_ot_naj_obsyjdanite_spektakli_na_godinata
+Mark-1
+2017.08.02 2017.08.02 True http://clubz.bg/56837-serialyt_na_bnt_%E2%80%9Echetvyrta_vlast%E2%80%9C_v_germanska_tv_poredica
+Mark-1
+2017.08.02 2017.08.02 True http://clubz.bg/56831-zashto_tazi_data_obedinqva_bylgariq_i_makedoniq
+Mark-1
+2017.08.01 2017.08.02 False http://clubz.bg/56807-conko_pred_pametnik_na_dio_kmeticata_na_kavarna_s_bajrqka_na_buzludja
+Mark-1
+2017.08.02 2017.08.02 True http://clubz.bg/56830-naj_golemiqt_kurort_v_sveta_idva_v_sauditska_arabiq_video
+Mark-1
+2017.08.02 2017.08.02 True http://clubz.bg/56833-koe_dnes_v_rusiq_ne_e_rusofobiq
+Mark-1
+2017.08.01 2017.08.02 False http://clubz.bg/56819-vasko_vasilev_sviri_v_podleza_na_rektorata
+Mark-1
+2017.08.02 2017.08.02 True http://clubz.bg/56839-pred_groba_na_goce_delchev_podadohme_ryce_i_ima_otgovor_snimkivideo
+Mark-1
+2017.08.01 2017.08.02 False http://clubz.bg/56822-ruskata_leka_atletika_ostava_v_izolaciq
+Mark-1
+2017.08.01 2017.08.02 False http://clubz.bg/56820-medijnata_grupa_mama_i_gamen_zatvarq_kryga
+Mark-1
+2017.08.01 2017.08.02 False http://clubz.bg/56824-opashki_po_letishtata_zaradi_zategnat_kontrol
+Mark-1
+2017.08.01 2017.08.02 False http://clubz.bg/56823-lekari_se_razhojdali_v_chujbina_i_ucheli_ezik_s_pari_za_lechenie_na_deca
+Mark-1
+2017.08.01 2017.08.02 False http://clubz.bg/56825-razsledvat_british_amerikan_tabako_za_korupciq
+Mark-1
+Yesterday: 2017-08-01 --------------------
+---------- Dnevnik v(1.0) ----------
+url: http://www.dnevnik.bg/allnews/yesterday/ selected: 97
+---------- Focus v(1.0) ----------
+url: http://www.focus-news.net/news/Yesterday/ selected:
+347
+---------- News v(1.0) ----------
+url: https://news.bg/yesterday selected: 21
+url: https://news.bg/yesterday?page=2 selected: 21
+url: https://news.bg/yesterday?page=3 selected: 21
+url: https://news.bg/yesterday?page=4 selected: 5
+---------- OffNews v(1.0) ----------
+>> new page url: https://offnews.bg/2017-08-01/ selected: 20
+ 1 url:https://offnews.bg/futbol/v-ludogoretc-se-nadahvat-s-machovete-sreshtu-tcarvena-zvezda-predi-apo-661858.html
+ 2 url:https://offnews.bg/futbol/prilozhenie-za-zapoznanstva-stava-sponsor-na-manchestar-iunajted-661868.html
+ 3 url:https://offnews.bg/obshtestvo/uranat-vav-vodata-oshte-e-problem-za-haskovo-661865.html
+ 4 url:https://offnews.bg/futbol/italianetcat-delio-rosi-pristigna-za-pregovori-s-levski-661860.html
+ 5 url:https://offnews.bg/izvan-terena/dejvid-bekam-razgnevi-fenovete-na-igra-na-tronove-661862.html
+ 6 url:https://offnews.bg/politika/kakvo-drugo-osven-priatelstvo-dogovorihme-s-makedonia-snimki-661861.html
+>> new page url: https://offnews.bg/2017-08-01/?page_which=20 selected: 20
+ 7 url:https://offnews.bg/kultura/desetoto-iubilejno-izdanie-na-one-dance-week-startira-na-23-septemvri-661848.html
+ 8 url:https://offnews.bg/futbol/delio-rosi-e-shtastliv-ot-pokanata-da-poeme-levski-661869.html
+ 9 url:https://offnews.bg/analizi-i-komentari/blagosloviata-na-monasite-ot-bigorskia-manastir-za-dogovora-mezhdu-bal-661864.html
+ 10 url:https://offnews.bg/analizi-i-komentari/zashto-dogovorat-s-makedonia-e-istoricheski-661852.html
+ 11 url:https://offnews.bg/112/dve-katastrofi-v-sofia-samo-za-chas-661859.html
+ 12 url:https://offnews.bg/futbol/v-rusia-se-zaemat-s-pianite-fenove-po-vreme-na-mondial-2018-661866.html
+ 13 url:https://offnews.bg/112/darvo-padna-i-schupi-kraka-na-zhena-na-bul-al-dondukov-661850.html
+ 14 url:https://offnews.bg/drugi/balgarin-shte-atakuva-kvota-za-mladezhkata-olimpiada-2018-i-za-olimpia-661851.html
+ 15 url:https://offnews.bg/izvan-terena/naj-krasivata-uchitelka-i-volejbolistat-skrimov-stavat-roditeli-okolo-661854.html
+ 16 url:https://offnews.bg/obshtestvo/sindikat-vsichki-uchilishta-sa-s-iuzhno-izlozhenie-zatova-ne-mozhe-d-661849.html
+ 17 url:https://offnews.bg/112/zapalen-kamion-spria-dvizhenieto-po-magistrala-struma-661856.html
+>> new page url: https://offnews.bg/2017-08-01/?page_which=40 selected: 20
+ 18 url:https://offnews.bg/112/tezhka-katastrofa-na-patia-albena-varna-traktorist-zagina-na-miasto-661855.html
+ 19 url:https://offnews.bg/futbol/uefa-zatvori-stadiona-na-partizan-zaradi-ratko-mladich-i-shiptari-661838.html
+ 20 url:https://offnews.bg/turizam/mazutat-ot-plazhovete-kraj-nesebar-e-izchisten-661853.html
+ 21 url:https://offnews.bg/ikonomika/zarazeni-s-virus-balgarski-malini-hvanati-vav-frantcia-661823.html
+ 22 url:https://offnews.bg/obshtestvo/evropejskata-ni-stolitca-na-kulturata-v-ostavka-661743.html
+ 23 url:https://offnews.bg/vodni/svetovna-shampionka-po-pluvane-obiavi-che-e-neizlechimo-bolna-661827.html
+ 24 url:https://offnews.bg/volejbol/sinat-na-arzhentinska-volejbolna-legenda-se-udavi-v-harvatia-661831.html
+ 25 url:https://offnews.bg/sviat/rekord-blizo-19-miliona-imigranti-zhiveiat-v-germania-661826.html
+ 26 url:https://offnews.bg/sport/evropejskata-kupa-po-sportno-katerene-gostuva-v-balgaria-661832.html
+ 27 url:https://offnews.bg/kultura/muzikalniat-frankenshtajn-igorrr-s-kontcert-v-sofia-video-661830.html
+ 28 url:https://offnews.bg/knigi/ted-kochev-pristiga-v-balgaria-za-da-predstavi-avtobiografichnata-si-661828.html
+ 29 url:https://offnews.bg/obshtestvo/3-g-zatvor-groziat-majkata-izostavila-bebeto-si-v-gradinka-v-mlados-661839.html
+ 30 url:https://offnews.bg/112/boing-katcna-avarijno-na-letishte-burgas-obnovena-661834.html
+ 31 url:https://offnews.bg/tenis/machovete-na-grigor-dimitrov-ot-vashington-priako-v-rodnia-efir-661835.html
+ 32 url:https://offnews.bg/temida/chetirima-ot-fonda-za-lechenie-na-detca-na-sad-661829.html
+>> new page url: https://offnews.bg/2017-08-01/?page_which=60 selected: 16
+ 33 url:https://offnews.bg/izvan-terena/saprugata-se-obiasni-v-liubov-na-gibi-iskrenov-za-chrd-661804.html
+ 34 url:https://offnews.bg/futbol/avraam-grant-e-skapa-no-maj-izlishna-igrachka-za-spas-rusev-661794.html
+ 35 url:https://offnews.bg/sviat/5-3-po-rihter-na-ostrov-krit-661802.html
+ 36 url:https://offnews.bg/lajfstajl/spasitelna-aktcia-mesti-500-slona-v-rezervat-v-afrika-video-661744.html
+ 37 url:https://offnews.bg/politika/borisov-bezrabotitca-u-nas-realno-niama-661809.html
+ 38 url:https://offnews.bg/drugi/bajern-livarpul-v-efira-dnes-661806.html
+ 39 url:https://offnews.bg/politika/podpisahme-dogovora-s-makedonia-skopie-ne-e-vizhdalo-tolkova-mnogo-zh-661837.html
+ 40 url:https://offnews.bg/obshtestvo/uchilishtnite-sajtove-shte-informirat-kolko-prodalzhavat-chasovete-i-m-661803.html
+ 41 url:https://offnews.bg/112/taksi-i-bus-se-udariha-na-tcarigradsko-dvama-postradali-661811.html
+ 42 url:https://offnews.bg/politika/26-npo-iskat-veto-varhu-zakona-za-okolnata-sreda-661812.html
+ 43 url:https://offnews.bg/politika/premierat-saglasen-da-dade-borbata-s-koruptciata-661815.html
+ 44 url:https://offnews.bg/knigi/ekstremni-rekordi-za-gledane-i-za-chetene-661821.html
+ 45 url:https://offnews.bg/izvan-terena/hit-na-denia-manchestar-siti-harchi-za-otbrana-poveche-ot-makedonia-661816.html
+ 46 url:https://offnews.bg/obshtestvo/ot-dnes-tcial-ruse-ostava-bez-topla-voda-za-mesetc-661764.html
+ 47 url:https://offnews.bg/drugi/naj-velikoto-duo-v-istoriata-na-basketbola-se-sabra-sled-19-godini-vi-661814.html
+ 48 url:https://offnews.bg/temida/prokuraturata-obshtinski-taksi-izvan-zakona-v-147-naredbi-661817.html
+ 49 url:https://offnews.bg/obshtestvo/zhega-36-gradusa-na-sianka-po-moreto-29-661766.html
+ 50 url:https://offnews.bg/futbol/ludogoretc-dade-nomer-44-na-polskia-pitbul-661813.html
+ 51 url:https://offnews.bg/obshtestvo/bez-voda-v-chast-ot-pet-stolichni-kvartala-661783.html
+ 52 url:https://offnews.bg/obshtestvo/bogorodichnite-posti-zapochvat-na-zetiovden-zdravko-cherpi-661785.html
+ 53 url:https://offnews.bg/obshtestvo/mnogo-slantce-prez-avgust-i-temperaturi-ot-10-do-40-gradusa-661787.html
+ 54 url:https://offnews.bg/politika/borisov-i-zaev-podpisvat-dogovora-za-dobrosasedstvo-661786.html
+ 55 url:https://offnews.bg/zdrave/kampania-za-vtoro-mnenie-sled-travma-startira-v-pirogov-661791.html
+ 56 url:https://offnews.bg/horoskop/horoskop-za-avgust-658765.html
+ 57 url:https://offnews.bg/sviat/zaloviha-sluzhiteli-na-letishte-v-rim-da-kradat-ot-bagazha-na-patnitci-661788.html
+ 58 url:https://offnews.bg/obshtestvo/kojto-iska-da-kape-slon-v-stolichnia-zoopark-prez-avgust-661792.html
+ 59 url:https://offnews.bg/izvan-terena/dashteriata-na-kafelnikov-mu-tegli-dve-sochni-661790.html
+ 60 url:https://offnews.bg/112/postradaliat-v-pirin-s-tri-schupeni-rebra-niama-opasnost-za-zhivota-m-661796.html
+ 61 url:https://offnews.bg/obshtestvo/nasarchavane-na-karmeneto-na-obshtestveni-mesta-zapochva-i-u-nas-661795.html
+ 62 url:https://offnews.bg/sviat/tramp-uvolni-pressekretaria-si-zasenchval-go-661797.html
+ 63 url:https://offnews.bg/futbol/andrej-galabinov-vkara-4-gola-za-dzhenoa-661793.html
+ 64 url:https://offnews.bg/politika/ninova-niama-da-komentiram-razgoleni-mazhe-borisov-ne-mozhe-da-pones-661799.html
+ 65 url:https://offnews.bg/zdrave/lekari-premahnaha-nedorazvit-brat-bliznak-ot-korema-na-bebe-661819.html
+ 66 url:https://offnews.bg/temida/14-godishen-hvarli-nad-50-hil-leva-na-telefonni-izmnanitci-lagali-go-661825.html
+ 67 url:https://offnews.bg/112/dva-tezhki-poboia-v-tarnovo-samo-za-24-chasa-661843.html
+ 68 url:https://offnews.bg/kultura/unikalen-spektakal-ot-zvuk-i-svetlina-sabra-30-hil-dushi-v-stara-zago-661836.html
+ 69 url:https://offnews.bg/112/ekshan-metali-letiat-kam-politcai-ot-karutci-6-arestuvani-661824.html
+ 70 url:https://offnews.bg/medii/spisakat-na-garelov-koj-ne-go-podkrepia-za-bnt-i-zashto-661820.html
+ 71 url:https://offnews.bg/interviu/hristo-ivanov-pred-offnews-tcelta-ni-e-obsht-prodemokratichen-front-661833.html
+ 72 url:https://offnews.bg/futbol/v-izrael-grant-i-levski-se-razbraha-za-800-000-evro-na-sezon-661844.html
+ 73 url:https://offnews.bg/tenis/bivshiat-na-serina-se-zaiade-posreshtat-sharapova-vse-edno-e-rodila-661845.html
+ 74 url:https://offnews.bg/politika/trima-ot-administratciata-na-parlamenta-svarzani-s-darzhavna-sigurnost-661840.html
+ 75 url:https://offnews.bg/sviat/trima-ubiti-sled-strelba-v-moskovskia-oblasten-sad-661847.html
+---------- PIK v(1.0) ----------
+url: http://pik.bg/novini-za-01-08-2017.html selected: 30
+url: http://pik.bg/novini-za-01-08-2017.html?page=2 selected: 30
+url: http://pik.bg/novini-za-01-08-2017.html?page=3 selected: 30
+url: http://pik.bg/novini-za-01-08-2017.html?page=4 selected: 30
+url: http://pik.bg/novini-za-01-08-2017.html?page=5 selected: 30
+url: http://pik.bg/novini-za-01-08-2017.html?page=6 selected: 30
+url: http://pik.bg/novini-za-01-08-2017.html?page=7 selected: 30
+url: http://pik.bg/novini-za-01-08-2017.html?page=8 selected: 30
+url: http://pik.bg/novini-za-01-08-2017.html?page=9 selected: 30
+url: http://pik.bg/novini-za-01-08-2017.html?page=10 selected: 30
+url: http://pik.bg/novini-za-01-08-2017.html?page=11 selected: 30
+url: http://pik.bg/novini-za-01-08-2017.html?page=12 selected: 30

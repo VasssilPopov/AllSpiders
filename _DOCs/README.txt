@@ -12,7 +12,8 @@ It contains the following subfolders:
 				It will serve to be include into report's name
 				for eachone running spider (Blitz-2017-05-01.json)
 
-	Blitz			- information about specific spider. The same set will be 				  repeated for each spider
+	Blitz			- information about specific spider. The same set will be
+ 				  repeated for each spider
 
 		BlitzSpider.py	- spider program
 		Cleaning.py	- specific to Blitz data verification program

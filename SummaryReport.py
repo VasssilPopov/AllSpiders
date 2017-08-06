@@ -51,7 +51,8 @@ recs=[{'Source':'Blitz','Date':Today,'Records':0},
     {'Source':'Focus','Date':Yesterday,'Records':0},
     {'Source':'News','Date':Yesterday,'Records':0},
     {'Source':'OffNews','Date':Yesterday,'Records':0},
-    {'Source':'PIK','Date':Yesterday,'Records':0}
+    {'Source':'PIK','Date':Yesterday,'Records':0},
+    {'Source':'SegaBG','Date':Yesterday,'Records':0}
      ]
 
 line= '-'*36
