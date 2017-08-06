@@ -16,14 +16,16 @@ else:
 from ScrapingHelpers import *
 
 yesterday = date.today() - timedelta(1)
-Yesterday = yesterday.strftime("%Y-%m-%d")
+Yesterday = yesterday.strftime("%Y.%m.%d")
 
 
 class FocusSpider(scrapy.Spider):
 	name = "focus"
 	start_urls = ['http://www.focus-news.net/news/Yesterday/']
 	custom_settings = {
-		'FEED_EXPORT_ENCODING': 'utf-8'
+		'FEED_EXPORT_ENCODING': 'utf-8',
+		'DOWNLOAD_DELAY':'5',
+		'COOKIES_ENABLED':'False',
 	}
 
 
@@ -32,11 +34,11 @@ class FocusSpider(scrapy.Spider):
 		# cwd = os.getcwd()
 		# print 'Yesterday information will be collected. Date: %s'%(Yesterday)
 
-		self.json_datafile = 'Focus/Reports/Focus-'+Yesterday+'.json'
+		self.json_datafile = 'Focus/Reports/Focus-'+yesterday.strftime("%Y-%m-%d")+'.json'
 		self.links_seen = self.get_ids(self.json_datafile)
 		self.links_seen = set (map( lambda str: str[31:49], self.links_seen))	
 		# "Empty output file"
-		fileName="Focus/Reports/Focus-%s.json"%(Yesterday)
+		fileName="Focus/Reports/Focus-%s.json"%(yesterday.strftime("%Y-%m-%d"))
 		f = open(fileName, 'w').close()
 		print '-'*10,'Focus v(1.0)','-'*10
 
@@ -68,13 +70,13 @@ class FocusSpider(scrapy.Spider):
 			title = response.xpath('//div[@class="inside-top-title"]/h1/text()').extract_first().strip()
 			article = u''.join(response.xpath('//div[@class="print-content font-resize-content"]/div[@class="inside-body-content jstf"]/text() | //div[@class="print-content font-resize-content"]/div[@class="inside-body-content jstf"]/b/text()').extract()).strip()
 
-			pubDate=yesterday
+			# pubDate=Yesterday
 			
 			yield {
 				'url': url,
 				'title': title,
 				'text': article,
-				'date': pubDate
+				'date': Yesterday
 				}	
 
 		except:

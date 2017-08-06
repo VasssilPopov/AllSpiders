@@ -1,3 +1,14 @@
-Check for empty column values in Focus/Reports/Focus-2017-06-30.json
-419 records will be checked
-Check complete
+VALIDATIONS for Focus/Reports/Focus-2017-08-04.json
+
+Report Duplicates for (Focus/Reports/Focus-2017-08-04.json) 
+----------------------------------------------------------------------------------------
+Files                                                          All Recs  Dupl Recs
+----------------------------------------------------------------------------------------
+Focus/Reports/Focus-2017-08-04.json                                 244          0
+
+--------------------Focus/Reports/Focus-2017-08-04.json--------------------
+
+----------------------------------------------------------------------------------
+Valid records: 244 of 244
+----------------------------------------------------------------------------------
+

@@ -24,3 +24,5 @@ article = u''.join(response.xpath('//div[@class="print-content font-resize-conte
 
 pubDate = yesterday <-- (date.today() - timedelta(1))
 
+yesterday = date.today() - timedelta(1)
+Yesterday = yesterday.strftime("%Y.%m.%d")
