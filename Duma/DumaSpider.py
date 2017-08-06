@@ -58,7 +58,7 @@ def convertDate(aDate):
     aDate=aDate.replace('.','')
     dateParts=aDate.split()
     dateParts[1]=str(bgMonthstoNumber(dateParts[1]))
-    aDate='%s.%s.%s'%(dateParts[2],dateParts[1],dateParts[0])
+    aDate='%s.%s.%s'%(dateParts[2],dateParts[1],(u'00'+dateParts[0])[-2:])
     return aDate
     
 	
@@ -67,12 +67,17 @@ class DumaSpider(scrapy.Spider):
 	# allowed_domains = ['http://Duma.bg']
 	start_urls = [
 		"http://duma.bg/taxonomy/term/1",
-		"http://duma.bg/taxonomy/term/2",
-		"http://duma.bg/taxonomy/term/3/1",
-		"http://duma.bg/taxonomy/term/4",
+		# "http://duma.bg/taxonomy/term/2",
+		# "http://duma.bg/taxonomy/term/3/1",
+		# "http://duma.bg/taxonomy/term/4/1",
+		# "http://duma.bg/taxonomy/term/5/1",
+		# "http://duma.bg/taxonomy/term/6/1",
 	]
 	custom_settings = {
-		'FEED_EXPORT_ENCODING': 'utf-8'
+		'FEED_EXPORT_ENCODING': 'utf-8',
+		'CONCURRENT_REQUESTS_PER_DOMAIN':'1',
+		'DOWNLOAD_DELAY':'5',
+		'COOKIES_ENABLED':'False'
 	}
 	
 	def __init__(self):
@@ -114,7 +119,7 @@ class DumaSpider(scrapy.Spider):
 		pubDate=convertDate(pubDate)
 		# print 'artDate: %s url= %s ' %(articleDate, url)
 		# Filter on todays date
-		# print pubDate, strToday, (pubDate == strToday)
+		print pubDate, strToday, (pubDate == strToday), url
 		if (pubDate == strToday):
 			yield {
 				'url': url,

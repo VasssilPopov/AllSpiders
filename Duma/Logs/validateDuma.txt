@@ -1,4 +1,14 @@
-Input file Duma/Reports/Duma-2017-07-02.json
-Can't determine the format of % Duma/Reports/Duma-2017-07-02.json
-0 records will be checked
-Check complete
+VALIDATIONS for Duma/Reports/Duma-2017-08-05.json
+
+Report Duplicates for (Duma/Reports/Duma-2017-08-05.json) 
+----------------------------------------------------------------------------------------
+Files                                                          All Recs  Dupl Recs
+----------------------------------------------------------------------------------------
+Duma/Reports/Duma-2017-08-05.json                                     0          0
+
+--------------------Duma/Reports/Duma-2017-08-05.json--------------------
+
+----------------------------------------------------------------------------------
+Valid records: 0 of 0
+----------------------------------------------------------------------------------
+
