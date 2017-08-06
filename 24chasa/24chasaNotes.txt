@@ -7,7 +7,15 @@ urls = response.xpath('//div[@class="entry-short"]/a/@href | //div[@class="entry
 ------------------------------------------------
 (28)
 
-------------------------------------------------next_page_url=response.xpath('//div[@id="page-left-content"]/div[@class="widget-left widget-entries"]/div[@class="widget-content"]/div[@class="pagination"]/a/@href').extract()
+------------------------------------------------
+next_page_url=response.xpath('//div[@id="page-left-content"]/div[@class="widget-left widget-entries"]/div[@class="widget-content"]/div[@class="pagination"]/a/@href').extract()
+
+<new>-----
+next_page_url=response.xpath('//div[@id="page-left-content"]/div[@class="widget-left widget-entries "]/div[@class="widget-content"]/div[@class="pagination"]/a[last()]/@href').extract_first()
+
+/novini/0/2/28
+<new>-----
+
 ------------------------------------------------
 u'/novini/370/2/28'
 
@@ -21,8 +29,8 @@ title=response.xpath('//div[@id="page-left-content"]/div[@class="article"]/div[@
 Кофискуваха над 1200 автомобилни части с лого на защитени марки в Пловдив
 
 ------------------------------------------------
-text=response.xpath('//div[@id="text"]/span/p/text()').extract()
-article = u''.join(text)
+text=response.xpath('//div[@id="text"]/span/p/text()| //div[@id="text"]/span/p/strong/text()').extract()
+article = u' '.join(text)
 ------------------------------------------------
 Над 1200 автомобилни части и аксесоари, с лого на защитени търговски марки са конфискували служители на "Икономическа полиция" в Пловдив от три склада на ул. "Кукленско шосе", стопанисвани от пловдивско търговско дружество. Това съобщиха от ОДМВР-Пловдив, цитирани от "Фокус".Акцията е проведена във връзка с водено досъдебно производство под наблюдението на Районната прокуратура. Извършени са множество процесуални и следствени действия. В складовете разследващите открили да се съхраняват множество декоративни решетки, ауспуси, емблеми и други аксесоари с логото на четири германски автомобилни производители, без необходимото разрешение на правопритежателя.Работата по пълното документиране на случая продължава.
 
@@ -30,4 +38,15 @@ article = u''.join(text)
 date=response.xpath('//div[@id="page-left-content"]/div[@class="article"]/div[@class="head"]/span[@class="article-date"]/span/text()').extract_first()
 ------------------------------------------------
 28.06.2017 14:25
+
+------------------------------------------------
+
+Date formating 
+
+date='28.06.2017 14:25'
+(day, month, year)=date.split(' ')[0].split('.')
+pubDate='%s.%s.%s' % (year, month, day)
+print pubDate
+2017.06.28
+------------------------------------------------
 
