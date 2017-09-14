@@ -1,0 +1,201 @@
+﻿
+In [42]: links=response.xpath('//div[@id="main"]/div[@c
+    ...: /div[@class="post clearfix"]/div[@class="conte
+    ...: rticleTitleHeader"]/a/@href').extract()
+    ...:
+
+In [43]: for link in links:
+    ...:     print link
+    ...:
+http://www.monitor.bg/a/view/86474-250-000-годишно-мина
+н-и-Царевец/
+http://www.monitor.bg/a/view/4456-Бизнесът-скочи-на-КЕВ
+в-полза-на-Сашо-Дончев/
+http://www.monitor.bg/a/view/37960-Борисов-пристигна-в-
+http://www.monitor.bg/a/view/31778-Закопчаха-двама-инсп
+а-по-храните-с-подкуп-от-ресторантьор/
+http://www.monitor.bg/a/view/73268-Всяко-трето-българск
+-един-човек/
+http://www.monitor.bg/a/view/77877-Сеем-1000-дка-с-лега
+о/
+http://www.monitor.bg/a/view/14814-Пенсионер-се-самозап
+харакири/
+http://www.monitor.bg/a/view/87616-Каракачанов-Армията-
+нето-на-обществения-ред/
+http://www.monitor.bg/a/view/51405-Велинград-иска-прера
+сионния-договор-за-мината-с-волфрам/
+http://www.monitor.bg/a/view/7238-Отиде-си-журналисткат
+http://www.monitor.bg/a/view/1616-Министър-Боил-Банов-з
+ия-сезон-на-Перперикон/
+http://www.monitor.bg/a/view/47287-Искаме-фалит-на-шефа
+2-заплати/
+http://www.monitor.bg/a/view/55577-Разкриха-три-базилик
+тилище/
+http://www.monitor.bg/a/view/17565-Солени-глоби-за-прев
+рбия/
+http://www.monitor.bg/a/view/66649-Сложиха-зъб-на-човек
+-години-в-бронирана-витрина/
+http://www.monitor.bg/a/view/25350-Българите-на-дъното-
+елство/
+http://www.monitor.bg/a/view/36613-155-първолаци-изчезн
+http://www.monitor.bg/a/view/85515-Паметникът-на-Съедин
+-люляк/
+http://www.monitor.bg/a/view/68708-Очаква-ни-топла-и-су
+http://www.monitor.bg/a/view/71244-БГ-кашкавалът-поевти
+http://www.monitor.bg/a/view/16213-Маратон-променя-движ
+е/
+http://www.monitor.bg/a/view/65909-До-26-градуса-днес/
+http://www.monitor.bg/a/view/62429-Борисов-вечеря-с-Цип
+http://www.monitor.bg/a/view/27189-Бюрата-по-труда-пром
+пред-шефовете/
+http://www.monitor.bg/a/view/80385-Антоанета-и-Цветан-В
+ам-от-извършеното/
+http://www.monitor.bg/a/view/9621-Евроагенция-по-петите
+арти-при-храните/
+http://www.monitor.bg/a/view/33677-Набират-доброволци-з
+о-на-ЕС-до-10-октомври/
+http://www.monitor.bg/a/view/20939-Главчев-Създаваме-Съ
+ство-към-НС/
+http://www.monitor.bg/a/view/44783-Цветанов-Държавата-щ
+ения-интерес-за-мината-за-добив-на-волфрам/
+http://www.monitor.bg/a/view/18149-Вицепремиерът-Валери
+бряг-АД-трябва-да-се-ликвидира/
+
+In [44]: pubDates=response.xpath('//div[@id="main"]/div
+    ...: d"]/div[@class="post clearfix"]/div[@class="me
+    ...: "pull-left"]/text()').extract()
+
+In [45]: for pubDate in pubDates:
+    ...:     print pubDate
+    ...:
+От
+ - вторник, 05-09-2017 - 19:21
+От
+ - вторник, 05-09-2017 - 19:01
+От
+ - вторник, 05-09-2017 - 17:43
+От
+ - вторник, 05-09-2017 - 17:42
+От
+ - вторник, 05-09-2017 - 17:33
+От
+ - вторник, 05-09-2017 - 17:14
+От
+ - вторник, 05-09-2017 - 16:58
+От
+ - вторник, 05-09-2017 - 15:11
+От
+ - вторник, 05-09-2017 - 14:27
+От
+ - вторник, 05-09-2017 - 14:26
+От
+ - вторник, 05-09-2017 - 14:23
+От
+ - вторник, 05-09-2017 - 13:20
+От
+ - вторник, 05-09-2017 - 12:47
+От
+ - вторник, 05-09-2017 - 12:35
+От
+ - вторник, 05-09-2017 - 12:23
+От
+ - вторник, 05-09-2017 - 12:14
+От
+ - вторник, 05-09-2017 - 11:58
+От
+ - вторник, 05-09-2017 - 10:45
+От
+ - вторник, 05-09-2017 - 09:14
+От
+ - вторник, 05-09-2017 - 09:00
+От
+ - вторник, 05-09-2017 - 08:31
+От
+ - вторник, 05-09-2017 - 08:16
+От
+ - вторник, 05-09-2017 - 08:30
+От
+ - вторник, 05-09-2017 - 08:00
+От
+ - понеделник, 04-09-2017 - 20:43
+От
+ - понеделник, 04-09-2017 - 19:30
+От
+ - понеделник, 04-09-2017 - 18:04
+От
+ - понеделник, 04-09-2017 - 17:24
+От
+ - понеделник, 04-09-2017 - 16:40
+От
+ - понеделник, 04-09-2017 - 16:35
+
+In [46]: links=response.xpath('//div[@id="main"]/div[@c
+    ...: /div[@class="post clearfix"]')^M
+    ...:
+
+In [47]: link=links[0]^M
+    ...:
+
+In [48]: link.xpath('/div[@class="content"]/h2[@class="
+    ...: r"]/a/@href').extract()
+    ...:
+Out[48]: []
+
+In [49]: link.xpath('div[@class="content"]/h2[@class="a
+    ...: "]/a/@href').extract()
+Out[49]: [u'http://www.monitor.bg/a/view/86474-250-000-
+\u0438\u0448\u043d\u043e-\u043c\u0438\u043d\u0430\u0432
+f\u0440\u0435\u0437-\u041f\u0435\u0440\u043f\u0435\u044
+e\u043d-\u0438-\u0426\u0430\u0440\u0435\u0432\u0435\u04
+
+In [50]: link.xpath('div[@class="meta"]/span[@class="pu
+    ...: ).extract()
+Out[50]:
+[u'\u041e\u0442 ',
+ u' - \u0432\u0442\u043e\u0440\u043d\u0438\u043a, 05-09
+
+In [51]: pubDate=link.xpath('div[@class="meta"]/span[@c
+    ...: /text()').extract()
+
+In [52]: pubDate[1].split(',')[1]
+Out[52]: u' 05-09-2017 - 19:21'
+
+In [53]: pubDate[1].split(',')[1].strip().split()
+Out[53]: [u'05-09-2017', u'-', u'19:21']
+
+In [54]: (day, month, year)=pubDate[1].split(',')[1].st
+    ...: split('-')
+
+In [55]: day
+Out[55]: u'05'
+
+In [56]: month
+Out[56]: u'09'
+
+In [57]: year
+Out[57]: u'2017'
+
+In [58]: pubDate='%s.%s.%s'%(year, month, day)
+
+In [59]: pubDate
+Out[59]: u'2017.09.05'
+
+In [60]: link=links[1]
+
+In [61]: link.xpath('div[@class="content"]/h2[@class="a
+    ...: "]/a/@href').extract()^M
+    ...:
+Out[61]: [u'http://www.monitor.bg/a/view/4456-\u0411\u0
+435\u0441\u044a\u0442-\u0441\u043a\u043e\u0447\u0438-\u
+u0415\u0412\u0420-\u0437\u0430-\u0441\u043a\u043e\u043a
+33\u0430\u0437\u0430-\u0432-\u043f\u043e\u043b\u0437\u0
+u0421\u0430\u0448\u043e-\u0414\u043e\u043d\u0447\u0435\
+
+In [62]: link.xpath('div[@class="meta"]/span[@class="pu
+    ...: ).extract()
+    ...:
+Out[62]:
+[u'\u041e\u0442 ',
+ u' - \u0432\u0442\u043e\u0440\u043d\u0438\u043a, 05-09
+
+In [63]:

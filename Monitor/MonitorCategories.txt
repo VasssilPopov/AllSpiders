@@ -1,0 +1,12 @@
+
+
+ 1. България		www.monitor.bg/home/category/20		58	43
+ 2. Бизнес		www.monitor.bg/home/category/123	52	48
+ 3. Крими		www.monitor.bg/home/category/124	54
+ 4. Мнения		www.monitor.bg/home/category/50		56
+ 5. Свят		www.monitor.bg/home/category/30
+ 6. Живот		www.monitor.bg/home/category/60
+ 7. Здраве		www.monitor.bg/home/category/97
+ 8. Спорт		www.monitor.bg/home/category/80
+ 9. Хай тек		www.monitor.bg/home/category/107
+10. Автомобили		www.monitor.bg/home/category/96

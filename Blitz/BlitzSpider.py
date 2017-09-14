@@ -48,14 +48,14 @@ class BlitzSpider(scrapy.Spider):
 	allowed_domains = ['blitz.bg']
 	start_urls = [
 		"https://www.blitz.bg/svyat",
-		"http://www.blitz.bg/politika",
-		# "https://www.blitz.bg/obshtestvo",
-		# "https://www.blitz.bg/ikonomika",
-		# "https://www.blitz.bg/kriminalni",
-		# "https://www.blitz.bg/intsidenti",
-		# "https://www.blitz.bg/zdrave",
-		# "https://www.blitz.bg/lyubopitno",
-		# "https://www.blitz.bg/layfstayl"
+		"https://www.blitz.bg/politika",
+		"https://www.blitz.bg/obshtestvo",
+		"https://www.blitz.bg/ikonomika",
+		"https://www.blitz.bg/kriminalni",
+		"https://www.blitz.bg/intsidenti",
+		"https://www.blitz.bg/zdrave",
+		"https://www.blitz.bg/lyubopitno",
+		"https://www.blitz.bg/layfstayl"
 		
 	]
 	custom_settings = {
@@ -67,8 +67,8 @@ class BlitzSpider(scrapy.Spider):
 
 	def __init__(self):
 		self.json_datafile = 'Blitz/Reports/Blitz-'+Today+'.json'
-		self.links_seen = read_ids(self.json_datafile)
-		'take only the end of the Mediapool url. The number after the news string:'
+ 		self.links_seen = read_ids(self.json_datafile)
+ 		'take only the end of the Mediapool url. The number after the news string:'
 		self.links_seen = map(lambda url: url.split('news')[1] , self.links_seen)
 		print '-'*10,'Blitz v(1.0)','-'*10
 

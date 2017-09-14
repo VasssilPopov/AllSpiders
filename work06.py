@@ -1,7 +1,6 @@
 # -*- coding: cp1251 -*
 
 from sys import exit, path
-
 import platform
 if platform.system() == 'Linux':
 	path.append('/home/peio/dev/AllSpiders/_LIBRARY/')
@@ -96,11 +95,12 @@ def reportDuplicates (path):
 
                         print "%-60s %10d %10d" % (file, countAll, countDuplicates)
 
-reportDuplicates ('24chasa\\Reports\\24chasa*.json')
+#reportDuplicates ('ClubZ\\Reports\\ClubZ*.json')
+
+###reportDuplicates ('24chasa\\Reports\\24chasa*.json')
 #reportDuplicates ('Blitz/Reports\Blitz*.json')
 
 #--------------------------------------------
-#reportDuplicates ('Monitor/Reports/*.json')
 
 
 #----------------------------------------------------------------
@@ -132,3 +132,8 @@ months= {u'януари':'01',u'февруари':'02', u'март':'03',
 #month=months[month.lower().encode('utf-8')]
 s=u' 21 \u044e\u043b\u0438 2017 '.split()
 print months[s[1]]
+
+
+
+
+

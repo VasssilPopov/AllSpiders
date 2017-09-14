@@ -31,5 +31,8 @@ system('Python Mediapool/CleanMediapool.py > Mediapool/Logs/validateMediapool.tx
 
 system('scrapy runspider ClubZ/ClubZSpider.py -o ClubZ/Reports/ClubZ-'+str(Today)+'.json -t jsonlines 2> ClubZ/Logs/outputClubZ.txt')
 system('Python ClubZ/CleanClubZ.py > ClubZ/Logs/validateClubZ.txt')
+
+system('scrapy runspider Classa/ClassaSpider.py -o Classa/Reports/Classa-'+str(Today)+'.json -t jsonlines 2> Classa/Logs/outputClassa.txt')
+system('Python Classa/CleanClassa.py > Classa/Logs/validateClassa.txt')
 	
 system('Python SummaryReport.py>_DailySummaryReports/'+Today+'.txt')

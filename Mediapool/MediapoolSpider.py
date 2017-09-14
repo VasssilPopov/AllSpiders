@@ -74,7 +74,8 @@ class MediapoolSpider(scrapy.Spider):
 		article = ''.join(response.xpath('//div[@class="main_left"]/div/p/text()| //div[@class="main_left"]/div[@id="art_font_size"]/p/b/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/text()| //div[@class="main_left"]/div[@id="art_font_size"]/div/div/div/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/div/text()').extract()).strip() 
 
 		pubDate=response.xpath('//div[@class="info wbig"]/text()').extract_first()
-			
+		if (pubDate[0:3] == ' | '):
+			pubDate = pubDate[3:]
 		#extract and prepare Article date
 		(day, month, year)=pubDate.split('|')[1].split()
 		month=HelperTools.bgMonthstoNumber(month)

@@ -28,6 +28,9 @@ system('Python Dnevnik/CleanDnevnik.py > Dnevnik/Logs/validateDnevnik.txt')
 system('scrapy runspider Focus/FocusSpider.py -o Focus/Reports/Focus-'+str(Yesterday)+'.json -t jsonlines 2> Focus/Logs/outputFocus.txt')
 system('Python Focus/CleanFocus.py > Focus/Logs/validateFocus.txt')
 
+system('scrapy runspider Monitor/MonitorSpider.py -o Monitor/Reports/Monitor-'+str(Yesterday)+'.json -t jsonlines 2> Monitor/Logs/outputMonitor.txt')
+system('Python Monitor/CleanMonitor.py > Monitor/Logs/validateMonitor.txt')
+
 system('scrapy runspider News/NewsSpider.py -o News/Reports/News-'+str(Yesterday)+'.json -t jsonlines 2> News/Logs/outputNews.txt')
 system('Python News/CleanNews.py > News/Logs/validateNews.txt')
 	

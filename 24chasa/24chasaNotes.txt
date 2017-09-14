@@ -49,4 +49,57 @@ pubDate='%s.%s.%s' % (year, month, day)
 print pubDate
 2017.06.28
 ------------------------------------------------
+/novini/0/2/28
+
+
+
+
+
+
+https://www.24chasa.bg/novini/
+
+excerpts=response.xpath('//div[@id="page-left-content"]/div/div[@class="widget-content"]/div[@class="entry-short"]/div[@class="excerpt"]')
+
+urls=response.xpath('//div[@id="page-left-content"]/div/div[@class="widget-content"]/div[@class="entry-short"]/div[@class="excerpt"]/h2/a/@href').extract()
+
+times=response.xpath('//div[@id="page-left-content"]/div/div[@class="widget-content"]/div[@class="entry-short"]/div[@class="excerpt"]/span[@class="article-date"]/text()').extract()
+
+
+date=' '.join(excerpts[0].xpath('span[@class="article-date"]/text()').extract()).strip()
+
+
+(day, month,year)=date.split(';')[0].split()[1].split('.')
+currentDate='%s.%s.%s'%(year, month, day)
+
+url=' '.join(excerpts[0].xpath('h2/a/@href').extract()).strip()
+
+url=excerpts[0].xpath('h2/a/@href').extract_first()
+
+
+excerpts=response.xpath('//div[@id="page-left-content"]/div/div[@class="widget-content"]/div[@class="entry-short"]/div[@class="excerpt"]')
+
+for excerpt in excerpts:
+    date=' '.join(excerpt.xpath('span[@class="article-date"]/text()').extract()).strip()
+
+
+    (day, month,year)=date.split(';')[0].split()[1].split('.')
+    currentDate='%s.%s.%s'%(year, month, day)
+
+    url=excerpt.xpath('h2/a/@href').extract_first()
+
+	
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 

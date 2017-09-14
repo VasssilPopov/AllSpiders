@@ -88,6 +88,12 @@ class PIKSpider(scrapy.Spider):
 		art_alternatives[8] = response.xpath('//div[@id="content"]/div[@class="item left first"]/div[@class="text2"]/div[@class="page-header"]/text()').extract()
 		art_alternatives[9] = response.xpath('//div[@id="content"]/div[@class="item left first"]/div[@class="text2"]/div/text()').extract()
 		art_alternatives[10] = response.xpath('//div[@id="news-body"]/div/div[@class="field-items"]/div[@class="field-item even"]/p/text()').extract()
+		art_alternatives[11] = response.xpath('//div[@class="content_box"]/div[@class="text"]/p/text()').extract()
+		art_alternatives[12] = response.xpath('//div[@class="text2"]/p/span/span/text()').extract()
+		
+		art_alternatives[13] = response.xpath('//div[@id="content"]/div/div/div/div/div/div/p/text()').extract()
+		art_alternatives[14] = response.xpath('//div[@id="content"]/div/div/div/div/div/div/div/div[@class="_d97"]/text()').extract()
+
 		for key in art_alternatives:
 			art_alternatives[key] = list( map   ( lambda str: str.strip(), art_alternatives[key] ) )
 			art_alternatives[key] = list( filter( lambda str: str != u'' , art_alternatives[key] ) )

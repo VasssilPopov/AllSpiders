@@ -1,0 +1,100 @@
+http://standartnews.com/svyat.html
+http://standartnews.com/biznes.html
+http://standartnews.com/balgariya.html
+------------------------------------------------------
+http://standartnews.com/balgariya.html
+
+------------------------------------------------------
+urls=response.xpath('//div[@class="single_news_list_small"]/div[@class="news_content_list"]/h2/a[@class="title_news_list"]/@href').extract()
+------------------------------------------------------
+(15)
+
+
+links=response.xpath('//div[@class="single_news_list_small"]/div[@class="news_content_list"]')
+
+link=links[0]
+
+------------------------------------------------------
+url=links[0].xpath('h2/a[@class="title_news_list"]/@href').extract_first()
+------------------------------------------------------
+url ==> http://standartnews.com/balgariya/tsatsarov_kakvoto_za_drugite_tova_i_za_prokopiev-361495.html
+------------------------------------------------------
+pubDate=link.xpath('comment()').extract_first()
+------------------------------------------------------
+<!--<div class="author_date">
+                                09:45 | 31.08.2017
+                                | от редактор
+                </div>-->
+
+------------------------------------------------------
+(day, month, year)=pubDate.split('|')[1].strip().split('.')
+pubDate='%s.%s.%s' % (year, month, day)
+------------------------------------------------------
+2017.08.31
+
+------------------------------------------------------
+
+links=response.xpath('//div[@class="single_news_list_small"]/div[@class="news_content_list"]')
+
+
+??? next_page_url
+------------------------------------------------------
+next_page_url=response.xpath('//tr/td/a[@rel="next"]/@href').extract()
+-------------------------------------------------------------------
+[u'?page=2']
+
+-------------------------------------------------------------------
+http://standartnews.com/balgariya/poveche_ot_400_narusheniya_v_gorskite_teritorii_za_poslednata_sedmitsa-358073.html
+-------------------------------------------------------------------
+
+title=response.xpath('//div[@id="articleContentHolder"]/div/h2/text()').extract_first().strip()
+-------------------------------------------------------------------
+Директорът на "Просвета": Децата имат различни телефони, а някои съвсем нямат
+
+-------------------------------------------------------------------
+texts=response.xpath('//div[@id="articleContentHolder"]/div/div/div["articlBodyHolder"]/p/text()').extract()
+-------------------------------------------------------------------
+text=u' '.join(texts).extract())
+-------------------------------------------------------------------
+Идеята идва откакто се правят цветни и черно-бели учебници - от десетилетия. Няма нищо ново в това, че се правят черно-бели учебници и сега голяма част от учебниците в горния курс са черно-бели. Тъй ката сега има една тенденция за правене на цветни учебници, ние направихме и цветни и черно-бели учебници по един и същи
+предмет там, където това е възможно". Това заяви по Канал 3 директорът на издателство "Просвета" Никола Кицевски. Когато говорим за предмети, където трябва да бъде онагледяването е много важно, каквито са биологията, географията, частично историята, има само цветни учебници. Когато говорим за предмети, където не е важен толкова цвета или изображението, колкото съдържанието, направихме два вида учебници, съобразявайки се с това, че хората имат различни нужди, различни потребности, различни доходи, защити продукцията на издателството Кицевски. В един клас
+децата носят различни маратонки - между 20 и 200 лева. Имат различни телефони, а някои съвсем нямат телефони. Това е смешен плач за социалните различия. Социалните различия не трябва да се загърбват, те трябва да се виждат и съответно да взимаме мерки, така че да ги намаляваме и изравняваме, а възможността за избор на
+цена е именно една мярка да се помогне, на тези които са по-слаби социално, отсече той.
+
+
+
+===============================================================================================
+???
+date=response.xpath('//div[@class="content_Standart"]/div/div/text()').extract_first()
+date=response.xpath('//div[@class="content_Standart"]/div/div/img[@title="#Дата"]/text()').extract_first()
+date=response.xpath('/html/body/div[4]/div/div/div[2]/div/div[1]/text()[2]/img[]')
+date=response.xpath('/html/body/div[4]/div/div/div[2]/div/div[1]/text()[2]')
+<div class="news_content_list">
+			<!--<div class="author_date">
+				07:30 | 24.06.2017
+				| от Руми Борисова							</div>-->
+date=response.xpath('//div[@class="single_news_list_small"]/div[@class="news_content_list"]/div/@class="date"')
+date=response.xpath('//div[@class="single_news_list_small"]/div[@class="news_content_list"]/comment()').extract()
+
+date=response.xpath('//div[@class="content_Standart"]/div/div/text()').extract()
+
+/html/body/div[4]/div/div/div[2]/div/div[1]/text()[1]
+//img[@title="#Дата"]/text()
+
+
+/html/body/div[4]/div/div/div[2]/div/div[1]/text()[2]
+
+/html/body/div[4]/div/div/div[2]/div/div[1]/text()[3]
+
+----------------------------------------------
+
+/html/body/div[4]/div/div/div[2]/div/div[1]/text()[2]
+
+
+-----------------------------------------------------
+comments=response.xpath('//div[@class="single_news_list_small"]/div[@class="news_content_list"]/
+comment()').extract()
+
+nodes=response.xpath('//div[@class="single_news_list_small"]')
+
+===============================================================================================

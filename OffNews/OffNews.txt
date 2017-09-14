@@ -1,4 +1,4 @@
-https://offnews.bg/2017-08-01
+Ôªøhttps://offnews.bg/2017-08-16
 ------------------------------------
 
 
@@ -20,17 +20,21 @@ next_page_url --> ?page_which=20
 
 https://offnews.bg/sviat/o-dzhej-simpsan-izliza-ot-zatvora-661029.html
 
+-------------------------------------------------
 title = response.xpath('//div[@class="content art-title"]/h1/text()').extract_first()
-title --> Œ ƒÊÂÈ —ËÏÔÒ˙Ì ËÁÎËÁ‡ ÓÚ Á‡Ú‚Ó‡
+-------------------------------------------------
+title --> –û –î–∂–µ–π –°–∏–º–ø—Å—ä–Ω –∏–∑–ª–∏–∑–∞ –æ—Ç –∑–∞—Ç–≤–æ—Ä–∞
 
+-------------------------------------------------
 texts=response.xpath('//div/div[@class="newsdet"]/p/text() | //div/div[@class="newsdet"]/p/strong/text()').extract()
-
+-------------------------------------------------
 text = u''.join(texts)
 
 texts=response.xpath('//div[@class="left"]/div[@class="left-int"]/p/text()').extract()
 text = u''.join(texts)
 
+-------------------------------------------------
 pubDate = response.xpath('//div[@class="content art-title"]/h3/text()').extract_first()
-
---> 'œÓÒÎÂ‰Ì‡ ÔÓÏˇÌ‡ Ì‡ 20 ˛ÎË 2017 ‚ 22:12'
+-------------------------------------------------
+--> '–ü–æ—Å–ª–µ–¥–Ω–∞ –ø—Ä–æ–º—è–Ω–∞ –Ω–∞ 20 —é–ª–∏ 2017 –≤ 22:12'
 

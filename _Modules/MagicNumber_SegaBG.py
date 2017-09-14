@@ -6,7 +6,7 @@ import time
 from datetime import date, datetime
 
 #C:\STUDY_SPIDERS\LAB\JsonPYs
-
+'''
 file='SegaBG-2017-07-29.json'
 d = dict()
 with jsonlines.open(file) as reader:
@@ -21,7 +21,7 @@ for k,v in d.items():
     print 'Key: %s --> %s' %(k, v)
 
 #(12528, '2017.07.28')
-
+'''
 from datetime import datetime
 '''
 start_date = datetime.strptime('19/07/2017', "%d/%m/%Y")

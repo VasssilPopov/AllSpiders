@@ -1,0 +1,3 @@
+http://www.zemianews.info/index.php/svyat.html
+
+'//div[@class="blog clearfix"]/div[@class="items-leading clearfix"]/div[@class="leading leading-0"]/h2[@class="contentheading"]/a/@href'

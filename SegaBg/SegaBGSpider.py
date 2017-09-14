@@ -13,12 +13,13 @@ Today=today.strftime("%Y-%m-%d")
 
 class SegaBGSpider(scrapy.Spider):
     name = "SegaBG"
-    start_urls = ["http://www.segabg.com/index.php?iid=12527&sid=2",
-				"http://www.segabg.com/index.php?iid=12527&sid=3",
-				"http://www.segabg.com/index.php?iid=12527&sid=4",
-				"http://www.segabg.com/index.php?iid=12527&sid=5", 
-				"http://www.segabg.com/index.php?iid=12527&sid=6",
-				"http://www.segabg.com/index.php?iid=12527&sid=12",
+    mnumber='12538'
+    start_urls = ["http://www.segabg.com/index.php?iid='+mnumber+'&sid=2",
+				"http://www.segabg.com/index.php?iid='+mnumber+'&sid=3",
+				"http://www.segabg.com/index.php?iid='+mnumber+'&sid=4",
+				"http://www.segabg.com/index.php?iid='+mnumber+'&sid=5", 
+				"http://www.segabg.com/index.php?iid='+mnumber+'&sid=6",
+				"http://www.segabg.com/index.php?iid='+mnumber+'&sid=12",
 	]
     count = 0
     custom_settings = {
@@ -64,6 +65,7 @@ class SegaBGSpider(scrapy.Spider):
 		(day, month, year)=parts[-3:]
 		month=months[month.lower()]
 		articleDate = '%s.%s.%s'%(year,month,day)
+		print articleDate, Yesterday, (articleDate == Yesterday)
 		if articleDate == Yesterday:
 			yield {
 				'url': url,

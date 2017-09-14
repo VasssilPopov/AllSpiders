@@ -1,0 +1,24 @@
+some text 1some text 2some text 3some text 4
+scrapy runspider TrudSpiderPeriod.py -o Reports/Trud-2017-05-01_15.json -t jsonlines
+
+scrapy runspider TrudSpiderPeriod.py -o Reports/Trud-2017-05-16_31.json -t jsonlines
+
+scrapy runspider OffNewsSpiderPeriod.py -o Reports/OffNews-2017-05-1_6.json -t jsonlines
+
+
+
+https://m.offnews.bg/news/Mama-Nindzha_18807
+
+
+https://m.offnews.bg/news/Mama-Nindzha_18807
+
+scrapy runspider OffNewsPeriod/OffNewsSpiderPeriod.py -o OffNews/Reports/OffNews-2017-07-01_19.json -t jsonlines 2> OffNewsPeriod/Logs/outputOffNews.txt
+
+scrapy runspider OffNewsPeriod/OffNewsSpiderPeriod.py -o OffNews/Reports/OffNews-2017-07-01_19.json -t jsonlines 2> OffNewsPeriod/Logs/outputOffNews.txt
+
+
+scrapy runspider TrudPeriod/TrudSpiderPeriod.py -o TrudPeriod/Reports/Trud-2017-07-Test.json -t jsonlines 2> TrudPeriod/Logs/outputTrud.txt
+
+scrapy runspider DnevnikSpiderPeriod.py -o Reports/Dnevnik-2017-06-01_02_03Test.json -t jsonlines 2>Logs/LogDnevnik.txt
+
+scrapy runspider PIKSpiderPeriod.py -o Reports/PIK-2017-06-01_02_03_04Test.json -t jsonlines 2>Logs/LogDnevnik.txt

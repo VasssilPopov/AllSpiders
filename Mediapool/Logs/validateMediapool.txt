@@ -1,14 +1,11 @@
-VALIDATIONS for Mediapool/Reports/Mediapool-2017-08-05.json
+VALIDATIONS for Mediapool/Reports/Mediapool-2017-09-14.json
 
-Report Duplicates for (Mediapool/Reports/Mediapool-2017-08-05.json) 
-----------------------------------------------------------------------------------------
-Files                                                          All Recs  Dupl Recs
-----------------------------------------------------------------------------------------
-Mediapool/Reports/Mediapool-2017-08-05.json                           2          0
+>> Duplicates Report
+----------------------------------------------------------------------
+Records: (All: 44, Duplicates: 0 ), File: Mediapool/Reports/Mediapool-2017-09-14.json
 
---------------------Mediapool/Reports/Mediapool-2017-08-05.json--------------------
-
-----------------------------------------------------------------------------------
-Valid records: 2 of 2
-----------------------------------------------------------------------------------
+>> Validation report of  Mediapool/Reports/Mediapool-2017-09-14.json
+----------------------------------------------------------------------
+Valid records: 44 of 44
+----------------------------------------------------------------------
 

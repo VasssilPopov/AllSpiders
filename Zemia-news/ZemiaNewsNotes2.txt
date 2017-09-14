@@ -1,0 +1,11 @@
+﻿http://www.zemia-news.bg/index.php/balgariya.html
+
+urls=response.xpath('//div[@class="span6"]/div[@class="item column-1"]/h2/a/@href').extract()
+
+
+http://www.zemia-news.bg/index.php/kultura.html
+
+
+title=response.xpath('//div[@class="item-page"]/h2[@class="contentheading"]/a/text()').extract_first()
+
+text=response.xpath('//div[@class="item-page"]/p/text()').extract_first()

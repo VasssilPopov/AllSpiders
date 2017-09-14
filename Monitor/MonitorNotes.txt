@@ -1,0 +1,159 @@
+http://www.monitor.bg/
+-------------------------------------------------------
+
+България
+http://www.monitor.bg/home/category/20
+-------------------------------------------------------
+
+urls=response.xpath('//div[@id="main"]/div[@class="row-fluid"]/div[@class="post clearfix"]/div[@class="content"]/h2[@class="articleTitleHeader"]/a/@href').extract()
+
+dates=response.xpath('//div[@id="main"]/div[@class="row-fluid"]/div[@class="post clearfix"]/div[@class="meta"]/span[@class="pull-left"]/text()').extract()
+-------------------------------------------------------
+
+links=response.xpath('//div[@id="main"]/div[@class="row-fluid"]/div[@class="post clearfix"]')
+
+len(links) --> (54)
+
+link=links[0]
+
+url=link.xpath('/div@class="content"]/h2[@class="articleTitleHeader"]/a/@href').extract_first()
+
+url=link.xpath('div[@class="content"]/h2[@class="articleTitleHeader"]/a/@href').extract_first()
+
+pubDate=link.xpath('div[@class="meta"]/span[@class="pull-left"]/text()').extract()
+
+[u'\u041e\u0442 ',
+ u' - \u0432\u0442\u043e\u0440\u043d\u0438\u043a, 05-09-2017 - 21:30']
+
+(day, month, year)=pubDate[1].split(',')[1].split()[0].split('-')
+pubDate = '%s.%s.%s' % (year, month, day)
+
+u'2017.09.05'
+
+-------------------------------------------------------
+(42)
+
+http://www.monitor.bg/a/view/31302-Радев-Без-единна-отбрана-ЕС-губи-до-100-млрд-евро-годишно/
+
+http://www.monitor.bg/a/view/35223-Полски-тийнейджъри-на-секс-лагер-в-България/
+
+-------------------------------------------------------
+title =response.xpath('//figure[@class="head-section"]/div[@class="head-section-content"]/h1/text()').extract_first()
+-------------------------------------------------------
+Прокопиев прикрива  40 престъпници, сам произвежда фалшиви новини
+
+-------------------------------------------------------
+
+text1 =response.xpath('//div[@class="row-fluid"]/div[@class="content"]/h4/text() | '+
+'//div[@class="row-fluid"]/div[@class="content"]/div[@class="articleContentContainer"]/div/div/div/p/text() | '+
+'//div[@class="row-fluid"] /div[@class="content"]/div[@class="articleContentContainer"]/div/p/text() '+
+'| //div[@class="row-fluid"]/div[@class="content"]/div[@class="articleContentContainer"]/div/div/div/p/em/strong/text()'). extract()
+
+text =response.xpath('//div[@class="row-fluid"]/div[@class="content"]/h4/text() | '+
+		'//div[@class="row-fluid"]/div[@class="content"]/div[@class="articleContentContainer"]/div/div/div/p/text() | '+
+		'//div[@class="row-fluid"]/div[@class="content"]/div[@class="articleContentContainer"]/div/div/p/text() | '+
+		'//div[@class="row-fluid"] /div[@class="content"]/div[@class="articleContentContainer"]/div/div/p/strong/em/text()' + 
+		'//div[@class="row-fluid"] /div[@class="content"]/div[@class="articleContentContainer"]/div/div/div/p/em/strong/text()').extract()
+		
+
+-----------------------------------------------------
+text1 =response.xpath('//div[@class="row-fluid"]/div[@class="content"]/h4/text() | '+
+'//div[@class="row-fluid"]/div[@class="content"]/div[@class="articleContentContainer"]/div/div/div/p/text() | '+
+'//div[@class="row-fluid"] /div[@class="content"]/div[@class="articleContentContainer"]/div/p/text() | '+
+'//div[@class="row-fluid"]/div[@class="content"]/div[@class="articleContentContainer"]/div/div/div/p/em/strong/text() | '+
+'//div[@class="row-fluid"] /div[@class="content"]/div[@class="articleContentContainer"]/div/div/p/text() | '+
+'//div[@class="row-fluid"] /div[@class="content"]/div[@class="articleContentContainer"]/div/div/div/div/p/text()').extract()
+
+text=u' '.join(text1)
+
+-------------------------------------------------------
+texts=response.xpath('//div[@class="content"]/div[@class="articleContentContainer"]/div/p/text()').extract()
+
+
+
+texts=response.xpath('//div[@class="row-fluid"] /div[@class="content"]/div[@class="articleContentContainer"]/div/p/text()').extract()
+Василев, Ганчев, Гебрев и двама агенти на ДС в списъка Професионалният манипулатор Иво Прокопиев се зае лично да произвежда фалшиви новини, този път с цел да заблуди представителите на западните посолства у нас. Въоръжен с дебела папка и химикалка, които не стана ясно защо е помъкнал, олигархът се появи в ефира на bTV вчера, където в
+слугинско интервю той се зае да лъска имиджа на своя побратим, ограбил КТБ - Цветан
+Василев, както и на аверите си, забогатели при престъпната приватизация, проведена от Костов, които в момента също като него имат проблеми с правосъдието. По съставена
+от "Капитал" и присъдружните му медии, Прокопиев отново вкара в употреба любимата си
+
+
+pubDate =response.xpath('//div[@class="row-fluid"]/figure[@class="head-section"]/div[@class="head-section-content"]/p[@class="meta"]/span/text()').extract_first()
+
+(day,month,year)=pubDate.strip().split()[1].split('-')
+pubDate='%s.%s.%s'%(year, month, day)
+
+
+
+-------------------------------------------------------
+
+
+                            понеделник, 10-07-2017 - 07:00
+---> 2017.07.10
+
+
+
+---------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------
+
+България
+http://www.monitor.bg/home/category/20
+
+links=response.xpath('//div[@id="main"]/div[@class="row-fluid"]/div[@class="post clearfix"]/div[@class="content"]/h2[@class="articleTitleHeader"]/a/@href').extract()
+(58)
+
+Бизнес
+http://www.monitor.bg/home/category/123
+
+links=response.xpath('//div[@id="main"]/div[@class="row-fluid"]/div[@class="post clearfix"]/div[@class="content"]/h2[@class="articleTitleHeader"]/a/@href').extract()
+(56)
+
+
+
+
+text =response.xpath('//div[@class="row-fluid"]/div[@class="content"]/h4/text()').extract()
+
+text =response.xpath('//div[@class="row-fluid"]/div[@class="content"]/div[@class="articleContentContainer"]/div/div/div/p/text()').extract()
+
+
+text =response.xpath('//div[@class="row-fluid"]/div[@class="content"]/h4/text()').extract()
+
+text =response.xpath('//div[@class="row-fluid"]/div[@class="content"]/h4/text() | //div[@class="row-fluid"]/div[@class="content"]/div[@class="articleContentContainer"]/div/div/div/p/text() | //div[@class="row-fluid"] /div[@class="content"]/div[@class="articleContentContainer"]/div/div/div/p/em/strong/text()').extract()
+
+
+
+links=response.xpath('//div[@id="main"]/div[@class="row-fluid"]/div[@class="post clearfix"]/div[@class="content"]/h2
+
+[@class="articleTitleHeader"]/a/@href').extract()
+
+--- тест 
+links=response.xpath('//div[@id="main"]/div[@class="row-fluid"]/div[@class="post clearfix"]/div[@class="content"]/h2@class="articleTitleHeader"]/a/@href').extract()
+(38)
+linkBase=response.xpath('//div[@id="main"]/div[@class="row-fluid"]/div[@class="post clearfix"]').extract()
+
+linkDate=linkBase.xpath('//div[@class="meta"]/span[@class="pull-left"]/a/text()').extract()
+--------------------------------------------------------
+>>Latest<< 2017.09.06
+http://www.monitor.bg/home/category/20
+---
+scrapy shell http://www.monitor.bg/home/category/20
+
+links=response.xpath('//div[@id="main"]/div[@class="row-fluid"]/div[@class="post clearfix"]/div[@class="content"]/h2[@class="articleTitleHeader"]/a/@href').extract()
+
+for link in links:
+    print link
+
+http://www.monitor.bg/a/view/86474-250-000-годишно-минан-и-Царевец/
+http://www.monitor.bg/a/view/4456-Бизнесът-скочи-на-КЕВв-полза-на-Сашо-Дончев/
+.........
+http://www.monitor.bg/a/view/44783-Цветанов-Държавата-щения-интерес-за-мината-за-добив-на-волфрам/
+http://www.monitor.bg/a/view/18149-Вицепремиерът-Валерибряг-АД-трябва-да-се-ликвидира/
+
+pubDates=response.xpath('//div[@id="main"]/div    ...: d"]/div[@class="post clearfix"]/div[@class="me    ...: "pull-left"]/text()').extract()
+
+
+
+
+

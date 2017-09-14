@@ -1,0 +1,46 @@
+﻿classa.bg --------------------
+
+links =  response.xpath('//a[@class="catItemTitle"]/@href')
+
+
+-------------------------------------------------------------
+title=response.xpath('//div[@class="itemHeader"]/h2[@class="itemTitle"]/text()').extract_first()
+-------------------------------------------------------------
+titlePage=title.strip()
+По-малко незаконни мигранти в Италия
+
+-------------------------------------------------------------
+texts=response.xpath('//div[@class="itemFullText"]/p/span/text()').extract()
+textPage=u' '.join(texts)
+print textPage
+
+През последните седмици моделът на незаконната миграция през Средиземноморието рязко се промени. 
+... 
+В доклад на ООН от миналата година условията са характеризирани като "общо взето нечовешки", при които "пазачите бият, унижават и рекетират мигрантите". Не е учудващо, че мигрантите са готови да рискуват живота си по море.
+-------------------------------------------------------------
+pubDate=response.xpath('//div[@class="itemDateDiv"]/text()').extract_first()
+-------------------------------------------------------------
+print pubDate
+03.09.2017 --? --> 2017.09.03
+-------------------------------------------------------------
+
+next_page_url=response.xpath('//li/a[@title="Следваща"]/@href').extract()
+
+next_page_url=response.xpath('//li/a[@class="pagenav"]/@href').extract_first()
+
+
+/component/k2/itemlist/date?limitstart=0
+/component/k2/itemlist/date?limitstart=0
+/component/k2/itemlist/date?limitstart=0
+/component/k2/itemlist/date?start=20
+/component/k2/itemlist/date?start=30
+/component/k2/itemlist/date?start=20	<<<<
+/component/k2/itemlist/date?start=30
+
+
+/component/k2/itemlist/date?limitstart=0
+/component/k2/itemlist/date?start=10
+/component/k2/itemlist/date?limitstart=0 <<<<
+/component/k2/itemlist/date?start=10
+
+'date?start=' in next_page_url[-2]

@@ -146,31 +146,34 @@ def checkReport(jlFile):
     countAll = 0
     s20='-'*20
     print 
-    print s20+jlFile+s20
+    # print s20+jlFile+
+    print '>> Validation report of ',jlFile
     with jsonlines.open(jlFile) as reader:
         for obj in reader:
             countAll +=1
+            # print countAll
             if isDataValid(obj):
                 count +=1
-	print
-	print '-'*82
+	print '-'*70
     print 'Valid records: %d of %d'%(count, countAll)
-    print '-'*82
+    print '-'*70
     print
 
 #checkReport('Dnevnik/Reports/Dnevnik-2017-07-18.json')
 #checkReport('Trud\Reports\Trud-2017-06-23.json')
-
+#checkReport('ClubZ/Reports\ClubZ-2017-07-03.json')
 # check data of multiple report files
 def scanReports(folderPath):
 
     files=glob.glob(folderPath)
-    s20='-'*20
+    s20='-'*10 +'Start'+ '-'*10
    
-    print s20+folderPath+s20
+    print s20+folderPath
     for file in files:
         print checkReport(file)
 
+    s20='-'*10 +'End'+ '-'*10
+    print s20
 
 #scanReports('Dnevnik\Reports\Ready\*.json')
 
@@ -214,12 +217,18 @@ def swapDateParts(jlFile):
 
 				
 #swapDateParts('Trud\Reports\Trud-2017-06-23.json')
- 
+
+def getNewFileName(oldFileName):
+    parts=oldFileName.split('\\')
+    pos=len(parts)-2
+    parts[pos] = 'Data'
+    print parts
+    return '\\'.join(parts)
 #copy the file and change delimiters
 # 2017-06-25 --> 2017.06.25
 def chageDelimiter(jlFile):
 	print jlFile
-	jlFileOutput=makeNewFileName(jlFile)
+	jlFileOutput=getNewFileName(jlFile)
 	with jsonlines.open(jlFile) as reader:
 		with jsonlines.open(jlFileOutput, mode='w') as writer:
 			for obj in reader:
@@ -240,6 +249,20 @@ def scanAndSwapDateParts(folderPath):
         #chageDelimiter(file)
 
 #scanAndSwapDateParts('PIK\Reports\*.json')
+# change delimiters in multiple files
+def scanChangeDateDelimiter(folderPath):
+
+    s20='-'*20
+    files=glob.glob(folderPath)
+    print s20+folderPath+s20
+    for file in files:
+        chageDelimiter(file)
+
+#scanAndSwapDateParts('PIK\Reports\*.json')
+#scanChangeDateDelimiter('PIK\Reports\*.json')
+
+
+
 
 
 '''

@@ -7,8 +7,16 @@ import os
 from scrapy.exceptions import CloseSpider
 from scrapy.spiders import Rule
 # from scrapy.linkextractors import Linkextractor
+from sys import exit, path
+import platform
 
-# Python RunOffNewsSpider.py 
+if platform.system() == 'Linux':
+	path.append('/home/peio/dev/AllSpiders/_LIBRARY/')
+elif platform.system() == 'Windows':
+	path.append('C:\STUDY_SPIDERS\_AllSpiders\_LIBRARY')
+else: 
+	print 'Unknown platform' 
+	exit() 
 
 'Get the yesterday date'
 yesterday = date.today() - timedelta(1)

@@ -1,4 +1,4 @@
-http://www.mediapool.bg/
+п»їhttp://www.mediapool.bg/
 ------------------------------------
 http://www.mediapool.bg/today.html
 
@@ -10,19 +10,19 @@ links[48]-->u'http://www.mediapool.bg/antikoruptsionniyat-sad-shte-raboti-po-izv
 
 title   = response.xpath('//div[@class="main_left"]/h1/text()').extract()[0].strip()
 links[0]
-Говорителят на Белия дом Шон Спайсър подаде оставка
+Р“РѕРІРѕСЂРёС‚РµР»СЏС‚ РЅР° Р‘РµР»РёСЏ РґРѕРј РЁРѕРЅ РЎРїР°Р№СЃСЉСЂ РїРѕРґР°РґРµ РѕСЃС‚Р°РІРєР°
 
 article = ''.join(response.xpath('//div[@class="main_left"]/div/p/text()| //div[@class="main_left"]/div[@id="art_font_size"]/p/b/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/text()| //div[@class="main_left"]/div[@id="art_font_size"]/div/div/div/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/div/text()').extract()).strip() 
 
 
 article = ''.join(response.xpath('//div[@class="main_left"]/div/p/text()| //div[@class="main_left"]/div[@id="art_font_size"]/p/b/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/text()| //div[@class="main_left"]/div[@id="art_font_size"]/div/div/div/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/div/text() | //div[@class="main_left"]/div[@id="art_font_size"]/p/a/text()  | //div[@class="main_left"]/div[@id="art_font_size"]/p/strong/text()').extract()).strip()
 ...........
-От прокуратурата напомнят, че се разследва и сегашният състав на енергийния регулатор за начина на определянето на цените на газа и парното в страната,
-както и на водата в София от началото на април 2017 г., както и дали комисията е проверила извършени ли са заявените от газоразпределителните дружествата в бизнесплановете им инвестиции.
+РћС‚ РїСЂРѕРєСѓСЂР°С‚СѓСЂР°С‚Р° РЅР°РїРѕРјРЅСЏС‚, С‡Рµ СЃРµ СЂР°Р·СЃР»РµРґРІР° Рё СЃРµРіР°С€РЅРёСЏС‚ СЃСЉСЃС‚Р°РІ РЅР° РµРЅРµСЂРіРёР№РЅРёСЏ СЂРµРіСѓР»Р°С‚РѕСЂ Р·Р° РЅР°С‡РёРЅР° РЅР° РѕРїСЂРµРґРµР»СЏРЅРµС‚Рѕ РЅР° С†РµРЅРёС‚Рµ РЅР° РіР°Р·Р° Рё РїР°СЂРЅРѕС‚Рѕ РІ СЃС‚СЂР°РЅР°С‚Р°,
+РєР°РєС‚Рѕ Рё РЅР° РІРѕРґР°С‚Р° РІ РЎРѕС„РёСЏ РѕС‚ РЅР°С‡Р°Р»РѕС‚Рѕ РЅР° Р°РїСЂРёР» 2017 Рі., РєР°РєС‚Рѕ Рё РґР°Р»Рё РєРѕРјРёСЃРёСЏС‚Р° Рµ РїСЂРѕРІРµСЂРёР»Р° РёР·РІСЉСЂС€РµРЅРё Р»Рё СЃР° Р·Р°СЏРІРµРЅРёС‚Рµ РѕС‚ РіР°Р·РѕСЂР°Р·РїСЂРµРґРµР»РёС‚РµР»РЅРёС‚Рµ РґСЂСѓР¶РµСЃС‚РІР°С‚Р° РІ Р±РёР·РЅРµСЃРїР»Р°РЅРѕРІРµС‚Рµ РёРј РёРЅРІРµСЃС‚РёС†РёРё.
 
 pubDate=response.xpath('//div[@class="info wbig"]/text()').extract_first()
 		
-17:36 | 28 юни 2017 |
+17:36 | 28 СЋРЅРё 2017 |
 
 
 
@@ -30,4 +30,4 @@ pubDate=response.xpath('//div[@class="info wbig"]/text()').extract_first()
 
 article = ''.join(response.xpath('//div[@class="main_left"]/div/p/text()| //div[@class="main_left"]/div[@id="art_font_size"]/p/b/text() | //div[@class="main_left"]/div[@id="art_font_size"]/p/strong/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/text()| //div[@class="main_left"]/div[@id="art_font_size"]/div/div/div/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/div/text()').extract()).strip() 
 pubDate=response.xpath('//div[@class="info wbig"]/text()').extract_first()
- | 17:34 | 20 юли 2017 |
+ | 17:34 | 20 СЋР»Рё 2017 |

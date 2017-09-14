@@ -67,11 +67,11 @@ class DumaSpider(scrapy.Spider):
 	# allowed_domains = ['http://Duma.bg']
 	start_urls = [
 		"http://duma.bg/taxonomy/term/1",
-		# "http://duma.bg/taxonomy/term/2",
-		# "http://duma.bg/taxonomy/term/3/1",
-		# "http://duma.bg/taxonomy/term/4/1",
-		# "http://duma.bg/taxonomy/term/5/1",
-		# "http://duma.bg/taxonomy/term/6/1",
+		"http://duma.bg/taxonomy/term/2",
+		"http://duma.bg/taxonomy/term/3/1",
+		"http://duma.bg/taxonomy/term/4/1",
+		"http://duma.bg/taxonomy/term/5/1",
+		"http://duma.bg/taxonomy/term/6/1",
 	]
 	custom_settings = {
 		'FEED_EXPORT_ENCODING': 'utf-8',

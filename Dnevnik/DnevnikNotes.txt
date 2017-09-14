@@ -4,28 +4,29 @@ http://dnevnik.bg/allnews/2017/07/30
 http://dnevnik.bg/allnews/2017/07/21
 -------------------------------------------------
 
+-------------------------------------------------
 urls=response.xpath('//article[@class="secondary-article-v2 border-top list-item"]/div[@class="text"]/h2/a/@href').extract()
-103
+-------------------------------------------------
+(103)
 
 urls[0] --> /photos/2017/06/27/2996766_fotogaleriia_svetovnite_snimki_na_denia_27_juni_2017_g/
 urls[1] --> /photos/2017/06/27/2996766_fotogaleriia_svetovnite_snimki_na_denia_27_juni_2017_g/
 
 
+-------------------------------------------------
 http://www.dnevnik.bg/bulgaria/2017/06/27/2996851_bulgariia_ne_pokriva_minimalnite_standarti_za_spirane/
 www.dnevnik.bg/sport/2017/07/18/3009161_astana_i_partizan_produljavat_v_shampionskata_liga/
+-------------------------------------------------
 
 title = response.xpath('//div[@class="content"]/h1/text()').extract_first()
 <new>----
 title = response.xpath('//div[@class="content"]/h1/text() | //aside/div[@class="module"]/div[@class="site-block"]/div[@class="the-picture-summary article"]/h2/text()').extract_first()
-
-
-
-title = response.xpath('//div[@class="content"]/h1/text() | //aside/div[@class="module"]/div[@class="site-block"]/div[@class="the-picture-summary article"]/h2/text()').extract_first()
-
 <new>----
 България не покрива минималните стандарти за спиране трафика на хора, обяви Вашингтон
 
+-------------------------------------------------
 article=u''.join(response.xpath('//div[@class="article-content"]/p/text() | //div[@class="article-content"]/div[@class="story"]/p/text() | //div[@class="article-content"]/div[@class="story"]/text()').extract())
+-------------------------------------------------
 
 <new>----
 article=u''.join(response.xpath('//div[@class="article-content"]/p/text()|//div[@class="article-content"]/h2/text()| //div[@class="article-content"]/p/a/text()| //div[@class="article-content"]/div[@class="story"]/p/text() | //div[@class="article-content"]/div[@class="story"]/text()').extract())
@@ -36,18 +37,13 @@ article=u''.join(response.xpath('//div[@class="article-content"]/p/text()|//div[
 //div[@class="module"]/div[@class="site-block"]/div[@class="the-picture-summary article"]/p/text()').extract())
 <new>----
 
-
-
-
 Българското правителство не покрива изцяло минималните стандарти за елиминиране на трафика на хора, но прави значителни усилия в тази насока, се казва в тазгодишния доклад на Държавния департамент на САЩ, посветен на този проблем, съобщава БТА.Американското външнополитическо ведомство отбелязва усилията, положени от българските власти през отчетния период, включително разследването на повече
-
 ........................
-
 България е източник и в по-малка степен транзитна страна и крайна дестинация за мъже, жени и деца, жертви на трафик с цел сексуална и трудова експлоатация. Български жени и деца са жертва на трафик с цел сексуална експлоатация в страната, в Европа и Близкия изток. Български мъже, жени и деца са подлагани на принудителен труд в други европейски страни и Израел, основно в селското
 стопанство, строителството и сектора на услугите.Български деца и възрастни са
 принуждавани да просят и да извършват дребни кражби в България, Гърция, Италия, Словения, Швеция и Обединеното кралство. Румънски момичета стават жертви на секстрафик в България. Корупцията в правителството създава условия, в които е възможно извършването на такива престъпления и длъжностни лица са разследвани за предполагаемо участие в трафик, казва Държавният департамент в заключение в частта си за България.
 
-
+-------------------------------------------------
 pubDate = response.xpath('//div[@class="article-tools"]/time/text()').extract_first()
-
+-------------------------------------------------
 22:49, 27 юни 17

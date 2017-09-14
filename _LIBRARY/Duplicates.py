@@ -31,13 +31,14 @@ def displayDuplicates (path):
 
 def reportDuplicates (path):
 		# init variables
-		print "Report Duplicates for ("+str(path)+") "
+		print ">> Duplicates Report"
+		#print ">> for ["+str(path)+"]"
 
-		s80='-'*88
+		s80='-'*70
 		#d=dict()
 		files=glob.glob(path)
-		print s80
-		print "%-60s %10s %10s" % ('Files', 'All Recs', 'Dupl Recs')
+		# print s80
+		# print "%-60s %10s %10s" % ('Files', 'All Recs', 'Dupl Recs')
 		for file in files:
                 
 			d=dict()
@@ -54,7 +55,9 @@ def reportDuplicates (path):
 							else:
 									d[obj['url']]=1
 
-					print "%-60s %10d %10d" % (file, countAll, countDuplicates)
+					# print "%-60s %10d %10d" % (file, countAll, countDuplicates)
+					print "Records: (All: %s, Duplicates: %s ), File: %s" % (countAll, countDuplicates, file)
+		# print s80
 
 	
 #reportDuplicates ('PIK/Reports\PIK-2017-07-10.json')
@@ -214,7 +217,10 @@ def checkDate(jlFile):
     #print len(d.keys())
     for (k,v) in d.items():
         if (k,v) != None:
-            print('Key: %s, count:%d'%(k,v))
+			fd=jlFile[-15:][0:10].replace('-','.')
+			res=(k == fd)
+			if res == False:
+				print 'Key: %s, count: %d %s'%(k,v,res)
     
 
 #checkDate('Blitz\Reports\Blitz-2017-06-06.json')
@@ -224,9 +230,9 @@ def scanFolderCheckDate(folderPath):
     s20='-'*20
     files=glob.glob(folderPath)
 
-    print s20+folderPath+s20
+    print folderPath+s20
     for file in files:
-        print('-'*20+file+'-'*20)
+        print(file+'-'*20)
         print checkDate(file) 
 
 

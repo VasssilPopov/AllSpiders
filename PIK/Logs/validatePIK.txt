@@ -1,26 +1,29 @@
-VALIDATIONS for PIK/Reports/PIK-2017-08-04.json
+VALIDATIONS for PIK/Reports/PIK-2017-09-13.json
 
-Report Duplicates for (PIK/Reports/PIK-2017-08-04.json) 
-----------------------------------------------------------------------------------------
-Files                                                          All Recs  Dupl Recs
-----------------------------------------------------------------------------------------
-PIK/Reports/PIK-2017-08-04.json                                     221          0
+>> Duplicates Report
+----------------------------------------------------------------------
+Records: (All: 201, Duplicates: 0 ), File: PIK/Reports/PIK-2017-09-13.json
 
---------------------PIK/Reports/PIK-2017-08-04.json--------------------
-url:http://pik.bg/%D0%BA%D1%8A%D0%B4%D0%B5-%D0%B4%D0%B0-%D0%BD%D0%B5-%D1%85%D0%BE%D0%B4%D0%B8%D0%BC-%D0%BD%D0%B0-%D0%BF%D0%BE%D1%87%D0%B8%D0%B2%D0%BA%D0%B0-%D1%82%D0%BE%D0%B2%D0%B0-%D0%BB%D1%8F%D1%82%D0%BE-news680591.html
+>> Validation report of  PIK/Reports/PIK-2017-09-13.json
+url:http://pik.bg/%D0%B7%D0%B0%D0%BA%D1%80%D0%B8%D0%B2%D0%B0%D1%82-%D1%81%D0%BA%D0%B0%D0%BD%D0%B4%D0%B0%D0%BB%D0%BD%D0%B8%D1%8F-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%82-%D1%81-%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%B8%D1%82%D1%83%D0%B8%D1%80%D0%B0%D1%89%D0%B8%D1%82%D0%B5-%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%87%D0%BA%D0%B8-%D0%B2-%D1%81%D0%B5%D0%BB%D0%BE-%D0%B4%D1%80%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE-news690140.html
 'text' is empty
 
-url:http://pik.bg/%D0%B3%D0%BE%D1%80%D0%B5%D1%89%D0%B0-%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%B0-%D0%BF%D1%83%D1%82%D0%B8%D0%BD-%D0%BE%D1%82%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8-%D0%B4%D0%B0%D0%BB%D0%B8-%D1%89%D0%B5-%D1%81%D0%B5-%D0%BA%D0%B0%D0%BD%D0%B4%D0%B8%D0%B4%D0%B0%D1%82%D0%B8%D1%80%D0%B0-%D0%B7%D0%B0-%D0%BF%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82-news680596.html
+url:http://pik.bg/%D0%BC%D1%8A%D0%B6%D0%B5%D1%82%D0%B5-%D1%81%D1%8A%D1%81-%D0%B7%D0%B0%D1%82%D0%BB%D1%8A%D1%81%D1%82%D0%B5%D0%BB%D0%B8-%D0%B6%D0%B5%D0%BD%D0%B8-%D1%81%D0%B0-%D0%B2-%D1%80%D0%B8%D1%81%D0%BA-%D0%BE%D1%82-%D0%B4%D0%B8%D0%B0%D0%B1%D0%B5%D1%82-news690136.html
 'text' is empty
 
-url:http://pik.bg/%D0%BD%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9-%D0%BA%D0%B8%D1%80%D0%BE%D0%B2-%D0%BB%D0%B8%D0%BF%D1%81%D0%B0%D1%82%D0%B0-%D0%BD%D0%B0-%D0%BE%D0%BF%D0%B8%D1%82-%D0%BD%D0%B8-%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%BB%D0%B8-news680485.html
+url:http://pik.bg/%D0%BC%D0%B0%D1%81%D0%BE%D0%B2%D0%B8-%D0%BD%D0%B0%D1%80%D1%83%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%BC%D0%BE%D1%80%D0%B5%D1%82%D0%BE-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BE%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D0%B8%D1%82%D0%B5-%D0%BD%D0%B5-%D1%81%D0%BA%D0%BB%D1%8E%D1%87%D0%B2%D0%B0%D1%82-%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8-%D0%B8-%D0%BD%D0%B5-%D1%83%D1%82%D0%BE%D1%87%D0%BD%D1%8F%D0%B2%D0%B0%D1%82-%D0%B7%D0%B0%D0%BF%D0%BB%D0%B0%D1%82%D0%B8%D1%82%D0%B5-news690090.html
 'text' is empty
 
-url:http://pik.bg/%D0%BD%D0%B5%D0%B2%D0%B8%D0%B6%D0%B4%D0%B0%D0%BD%D0%B0-%D0%BD%D0%B0%D0%B3%D0%BB%D0%BE%D1%81%D1%82-%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE%D0%BA%D1%82%D0%BE%D0%BF%D0%BE%D0%B4-%D1%82%D0%BE%D0%BC%D0%B0-%D0%B1%D0%B5%D0%BB%D0%B5%D0%B2-%D0%BF%D0%B8%D0%B5-%D0%B2%D0%B8%D0%BD%D0%BE-%D0%B2-%D0%BE%D1%84%D0%B8%D1%81%D0%B0-%D1%81%D0%B8-%D0%B4%D0%BE%D0%BA%D0%B0%D1%82%D0%BE-%D1%85%D0%BE%D1%80%D0%B0%D1%82%D0%B0-%D1%81%D0%B0-%D0%BE%D0%BA%D1%8A%D1%80%D0%B2%D0%B0%D0%B2%D0%B5-news680729.html
+url:http://pik.bg/%D0%B6%D0%B8%D1%82%D0%B5%D0%BB%D0%B8-%D0%BD%D0%B0-%D0%BD%D0%BE%D0%B2%D0%B0-%D0%B7%D0%B0%D0%B3%D0%BE%D1%80%D0%B0-%D0%B8%D1%81%D0%BA%D0%B0%D1%82-%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4%D0%B0-%D0%B7%D0%B0-%D0%B1%D0%B8%D0%BE%D0%B3%D0%B0%D0%B7-%D0%B4%D0%B0-%D1%81%D0%BF%D1%80%D0%B5-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-news689942.html
 'text' is empty
 
+url:http://pik.bg/%D0%BA%D0%B0%D1%82%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%B0%D1%82%D0%B0-%D0%BD%D0%B0-%D1%80%D0%B8%D1%88%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE%D1%85%D0%BE%D0%B4-%D1%86%D0%B8%D1%81%D1%82%D0%B5%D1%80%D0%BD%D0%B0-%D1%81-%D0%B1%D0%B5%D0%BD%D0%B7%D0%B8%D0%BD-%D1%81%D0%B5-%D0%B5-%D0%BE%D0%B1%D1%8A%D1%80%D0%BD%D0%B0%D0%BB%D0%B0-%D0%BD%D0%B0-%D0%BF%D1%8A%D1%82%D1%8F-news690063.html
+'text' is empty
 
-----------------------------------------------------------------------------------
-Valid records: 217 of 221
-----------------------------------------------------------------------------------
+url:http://pik.bg/%D0%B8%D0%B7%D0%B2%D1%8A%D0%BD%D1%80%D0%B5%D0%B4%D0%BD%D0%BE-%D0%B5%D1%82%D0%BE-%D0%B3%D0%BE-%D0%B7%D0%B0%D0%BF%D0%BE%D0%B4%D0%BE%D0%B7%D1%80%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B7%D0%B0-%D1%83%D0%B1%D0%B8%D0%B9%D1%81%D1%82%D0%B2%D0%BE%D1%82%D0%BE-%D0%BD%D0%B0-%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%BA%D0%B0%D1%82%D0%B0-%D0%B8-%D0%BC%D0%B0%D0%BB%D0%BA%D0%B8%D1%8F-%D0%B9-%D1%81%D0%B8%D0%BD-%D0%B2-%D0%B3%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F-%D1%81%D0%BD%D0%B8%D0%BC%D0%BA-news690098.html
+'text' is empty
+
+----------------------------------------------------------------------
+Valid records: 195 of 201
+----------------------------------------------------------------------
 
