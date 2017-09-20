@@ -23,8 +23,8 @@ system('Python 24chasa/Clean24chasa.py > 24chasa/Logs/validate24chasa.txt')
 system('scrapy runspider Trud/TrudSpider.py -o Trud/Reports/Trud-'+str(Today)+'.json -t jsonlines 2> Trud/Logs/outputTrud.txt')
 system('Python Trud/CleanTrud.py > Trud/Logs/validateTrud.txt')
 
-system('scrapy runspider Duma/DumaSpider.py -o Duma/Reports/Duma-'+str(Today)+'.json -t jsonlines 2> Duma/Logs/outputDuma.txt')
-system('Python Duma/CleanDuma.py > Duma/Logs/validateDuma.txt')
+# system('scrapy runspider Duma/DumaSpider.py -o Duma/Reports/Duma-'+str(Today)+'.json -t jsonlines 2> Duma/Logs/outputDuma.txt')
+# system('Python Duma/CleanDuma.py > Duma/Logs/validateDuma.txt')
 
 system('scrapy runspider Mediapool/MediapoolSpider.py -o Mediapool/Reports/Mediapool-'+str(Today)+'.json -t jsonlines 2> Mediapool/Logs/outputMediapool.txt')
 system('Python Mediapool/CleanMediapool.py > Mediapool/Logs/validateMediapool.txt')

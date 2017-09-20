@@ -31,10 +31,12 @@ import HelperTools
 #HelperTools.scanReports('PIK\Reports\PIK*.json')
 
 
-#HelperTools.scanReports('PIK\Reports\PIK-2017-09-12.json')
+##HelperTools.scanReports('PIK\Reports\PIK-2017-09-15.json')
+##HelperTools.scanReports('PIK\Reports\PIK-2017-09-13.json')
 
 
-#HelperTools.checkReport('Mediapool/Reports\Mediapool-2017-07-05.json')
+#HelperTools.checkReport('PIK/Reports/PIK-2017-09-15.json')
+#HelperTools.checkReport('Classa/Reports/Classa-2017-09-17.json')
 #HelperTools.scanChangeDateDelimiter('PIK\Reports\*.json')
 #HelperTools.scanChangeDateDelimiter('OffNews\Reports\*.json')
 
@@ -69,8 +71,6 @@ with jsonlines.open(file) as reader:
                 print obj['url']
 
 
-'''
-
 
 import os
 import hashlib
@@ -96,10 +96,13 @@ for item in items:
     if md5_1 != md5_2:
         print '(md5) ',item, md5_1, md5_2,md5_1==md5_2
     else:
-        print ++count 
+        pass
+
+
 for item in items:
     c1=os.path.getsize(pathData+str(item))
     c2=os.path.getsize(pathReports+str(item))
     if c1 != c2:
         print '(sz) ',item, c1, c2,c1==c2
 
+'''

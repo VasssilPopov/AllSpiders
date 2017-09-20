@@ -122,7 +122,7 @@ def monthlyDataReport(repYear, repMonth):
 
     repCrit='%s-%02d-'%(repYear, repMonth)
     repTitle='-%s-%02d'%(repYear, repMonth)
-    fText=open('_MonthlyReports\\MontlyReport'+repTitle+'.txt','w')
+    fText=open('_MonthlyReports\\MonthlyReport'+repTitle+'.txt','w')
     fText.write( reportColumnHeadings(repYear, repMonth))
     days= sorted(list(getFullSet(repYear, repMonth)))
     
@@ -141,7 +141,7 @@ repYear='2017'
 repMonth=9
 
 # single month report
-#monthlyDataReport(repYear, repMonth)
+monthlyDataReport(repYear, repMonth)
 
 # range of months report
 #for m in range(5,10):

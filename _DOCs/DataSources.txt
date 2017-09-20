@@ -1,0 +1,50 @@
+﻿DATA COLLECTION SOURCES
+
+GROUPING
+Data collection sources can be grouped by the date used for results filtering and 
+those are TODAY (using current date) and YESTERDAY (using yesterday date). 
+So Yesterday data source can be executed early in the morning, no more data will be added during the day.
+Oposite TODAY should be executed late in the day, we must wait more data generated during the day to be collected.
+
+DATA SOURCES LIST
+
+	TODAY data sources
+Name		Start Url						Collection script name
+--------------- ------------------------------------------------------- ----------------------
+Blitz		https://www.blitz.bg/politika				RunBlitzSpider.py
+24chasa		https://www.24chasa.bg/novini/				Run24chasaSpider.py
+Trud		https://trud.bg/news/					RunTrudSpider.py
+Duma		http://duma.bg/taxonomy/term/1				RunDumaSpider.py
+Mediapool	http://mediapool.bg/today.html				RunMediapoolSpider.py
+ClubZ		http://clubz.bg/news					RunClubZSpider.py
+Classa		http://www.classa.bg/component/k2/itemlist/date/	RunClassaSpider.py
+
+	YESTERDAY data sources
+Dnevnik		http://dnevnik.bg/allnews/yesterday/			RunDnevnikSpider.py
+Focus		http://www.focus-news.net/news/Yesterday/		RunFocusSpider.py
+Monitor		http://www.monitor.bg/home/category/20			RunMonitorSpider.py
+News		https://news.bg/yesterday				RunNewsSpider.py
+OffNews		https://offnews.bg/'+Yesterday+'/'			RunOffNewsSpider.py
+PIK		http://pik.bg/novini-za-"+urlDate+".html		RunPIKSpider.py
+
+
+HOW TO START DATA COLLECTION
+
+1. Start new console
+2. cd <root directory> 
+3. As example we will start a single Focus spider
+   python FocusSpiders.py
+
+! According a grouping we can start a group of spiders
+	Start all spiders		Python RunAllSpiderS.py  or RunAllSpiders.bat
+	
+	Start All TODAY spiders		Python RunTodaySpiderS.py
+	Start All YESTERDAY spiders	Python RunTodaySpiderS.py
+
+
+WHEN TO START DATA COLLECTION
+
+We propose the followin sheduler:
+	Start All YESTERDAY spiders 	Any time during the day before midnight
+	Python RunDumaSpider.py 	15:00 
+	Start All YESTERDAY spiders 	Late night in the day before midnight (23:30)

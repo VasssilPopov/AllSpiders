@@ -30,10 +30,10 @@ from urllib2 import quote
 # example input parameters
 # Report Year 2017 and report month (August)
 repYear='2017'
-repMonth=8
+repMonth=9
 
 # single month report
-#monthlyDataReport(repYear, repMonth)
+monthlyDataReport(repYear, repMonth)
 
 ## range of months report
 ## create separate text file reports
@@ -42,3 +42,17 @@ repMonth=8
 # for m in range(5,10):
 #     monthlyDataReport(repYear, m)
 # Monthly Reports of collected data (End)------------------------------------
+'''
+import time
+startTime=time.time()
+
+for i in range(0,3):
+        time.sleep(1)
+
+endTime=time.time()
+
+print '%s Duration: %f' % (time.localtime(startTime),(endTime - startTime))
+
+
+
+'''
