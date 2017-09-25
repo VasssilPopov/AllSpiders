@@ -1,11 +1,11 @@
-VALIDATIONS for Monitor/Reports/Monitor-2017-09-19.json
+VALIDATIONS for Monitor/Reports/Monitor-2017-09-24.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 76, Duplicates: 0 ), File: Monitor/Reports/Monitor-2017-09-19.json
+Records: (All: 50, Duplicates: 0 ), File: Monitor/Reports/Monitor-2017-09-24.json
 
->> Validation report of  Monitor/Reports/Monitor-2017-09-19.json
+>> Validation report of  Monitor/Reports/Monitor-2017-09-24.json
 ----------------------------------------------------------------------
-Valid records: 76 of 76
+Valid records: 50 of 50
 ----------------------------------------------------------------------
 

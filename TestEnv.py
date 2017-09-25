@@ -108,14 +108,14 @@ def scanFolderCheckCounter(folderPath):
 #scanAndConvertBlitzDatetoStandart('PIK\Reports\PIK*.json')
 
 #convertBlitzDatetoStandart('Mediapool\\Reports\\Mediapool-2017-05-21.json')
-s='Mediapool'        
+s='24chasa'        
 spath='%s\\Reports\\%s-*.json' % (s, s)
-spathD='%s\\Data\\%s-*.json' % (s, s)
+#spathD='%s\\Data\\%s-*.json' % (s, s)
 
 # date format
 #scanFolderCheckDate(spathD)
 # data duplicates
-#reportDuplicates (spathD)
+reportDuplicates (spath)
 #scanReports(spathD)
 
 #checkReport('C:\STUDY_SPIDERS\LAB\json_Lab\PIK-2017-06-07.json')
@@ -180,7 +180,7 @@ def fileStatus(fileName):
         f.close()
 
 #fileStatus("Blitz/Logs/validateBlitz.txt")
-#reportDuplicates ('PIK/Reports\PIK-2017-07-*.json')
+#reportDuplicates ('PIK/Reports\PIK-2017-09-*.json')
 
 #checkReport('Dnevnik/Reports/Dnevnik-2017-07-17.json')
 json_datafile='Dnevnik/Reports/Dnevnik-2017-07-18.json'
@@ -215,7 +215,7 @@ def scanPath(folderPath):
 
         print count
 
-scanPath('PIK\\Reports\\PIK*.json')
+scanPath('Monitor\\Reports\\Monitor*.json')
 #'Test\Reports\PIK-2017-08-10.json'
 
 

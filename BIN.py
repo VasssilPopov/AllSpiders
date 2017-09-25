@@ -40,18 +40,23 @@ import HelperTools
 #HelperTools.scanChangeDateDelimiter('PIK\Reports\*.json')
 #HelperTools.scanChangeDateDelimiter('OffNews\Reports\*.json')
 
-#HelperTools.scanReports('PIK/Reports/PIK-2017-09*.json')
-#HelperTools.scanReports('Monitor/Reports/Monitor-2017-09*.json')
+
+
+
+#HelperTools.scanReports('PIK/Reports/PIK-2017-09-*.json')
+HelperTools.scanReports('Trud/Reports/Trud-2017-09-25.json')
 
 # more than one 
-#HelperTools.scanReports('Focus/Reports/Focus-2017-09*.json')
+#HelperTools.scanReports('Focus/Reports/Focus-2017-09-20.json')
 
 
 # only one json
-#HelperTools.checkReport('PIK/Reports/PIK-2017-09-08.json')
+##HelperTools.checkReport('PIK/Reports/PIK-2017-09-19.json')
+##HelperTools.checkReport('ClubZ/Reports/ClubZ-2017-09-19.json')
 #HelperTools.checkReport('Monitor/Reports/Monitor-2017-09-07.json')
 #HelperTools.checkReport('Monitor/Reports/Monitor-2017-09-10.json')
-#HelperTools.checkReport('Monitor/Reports/Monitor-2017-09-11.json')
+
+#HelperTools.checkReport('Classa/Reports/Classa-2017-09-22.json')
 
 ## scan json file
 #import jsonlines
@@ -60,17 +65,15 @@ import HelperTools
 #with jsonlines.open(file) as reader:
 #        for obj in reader:
 #                print obj['url']
-
 '''
+
 # scan json file
 import jsonlines
 
-file='Focus/Reports/Focus-2017-06-18.json'
+file='Focus/Reports/Focus-2017-09-19.json'
 with jsonlines.open(file) as reader:
         for obj in reader:
                 print obj['url']
-
-
 
 import os
 import hashlib

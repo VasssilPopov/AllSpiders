@@ -1,11 +1,11 @@
-VALIDATIONS for News/Reports/News-2017-09-19.json
+VALIDATIONS for News/Reports/News-2017-09-24.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 87, Duplicates: 0 ), File: News/Reports/News-2017-09-19.json
+Records: (All: 43, Duplicates: 0 ), File: News/Reports/News-2017-09-24.json
 
->> Validation report of  News/Reports/News-2017-09-19.json
+>> Validation report of  News/Reports/News-2017-09-24.json
 ----------------------------------------------------------------------
-Valid records: 87 of 87
+Valid records: 43 of 43
 ----------------------------------------------------------------------
 
