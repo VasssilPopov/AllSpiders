@@ -1,11 +1,11 @@
-VALIDATIONS for OffNews/Reports/OffNews-2017-09-24.json
+VALIDATIONS for OffNews/Reports/OffNews-2017-09-26.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 41, Duplicates: 0 ), File: OffNews/Reports/OffNews-2017-09-24.json
+Records: (All: 87, Duplicates: 0 ), File: OffNews/Reports/OffNews-2017-09-26.json
 
->> Validation report of  OffNews/Reports/OffNews-2017-09-24.json
+>> Validation report of  OffNews/Reports/OffNews-2017-09-26.json
 ----------------------------------------------------------------------
-Valid records: 41 of 41
+Valid records: 87 of 87
 ----------------------------------------------------------------------
 

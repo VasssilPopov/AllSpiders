@@ -44,7 +44,7 @@ import HelperTools
 
 
 #HelperTools.scanReports('PIK/Reports/PIK-2017-09-*.json')
-HelperTools.scanReports('Trud/Reports/Trud-2017-09-25.json')
+HelperTools.scanReports('Trud/Reports/Trud-2017-09-19.json')
 
 # more than one 
 #HelperTools.scanReports('Focus/Reports/Focus-2017-09-20.json')

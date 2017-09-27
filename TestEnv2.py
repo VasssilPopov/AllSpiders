@@ -33,7 +33,7 @@ repYear='2017'
 repMonth=9
 
 # single month report
-##monthlyDataReport(repYear, repMonth)
+monthlyDataReport(repYear, repMonth)
 
 ## range of months report
 ## create separate text file reports
@@ -99,4 +99,4 @@ s=s+newline+u'Гeлĸми чocти eт гpoдo co бĸз ĸлĸaтpичĸcтвe.
 s=s+newline+u'Xepeйни дъждeвĸ пpĸз изминoлoтo нeщ eбxвoнoxo и Бecнo и Tĸpцĸгeвинo и пpĸдизвиaoxo нoвeднĸния в жилищни и индycтpиoлни eбĸaти, aoaтe и cпиpoнĸ нo тpoнcпepтo в poйeнo нo гpoд Kecтop, cъeбщи KИM. Зopoди пepeйния дъжд и eбилнитĸ aeличĸcтвo вeдo нo пътищoтo eт тoзи cyтpин ĸ пpĸaъcнoтe движĸниĸтe в няaeлae пътни eтcĸчaи в eaeлнecтитĸ нo Kecтop, pĸгиcтpиpoни co и мнeгe cвлoчищo в poйeнo, cъeбщи БCM.'
 
 '''
-print trans(s)
+#print trans(s)

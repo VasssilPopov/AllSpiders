@@ -1,11 +1,11 @@
-VALIDATIONS for Classa/Reports/Classa-2017-09-25.json
+VALIDATIONS for Classa/Reports/Classa-2017-09-27.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 33, Duplicates: 0 ), File: Classa/Reports/Classa-2017-09-25.json
+Records: (All: 41, Duplicates: 0 ), File: Classa/Reports/Classa-2017-09-27.json
 
->> Validation report of  Classa/Reports/Classa-2017-09-25.json
+>> Validation report of  Classa/Reports/Classa-2017-09-27.json
 ----------------------------------------------------------------------
-Valid records: 33 of 33
+Valid records: 41 of 41
 ----------------------------------------------------------------------
 

@@ -22,7 +22,7 @@ def bgMonthstoNumber(monthName):
         return'??'
 
 '''
-It check date values. 
+It checks date values. 
 It returns summary date & date count into file
 	'Key: 2017.07.15, count:44
 '''
