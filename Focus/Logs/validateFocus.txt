@@ -1,11 +1,8 @@
-VALIDATIONS for Focus/Reports/Focus-2017-09-26.json
+VALIDATIONS for Focus/Reports/Focus-2017-09-30.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 411, Duplicates: 0 ), File: Focus/Reports/Focus-2017-09-26.json
+Records: (All: 243, Duplicates: 0 ), File: Focus/Reports/Focus-2017-09-30.json
 
->> Validation report of  Focus/Reports/Focus-2017-09-26.json
-----------------------------------------------------------------------
-Valid records: 411 of 411
-----------------------------------------------------------------------
-
+>> Validation report of  Focus/Reports/Focus-2017-09-30.json
+<<Valid records: 243 of 243

@@ -1,14 +1,8 @@
-VALIDATIONS for Trud/Reports/Trud-2017-09-27.json
+VALIDATIONS for Trud/Reports/Trud-2017-10-01.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 28, Duplicates: 0 ), File: Trud/Reports/Trud-2017-09-27.json
+Records: (All: 27, Duplicates: 0 ), File: Trud/Reports/Trud-2017-10-01.json
 
->> Validation report of  Trud/Reports/Trud-2017-09-27.json
-url:https://trud.bg/%d0%bc%d1%8a%d0%b6-%d0%bf%d0%be%d0%b8%d1%81%d0%ba%d0%b0-10-000-%d0%bb%d0%b5%d0%b2%d0%b0-%d0%b7%d0%b0-%d0%bb%d0%be%d1%88%d0%b8%d1%82%d0%b5-%d1%83%d1%81%d0%bb%d0%be%d0%b2%d0%b8%d1%8f-%d0%b2-%d0%b0%d1%80/
-'text' is empty
-
-----------------------------------------------------------------------
-Valid records: 27 of 28
-----------------------------------------------------------------------
-
+>> Validation report of  Trud/Reports/Trud-2017-10-01.json
+<<Valid records: 27 of 27

@@ -89,11 +89,11 @@ def isDataValid(obj):
     if obj['url']==u'':
         resValue['result'] = False
         resValue['messages'].append(u"'url' is empty")
-    elif urlExists(obj['url'])==False:
-    #url  Exists  ---------------------------------
-        url=obj['url']
-        resValue['result'] = False
-        resValue['messages'].append(u"url:'"+url+"' doesn't exist")
+#    elif urlExists(obj['url'])==False:
+#    #url  Exists  ---------------------------------
+#        url=obj['url']
+#        resValue['result'] = False
+#        resValue['messages'].append(u"url:'"+url+"' doesn't exist")
 
     #title  Not empty   ---------------------------------
     if obj['title']==u'':
@@ -107,6 +107,7 @@ def isDataValid(obj):
         
 
     #date  Not empty   ---------------------------------
+
     if obj['date']==u'':
         resValue['result'] = False
         resValue['messages'].append(u"'date' is empty")
@@ -127,7 +128,8 @@ def isDataValid(obj):
         pass
     else:
         #print 'Data is not valid'
-		print 'url:'+obj['url']
+        print 'url:'+obj['url']
+    
     for msg in resValue['messages']:
         print u''+msg
         print u''
@@ -154,10 +156,10 @@ def checkReport(jlFile):
             # print countAll
             if isDataValid(obj):
                 count +=1
-	print '-'*70
-    print 'Valid records: %d of %d'%(count, countAll)
-    print '-'*70
-    print
+	#print '-'*70
+    print '<<Valid records: %d of %d'%(count, countAll)
+    #print '-'*70
+    #print
 
 #checkReport('Dnevnik/Reports/Dnevnik-2017-07-18.json')
 #checkReport('Trud\Reports\Trud-2017-06-23.json')
@@ -170,7 +172,7 @@ def scanReports(folderPath):
    
     print s20+folderPath
     for file in files:
-        print checkReport(file)
+        checkReport(file)
 
     s20='-'*10 +'End'+ '-'*10
     print s20
