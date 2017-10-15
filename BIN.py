@@ -43,12 +43,16 @@ import HelperTools
 
 
 
-#HelperTools.scanReports('PIK/Reports/PIK-2017-09-*.json')
-#HelperTools.scanReports('PIK/Reports/PIK-2017-09-*.json')
-HelperTools.scanReports('PIK/Reports/PIK-2017-09-30.json')
+#HelperTools.scanReports('Mediapool/Reports/Mediapool-2017-10-05.json')
+s='PIK'
+HelperTools.scanReports(s+'/Reports/'+s+'-2017-10-12.json')
+
+
+#HelperTools.scanReports('PIK/Reports/PIK-2017-10-*.json')
+#HelperTools.scanReports('Mediapool/Reports/Mediapool-2017-10-*.json')
 #HelperTools.scanReports('Focus/Reports/Focus-2017-06-21.json')
-#HelperTools.scanReports('Trud/Reports/Trud-2017-09*.json')
-#HelperTools.scanReports('ClubZ/Reports/ClubZ-2017-08-24.json')
+#HelperTools.scanReports('Trud/Reports/Trud-2017-10-02.json')
+#HelperTools.scanReports('PIK/Reports/PIK-2017-10-04.json')
 
 # more than one 
 #HelperTools.scanReports('Focus/Reports/Focus-2017-09-20.json')

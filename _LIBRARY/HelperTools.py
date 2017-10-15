@@ -25,7 +25,30 @@ def bgMonthstoNumber(monthName):
 It checks date values. 
 It returns summary date & date count into file
 	'Key: 2017.07.15, count:44
+    
 '''
+def usMonthstoNumber(monthName):
+    monthName=monthName.lower()
+    months= {'jan':'01',  
+        'feb':'02',  
+        'mar':'03',  
+        'apr':'04',  
+        'may':'05',  
+        'jun':'06',  
+        'jul':'07',  
+        'aug':'08',  
+        'sep':'09',  
+        'oct':'10',  
+        'nov':'11',  
+        'dec':'12'}
+    if (monthName in months):
+		return months[monthName]
+    else:
+        return'??'
+    
+
+
+
 def checkDate(jlFile):
     d=dict()
     

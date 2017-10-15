@@ -1,8 +1,8 @@
-VALIDATIONS for Mediapool/Reports/Mediapool-2017-10-01.json
+VALIDATIONS for Mediapool/Reports/Mediapool-2017-10-15.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 23, Duplicates: 0 ), File: Mediapool/Reports/Mediapool-2017-10-01.json
+Records: (All: 26, Duplicates: 0 ), File: Mediapool/Reports/Mediapool-2017-10-15.json
 
->> Validation report of  Mediapool/Reports/Mediapool-2017-10-01.json
-<<Valid records: 23 of 23
+>> Validation report of  Mediapool/Reports/Mediapool-2017-10-15.json
+<<Valid records: 26 of 26

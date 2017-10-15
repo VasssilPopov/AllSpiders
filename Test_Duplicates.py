@@ -28,7 +28,7 @@ today = date.today()
 Today = today.strftime("%Y-%m-%d")
 strToday = today.strftime("%Y.%m.%d").lower()
 
-s='ClubZ'        
+s='Monitor'        
 spath='%s\\Reports\\%s-*.json' % (s, s)
 #spathD='%s\\Data\\%s-*.json' % (s, s)
 

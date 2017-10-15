@@ -1,0 +1,78 @@
+﻿http://www.faktor.bg/
+--------------------------------------
+http://www.faktor.bg/bg/articles/novini
+
+links=response.xpath('//article[@class="entry"]/div[@class="row"]/div/h2[@class="entry-title"]/a/@href').extract()
+(10)
+------------------------------------------------------------------------------------------------------------------
+/bg/articles/novini/balgariya/iliyana-yotova-prestrelki-ima-no-ne-i-voyna-mezhdu-institutsiite
+/bg/articles/novini/balgariya/ninova-chrez-svoite-bekvokalisti-borisov-si-razchistva-patya-kam-dondukov-2
+/bg/articles/novini/balgariya/glavniyat-sekretar-na-prezidentat-radev-e-pisal-i-kritichno-za-gripen
+/bg/articles/novini/balgariya/s-prazni-stolove-pred-ms-zhurnalisti-protestirat-sreshtu-natiska-i-ultimatumite
+/bg/articles/novini/balgariya/politsiyata-izdirva-profesor-potanal-vdan-zemya
+/bg/articles/novini/balgariya/goranov-spomnete-si-koga-nikolaev-mita-ot-btv-v-nova-togava-nyamashe-debat-za-svobadata-na-mediite
+/bg/articles/novini/balgariya/bozhidar-dimitrov-shte-sadya-stoyan-mirchev-ot-bsp-za-tvardeniyata-za-shurobadzhanashtina
+/bg/articles/novini/balgariya/tsvetanov-bsp-nyama-alternativa-za-upravlenieto-na-stranata
+/bg/articles/novini/balgariya/trus-4-2-po-rihter-razlyulya-vrancha
+/bg/articles/novini/svyat/tramp-namekva-za-voyna-sas-severna-koreya
+
+
+http://www.faktor.bg/bg/articles/novini/svyat/tramp-namekva-za-voyna-sas-severna-koreya
+fetch('http://www.faktor.bg/bg/articles/vzeha-glavata-na-us-filmov-produtsent')
+--------------------------------------
+title=response.xpath('//div[@class="entry-media"]/h1/text()').extract_first()
+--------------------------------------
+print title
+--------------------------------------
+Взеха главата на US филмов продуцент, обвинен в сексуален тормоз над актриси
+
+
+--------------------------------------
+texts=response.xpath('//article[@class="entry single"]/div[@class="entry-content"]/text()').extract()
+--------------------------------------
+text=u' '.join(texts)
+print text.strip()
+--------------------------------------
+Филмовият продуцент Харви Уейнстейн беше уволнен от ръководството на студиото, на което е съосновател, заради сексуален тормоз на работното място, предаде Си Ен Ен. До това се стига след разследване на вестник "Ню Йорк таймс", посочва "Дневник". Бордът на директорите на "Уейнстейн къмпани" (The Weinstein Company) уточнява в нарочно съобщение, че решението е взето "в светлината на нова информация, постъпила в последните няколко дни". В петък, след като скандалът стана световна новина, оставки от борда на директорите подадоха трима от неговите членове. През уикенда двамата адвокати, които съветваха Харви Уейнстейн, обявиха, че спират да работят
+за него. Според публикациите на "Ню Йорк таймс" продуцентът е тормозил сексуално основно млади актриси, които искали да пробият в голямото кино. Изданието твърди, че между 1990 и 2015 година Уейнстейн е постигнал извънсъдебни споразумение с поне осем жени. Харви Уейнстейн е сред най-успешните продуценти в Холивуд. Първите му големи успехи идват, когато заедно с брат си
+стават основатели на "Мирамакс филмс". Студиото продуцира касови и награждавани филми като "Влюбеният Шекспир", "Криминале", "Спасяването на Редник Райън" и т.н. Двамата братя продават "Мирамакс" на "Дисни" през 1993 година, а през 2005 година основават "Уейнстейн къмпани". Следват нови успехи със заглавия като "Речта на краля", "Джанго без окови" и други.
+--------------------------------------
+
+--------------------------------------
+--------------------------------------
+pubDate=response.xpath('//div[@id="content"]/div/div/div/article[@class="entry single"]/span/text()').extract()
+pubDateDay=u''.join(pubDate).strip()
+--------------------------------------
+08
+--------------------------------------
+
+pubDate=response.xpath('//div[@id="content"]/div/div/div/article[@class="entry single"]/span/span/text()').extract()
+--------------------------------------
+pubDate=pubDate.strip()
+--------------------------------------
+[u'OCT', u'2017']
+
+<HelperTools>
+def usMonthstoNumber(monthName):
+    ...:     monthName=monthName.lower()
+    ...:     months= {'jan':'01',
+    ...:         'feb':'02',
+    ...:         'mar':'03',
+    ...:         'apr':'04',
+    ...:         'may':'05',
+    ...:         'jun':'06',
+    ...:         'jul':'07',
+    ...:         'aug':'08',
+    ...:         'sep':'09',
+    ...:         'oct':'10',
+    ...:         'nov':'11',
+    ...:         'dec':'12'}
+    ...:     if (monthName in months):
+    ...:         return months[monthName]
+    ...:     else:
+    ...:         return'??'
+
+pubDate='%s.%s.%s' % (pubDate[1],usMonthstoNumber(pubDate[0]),pubDateDay)
+
+u'2017.10.09'
+

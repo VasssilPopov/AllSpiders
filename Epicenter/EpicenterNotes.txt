@@ -62,3 +62,12 @@ title=response.xpath('//td/p[@class="description_b"]/text()').exctract()
 texts=response.xpath('//td/p[@class="description_b"]/text() | //div[@id="adjuster"]/p/text() | //div[@id="adjuster"]/p/strong/text() | //div[@id="adjuster"]/p/em/text()').extract()
 
 urls=response.xpath('//tr/td/div/p.tinytext-novina').exctract()
+------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
