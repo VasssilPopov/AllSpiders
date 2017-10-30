@@ -1,23 +1,86 @@
+DATA COLLECTION SOURCES
 
+GROUPING
+Data collection sources can be grouped by the date used for results filtering and 
+those are TODAY (using current date) and YESTERDAY (using yesterday date). 
+So Yesterday data source can be executed early in the morning, no more data will be added during the day.
+Oposite TODAY should be executed late in the day, we must wait more data generated during the day to be collected.
+
+DATA SOURCES LIST
+
+	TODAY data sources
+Name		Start Url						Collection script name
+--------------- ------------------------------------------------------- ----------------------
+Blitz		https://www.blitz.bg/politika				RunBlitzSpider.py
+24chasa		https://www.24chasa.bg/novini/				Run24chasaSpider.py
+Trud		https://trud.bg/news/					RunTrudSpider.py
+Duma		http://duma.bg/taxonomy/term/1				RunDumaSpider.py
+Mediapool	http://mediapool.bg/today.html				RunMediapoolSpider.py
+ClubZ		http://clubz.bg/news					RunClubZSpider.py
+Classa		http://www.classa.bg/component/k2/itemlist/date/	RunClassaSpider.py
+
+	YESTERDAY data sources
+Dnevnik		http://dnevnik.bg/allnews/yesterday/			RunDnevnikSpider.py
+Focus		http://www.focus-news.net/news/Yesterday/		RunFocusSpider.py
+Monitor		http://www.monitor.bg/home/category/20			RunMonitorSpider.py
+News		https://news.bg/yesterday				RunNewsSpider.py
+OffNews		https://offnews.bg/'+Yesterday+'/'			RunOffNewsSpider.py
+PIK		http://pik.bg/novini-za-"+urlDate+".html		RunPIKSpider.py
 
 ---------------- _AllSpiders CONTENT ----------------
 
-updated 2017-06-26
+updated 2017-10-30
 
+BIRD'S EYE VIEW OF DATA LOCATION
+
+We have one single ROOT directory (_AllSpiders). All system data (helper data, collected json files etc) is located into root directory or 
+separate "specialized" subdirectories of the root directory.
 
 CONTENT OF ROOT DIRECTORY
 
-Run a single spider from python script. The scripts are two types for today date and for yesterday date.
-The result of script work is written as follow:
-   Subdirectory Logs:
-     output<spider name>.txt  - example outputBlitz.txt standart output, it contains a log of spider works.
-	It can be used if there is some error. to read system messages and etc
-     validate<spider name>.txt - example validateBlitz.txt, it contains messages of report output 
-        validation. Currenly this is check for empty columns.
+    Scripts with name starting with "Run" as Run<Spider name>Spider.py. Let name them "Run" scripts
+
+	They are python scripts used to run a single spider. 
+	Example: Python RunDnevnikSpider.py will run a single spider for source Dnevnik
+	Usage of each one of python scripts with name Run<name>Spiders(s).py will be explained further.
+
+    There is general purpose subdirectory of the root directory 
+
+	_DOCs - Text documents about the system data and organization 
+	_LIBRARY - common python utility scripts
+	_DailySummaryReports - Daily Reports about data scraping
+	_MonthlyReports - Monthly Reports about data scraping by date and source
+
+    Similar directory structure for each data source whiche are subdirectory of the root directory. 
+
+        Example: Let 24chasa is the spider:
+        _AllSpiders/24chasa/		- root directory for 24chasa spider
+	    Logs/
+		output24chasa.txt	- System log of last processing
+		validate24chasa.txt	- Validation report of last processing
+	    Reports/			- Daily processing results
+		24chasa-YYYY-mm-dd.json	- Json files for each date produced from specific source
+
+	The root directory contains also helper Python scripts (data collection, reporting etc)
+
+
+USAGE OF "Run" SCRIPTS
+
+     Run a single spider from python script. 
+     The scripts are two types for today's date and for yesterday's date.
+
+     The result of script work is written as follow:
+	   Subdirectory Logs:
+	     output<spider name>.txt  - example outputBlitz.txt standart output, it contains a log of spider works.
+		It can be used if there is some error. to read system messages and etc
+	     validate<spider name>.txt - example validateBlitz.txt, it contains messages of report output 
+        	validation. Currenly this is check for empty columns.
  
-   Subdirectory Reports:
-     <spider name>-YYYY-mm-dd.json - example Blitz-2017-06-15.json, it contains a url, title, 
-	description, date.
+ 	    Subdirectory Reports:
+	     <spider name>-YYYY-mm-dd.json - example Blitz-2017-06-15.json, it contains a url, title, description, date.
+
+
+
 
 This is the list of all spider's scripts
 
@@ -45,6 +108,29 @@ This is a python script that creates Daily summary report for all spiders into r
 
 	SummaryReport.py (Python script) Run only SummaryReport.py and create YYYY-mm-dd.txt file of 
 	daily summary report.
+
+
+HOW TO RUN DATA SCRIPER
+
+1. Start new console app
+2. cd <root directory> (_AllSpiders)
+3. As example we will start a single Focus spider
+   Python FocusSpiders.py
+
+! According a grouping we can start a group of spiders
+	Start all spiders		Python RunAllSpiderS.py  or RunAllSpiders.bat
+	
+	Start All TODAY spiders		Python RunTodaySpiderS.py
+	Start All YESTERDAY spiders	Python RunTodaySpiderS.py
+
+
+WHEN TO START DATA COLLECTION
+
+We propose the followin sheduler:
+	Start All YESTERDAY spiders 	Any time during the day before midnight
+	Python RunDumaSpider.py 	15:00 
+	Start All YESTERDAY spiders 	Late night in the day before midnight (23:30)
+
 
 
 Daily Summary Report

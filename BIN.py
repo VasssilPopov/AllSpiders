@@ -44,8 +44,8 @@ import HelperTools
 
 
 #HelperTools.scanReports('Mediapool/Reports/Mediapool-2017-10-05.json')
-s='PIK'
-HelperTools.scanReports(s+'/Reports/'+s+'-2017-10-12.json')
+s='Classa'
+HelperTools.scanReports(s+'/Reports/'+s+'-2017-10-30*.json')
 
 
 #HelperTools.scanReports('PIK/Reports/PIK-2017-10-*.json')

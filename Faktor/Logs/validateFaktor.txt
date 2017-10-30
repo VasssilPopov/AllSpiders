@@ -1,0 +1,8 @@
+VALIDATIONS for Faktor/Reports/Faktor-2017-10-25.json
+
+>> Duplicates Report
+----------------------------------------------------------------------
+Records: (All: 0, Duplicates: 0 ), File: Faktor/Reports/Faktor-2017-10-25.json
+
+>> Validation report of  Faktor/Reports/Faktor-2017-10-25.json
+<<Valid records: 0 of 0

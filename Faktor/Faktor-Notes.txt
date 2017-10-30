@@ -76,3 +76,36 @@ pubDate='%s.%s.%s' % (pubDate[1],usMonthstoNumber(pubDate[0]),pubDateDay)
 
 u'2017.10.09'
 
+----------------------------------
+
+>>> http://www.faktor.bg/bg/articles/novini
+
+links=response.xpath('//article[@class="entry"]/div[@class="row"]/div/h2[@class="entry-title"]/a/@href').extract()
+
+
+
+
+>>> http://www.faktor.bg/bg/articles/rumen-radev-naznachi-georgi-cholakov-za-predsedatel-na-vas
+
+pubDate=response.xpath('//article[@class="entry single"]/span[@class="entry-date"]/text()').extract()
+pubDate=u''.join(pubDate).strip()
+>>> u'23'
+
+pubMonth=response.xpath('//article[@class="entry single"]/span[@class="entry-date"]/span/text()').extract()
+>>> [u'OCT', u'2017']
+
+
+title=response.xpath('//div[@class="entry-media"]/h1/text()').extract_first()
+>> Румен Радев назначи Георги Чолаков за председател на ВАС
+
+texts=response.xpath('//article[@class="entry single"]/div[@class="entry-content"]/p/text()').extract()
+
+text=u' '.join(texts)
+
+print text
+
+
+
+
+
+

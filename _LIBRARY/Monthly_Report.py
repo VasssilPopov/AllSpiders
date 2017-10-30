@@ -138,7 +138,7 @@ def monthlyDataReport(repYear, repMonth):
 
 print 'Finish'
 repYear='2017'
-repMonth=9
+repMonth=10
 
 # single month report
 monthlyDataReport(repYear, repMonth)
