@@ -28,14 +28,21 @@ today = date.today()
 Today = today.strftime("%Y-%m-%d")
 strToday = today.strftime("%Y.%m.%d").lower()
 
-s='Monitor'        
+#Srcs =['Blitz', '24chasa', 'Trud', 'Duma', 'Mediapool', 'ClubZ', 'Classa', 'Dnevnik', 'Focus', 'News', 'OffNews', 'PIK',]
+#Srcs =['PIK', ]
+
+#for src in Srcs:
+#    HelperTools.scanReports(src+'/Reports/'+src+'-2017-11-1*.json')
+
+s='24chasa'        
 spath='%s\\Reports\\%s-*.json' % (s, s)
 #spathD='%s\\Data\\%s-*.json' % (s, s)
 
 # date format
 #scanFolderCheckDate(spathD)
 # data duplicates
+
 reportDuplicates (spath)
 
 
-#removeDuplicates('24chasa\\Reports\\24chasa-2017-09-20.json')
+#>#removeDuplicates('24chasa\\Reports\\24chasa-2017-11-19.json')

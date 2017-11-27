@@ -39,7 +39,8 @@ class ClubZSpider(scrapy.Spider):
 		"http://clubz.bg/news"
 	]
 	custom_settings = {
-		'FEED_EXPORT_ENCODING': 'utf-8'
+		'FEED_EXPORT_ENCODING': 'utf-8',
+        'DEPTH_LIMIT':'2'
 	}
 	
 	def __init__(self):
@@ -62,7 +63,8 @@ class ClubZSpider(scrapy.Spider):
 				yield scrapy.Request(url=url, callback=self.parse_details)
 
 		# follow pagination link
-		next_page_url=response.xpath('//div[@class="row pagination"]/div[2]/a[@class="btn next pull-right"]/@href').extract_first()
+		# next_page_url=response.xpath('//div[@class="row pagination"]/div[2]/a[@class="btn next pull-right"]/@href').extract_first()
+		next_page_url = response.xpath('//ul[@class="pagination"]/li[@class="next"]/a/@href').extract()
 		if next_page_url:
 			next_page_url = response.urljoin(next_page_url)
 			yield scrapy.Request(url=next_page_url, callback=self.parse)
@@ -93,6 +95,6 @@ class ClubZSpider(scrapy.Spider):
 				'text': pageText,
 				'date': pageDate
 			}
-		else:
-			raise CloseSpider('Index date changed')
+		# else:
+			# raise CloseSpider('Index date changed')
 

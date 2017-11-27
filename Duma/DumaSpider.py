@@ -76,8 +76,9 @@ class DumaSpider(scrapy.Spider):
 	custom_settings = {
 		'FEED_EXPORT_ENCODING': 'utf-8',
 		'CONCURRENT_REQUESTS_PER_DOMAIN':'1',
-		'DOWNLOAD_DELAY':'5',
-		'COOKIES_ENABLED':'False'
+		'DOWNLOAD_DELAY':'3',
+		'COOKIES_ENABLED':'False',
+        'DEPTH_LIMIT':'2'
 	}
 	
 	def __init__(self):
@@ -95,13 +96,14 @@ class DumaSpider(scrapy.Spider):
 		for url in urls:
 			code=url.split('node/')[1]
 			if code not in self.links_seen:
-				print url
+				# print url
 				self.links_seen.add(code)
 				urlTemp = response.urljoin(url)
 				yield scrapy.Request(url=urlTemp, callback=self.parse_details)
 
 		# follow pagination link
 		next_page_url= response.xpath('//div[@class="item-list"]/ul[@class="pager"]/li[@class="pager-next"]/a[@class="active"]/@href').extract_first()
+        
 		if next_page_url:
 			next_page_url = response.urljoin(next_page_url)
 			print 'next page url: %s' % (next_page_url)
@@ -129,6 +131,6 @@ class DumaSpider(scrapy.Spider):
 				'date': pubDate
 
 			}
-		else:
-			raise CloseSpider('Index date changed')
+		# else:
+			# raise CloseSpider('Index date changed')
 

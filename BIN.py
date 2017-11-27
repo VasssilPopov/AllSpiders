@@ -15,7 +15,6 @@ from Dates import *
 import HelperTools
 
 
-
 #HelperTools.scanReports('Blitz\Reports\Blitz*.json')
 #HelperTools.scanReports('24chasa/Reports/24chasa*.json')
 #HelperTools.scanReports('Trud/Reports/Trud*.json')
@@ -44,8 +43,12 @@ import HelperTools
 
 
 #HelperTools.scanReports('Mediapool/Reports/Mediapool-2017-10-05.json')
-s='Classa'
-HelperTools.scanReports(s+'/Reports/'+s+'-2017-10-30*.json')
+
+Srcs =['Blitz', '24chasa', 'Trud', 'Duma', 'Mediapool', 'ClubZ', 'Classa', 'Dnevnik', 'Focus', 'News', 'OffNews', 'PIK',]
+#Srcs =['PIK', ]
+
+for src in Srcs:
+    HelperTools.scanReports(src+'/Reports/'+src+'-2017-11-1*.json')
 
 
 #HelperTools.scanReports('PIK/Reports/PIK-2017-10-*.json')

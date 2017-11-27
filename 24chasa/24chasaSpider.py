@@ -58,7 +58,7 @@ class Chasa24Spider(scrapy.Spider):
 	custom_settings = {
 		'FEED_EXPORT_ENCODING': 'utf-8',
 		'CONCURRENT_REQUESTS_PER_DOMAIN':'1',
-		'DOWNLOAD_DELAY':'5',
+		'DOWNLOAD_DELAY':'2',
 		'COOKIES_ENABLED':'False',
 		'DEPTH_LIMIT':'4'
 	}

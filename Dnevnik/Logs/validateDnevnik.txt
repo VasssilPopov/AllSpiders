@@ -1,8 +1,8 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2017-10-29.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2017-11-26.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 54, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2017-10-29.json
+Records: (All: 58, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2017-11-26.json
 
->> Validation report of  Dnevnik/Reports/Dnevnik-2017-10-29.json
-<<Valid records: 54 of 54
+>> Validation report of  Dnevnik/Reports/Dnevnik-2017-11-26.json
+<<Valid records: 58 of 58

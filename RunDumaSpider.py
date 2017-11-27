@@ -15,6 +15,7 @@ Yesterday = (date.today() - timedelta(1)).strftime("%Y-%m-%d")
 
 print 'Today: %s'%(Today),'-'*20
 system('scrapy runspider Duma/DumaSpider.py -o Duma/Reports/Duma-'+str(Today)+'.json -t jsonlines 2> Duma/Logs/outputDuma.txt')
+ 
 system('Python Duma/CleanDuma.py > Duma/Logs/validateDuma.txt')
 
 system('Python SummaryReport.py>_DailySummaryReports/'+Today+'.txt')

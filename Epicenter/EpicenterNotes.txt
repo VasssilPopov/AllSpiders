@@ -62,12 +62,40 @@ title=response.xpath('//td/p[@class="description_b"]/text()').exctract()
 texts=response.xpath('//td/p[@class="description_b"]/text() | //div[@id="adjuster"]/p/text() | //div[@id="adjuster"]/p/strong/text() | //div[@id="adjuster"]/p/em/text()').extract()
 
 urls=response.xpath('//tr/td/div/p.tinytext-novina').exctract()
+
 ------------------------------------------------------------------------------------------------
 
+urls=response.xpath('//tr/td[@class="products_list"]/a/@href').extract()
+
+len(urls) --> 15
+
+next_page_url=response.xpath('//div[@class="pagination"]/a[last()]/@href').extract_first()
 
 
 
+Page >>>>>>
+http://epicenter.bg/article/Akad--Georgi-Markov--Dnes-materialnoto-ubiva-duhovnoto-/139701/2/0
+
+title=response.xpath('//tr/td/h1/text()').extract_first()
+print(title)
+Акад. Георги Марков: Днес материалното убива духовното (Видео)
+
+texts=response.xpath('//div[@id="adjuster"]/p/text()').extract()
+text=u''.join(texts)
+print text
+
+Даже и след две национални катастрофи, с половин милион бежанци и тежки репарации, българите са имали национален дух и са вярвали, че
+ще поправят неправдите от Ньой, Букурещ и Цариград; имало е един възрожденски устрем. Днес младите са се заврели в екраните на смартфоните и компютрите и има едно прекланяне пред Златния телец, материалното убива духовното. Тази тъжна констатация ден преди Деня на будителите направи в сутрешния блок на бТВ историкът акад. Георги Марков. "Материалното го е имало винаги, но е имало и духовно, което се е поддържало от нашите будители - учители, учени, те винаги са сочели, че духовното не трябва да бъде жертва на материалното. Днес, това дойде от някои развити демокрации и икономики, над всичко се поставя материалното - първо те питат "Колко?", подчерта той. По думите му в момента куца не само образованието, но и възпитанието. Историкът си мечтае за "едно ново национално Възраждане", в което партиите да спрат да се ругаят от парламентарната трибуна. "Нашият народ има качества, но трябва и да повярва в себе си", категоричен е той.
+
+date=response.xpath('//div/p[@class="tinytext-novina"]/text()').extract_first()
+date=response.xpath('//tr/td/div/p[@class="tinytext-novina"]/text()').extract_first()
+s--> 434 | 31 окт. 2017 | 10:18
+date.split('|')[1].strip() --> '31 окт. 2017'
+
+TEST------------------------------------------
+http://epicenter.bg/article/Prezidentat-Radev-patuva-po-speshnost-kam-postradalite-ot-potopa-sela-v-Burgasko-/139707/2/0
 
 
+http://epicenter.bg/category/bulgaria/2
 
 

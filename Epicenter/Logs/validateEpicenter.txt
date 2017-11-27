@@ -1,0 +1,11 @@
+VALIDATIONS for Epicenter/Reports/Epicenter-2017-11-01.json
+
+>> Duplicates Report
+----------------------------------------------------------------------
+Records: (All: 42, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2017-11-01.json
+
+>> Validation report of  Epicenter/Reports/Epicenter-2017-11-01.json
+url:http://epicenter.bg/article/Sami-shte-si-postavyate-ogranicheniya/139851/10/101
+'text' is empty
+
+<<Valid records: 41 of 42
