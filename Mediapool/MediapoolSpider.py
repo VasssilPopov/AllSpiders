@@ -71,7 +71,7 @@ class MediapoolSpider(scrapy.Spider):
     def parse_page(self, response):
 		url     = response.url
 		title   = response.xpath('//div[@class="main_left"]/h1/text()').extract()[0].strip()
-		article = ''.join(response.xpath('//div[@class="main_left"]/div/p/text()| //div[@class="main_left"]/div[@id="art_font_size"]/p/b/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/text()| //div[@class="main_left"]/div[@id="art_font_size"]/div/div/div/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/div/text() | //div[@id="article-content"]/p/span/span/text() | //div[@id="article-content"]/p/span/text() | //div[@id="article-content"]/span/span/text()').extract()).strip() 
+		article = ''.join(response.xpath('//div[@class="main_left"]/div/p/text()| //div[@class="main_left"]/div[@id="art_font_size"]/p/b/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/text()| //div[@class="main_left"]/div[@id="art_font_size"]/div/div/div/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/div/text() | //div[@id="article-content"]/p/span/span/text() | //div[@id="article-content"]/p/span/text() | //div[@id="article-content"]/span/span/text() | //p/span/text()').extract()).strip() 
 
 		pubDate=response.xpath('//div[@class="info wbig"]/text()').extract_first()
 		if (pubDate[0:3] == ' | '):

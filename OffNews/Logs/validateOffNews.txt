@@ -1,8 +1,8 @@
-VALIDATIONS for OffNews/Reports/OffNews-2017-11-26.json
+VALIDATIONS for OffNews/Reports/OffNews-2017-12-13.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 41, Duplicates: 0 ), File: OffNews/Reports/OffNews-2017-11-26.json
+Records: (All: 62, Duplicates: 0 ), File: OffNews/Reports/OffNews-2017-12-13.json
 
->> Validation report of  OffNews/Reports/OffNews-2017-11-26.json
-<<Valid records: 41 of 41
+>> Validation report of  OffNews/Reports/OffNews-2017-12-13.json
+<<Valid records: 62 of 62

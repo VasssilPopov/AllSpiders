@@ -44,11 +44,15 @@ import HelperTools
 
 #HelperTools.scanReports('Mediapool/Reports/Mediapool-2017-10-05.json')
 
-Srcs =['Blitz', '24chasa', 'Trud', 'Duma', 'Mediapool', 'ClubZ', 'Classa', 'Dnevnik', 'Focus', 'News', 'OffNews', 'PIK',]
-#Srcs =['PIK', ]
+#Srcs =['Blitz', '24chasa', 'Trud', 'Duma', 'Mediapool', 'Monitor','ClubZ', 'Classa', 'Dnevnik', 'Focus', 'News', 'OffNews', 'PIK','Monitor',]
+#Srcs =['Dnevnik','Focus','Monitor','News','OffNews','PIK',]
+#Srcs =['24chasa','Blitz','Trud','Duma','Mediapool','ClubZ', 'Classa']
+
+#Srcs =['Blitz', '24chasa', 'Trud', 'Duma', 'Mediapool', 'ClubZ', 'Classa', 'Dnevnik', 'Focus', 'News', 'OffNews', 'PIK',]
+Srcs =['PIK', ]
 
 for src in Srcs:
-    HelperTools.scanReports(src+'/Reports/'+src+'-2017-11-1*.json')
+    HelperTools.scanReports(src+'/Reports/'+src+'-2017-12-*.json')
 
 
 #HelperTools.scanReports('PIK/Reports/PIK-2017-10-*.json')
