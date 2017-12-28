@@ -99,3 +99,12 @@ http://epicenter.bg/article/Prezidentat-Radev-patuva-po-speshnost-kam-postradali
 http://epicenter.bg/category/bulgaria/2
 
 
+---------------------------------------------
+http://epicenter.bg/category/bulgaria/2/1
+
+
+ps=response.xpath('//td[@class="products_list"]/a')
+
+for p in ps:
+     print p.xpath('@href').extract_first() -> url
+     print p.xpath('.//p[@class="tinytext-novina"]/text()').extract_first() -> date & time

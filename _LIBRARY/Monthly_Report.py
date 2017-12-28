@@ -49,7 +49,8 @@ delimiter='|'
 lineD=''
 now = datetime.datetime.now()
 
-srcNames=["Date\Src", "Dnevnik", "Focus", "Monitor", "News", "OffNews", "PIK",     "Blitz", "Classa", "24chasa", "Trud", "Duma", "Mediapool", "ClubZ"]
+#srcNames=["Date\Src", "Dnevnik", "Focus", "Monitor", "News", "OffNews", "PIK", "Novinite", "Epicenter", "Faktor", "Dnes", "Blitz", "Classa", "24chasa", "Trud", "Duma", "Mediapool", "ClubZ"]
+srcNames=["Date\Src", "Dnevnik", "Focus", "Monitor", "News", "OffNews", "PIK", "Novinite", "Epicenter", "Faktor", "Blitz", "Classa", "24chasa", "Trud", "Duma", "Mediapool", "ClubZ"]
 dictSums=dict()
 
 

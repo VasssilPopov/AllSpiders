@@ -40,5 +40,8 @@ system('Python OffNews/CleanOffNews.py > OffNews/Logs/validateOffNews.txt')
 system('scrapy runspider PIK/PIKSpider.py -o PIK/Reports/PIK-'+str(Yesterday)+'.json -t jsonlines 2> PIK/Logs/outputPIK.txt')
 system('Python PIK/CleanPIK.py > PIK/Logs/validatePIK.txt')
 
+system('scrapy runspider Novinite/NoviniteSpider.py -o Novinite/Reports/Novinite-'+str(Yesterday)+'.json -t jsonlines 2> Novinite/Logs/outputPIK.txt')
+system('Python Novinite/CleanNovinite.py > Novinite/Logs/validatePIK.txt')
+
 system('Python SummaryReport.py>_DailySummaryReports/'+Today+'.txt')
 # system('echo Urrra')

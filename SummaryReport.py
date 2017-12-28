@@ -48,12 +48,15 @@ recs=[{'Source':'Blitz','Date':Today,'Records':0},
     {'Source':'Mediapool','Date':Today,'Records':0},
     {'Source':'ClubZ','Date':Today,'Records':0},
     {'Source':'Classa','Date':Today,'Records':0},
-    {'Source':'Dnevnik','Date':Yesterday,'Records':0},
+    {'Source':'Epicenter','Date':Today,'Records':0},
+    {'Source':'Faktor','Date':Today,'Records':0},
+    {'Source':'Dnes','Date':Today,'Records':0},
     {'Source':'Focus','Date':Yesterday,'Records':0},
     {'Source':'Monitor','Date':Yesterday,'Records':0},
     {'Source':'News','Date':Yesterday,'Records':0},
     {'Source':'OffNews','Date':Yesterday,'Records':0},
     {'Source':'PIK','Date':Yesterday,'Records':0},
+    {'Source':'Novinite','Date':Yesterday,'Records':0},
     # {'Source':'SegaBG','Date':Yesterday,'Records':0}
      ]
 

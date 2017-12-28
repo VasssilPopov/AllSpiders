@@ -1,0 +1,8 @@
+VALIDATIONS for Novinite/Reports/Novinite-2017-12-17.json
+
+>> Duplicates Report
+----------------------------------------------------------------------
+Records: (All: 26, Duplicates: 0 ), File: Novinite/Reports/Novinite-2017-12-17.json
+
+>> Validation report of  Novinite/Reports/Novinite-2017-12-17.json
+<<Valid records: 26 of 26

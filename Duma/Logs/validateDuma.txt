@@ -1,8 +1,8 @@
-VALIDATIONS for Duma/Reports/Duma-2017-12-13.json
+VALIDATIONS for Duma/Reports/Duma-2017-12-28.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 52, Duplicates: 0 ), File: Duma/Reports/Duma-2017-12-13.json
+Records: (All: 0, Duplicates: 0 ), File: Duma/Reports/Duma-2017-12-28.json
 
->> Validation report of  Duma/Reports/Duma-2017-12-13.json
-<<Valid records: 52 of 52
+>> Validation report of  Duma/Reports/Duma-2017-12-28.json
+<<Valid records: 0 of 0

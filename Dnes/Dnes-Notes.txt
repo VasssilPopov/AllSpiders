@@ -1,0 +1,36 @@
+﻿--- dnes ---
+https://www.dnes.bg/news.php?today
+
+
+urls=response.xpath('//div[@class="b2"]/div[@class="ttl"]/a/@href').extract()
+(30)
+
+urls[0]
+
+title=response.xpath('//div[@id="art_header"]/h1[@class="title"]/text()').extract_first()
+
+date=response.xpath('//div[@class="art_author"]/text()').extract_first()
+
+14 дек 2017 14:00,
+
+texts=response.xpath('//div[@id="art_start"]/p/text()').extract()
+art_text=u''.join(texts)
+
+Гледка като каскада от филм можеше да се види тази сутрин на столичния булевард "България". Миниван "Фиат" се преобърна след като катастрофира.В инцидента е участвал и друг автомобил - "Тесла", който има леки поражения, съобщи "Булфото".В катастрофата няма сериозно пострадали. Причините за нея се изясняват.
+
+>>> s='14 дек 2017 14:00,'
+>>> (day, month, year)=s.split()[0:3]
+
+https://www.dnes.bg/news.php?today
+https://www.dnes.bg/news.php?today&page=2
+
+next_page_url=response.xpath('//p[@class="pages"]/a[@class="pagination-next"]/@href').extract()
+
+
+ fetch('https://www.dnes.bg/news.php?today&page=1')
+ next_page_url=response.xpath('//p[@class="pages"]/a[@class="pagination-next"]/@href').extract()
+ print next_page_url
+[u'/news.php?today&page=2']
+
+--- bgMonths ---
+дек 12  ное 11  окт 10  сеп 09 авг 08

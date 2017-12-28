@@ -35,12 +35,12 @@ repYear='2017'
 repMonth=12
 
 # single month report
-monthlyDataReport(repYear, repMonth)
+#monthlyDataReport(repYear, repMonth)
 # results are in C:\STUDY_SPIDERS\_AllSpiders
 ## range of months report
 ## create separate text file reports
 ## from May to September
 #!!!! uncomment next lines to have a report
-#for m in range(9,11):
-#    monthlyDataReport(repYear, m)
+for m in range(5,12):
+   monthlyDataReport(repYear, m)
 #Monthly Reports of collected data (End)------------------------------------

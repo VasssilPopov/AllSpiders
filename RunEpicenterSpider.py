@@ -12,6 +12,7 @@ print 'Script Version: ',0.1
 Today = date.today().strftime("%Y-%m-%d")
 Yesterday = (date.today() - timedelta(1)).strftime("%Y-%m-%d")
 
+
 print 'Today: %s'%(Today),'-'*20
 system('scrapy runspider Epicenter/EpicenterSpider.py -o Epicenter/Reports/Epicenter-'+str(Today)+'.json -t jsonlines 2> Epicenter/Logs/outputEpicenter.txt')
 system('Python Epicenter/CleanEpicenter.py > Epicenter/Logs/validateEpicenter.txt')

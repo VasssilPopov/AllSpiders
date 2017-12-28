@@ -34,5 +34,15 @@ system('Python ClubZ/CleanClubZ.py > ClubZ/Logs/validateClubZ.txt')
 
 system('scrapy runspider Classa/ClassaSpider.py -o Classa/Reports/Classa-'+str(Today)+'.json -t jsonlines 2> Classa/Logs/outputClassa.txt')
 system('Python Classa/CleanClassa.py > Classa/Logs/validateClassa.txt')
-	
+
+system('scrapy runspider Faktor/FaktorSpider.py -o Faktor/Reports/Faktor-'+str(Today)+'.json -t jsonlines 2> Faktor/Logs/outputFaktor.txt')
+system('Python Faktor/CleanFaktor.py > Faktor/Logs/validateFaktor.txt')
+
+system('scrapy runspider Epicenter/EpicenterSpider.py -o Epicenter/Reports/Epicenter-'+str(Today)+'.json -t jsonlines 2> Epicenter/Logs/outputEpicenter.txt')
+system('Python Epicenter/CleanEpicenter.py > Epicenter/Logs/validateEpicenter.txt')
+
+system('scrapy runspider Dnes/DnesSpider.py -o Dnes/Reports/Dnes-'+str(Today)+'.json -t jsonlines 2> Dnes/Logs/outputDnes.txt')
+system('Python Dnes/CleanDnes.py > Dnes/Logs/validateDnes.txt')
+
+
 system('Python SummaryReport.py>_DailySummaryReports/'+Today+'.txt')

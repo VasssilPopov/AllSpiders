@@ -98,3 +98,61 @@ comment()').extract()
 nodes=response.xpath('//div[@class="single_news_list_small"]')
 
 ===============================================================================================
+
+-- 2017.12.20 --
+
+-- domain --
+'http://standartnews.com/balgariya.html', 
+'http://standartnews.com/biznes.html', 
+'http://standartnews.com/svyat.html', 
+'http://standartnews.com/mneniya.html', 
+'http://standartnews.com/kultura.html', 
+'http://standartnews.com/sport.html', 
+'http://standartnews.com/lyubopitno.html', 
+'http://standartnews.com/regionalni.html', 
+
+
+scrapy shell http://standartnews.com/svyat.html
+nodes=response.xpath('//div[@class="news_content_list"]')
+
+urls=response.xpath('//div[@class="news_content_list"]/h2/a[@class="title_news_list"]/text()').extract()
+urls=response.xpath('//div[@class="news_content_list"]/h2/a[@class="title_news_list"]/@href').extract()
+
+/html/body/div[4]/div/div/div[2]/div[2]/div[2]/div[1]/div[4]/div[2]/comment()
+
+dates = response.xpath('//div[@class="news_content_list"]/comment()').extract()
+
+for cnt, url in enumerate(urls,1):
+    print cnt, url.strip()
+
+nod=nodes[0]
+title = nod.xpath('.//h2/a[@class="title_news_list"]/text()').extract_first().strip()
+dateInfo = nod.xpath('.//comment()').extract()
+
+dateInfo
+[u'<!--<div class="author_date">\n\t\t\t\t19:35 | 16.12.2017\n\t\t\t\t| \u043e\u0442 \u0440\u0435\u0434\u0430\u043a\u0442\u043e\u0440  \t\t\t\t\t\t\t</div>-->']
+
+dateInfo = nod.xpath('.//comment()').extract_first()
+(day, month, year)=dateInfo.split('|')[1].strip().split('.')
+pubDate='%s.%s.%s' % (year, month, day)
+
+
+
+dateInfo
+u'<!--<div class="author_date">\n\t\t\t\t19:35 | 16.12.2017\n\t\t\t\t|\u043e\u0442 \u0440\u0435\u0434\u0430\u043a\u0442\u043e\u0440  \t\t\t\t\t\t\t</div>-->'
+
+(day, month, year)=dateInfo.split('|')[1].strip().split('.')
+pubDate='%s.%s.%s' % (year, month, day)
+
+
+
+
+
+
+
+
+
+
+
+
+
