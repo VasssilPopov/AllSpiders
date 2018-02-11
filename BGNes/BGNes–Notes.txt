@@ -1,0 +1,33 @@
+http://www.bgnes.com/
+-------------------------------------
+http://www.bgnes.com/bylgariia/
+http://www.bgnes.com/sviat/
+http://www.bgnes.com/sport/
+http://www.bgnes.com/biznes/
+http://www.bgnes.com/laifstail/
+http://www.bgnes.com/tehnologii/
+http://www.bgnes.com/spa-i-bio/
+
+response.xpath('//div[@id="left"]/article[@class="single"]/section/a/@href').extract_first()
+
+----------------------------------  PAGE ------------------------------------------
+http://www.bgnes.com/sviat/evropa/4563595/
+
+fetch('http://www.bgnes.com/sviat/evropa/4563595/')
+
+
+title =  response.xpath('//a/@href').extract_first()
+
+texts =  response.xpath('//p[@class="indent justify article-text"]/text()').extract()
+text = u' '.join(texts)
+
+pubDate == ??????
+response.xpath('//div[@id="left"]/div[@class="leadheader"]/span[@class="leadts"]/text').extract_first()
+
+
+
+response.xpath('//div[@id="left"]/div[@class="headline"]/article[@class="lead"]')
+
+response.xpath('//*[@id="left"]/div[2]/article/p[1]/text()
+
+response.xpath('//article/section/a/@href').extract()

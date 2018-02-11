@@ -44,5 +44,7 @@ system('Python Epicenter/CleanEpicenter.py > Epicenter/Logs/validateEpicenter.tx
 system('scrapy runspider Dnes/DnesSpider.py -o Dnes/Reports/Dnes-'+str(Today)+'.json -t jsonlines 2> Dnes/Logs/outputDnes.txt')
 system('Python Dnes/CleanDnes.py > Dnes/Logs/validateDnes.txt')
 
+system('scrapy runspider Standartnews/StandartnewsSpider.py -o Standartnews/Reports/Standartnews-'+str(Today)+'.json -t jsonlines 2> Standartnews/Logs/outputStandartnews.txt')
+system('Python Standartnews/CleanStandartnews.py > Standartnews/Logs/validateStandartnews.txt')
 
 system('Python SummaryReport.py>_DailySummaryReports/'+Today+'.txt')

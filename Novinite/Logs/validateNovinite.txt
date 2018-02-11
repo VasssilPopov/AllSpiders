@@ -1,8 +1,11 @@
-VALIDATIONS for Novinite/Reports/Novinite-2017-12-17.json
+VALIDATIONS for Novinite/Reports/Novinite-2018-01-03.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 26, Duplicates: 0 ), File: Novinite/Reports/Novinite-2017-12-17.json
+Records: (All: 63, Duplicates: 0 ), File: Novinite/Reports/Novinite-2018-01-03.json
 
->> Validation report of  Novinite/Reports/Novinite-2017-12-17.json
-<<Valid records: 26 of 26
+>> Validation report of  Novinite/Reports/Novinite-2018-01-03.json
+url:http://www.novinite.bg/articles/155088/Sased-na-ubitoto-semejstvo-v-Novi-Iskar-tvardi-che-izdirvanata-Keti-e-namerena-martva
+'text' is empty
+
+<<Valid records: 62 of 63

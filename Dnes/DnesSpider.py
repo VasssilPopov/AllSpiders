@@ -109,7 +109,7 @@ class DnesSpider(scrapy.Spider):
 
         title=response.xpath('//div[@id="art_header"]/h1[@class="title"]/text()').extract_first()
         
-        texts=response.xpath('//div[@id="art_start"]/p/text()').extract()
+        texts=response.xpath('//div[@id="art_start"]/p/text() | //div[@id="art_start"]/div/text()').extract()
         article = u''.join(texts)
         
         date=response.xpath('//div[@class="art_author"]/text()').extract_first()

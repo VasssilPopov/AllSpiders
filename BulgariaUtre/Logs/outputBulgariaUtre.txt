@@ -1,0 +1,82 @@
+2018-01-08 17:59:40 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: scrapybot)
+2018-01-08 17:59:40 [scrapy.utils.log] INFO: Overridden settings: {'SPIDER_LOADER_WARN_ONLY': True, 'FEED_URI': 'BulgariaUtre/Reports/BulgariaUtre-2018-01-08.json'}
+2018-01-08 17:59:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2018-01-08 17:59:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-01-08 17:59:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-01-08 17:59:41 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-01-08 17:59:41 [scrapy.core.engine] INFO: Spider opened
+2018-01-08 17:59:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-01-08 17:59:41 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-01-08 17:59:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/news/> (referer: None)
+2018-01-08 17:59:41 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.dobrich.utre.bg': <GET http://www.dobrich.utre.bg/2018/01/08/471905-zheni_gerb_dobrich_osiguriha_hranitelni_produkti_za_bezdomni>
+2018-01-08 17:59:41 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.pleven.utre.bg': <GET http://www.pleven.utre.bg/2018/01/08/471907-plevenskata_pozharna_shte_otbelezhi_turzhestveno_140_godini_ot_suzdavaneto_si>
+2018-01-08 17:59:41 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.starazagora.utre.bg': <GET http://www.starazagora.utre.bg/2018/01/08/471875-kazanluk_praznuva_140_godini_svoboda>
+2018-01-08 17:59:41 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.ruse.utre.bg': <GET http://www.ruse.utre.bg/2018/01/08/471900-ani_v_tsarstvoto_na_tsvetyata_v_operata>
+2018-01-08 17:59:41 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.burgas.utre.bg': <GET http://www.burgas.utre.bg/2018/01/08/471870-otkrivat_izlozhba_posvetena_na_suzdatelya_na_ezika_esperanto>
+2018-01-08 17:59:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/2018/01/08/471909-noshtnite_smeni_udvoyavat_riska_ot_rak_za_zhenite> (referer: http://www.bulgaria.utre.bg/news/)
+2018-01-08 17:59:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/2018/01/08/471906-gurtsia_izrazi_gotovnost_da_prieme_imeto_nova_makedonia> (referer: http://www.bulgaria.utre.bg/news/)
+2018-01-08 17:59:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/news/page2/> (referer: http://www.bulgaria.utre.bg/news/)
+2018-01-08 17:59:42 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.velikotarnovo.utre.bg': <GET http://www.velikotarnovo.utre.bg/2018/01/08/471874-grazhdani_vnesoha_blizo_30_predlozhenia_po_byudzheta_na_obshtina_elena>
+2018-01-08 17:59:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/2018/01/08/471885-ek_privetstva_predstoyashtata_prez_may_v_sofia_sreshta_za_zapadnite_balkani> (referer: http://www.bulgaria.utre.bg/news/page2/)
+2018-01-08 17:59:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/news/page3/> (referer: http://www.bulgaria.utre.bg/news/page2/)
+2018-01-08 17:59:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/news/page4/> (referer: http://www.bulgaria.utre.bg/news/page3/)
+2018-01-08 17:59:42 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.blagoevgrad.utre.bg': <GET http://www.blagoevgrad.utre.bg/2018/01/08/471830-babinden_e>
+2018-01-08 17:59:42 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.plovdiv.utre.bg': <GET http://www.plovdiv.utre.bg/2018/01/08/471838-muzh_skochi_s_nozh_na_politsai>
+2018-01-08 17:59:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/news/page5/> (referer: http://www.bulgaria.utre.bg/news/page4/)
+2018-01-08 17:59:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/2018/01/08/471899-na_31_yanuari_izticha_validnostta_na_godishnite_vinetki> (referer: http://www.bulgaria.utre.bg/news/)
+2018-01-08 17:59:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/2018/01/08/471894-pozhar_izbuhna_v_trump_tauur_video> (referer: http://www.bulgaria.utre.bg/news/)
+2018-01-08 17:59:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/2018/01/08/471893-koutinyo_mnogo_sum_shtastliv_ot_transfera_si_v_barsa> (referer: http://www.bulgaria.utre.bg/news/)
+2018-01-08 17:59:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/news/page6/> (referer: http://www.bulgaria.utre.bg/news/page5/)
+2018-01-08 17:59:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/2018/01/08/471890-tsanchev_predsedatelstvoto_e_vuzmozhnost_da_pokazhem_razlichno_litse_na_bulgaria> (referer: http://www.bulgaria.utre.bg/news/page2/)
+2018-01-08 17:59:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/2018/01/08/471886-bolt_shte_opita_da_zapochne_futbolna_kariera_v_borusia_dortmund> (referer: http://www.bulgaria.utre.bg/news/page2/)
+2018-01-08 17:59:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/2018/01/08/471883-h_terziyski_nikoy_ot_obkruzhenieto_na_rosen_angelov_ne_e_podal_signal> (referer: http://www.bulgaria.utre.bg/news/page2/)
+2018-01-08 17:59:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/2018/01/08/471809-bulgaria_u18_iznese_lektsia_na_frantsia_i_shte_igrae_na_evrovoley_2018> (referer: http://www.bulgaria.utre.bg/news/page6/)
+2018-01-08 17:59:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/news/page7/> (referer: http://www.bulgaria.utre.bg/news/page6/)
+2018-01-08 17:59:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/news/page8/> (referer: http://www.bulgaria.utre.bg/news/page7/)
+2018-01-08 17:59:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/news/page9/> (referer: http://www.bulgaria.utre.bg/news/page8/)
+2018-01-08 17:59:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/2018/01/08/471831-kzp_ulesnyava_potrebitelite_s_formulyar_za_otkaz_ot_onlayn_pokupka> (referer: http://www.bulgaria.utre.bg/news/page5/)
+2018-01-08 17:59:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/2018/01/08/471820-ivelin_popov_sus_zasluzhen_hettrik_za_nay_dobur_igrach_na_bulgaria> (referer: http://www.bulgaria.utre.bg/news/page5/)
+2018-01-08 17:59:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/news/page10/> (referer: http://www.bulgaria.utre.bg/news/page9/)
+2018-01-08 17:59:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.bulgaria.utre.bg/news/page11/> (referer: http://www.bulgaria.utre.bg/news/page10/)
+2018-01-08 17:59:45 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.sofia.utre.bg': <GET http://www.sofia.utre.bg/2018/01/08/471751-ulitsi_v_sofia_zatvoreni_za_predsedatelstvoto>
+2018-01-08 17:59:45 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-01-08 17:59:45 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 7146,
+ 'downloader/request_count': 23,
+ 'downloader/request_method_count/GET': 23,
+ 'downloader/response_bytes': 1970834,
+ 'downloader/response_count': 23,
+ 'downloader/response_status_count/200': 23,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 1, 8, 15, 59, 45, 816000),
+ 'log_count/DEBUG': 33,
+ 'log_count/INFO': 7,
+ 'offsite/domains': 9,
+ 'offsite/filtered': 127,
+ 'request_depth_max': 11,
+ 'response_received_count': 23,
+ 'scheduler/dequeued': 23,
+ 'scheduler/dequeued/memory': 23,
+ 'scheduler/enqueued': 23,
+ 'scheduler/enqueued/memory': 23,
+ 'start_time': datetime.datetime(2018, 1, 8, 15, 59, 41, 395000)}
+2018-01-08 17:59:45 [scrapy.core.engine] INFO: Spider closed (finished)

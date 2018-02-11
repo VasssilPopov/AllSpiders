@@ -19,16 +19,22 @@ class NoviniteSpider(scrapy.Spider):
     custom_settings = {
         'FEED_EXPORT_ENCODING': 'utf-8'
     }
-    
+    def __init__(self):
+        print '-'*10,'Novinite v(1.0)','-'*10
+        
+        # zeroes the file
+        fileName="Novinite/Reports/Novinite-%s.json"%(Yesterday)
+        if (os.path.exists(fileName) and os.path.getsize(fileName) > 0):
+                f = open(fileName, 'w').close()
+
     def parse(self, response):
     
         print 'Page url %s' % (response.url)
         # zeroes the file
-        fileName="Novinite/Reports/Novinite-%s.json"%(Yesterday)
-        # print '>*> ',fileName, (os.path.exists(fileName) and os.path.getsize(fileName) > 0)
+#        # print '>*> ',fileName, (os.path.exists(fileName) and os.path.getsize(fileName) > 0)
         
-        if (os.path.exists(fileName) and os.path.getsize(fileName) > 0):
-            f = open(fileName, 'w').close()
+#        if (os.path.exists(fileName) and os.path.getsize(fileName) > 0):
+#            f = open(fileName, 'w').close()
 
         # urls=response.xpath('//article[@class="secondary-article-v2 border-top list-item"]/div[@class="text"]/h2/a/@href').extract()
         urls=response.xpath('//div[@class="news_list"]/div[@class="item"]/h2/a/@href').extract()
@@ -46,7 +52,7 @@ class NoviniteSpider(scrapy.Spider):
         # 'extract and prepare Article date'
         data=response.xpath('//div[@class="newsdate"]/span/text()').extract_first()
         (day, month, year)=data.split(',')[0].split()
-        articleDate = '%s.%s.%s' % (year,BGMonths[month],day)
+        articleDate = '%s.%s.%s' % (year,BGMonths[month],str(day).zfill(2))
         
         self.count = self.count + 1
         print '\t', self.count, articleDate,(articleDate == yesterdaysDate),url

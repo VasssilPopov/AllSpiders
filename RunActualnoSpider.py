@@ -14,7 +14,6 @@ Yesterday = (date.today() - timedelta(1)).strftime("%Y-%m-%d")
 
 print 'Today: %s'%(Today),'-'*20
 system('scrapy runspider Actualno/ActualnoSpider.py -o Actualno/Reports/Actualno-'+str(Yesterday)+'.json -t jsonlines 2> Actualno/Logs/outputActualno.txt')
-print '----------------------------------------'
 system('Python Actualno/CleanActualno.py > Actualno/Logs/validateActualno.txt')
 
 system('Python SummaryReport.py>_DailySummaryReports/'+Today+'.txt')

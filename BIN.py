@@ -46,16 +46,17 @@ import HelperTools
 
 #Srcs =['Blitz', '24chasa', 'Trud', 'Duma', 'Mediapool', 'Monitor','ClubZ', 'Classa', 'Dnevnik', 'Focus', 'News', 'OffNews', 'PIK','Monitor','Epicenter','Faktor','Dnes']
 # Yesterday
-#Srcs =['Dnevnik','Focus','Monitor','News','OffNews','PIK','Novinite','Actualno']
+Srcs =['Dnevnik','Focus','Monitor','News','OffNews','PIK','Novinite','Actualno', 'Cross', 'BNews','BgOnAir']
 
-#Srcs =['24chasa','Blitz','Trud','Duma','Mediapool','ClubZ', 'Classa','Epicenter','Faktor','Dnes']
+#Today
+#Srcs =['24chasa','Blitz','Trud','Duma','Mediapool','ClubZ', 'Classa','Epicenter','Faktor','Dnes','StandartNews']
 
-#Srcs =['Blitz', '24chasa', 'Trud', 'Duma', 'Mediapool', 'ClubZ', 'Classa', 'Dnevnik', 'Focus', 'News', 'OffNews', 'PIK',]
-Srcs =['24chasa']
+#Srcs =['Blitz', '24chasa', 'Trud', 'Duma', 'Mediapool', 'ClubZ', 'Classa', 'Dnevnik', 'Focus', 'News', 'OffNews', 'PIK','Epicenter','StandartNews']
+#Srcs =['PIK']
 #Srcs =['Classa','Dnes']
 
 for src in Srcs:
-    HelperTools.scanReports(src+'/Reports/'+src+'-2017-12-26.json')
+    HelperTools.scanReports(src+'/Reports/'+src+'-2018-02-0*.json')
 
 
 #HelperTools.scanReports('PIK/Reports/PIK-2017-10-*.json')

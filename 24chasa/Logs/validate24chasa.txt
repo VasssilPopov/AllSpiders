@@ -1,8 +1,8 @@
-VALIDATIONS for 24chasa/Reports/24chasa-2017-12-28.json
+VALIDATIONS for 24chasa/Reports/24chasa-2018-02-10.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 112, Duplicates: 0 ), File: 24chasa/Reports/24chasa-2017-12-28.json
+Records: (All: 75, Duplicates: 0 ), File: 24chasa/Reports/24chasa-2018-02-10.json
 
->> Validation report of  24chasa/Reports/24chasa-2017-12-28.json
-<<Valid records: 112 of 112
+>> Validation report of  24chasa/Reports/24chasa-2018-02-10.json
+<<Valid records: 75 of 75

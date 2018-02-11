@@ -1,0 +1,8 @@
+VALIDATIONS for Cross/Reports/Cross-2018-02-10.json
+
+>> Duplicates Report
+----------------------------------------------------------------------
+Records: (All: 65, Duplicates: 0 ), File: Cross/Reports/Cross-2018-02-10.json
+
+>> Validation report of  Cross/Reports/Cross-2018-02-10.json
+<<Valid records: 65 of 65

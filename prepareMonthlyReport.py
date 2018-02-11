@@ -31,16 +31,16 @@ from urllib2 import quote
 # example input parameters
 # Report Year 2017 and report month (August)
 # Please fill in parameters report's year and month
-repYear='2017'
-repMonth=12
+repYear='2018'
+repMonth=1
 
 # single month report
-#monthlyDataReport(repYear, repMonth)
+monthlyDataReport(repYear, repMonth)
 # results are in C:\STUDY_SPIDERS\_AllSpiders
 ## range of months report
 ## create separate text file reports
 ## from May to September
 #!!!! uncomment next lines to have a report
-for m in range(5,12):
-   monthlyDataReport(repYear, m)
+#for m in range(5,12):
+#   monthlyDataReport(repYear, m)
 #Monthly Reports of collected data (End)------------------------------------

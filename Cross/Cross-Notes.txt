@@ -1,0 +1,65 @@
+﻿http://www.cross.bg/archive/yesterday
+-------------------------------------
+http://www.cross.bg/archive/yesterday/8
+
+
+urls=response.xpath('//ul[@class="newsList"]/li/div[@class="articleDetiles"]/a[@class="nTitle"]/@href').extract()
+
+urls[0]
+
+next_page_url = response.xpath('//div[@class="pagging"]/a[@class="nextPage"]/@href').extract_first()
+
+--- Page level -----
+url = 'http://www.cross.bg/zhena-glavniyat-iskur-1564590.html#.Wk3aTNKWaM8'
+
+pageTitle=response.xpath('//div[@class="articleWraper"]/h1[@class="articleTitle"]/text()').extract_first()
+
+
+pageTexts = response.xpath('//div[@class="articleWraper"]/div[@class="rightPart"]/p/text()').extract()
+
+pageText=u' '.join(pageTexts)
+
+
+pageDate = response.xpath('//div[@class="articleWraper"]/div[@class="articleInfo"]/p[@class="fl"]/text()').extract_first()
+
+(day, month, year)=pageDate.split('|')[0].split()
+
+
+--- Page level -----
+
+
+start_url --> "http://clubz.bg/news"
+
+---------------------------------------------------------------------------------------------------------------------
+urls=response.xpath('//div[@class="views-field views-field-title"]/span[@class="field-content"]/a/@href').extract()
+---------------------------------------------------------------------------------------------------------------------
+(24)
+urls[0]-->'/56461-hristo_ivanov_antikorupcionniqt_ni_organ_e_hibrid_mejdu_orel_rak_i_shtuka'
+urls[23]--> u'/56434-gerb_eri_dirqt_stari_novini_v_delovodstvoto_predi_sudjukgejt'
+---------------------------------------------------------------------------------------------------------------------
+next_page_url = response.xpath('//ul[@class="pagination"]/li[@class="next"]/a/@href').extract()
+---------------------------------------------------------------------------------------------------------------------
+[u'/news?page=1']
+
+http://clubz.bg/56460-govoritelqt_na_beliq_dom_hvyrli_ostavkata_si
+---------------------------------------------------------------------------------------------------------------------
+pageTitle=response.xpath('//div[@class="views-field views-field-title"]/span[@class="field-content"]/a/text()').extract_first()
+---------------------------------------------------------------------------------------------------------------------
+Говорителят на Белия дом хвърли оставката си
+
+---------------------------------------------------------------------------------------------------------------------
+pageText=response.xpath('//div[@class="views-field views-field-body"]/div[@class="field-content"]/p/text() | //div[@class="views-field views-field-body"]/div [@class="field-content"]/p/strong/text() | //div[@id="not-first"]/div/a/text()').extract() 
+text=u' '.join(pageText)
+---------------------------------------------------------------------------------------------------------------------
+Говорителят на Белия дом Шон Спайсър подаде оставка в петък сутрин.  Той е бил недоволен от назначаването на Антъни Скарамучи за шеф на отдела за комуникация на Белия дом. Според източник от администрацията, Доналд Тръмп помолил Шон да остане на поста си, но той категорично отказал. Спайсър смятал, че назначаването на
+Скарамучи е огромна грешка. Манекенка на бельо става говорителка на Тръмп? Шон Спайсър направи няколко гафа за краткото време, през което беше говорител. Още преди месеци се заговори, че той е пред уволнение и ще бъде сменен от бивша манекенка на бельо. Кимбърли Гилфойл (48 г.), бивша моделка на "Виктория Сикрет" и в момента водеща в телевизия "Фокс нюз", гледана и харесвана от Тръмп, сама разпространи тогава новината. Дали обаче Тръмп наистина ще я назначи за говорител на Белия дом ще стане ясно другата седмица.
+---------------------------------------------------------------------------------------------------------------------
+pageDate=response.xpath('//div[@class="views-field views-field-published-at"]/span[@class="field-content"]/text()').extract_first()
+---------------------------------------------------------------------------------------------------------------------
+30.06.2017, 9:27 ч.
+----------------------------------
+(day,month,year)=pageDate.split(',')[0].split('.')
+pubDate='%s.%s.%s'%(year, month,day)
+
+
+//*[@id="siteContents"]/div[2]/div[1]/div[2]/ul/li[1]/div/a

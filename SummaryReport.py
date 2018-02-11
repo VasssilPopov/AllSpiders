@@ -6,14 +6,14 @@ def textHasData(line):
     return (line['text'] != "")
 
 def getSetOfDates(fileName):
-	dates = set()
-	with jsonlines.open(fileName) as reader:
-		for line in reader:
-			dates.add(line['date'])
+    dates = set()
+    with jsonlines.open(fileName) as reader:
+        for line in reader:
+            dates.add(line['date'])
 
-	listDates=list(dates)
-	listDates.sort()
-	return{'fileName':fileName,'dates':listDates}
+    listDates=list(dates)
+    listDates.sort()
+    return{'fileName':fileName,'dates':listDates}
 
 def getRowCount(fileName):
     count = 0
@@ -51,12 +51,18 @@ recs=[{'Source':'Blitz','Date':Today,'Records':0},
     {'Source':'Epicenter','Date':Today,'Records':0},
     {'Source':'Faktor','Date':Today,'Records':0},
     {'Source':'Dnes','Date':Today,'Records':0},
+    {'Source':'StandartNews','Date':Today,'Records':0},
+    {'Source':'Actualno','Date':Yesterday,'Records':0},
+    {'Source':'BNews','Date':Yesterday,'Records':0},
+    {'Source':'Cross','Date':Yesterday,'Records':0},
+    {'Source':'Dnevnik','Date':Yesterday,'Records':0},
     {'Source':'Focus','Date':Yesterday,'Records':0},
     {'Source':'Monitor','Date':Yesterday,'Records':0},
     {'Source':'News','Date':Yesterday,'Records':0},
+    {'Source':'Novinite','Date':Yesterday,'Records':0},
     {'Source':'OffNews','Date':Yesterday,'Records':0},
     {'Source':'PIK','Date':Yesterday,'Records':0},
-    {'Source':'Novinite','Date':Yesterday,'Records':0},
+    {'Source':'BgOnAir','Date':Yesterday,'Records':0},
     # {'Source':'SegaBG','Date':Yesterday,'Records':0}
      ]
 

@@ -1,0 +1,74 @@
+http://www.bnews.bg/news/yesterday
+------------------------------------------------
+http://www.bnews.bg/news/yesterday
+
+------------------------------------------------
+urls = response.xpath('//div[@class="pull-left details"]/h4/a/@href').extract()
+
+url=response.urljoin(urls[1])
+
+------------------------------------------------
+(10)
+
+------------------------------------------------
+next_page_url=response.xpath('//ul[@id="yw0"]/li[@class="next"]/a/@href').extract()
+
+
+next_page_url
+[u'/news/yesterday?page=2']
+
+------------------------------------------------
+url=response.urljoin(urls[1])
+
+response.urljoin(urls[0])
+u'http://www.bnews.bg/article/234261-cherna_koleda_eto_go_semeystvoto_koeto_zagina_sled_zverskata_katastrofa'
+
+
+
+fetch(u'http://www.bnews.bg/article/234261-cherna_koleda_eto_go_semeystvoto_koeto_zagina_sled_zverskata_katastrofa')
+------------------------------------------------
+title=response.xpath('//div[@id="article-content"]/h3[@class="title"]/text()').extract_first()
+
+print title
+ЧЕРНА КОЛЕДА! Ето го семейството, което загина след зверската катастрофа
+------------------------------------------------
+text=response.xpath('//div[@id="article-text"]/p/text()').extract()
+articletext = u' '.join(text)
+
+
+
+---------------------------------------------
+date=response.xpath('//div[@id="article-content"]/p[@class="date"]/text()').extract_first()
+
+------------------------------------------------
+сряда, 03 януари 2018, 19:39 ч.
+
+(day, month, year)=date.split(',')[-2].strip().split(' ')
+pubDate='%s.%s.%s' % (year, month, day)
+------------------------------------------------
+
+Date formating 
+
+date='28.06.2017 14:25'
+(day, month, year)=date.split(' ')[0].split('.')
+pubDate='%s.%s.%s' % (year, month, day)
+print pubDate
+2017.06.28
+------------------------------------------------
+
+	
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+

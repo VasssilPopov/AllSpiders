@@ -1,14 +1,8 @@
-VALIDATIONS for Dnes/Reports/Dnes-2017-12-28.json
+VALIDATIONS for Dnes/Reports/Dnes-2018-02-10.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 87, Duplicates: 0 ), File: Dnes/Reports/Dnes-2017-12-28.json
+Records: (All: 52, Duplicates: 0 ), File: Dnes/Reports/Dnes-2018-02-10.json
 
->> Validation report of  Dnes/Reports/Dnes-2017-12-28.json
-url:https://www.dnes.bg/stranata/2017/12/28/3d-prizrak-posreshta-gostite-v-dvoreca-v-balchik.363571
-'text' is empty
-
-url:https://www.dnes.bg/obshtestvo/2017/12/28/novinite-dnes-s-lifta-kym-svetlite-bydnini.363541
-'text' is empty
-
-<<Valid records: 85 of 87
+>> Validation report of  Dnes/Reports/Dnes-2018-02-10.json
+<<Valid records: 52 of 52

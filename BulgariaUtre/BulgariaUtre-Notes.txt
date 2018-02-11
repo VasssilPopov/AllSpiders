@@ -1,0 +1,23 @@
+﻿BulgariaUtre-------------------------------
+
+fetch('http://www.bulgaria.utre.bg/today')
+scrapy shell http://www.bulgaria.utre.bg/news/
+
+urls=response.xpath('//div[@class="three-col last-col"]/a[@class="f16 title"]/text()').extract()
+urls=response.xpath('//div[@class="three-col last-col"]/a[@class="f16 title"]/@href').extract()
+
+urls=response.xpath('//div[@class="three-col last-col"]/a[@class="f16 title"]/@href').extract()
+
+title=response.xpath('//div[@class="article"]/h1[@class="title f24"]/text()').extract_first()
+
+texts=response.xpath('//div[@class="text f13 dev"]/p/text()').extract()
+text=u' '.join(texts)
+
+pubDate=response.xpath('//div[@class="left date f12"]/text()').extract_first()
+(day,month, year)=pubDate.split('|')[-2].split(',')[-2].split()
+
+for url in urls:
+     print '%s.%s.%s' % tuple(url.split('bg/')[1].split('/')[0:3])
+
+
+next_page_url= response.xpath('//ul[@class="pagination"]/li/a[@class="navigation"]/@href').extract()

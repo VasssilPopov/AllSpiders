@@ -9,9 +9,14 @@ import os
 # cd _AllSpiders
 # Python RunClubZSpider.py
 
+from scrapy.spidermiddlewares.httperror import HttpError
+from twisted.internet.error import DNSLookupError
+from twisted.internet.error import TimeoutError, TCPTimedOutError
+import logging
+
 'Get the yesterday date'
-# yesterday = date.today() - timedelta(1)
-# Yesterday = yesterday.strftime("%Y-%m-%d")
+yesterday = date.today() - timedelta(1)
+Yesterday = yesterday.strftime("%Y.%m.%d")
 today = date.today()
 Today = today.strftime("%Y-%m-%d")
 strToday = today.strftime("%Y.%m.%d").lower()
@@ -34,9 +39,11 @@ def read_ids(file):
 	
 class StandartNewsSpider(scrapy.Spider):
     name = "StandartNews"
-    allowed_domains = ['StandartNews.com']
+    # allowed_domains = ['http://standartnews.com']
     start_urls = [
-        # "http://standartnews.com/balgariya.html"
+        # 'http://standartnews.com/biznes.html', 
+        # 'http://standartnews.com/svyat.html', 
+        # 'http://standartnews.com/balgariya.html'
         'http://standartnews.com/balgariya.html', 
         'http://standartnews.com/biznes.html', 
         'http://standartnews.com/svyat.html', 
@@ -58,9 +65,14 @@ class StandartNewsSpider(scrapy.Spider):
         print '-'*10,'StandartNews v(1.0)','-'*10
 
     def parse(self, response):
+
         print 'parse URL: %s' % (response.url)
-        links=response.xpath('//div[@class="single_news_list_small"]')
-        print "Selected: %d" %(len(links))
+        # links=response.xpath('//div[@class="single_news_list_small"]')
+
+        links=response.xpath('//div[@class="single_news_list_small"]/div[@class="news_content_list"]')
+
+        # print "Selected: %d" %(len(links))
+        
         for cnt, link in enumerate(links, 1):
             # process date 
             dateInfo = link.xpath('.//comment()').extract_first()
@@ -68,46 +80,78 @@ class StandartNewsSpider(scrapy.Spider):
             (day, month, year)=dateInfo.split('|')[1].strip().split('.')
             pubDate='%s.%s.%s' % (year, month, day)
 
-            if (pubDate != strToday):
+            if (pubDate == strToday):
+                # print cnt, 'Today'
+                continue
+                
+            if (pubDate != Yesterday):
                 return
+            # print cnt, '>> >Yesterday'
             url = link.xpath('.//h2/a[@class="title_news_list"]/@href').extract_first()
-            print cnt,'\t', pubDate, strToday,url
+            
+            # print cnt,'\t', pubDate, strToday,url
             if url not in self.links_seen:
                 # add an url into self.links_seen
-                #
+                self.links_seen.add(url)
+                url = response.urljoin(url)
                 #print '@d\tPubDate: %s Today: %s Url: %s' %(cnt, pubDate, strToday, url)
-                print '>1>',url
-                yield scrapy.Request(url=url, callback=self.parse_details)
+                # print '>1>',url
+                yield scrapy.Request(url=url, callback=self.parse_details, meta={'pubDate': pubDate})
 
         # follow pagination link
         next_page_url=response.xpath('//tr/td/a[@rel="next"]/@href').extract_first()
-        print 'next_page_url: %s' % (next_page_url)
+        # print 'next_page_url: %s' % (next_page_url)
         if next_page_url:
             next_page_url = response.urljoin(next_page_url)
             print 'next_page_url: %s' % (next_page_url)
             yield scrapy.Request(url=next_page_url, callback=self.parse)
+            # yield scrapy.Request(url=next_page_url, callback=self.parse, errback=self.errback_httpbin,
+            #                        dont_filter=True)
 
+    def errback_httpbin(self, failure):
+        # log all failures
+        self.logger.error(repr(failure))
+
+        # in case you want to do something special for some errors,
+        # you may need the failure's type:
+
+        if failure.check(HttpError):
+            # these exceptions come from HttpError spider middleware
+            # you can get the non-200 response
+            response = failure.value.response
+            self.logger.error('HttpError on %s', response.url)
+
+        elif failure.check(DNSLookupError):
+            # this is the original request
+            request = failure.request
+            self.logger.error('DNSLookupError on %s', request.url)
+
+        elif failure.check(TimeoutError, TCPTimedOutError):
+            request = failure.request
+            self.logger.error('TimeoutError on %s', request.url)            
+                
+                
+            
     def parse_details(self, response):
-
-        print 'Mark-1'
+        
+        # print 'parse_details'
         url     = response.url
         
         pageTitle=response.xpath('//div[@id="articleContentHolder"]/div/h2/text()').extract_first().strip()
-
+        
         texts=response.xpath('//div[@id="articleContentHolder"]/div/div/div["articlBodyHolder"]/p/text()').extract()
         pageText=u' '.join(texts)
-        
-        
-        pageDate=pubDate
+        pageDate=response.meta['pubDate']
         
         # print 'pageDate: %s url= %s ' %(pageDate, url)
         # Filter on todays date
-        print pageDate, strToday,(pageDate == strToday), url
-        if (pageDate == strToday):
-            yield {
-                'url': url,
-                'title': pageTitle,
-                'text': pageText,
-                'date': pageDate
-            }
+        # 
+        # print pageDate, strToday,(pageDate == strToday), url
+        # if (pageDate == strToday):
+        yield {
+            'url': url,
+            'title': pageTitle,
+            'text': pageText,
+            'date': pageDate
+        }
 

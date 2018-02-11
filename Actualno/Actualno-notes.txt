@@ -1,0 +1,38 @@
+fetch('https://www.actualno.com/yesterday')
+scrapy shell http://www.actualno.com/yesterday
+--------------------------------------------
+
+urls=response.xpath('//div[@class="info"]/a[@class="title"]/@href').extract()
+
+len(urls) ==> 20
+
+for cnt, url in enumerate(urls,1):
+    print cnt, url
+
+titles=response.xpath('//div[@class="info"]/a[@class="title"]/strong/text()').extract()
+
+for cnt, title in enumerate(titles,1):
+    print cnt, title
+
+
+fetch('https://www.actualno.com/asia/zaradi-protestite-v-iran-veche-ima-ogranichenie-na-socialnite-mreji-news_651992.html')
+
+title=response.xpath('//article[@id="article-content"]/h1/text()').extract_first()
+
+type title --> unicode
+
+Заради протестите в Иран вече има ограничение на социалните мрежи
+
+texts=response.xpath('//div[@id="main_container"]/div/div/text() | //div[@id="main_container"]/div/div/text()').extract()
+article=u' '.join(texts)
+
+
+
+In [70]: l=list()
+
+In [71]: for t in texts:
+    ...:     l.append(t.strip())
+    ...:
+    ...:
+
+In [72]: txt=u' '.join(l)

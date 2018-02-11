@@ -2,6 +2,36 @@
 ----------------------------------------------------------------------------
 start_url --> "http://www.blitz.bg/politika"
 
+
+links = response.xpath('//article[@class="simple-post simple-big clearfix"]')
+
+link = links[0]
+
+title= link.xpath('.//a/header/div/ul/li/text()').extract_first()
+
+
+text=link.xpath('')
+
+
+links = response.xpath('//div[]article[@class="simple-post simple-big clearfix"]')
+link = links[0]
+for link in links:
+	rtime= link.xpath('.//a/header/div/ul/li/text()').extract_first()
+	title= link.xpath('.//a/@href').extract_first()
+	print rtime, title
+
+
+links = response.xpath('//article[@class="simple-post simple-big clearfix"]')
+    ...: for cnt,link in enumerate(links):
+    ...:     rtime= link.xpath('.//a/header/div/ul/li/text()').extract_first()
+    ...:     title= link.xpath('.//a/@href').extract_first()
+    ...:     print cnt, rtime, title
+
+
+
+----------------------------------------------------------------------------
+start_url --> "http://www.blitz.bg/politika"
+
 ----------------------------------------------------------------------------
 urls=response.xpath('//article[@class="simple-post simple-big clearfix"]/a/@href | //header[@class="news-details"]/h3[@class="news-title"]/a/@href').extract()
 ----------------------------------------------------------------------------

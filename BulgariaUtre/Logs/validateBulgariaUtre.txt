@@ -1,0 +1,50 @@
+VALIDATIONS for BulgariaUtre/Reports/BulgariaUtre-2018-01-07.json
+
+>> Duplicates Report
+----------------------------------------------------------------------
+http://www.bulgaria.utre.bg/2018/01/08/471772-hlyabut_mlyakoto_i_kolbasite_zasegnati_nay_mnogo_ot_skupia_tok
+http://www.bulgaria.utre.bg/2018/01/08/471774-v_rashidov_borisov_zastana_zad_svobodata_za_slovoto_i_zhurnalistite
+http://www.bulgaria.utre.bg/2018/01/08/471769-e_zaharieva_turtsia_e_edin_ot_nay_vazhnite_vunshno_ikonomicheski_partnyori_na_bulgaria_i_es
+http://www.bulgaria.utre.bg/2018/01/08/471252-tri_oferti_kum_real_za_ronaldo
+http://www.bulgaria.utre.bg/2018/01/08/471766-g_dimov_ne_tryabva_da_zabravyame_koy_upravlyava_v_turtsia
+http://www.bulgaria.utre.bg/2018/01/08/471762-ekspert_gripnata_epidemia_u_nas_se_zabavi
+http://www.bulgaria.utre.bg/2018/01/08/471758-eksplozia_v_idlib_23_zaginaha
+http://www.bulgaria.utre.bg/2018/01/08/471768-rosen_angelov_se_zakanval_na_muzha_na_keti_kyuhova
+http://www.bulgaria.utre.bg/2018/01/08/471757-voennomorskite_ni_sili_otbelyazvat_novata_uchebna_godina
+http://www.bulgaria.utre.bg/2018/01/08/471755-12_obshtinski_bolnitsi_s_opasnost_da_falirat
+http://www.bulgaria.utre.bg/2018/01/08/471756-netanyahu_prizova_za_razformirovane_na_agentsiata_na_oon_za_palestinskite_bezhantsi
+http://www.bulgaria.utre.bg/2018/01/08/471753-m_marinov_ne_mozhem_da_kazhem_koga_tochno_e_nastupila_smurtta_na_rosen_angelov
+http://www.bulgaria.utre.bg/2018/01/08/471754-predstavyame_evropredsedatelstvoto_pred_chuzhdi_medii
+http://www.bulgaria.utre.bg/2018/01/08/471750-dvama_bulgari_arestuvani_po_podozrenie_za_trafik_na_hora_v_gurtsia
+http://www.bulgaria.utre.bg/2018/01/08/471752-iran_zabrani_prepodavaneto_na_angliyski_ezik_v_nachalnite_uchilishta
+http://www.bulgaria.utre.bg/2018/01/08/471749-botyo_botev_60_ot_izcheznalite_sled_1990_g_sa_bili_ubiti
+http://www.bulgaria.utre.bg/2018/01/08/471706-slunchevo_i_tiho_vreme_dnes
+http://www.bulgaria.utre.bg/2018/01/08/471663-dnes_praznuvame_babinden
+http://www.bulgaria.utre.bg/2018/01/08/408775-8_yanuari_na_dneshnata_data
+http://www.bulgaria.utre.bg/2018/01/08/471739-kuba_shte_provede_parlamentarnite_izbori_na_11_mart
+http://www.bulgaria.utre.bg/2018/01/08/471666-zapochva_izplashtaneto_na_pensiite_za_mesetsa
+http://www.bulgaria.utre.bg/2018/01/08/471772-hlyabut_mlyakoto_i_kolbasite_zasegnati_nay_mnogo_ot_skupia_tok
+http://www.bulgaria.utre.bg/2018/01/08/471769-e_zaharieva_turtsia_e_edin_ot_nay_vazhnite_vunshno_ikonomicheski_partnyori_na_bulgaria_i_es
+http://www.bulgaria.utre.bg/2018/01/08/471754-predstavyame_evropredsedatelstvoto_pred_chuzhdi_medii
+http://www.bulgaria.utre.bg/2018/01/08/471758-eksplozia_v_idlib_23_zaginaha
+http://www.bulgaria.utre.bg/2018/01/08/471774-v_rashidov_borisov_zastana_zad_svobodata_za_slovoto_i_zhurnalistite
+http://www.bulgaria.utre.bg/2018/01/08/471762-ekspert_gripnata_epidemia_u_nas_se_zabavi
+http://www.bulgaria.utre.bg/2018/01/08/471768-rosen_angelov_se_zakanval_na_muzha_na_keti_kyuhova
+http://www.bulgaria.utre.bg/2018/01/08/471766-g_dimov_ne_tryabva_da_zabravyame_koy_upravlyava_v_turtsia
+http://www.bulgaria.utre.bg/2018/01/08/471252-tri_oferti_kum_real_za_ronaldo
+http://www.bulgaria.utre.bg/2018/01/08/471753-m_marinov_ne_mozhem_da_kazhem_koga_tochno_e_nastupila_smurtta_na_rosen_angelov
+http://www.bulgaria.utre.bg/2018/01/08/471755-12_obshtinski_bolnitsi_s_opasnost_da_falirat
+http://www.bulgaria.utre.bg/2018/01/08/471756-netanyahu_prizova_za_razformirovane_na_agentsiata_na_oon_za_palestinskite_bezhantsi
+http://www.bulgaria.utre.bg/2018/01/08/471757-voennomorskite_ni_sili_otbelyazvat_novata_uchebna_godina
+http://www.bulgaria.utre.bg/2018/01/08/471752-iran_zabrani_prepodavaneto_na_angliyski_ezik_v_nachalnite_uchilishta
+http://www.bulgaria.utre.bg/2018/01/08/471750-dvama_bulgari_arestuvani_po_podozrenie_za_trafik_na_hora_v_gurtsia
+http://www.bulgaria.utre.bg/2018/01/08/471706-slunchevo_i_tiho_vreme_dnes
+http://www.bulgaria.utre.bg/2018/01/08/471663-dnes_praznuvame_babinden
+http://www.bulgaria.utre.bg/2018/01/08/408775-8_yanuari_na_dneshnata_data
+http://www.bulgaria.utre.bg/2018/01/08/471749-botyo_botev_60_ot_izcheznalite_sled_1990_g_sa_bili_ubiti
+http://www.bulgaria.utre.bg/2018/01/08/471739-kuba_shte_provede_parlamentarnite_izbori_na_11_mart
+http://www.bulgaria.utre.bg/2018/01/08/471666-zapochva_izplashtaneto_na_pensiite_za_mesetsa
+Records: (All: 63, Duplicates: 42 ), File: BulgariaUtre/Reports/BulgariaUtre-2018-01-07.json
+
+>> Validation report of  BulgariaUtre/Reports/BulgariaUtre-2018-01-07.json
+<<Valid records: 63 of 63

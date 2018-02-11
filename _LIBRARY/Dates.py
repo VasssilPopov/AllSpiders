@@ -16,6 +16,17 @@ def bgShortMonthstoNumber(monthName):
     else:
         return'??'
 
+def bgShortMonthstoNumber2(monthName):
+    monthName=monthName.lower()
+    months= {u'ян':'01',u'февр':'02', u'март':'03',
+             u'апр.':'04',u'май':'05', u'юни':'06',
+             u'юли':'07',u'авг.':'08', u'септ.':'09',
+             u'окт.':'10',u'ноем.':'11', u'дек.':'12'}
+
+    if (monthName in months):
+        return months[monthName]
+    else:
+        return'??>'+monthName+'<'
 
 #--------------- 24chasa---------------------------------
 # input '01.08.2017 17:33'
@@ -32,8 +43,8 @@ def dc24chasa(date):
 
 def dcBlitz(date):
     (day, month, year)=date.split(',')[0].replace('.',' ').split()
-    month = bgShortMonthstoNumber(month)
-    return '%s.%s.%s' % (year, month, day)
+    month = bgShortMonthstoNumber2(month)
+    return '%s.%s.%s' % (year, month, str(day).zfill(2))
 
 #print 'Blitz: \t',u'01 Авг. 2017, 13:09 -->' ,dcBlitz(u'01 Авг. 2017, 13:09')
 

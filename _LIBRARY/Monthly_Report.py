@@ -50,7 +50,10 @@ lineD=''
 now = datetime.datetime.now()
 
 #srcNames=["Date\Src", "Dnevnik", "Focus", "Monitor", "News", "OffNews", "PIK", "Novinite", "Epicenter", "Faktor", "Dnes", "Blitz", "Classa", "24chasa", "Trud", "Duma", "Mediapool", "ClubZ"]
-srcNames=["Date\Src", "Dnevnik", "Focus", "Monitor", "News", "OffNews", "PIK", "Novinite", "Epicenter", "Faktor", "Blitz", "Classa", "24chasa", "Trud", "Duma", "Mediapool", "ClubZ"]
+#srcNames=["Date\Src", "Dnevnik", "Focus", "Monitor", "News", "OffNews", "PIK", "Novinite", "Epicenter", "Faktor", "Blitz", "Classa", "24chasa", "Trud", "Duma", "Mediapool", "ClubZ"]
+srcNames=["Date\Src","24chasa", "Actualno", "BgOnAir", "Blitz", "Bnews", "Classa", "ClubZ", "Cross", "Dnes", "Dnevnik", "Duma", 
+"Epicenter", "Faktor", "Focus", "Mediapool", "Monitor", "News", "Novinite", "OffNews", "PIK", "Trud",]
+
 dictSums=dict()
 
 
@@ -137,13 +140,15 @@ def monthlyDataReport(repYear, repMonth):
 
 #initTotals()
 
-print 'Finish'
-repYear='2017'
-repMonth=10
+#print 'Finish'
+
+repYear='2018'
+repMonth=1
 
 # single month report
 monthlyDataReport(repYear, repMonth)
 
+print '...finished'
 # range of months report
 #for m in range(5,10):
 #    monthlyDataReport(repYear, m)
