@@ -1,17 +1,11 @@
-VALIDATIONS for BNews/Reports/BNews-2018-02-10.json
+VALIDATIONS for BNews/Reports/BNews-2018-02-22.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 36, Duplicates: 0 ), File: BNews/Reports/BNews-2018-02-10.json
+Records: (All: 67, Duplicates: 0 ), File: BNews/Reports/BNews-2018-02-22.json
 
->> Validation report of  BNews/Reports/BNews-2018-02-10.json
-url:http://www.bnews.bg/article/236790-turski_helikopter_e_svalen_pri_operatsiyata_v_siriya
+>> Validation report of  BNews/Reports/BNews-2018-02-22.json
+url:http://www.bnews.bg/article/237455-vremeto_v_chetvartak_i_dnes_ni_ochakva_studen_i_dazhdoven_den
 'text' is empty
 
-url:http://www.bnews.bg/article/236789-poredna_katastrofa_na_patya_ruse_byala_vze_zhertva
-'text' is empty
-
-url:http://www.bnews.bg/article/236763-vremeto_v_sabota
-'text' is empty
-
-<<Valid records: 33 of 36
+<<Valid records: 66 of 67

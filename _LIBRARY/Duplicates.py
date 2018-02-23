@@ -60,7 +60,7 @@ def reportDuplicates (path):
 		# print s80
 
 	
-#reportDuplicates ('PIK/Reports\PIK-2017-07-10.json')
+#reportDuplicates ('PIK/Reports/PIK-2017-07-10.json')
 #reportDuplicates ('Monitor/Reports/*.json')
 
 # def removeDuplicates (path):

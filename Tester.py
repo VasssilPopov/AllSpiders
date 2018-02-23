@@ -59,7 +59,7 @@ def reportDuplicates (path):
         for file in files:
                
                 d=dict()
-                print s80
+                #print file #s80
                 countAll =0
                 countDuplicates=0
  
@@ -67,16 +67,24 @@ def reportDuplicates (path):
                         for obj in reader:
                                 countAll +=1
                                 if obj['url'] in d:
-                                        print obj['url']
+                                        #print obj['url']
                                         countDuplicates +=1
                                 else:
                                         d[obj['url']]=1
-
-                        print "%-60s %10d %10d" % (file, countAll, countDuplicates)
-
-reportDuplicates ("24chasa/Reports/*.json")
+                        if countDuplicates>0:
+                            print "%-60s %10d %10d" % (file, countAll, countDuplicates)
+                            print s80
+#reportDuplicates ("24chasa/Reports/*.json")
 #reportDuplicates ('Blitz/Reports\Blitz*.json')
 
+
+
+
+for ff in ('24chasa','Actualno','BGNes','BgOnAir','Blitz','BNews','Classa','ClubZ','Cross','Dnes',
+    'Dnevnik','Duma','Epicenter','Faktor','Focus','Mediapool','Monitor','News',
+    'Novinite','OffNews','PIK','SegaBG','Standartnews','Trud',):
+    print '-- %s --'% (ff)
+    reportDuplicates ( '%s/Reports/*.json' % (ff))
 #--------------------------------------------
 #reportDuplicates ("Monitor/Reports/*.json")
 
@@ -188,7 +196,7 @@ def checkDate(jlFile):
             print('Key: %s, count:%d'%(k,v))
     
 
-checkDate('Blitz\Reports\Blitz-2017-06-06.json')
+#checkDate('Blitz\Reports\Blitz-2017-06-06.json')
 
 # scan files in directory and call checkDate for each one
 def scanFolder(folderPath):
@@ -201,13 +209,13 @@ def scanFolder(folderPath):
         print checkDate(file) 
 
 
-scanFolder('Blitz/Reports/Blitz-2017-*.json')
+#scanFolder('Blitz/Reports/Blitz-2017-*.json')
 
 #scanFolder('24chasa/Reports/24chasa-2017-*.json')
 
 
 #scanAllFileReportDate('24chasa/Reports/*.json')
 
-eho2( 'kjhkdaskj')
+#eho2( 'kjhkdaskj')
 #scanAndSwapDateParts('24chasa\Reports\*.json')
 

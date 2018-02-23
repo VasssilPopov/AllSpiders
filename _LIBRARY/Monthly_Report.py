@@ -52,7 +52,7 @@ now = datetime.datetime.now()
 #srcNames=["Date\Src", "Dnevnik", "Focus", "Monitor", "News", "OffNews", "PIK", "Novinite", "Epicenter", "Faktor", "Dnes", "Blitz", "Classa", "24chasa", "Trud", "Duma", "Mediapool", "ClubZ"]
 #srcNames=["Date\Src", "Dnevnik", "Focus", "Monitor", "News", "OffNews", "PIK", "Novinite", "Epicenter", "Faktor", "Blitz", "Classa", "24chasa", "Trud", "Duma", "Mediapool", "ClubZ"]
 srcNames=["Date\Src","24chasa", "Actualno", "BgOnAir", "Blitz", "Bnews", "Classa", "ClubZ", "Cross", "Dnes", "Dnevnik", "Duma", 
-"Epicenter", "Faktor", "Focus", "Mediapool", "Monitor", "News", "Novinite", "OffNews", "PIK", "Trud",]
+"Epicenter", "Faktor", "Focus", "Mediapool", "Monitor", "News", "Novinite", "OffNews", "PIK", "StandartNews", "Trud",]
 
 dictSums=dict()
 
