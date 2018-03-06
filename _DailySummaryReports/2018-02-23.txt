@@ -3,17 +3,17 @@ Today: 2018-02-23
 ------------------------------------
 Source          Date         Records
 ------------------------------------
-Blitz           2018-02-23         0
-24chasa         2018-02-23         0
-Trud            2018-02-23         0
+Blitz           2018-02-23       100
+24chasa         2018-02-23       111
+Trud            2018-02-23        71
 Duma            2018-02-23        59
-Mediapool       2018-02-23         0
-ClubZ           2018-02-23         0
-Classa          2018-02-23         0
-Epicenter       2018-02-23         0
-Faktor          2018-02-23         0
-Dnes            2018-02-23         0
-StandartNews    2018-02-23         0
+Mediapool       2018-02-23        40
+ClubZ           2018-02-23        44
+Classa          2018-02-23        44
+Epicenter       2018-02-23        75
+Faktor          2018-02-23        62
+Dnes            2018-02-23        91
+StandartNews    2018-02-23        43
 Actualno        2018-02-22       134
 BNews           2018-02-22        67
 Cross           2018-02-22       105

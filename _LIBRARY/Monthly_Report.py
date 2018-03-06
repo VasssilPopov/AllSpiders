@@ -129,7 +129,6 @@ def monthlyDataReport(repYear, repMonth):
     fText=open('_MonthlyReports\\MonthlyReport'+repTitle+'.txt','w')
     fText.write( reportColumnHeadings(repYear, repMonth))
     days= sorted(list(getFullSet(repYear, repMonth)))
-    
     initTotals()
     
     for day in days:
@@ -143,7 +142,7 @@ def monthlyDataReport(repYear, repMonth):
 #print 'Finish'
 
 repYear='2018'
-repMonth=1
+repMonth=2
 
 # single month report
 monthlyDataReport(repYear, repMonth)
