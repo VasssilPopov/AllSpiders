@@ -85,7 +85,8 @@ class MonitorSpider(scrapy.Spider):
         '//div[@class="row-fluid"]/div[@class="content"]/div[@class="articleContentContainer"]/div/div/div/p/em/strong/text() | '+
         '//div[@class="row-fluid"] /div[@class="content"]/div[@class="articleContentContainer"]/div/div/p/text() | '+
         '//div[@class="row-fluid"] /div[@class="content"]/div[@class="articleContentContainer"]/div/div/div/div/p/text() | '+
-        '//div[@class="row-fluid"] /div[@class="content"]/div[@class="articleContentContainer"]/div/pre/text()').extract()
+        '//div[@class="row-fluid"] /div[@class="content"]/div[@class="articleContentContainer"]/div/pre/text() | '+
+        '//div[@class="articleContentContainer"]/div/div/div/div/div/div/p/text() | //div[@class="articleContentContainer"]/div/div/div/text()').extract()
 
         article=u''.join(text)
 		

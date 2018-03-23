@@ -1,11 +1,6 @@
-VALIDATIONS for Epicenter/Reports/Epicenter-2018-03-06.json
+VALIDATIONS for Epicenter/Reports/Epicenter-2018-03-23.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 78, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2018-03-06.json
-
->> Validation report of  Epicenter/Reports/Epicenter-2018-03-06.json
-url:http://epicenter.bg/article/-quot-Pravda-quot--Ruskiyat-patriarh-ustroi-na-Balgariya-sedem-minuti-pozor-/148723/7/0
-'text' is empty
-
-<<Valid records: 77 of 78
+Records: (All: 93, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2018-03-23.json
+>> Validation of Epicenter/Reports/Epicenter-2018-03-23.json 

@@ -1,8 +1,6 @@
-VALIDATIONS for Actualno/Reports/Actualno-2018-03-05.json
+VALIDATIONS for Actualno/Reports/Actualno-2018-03-22.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 42, Duplicates: 0 ), File: Actualno/Reports/Actualno-2018-03-05.json
-
->> Validation report of  Actualno/Reports/Actualno-2018-03-05.json
-<<Valid records: 42 of 42
+Records: (All: 113, Duplicates: 0 ), File: Actualno/Reports/Actualno-2018-03-22.json
+>> Validation of Actualno/Reports/Actualno-2018-03-22.json 

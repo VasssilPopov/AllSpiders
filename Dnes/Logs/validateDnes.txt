@@ -1,8 +1,9 @@
-VALIDATIONS for Dnes/Reports/Dnes-2018-03-06.json
+VALIDATIONS for Dnes/Reports/Dnes-2018-03-23.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 94, Duplicates: 0 ), File: Dnes/Reports/Dnes-2018-03-06.json
-
->> Validation report of  Dnes/Reports/Dnes-2018-03-06.json
-<<Valid records: 94 of 94
+Records: (All: 96, Duplicates: 0 ), File: Dnes/Reports/Dnes-2018-03-23.json
+>> Validation of Dnes/Reports/Dnes-2018-03-23.json 
+<94>  https://www.dnes.bg/index/2018/03/23/deniat-v-snimki-23-mart.371655
+'text' is empty
+<<Valid records: 95 of 96

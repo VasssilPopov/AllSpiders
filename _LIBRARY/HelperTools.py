@@ -103,7 +103,7 @@ def urlExists(url):
 # standard validation procedure
 #Item Level Validation
 # it returns one result = True/False depending of are all validation checks true / or some of them failed		
-def isDataValid(obj):
+def isDataValid(obj, rowNo):
 
     resValue={'result':'True','messages': list()}
 
@@ -119,19 +119,20 @@ def isDataValid(obj):
 #        resValue['messages'].append(u"url:'"+url+"' doesn't exist")
 
     #title  Not empty   ---------------------------------
-    if obj['title']==u'':
+    if (obj['title'] is None) or (obj['title'].strip() ==u''):
         resValue['result'] = False
         resValue['messages'].append(u"'title' is empty")
         
     #text  Not empty   ---------------------------------
-    if obj['text']==u'':
+#    if obj['text'] == u'':
+    if obj['text'].strip() == u'':
         resValue['result'] = False
         resValue['messages'].append(u"'text' is empty")
         
 
     #date  Not empty   ---------------------------------
 
-    if obj['date']==u'':
+    if obj['date'].strip() ==u'':
         resValue['result'] = False
         resValue['messages'].append(u"'date' is empty")
         
@@ -151,11 +152,12 @@ def isDataValid(obj):
         pass
     else:
         #print 'Data is not valid'
-        print 'url:'+obj['url']
+        #print 'url:'+obj['url']
+        print '<%d>  %s' % (rowNo,obj['url'])
     
     for msg in resValue['messages']:
         print u''+msg
-        print u''
+        #print u'' 
     return resValue['result']
 
 # test it
@@ -170,17 +172,18 @@ def checkReport(jlFile):
     count = 0
     countAll = 0
     s20='-'*20
-    print 
+    #print 
     # print s20+jlFile+
-    print '>> Validation report of ',jlFile
+    print '>> Validation of %s '% (jlFile)
     with jsonlines.open(jlFile) as reader:
         for obj in reader:
             countAll +=1
             # print countAll
-            if isDataValid(obj):
+            if isDataValid(obj, countAll):
                 count +=1
 	#print '-'*70
-    print '<<Valid records: %d of %d'%(count, countAll)
+    if (count != countAll):
+        print '<<Valid records: %d of %d'%(count, countAll)
     #print '-'*70
     #print
 

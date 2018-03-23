@@ -46,7 +46,7 @@ class NoviniteSpider(scrapy.Spider):
     def parse_page(self, response):
         url = response.url
         title=response.xpath('//div[@id="content"]/h1/text()').extract_first()
-        texts=response.xpath('//div[@id="textsize"]/p/text() | //div[@id="textsize"]/p/b/text() | //div[@id="textsize"]/div/div/text() | //div[@id="textsize"]/div[@class="article-text"]/p/text() | //div[@id="textsize"]/div/p/text()').extract()
+        texts=response.xpath('//div[@id="textsize"]/p/text() | //div[@id="textsize"]/p/b/text() | //div[@id="textsize"]/div/div/text() | //div[@id="textsize"]/div[@class="article-text"]/p/text() | //div[@id="textsize"]/div/p/text() | //div[@id="textsize"]/p/span/text() | //div[@id="textsize"]/div/text()').extract()
         article=u''.join(texts)
 
         # 'extract and prepare Article date'

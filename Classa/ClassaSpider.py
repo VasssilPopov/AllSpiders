@@ -99,7 +99,7 @@ class ClassaSpider(scrapy.Spider):
         
         title=response.xpath('//div[@class="itemHeader"]/h2[@class="itemTitle"]/text()').extract_first().strip()
 
-        texts=response.xpath('//div[@class="itemFullText"]/p/span/text() | //div[@class="itemFullText"]/div/span/text() | //div[@class="itemFullText"]/div/span/em/span/a/text() | //div[@class="itemFullText"]/h2/text() | //div[@class="itemFullText"]/p/text() | //div[@class="itemFullText"]/div[@class="article-body"]/p/span/text() | //div[@class="itemIntroText"]/p/span/text() | //div[@class="itemIntroText"]/p/span/strong/span/text()').extract()
+        texts=response.xpath('//div[@class="itemFullText"]/p/span/text() | //div[@class="itemFullText"]/div/span/text() | //div[@class="itemFullText"]/div/span/em/span/a/text() | //div[@class="itemFullText"]/h2/text() | //div[@class="itemFullText"]/p/text() | //div[@class="itemFullText"]/div[@class="article-body"]/p/span/text() | //div[@class="itemIntroText"]/p/span/text() | //div[@class="itemIntroText"]/p/span/strong/span/text() | //div[@class="itemFullText"]/div/p/span/text() | //div[@class="itemFullText"]/div/p/em/span/strong/text()').extract()
 
         
         article=u' '.join(texts)
