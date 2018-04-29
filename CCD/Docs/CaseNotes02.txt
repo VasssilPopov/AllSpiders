@@ -1,0 +1,84 @@
+﻿scrapy shell
+
+fetch('https://legalacts.justice.bg/?CourtId=DM0NbZ7BLtA%3D&CaseKindId=8JpLnYtT%2FwM%3D&CaseYear=llaCnxPAoDQ%3D&ShowConnected=False&IsLuceneInUse=True&ShowResults=True&IsAdvanced=False')
+
+urls=response.xpath('//div[@class="results-table"]/a[@class="results-row please-wait"]/@href').extract()
+
+len(urls) #--> 25
+
+for url in urls:
+   ...:     print url
+   ...:
+/Search/Details?actId=lWi5lwUe5uE%3D
+/Search/Details?actId=60xrKtM%2FEgs%3D
+/Search/Details?actId=TP9wu7A8XN8%3D
+/Search/Details?actId=OtN3oyJ3kxw%3D
+/Search/Details?actId=Zq2OoDJLRSA%3D
+/Search/Details?actId=QXaG71WAUOU%3D
+/Search/Details?actId=s7OuR4mDqbM%3D
+/Search/Details?actId=62cnShzc0YY%3D
+/Search/Details?actId=V%2FsHc5OGPBU%3D
+/Search/Details?actId=mTg%2F8N4D4LM%3D
+/Search/Details?actId=ASd2OM0J8Ho%3D
+/Search/Details?actId=qu3v0hNnJ4c%3D
+/Search/Details?actId=CR10FhH6nic%3D
+/Search/Details?actId=jWssttMxYmc%3D
+/Search/Details?actId=sTx7gf6Uk40%3D
+/Search/Details?actId=6xjiLUdqsLA%3D
+/Search/Details?actId=lHGtIelZLHM%3D
+/Search/Details?actId=8CfcqGCpu94%3D
+/Search/Details?actId=KqafXcgWzPQ%3D
+/Search/Details?actId=%2BTKpecq9Yc4%3D
+/Search/Details?actId=7QNWdwhxQoc%3D
+/Search/Details?actId=yqqy8nrEbIg%3D
+/Search/Details?actId=DHGRcFB2A2I%3D
+/Search/Details?actId=lJpcTHhkm%2Bs%3D
+/Search/Details?actId=Z2h%2FtEAR3Go%3D
+
+---------------------------------------------------------------------------------------
+
+Данни за делото
+Съд:	Административен съд - Бургас
+Вид на делото:	Частно административно дело
+Номер на делото:	255
+Година:	2017
+Съдебен състав / Съдия:	II състав, СТАНИМИР Х. ХРИСТОВ
+Данни за акта
+Вид на акта:	Определение
+Номер на акта:	205
+ECLI номер:	ECLI:BG:AD704:2017:20177040700255.001
+Дата на постановяване:	07.02.2017г.
+Съдържание на акта:	Изтегли
+Дата на постановяване на мотива:	
+Съдържание на мотива:	
+Данни за изпращане в по-висша инстанция
+Съд:	Върховен административен съд
+Изходящ номер:	368
+Година:	2017
+Тип на документа:	Писмо
+Дата на изпращане:	20.02.2017г.
+Не са намерени свързани съдебни актове
+
+-----------------------------------------------------------------------
+In [31]: info=infos[0]
+
+In [32]: infos=response.xpath('//div[@class="list-results"]/div[@class="inner-page-tabl
+    ...: e"]')
+
+In [33]: info=infos[2]
+
+In [34]: infoLbls=info.xpath('.//div[@class="tr"]/div[@class="lbl"]/text()')
+
+In [35]: infoValues=info.xpath('.//div[@class="tr"]/div[@class="vl"]/text()').extract()
+    ...:
+
+In [36]: infoLbls=info.xpath('.//div[@class="tr"]/div[@class="lbl"]/text()').extract()
+
+In [37]: for r in range(7):
+    ...:     print r,infoLbls[r],'\t',infoValues[r].strip()
+    ...:
+0 Съд:  Върховен административен съд
+1 Изходящ номер:        459
+2 Година:       2017
+3 Тип на документа:     Писмо
+4 Дата на изпращане:    28.02.2017г.

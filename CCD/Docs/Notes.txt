@@ -1,0 +1,8 @@
+2018.04.15
+  Qs001. How to load a picture (let say jpg file) into memory from and use it after to decode the file.
+  Ts001. Find out main form elements. Those are the elemets that define a search criteria.
+
+Info --------------------------------------------
+Евентуална следваща задача може да са съдебните решения от:https://legalacts.justice.bg/
+Особеното е че има captcha. Решение може да е: http://www.deathbycaptcha.com/ услугата, 
+за която има проекти да се интегрират със scrapy: https://github.com/pombredanne/decaptcha

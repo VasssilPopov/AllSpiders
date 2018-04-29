@@ -73,7 +73,6 @@ class BlitzSpider(scrapy.Spider):
         print '-'*10,'Blitz v(1.0)','-'*10
 
     def parse(self, response):
-
         links = response.xpath('//article[@class="simple-post simple-big clearfix"]')
         for link in links:
             pubDate = link.xpath('.//a/header/div/ul/li/text()').extract_first()

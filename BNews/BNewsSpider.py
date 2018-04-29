@@ -67,7 +67,8 @@ class ActualnoSpider(scrapy.Spider):
         url = response.url
         #title=response.xpath('//article[@id="article-content"]/h1/text()').extract_first()
         title=response.xpath('//div[@id="article-content"]/h3[@class="title"]/text()').extract_first()
-        texts=response.xpath('//div[@id="article-text"]/p/text() | //div[@id="article-text"]/text()').extract()
+        #texts=response.xpath('//div[@id="article-text"]/p/text() | //div[@id="article-text"]/text()').extract()
+        texts=response.xpath('//div[@id="article-text"]/p/text() | //div[@id="article-text"]/text() | //div[@id="article-text"]/div/text() | //div[@id="article-text"]/div/p/text()').extract()
         article=u' '.join(texts)
 
         # 'extract and prepare Article date'

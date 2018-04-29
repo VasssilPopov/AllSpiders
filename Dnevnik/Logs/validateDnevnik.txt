@@ -1,11 +1,9 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2018-03-22.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2018-04-28.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 96, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2018-03-22.json
->> Validation of Dnevnik/Reports/Dnevnik-2018-03-22.json 
-<54>  https://www.dnevnik.bg/video/2018/03/22/3150822_sofiia_v_kapan_ot_sniag_video/
+Records: (All: 40, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2018-04-28.json
+>> Validation of Dnevnik/Reports/Dnevnik-2018-04-28.json 
+<21>  https://www.dnevnik.bg/zelen/2018/04/28/3170362_video_trite_mecheta_v_belica/
 'title' is empty
-<92>  https://www.dnevnik.bg/video/2018/03/22/3151381_video_iztrebiteli_predizvikaha_panika_v_severna_italiia/
-'title' is empty
-<<Valid records: 94 of 96
+<<Valid records: 39 of 40

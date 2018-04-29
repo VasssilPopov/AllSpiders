@@ -19,7 +19,7 @@ def bgShortMonthstoNumber(monthName):
 def bgShortMonthstoNumber2(monthName):
     monthName=monthName.lower()
     months= {u'ян':'01',u'февр':'02', u'март':'03',
-             u'апр.':'04',u'май':'05', u'юни':'06',
+             u'апр':'04',u'май':'05', u'юни':'06',
              u'юли':'07',u'авг.':'08', u'септ.':'09',
              u'окт.':'10',u'ноем.':'11', u'дек.':'12'}
 

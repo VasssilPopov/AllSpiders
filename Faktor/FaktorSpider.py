@@ -148,7 +148,7 @@ class FaktorSpider(scrapy.Spider):
         
         title = response.xpath('//div[@class="entry-media"]/h1/text()').extract_first()
         
-        texts=response.xpath('//div[@class="entry-content"]/p/text() | //div[@class="entry-content"]/text() | //div[@class="entry-content"]/div/text() | //div[@class="entry-content"]/div/p/text()').extract()
+        texts=response.xpath('//div[@class="entry-content"]/p/text() | //div[@class="entry-content"]/text() | //div[@class="entry-content"]/div/text() | //div[@class="entry-content"]/div/p/text() | //div[@class="entry-content"]/p/span/text() | //div[@class="entry-content"]/span/text() | //div[@class="entry-content"]/p/span/strong/text()').extract()
  
         article = u' '.join(texts).strip()
         

@@ -1,2 +1,2 @@
-VALIDATIONS for CCD/Reports/CCD-2018-02-26.json
+VALIDATIONS for CCD/Reports/CCD-2018-04-24.json
 

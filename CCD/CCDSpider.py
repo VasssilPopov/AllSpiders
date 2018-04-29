@@ -38,11 +38,11 @@ class CCD(scrapy.Spider):
     custom_settings = {
         'FEED_EXPORT_ENCODING': 'utf-8'
         }
-    def __init__(self):
-        print '-'*10,'CCD v(1.0)','-'*10
+    # def __init__(self):
+        # print '-'*10,'CCD v(1.0)','-'*10
         
-    def parse(self, response):
-
+    def getCaptchaText(self):
+        print "getCaptchaText"
         # Put your DBC account username and password here.
         username = 'VassilPopov'
         password = 'vppCaptcha'
@@ -51,11 +51,11 @@ class CCD(scrapy.Spider):
         try:
             balance = client.get_balance()
             print 'Balance: %f' % (balance)
-            return
             urlImg=response.xpath('//img[@alt="CAPTCHA"]/@src').extract_first()
-            print u'Марк 01'
+            print 'Marker'
+            print u'Get UrlImg:'+urlImg
             url=response.urljoin(urlImg)
-            print u'Марк 02'
+            print u'url join:'+url
             captcha_file_name= "C:/ZZZZ01.jpg"
             timeout=10
             urllib.urlretrieve(url, captcha_file_name)
@@ -64,12 +64,66 @@ class CCD(scrapy.Spider):
             # Put your CAPTCHA file name or file-like object, and optional
             # solving timeout (in seconds) here:
             captcha = client.decode(captcha_file_name, timeout)
+            captchaText=""
             if captcha:
                 # The CAPTCHA was solved; captcha["captcha"] item holds its
                 # numeric ID, and captcha["text"] item its text.
                 print "CAPTCHA %s solved: %s" % (captcha["captcha"], captcha["text"])
-
-            
+                captchaText=captcha["text"]
+           
         except :
             print "Oops!  That was no valid number.  Try again..."
+        return captchaText
         
+    def parse(self, response):
+        print "Parse"
+        captchaText=self.getCaptchaText()
+        if (captchaText != ""):
+            print 'captchaText:'+captchaText
+        else:
+            print "Error"
+
+
+            
+        # # Put your DBC account username and password here.
+        # username = 'VassilPopov'
+        # password = 'vppCaptcha'
+        # # Use deathbycaptcha.HttpClient for HTTP API.
+        # client = deathbycaptcha.SocketClient(username, password)
+        # try:
+            # balance = client.get_balance()
+            # print 'Balance: %f' % (balance)
+            # #return
+            # urlImg=response.xpath('//img[@alt="CAPTCHA"]/@src').extract_first()
+            # print u'Get UrlImg:'+urlImg
+            # url=response.urljoin(urlImg)
+            # print u'url join:'+url
+            # captcha_file_name= "C:/ZZZZ01.jpg"
+            # timeout=10
+            # urllib.urlretrieve(url, captcha_file_name)
+            # print u'Марк 03'
+            
+            # # Put your CAPTCHA file name or file-like object, and optional
+            # # solving timeout (in seconds) here:
+            # captcha = client.decode(captcha_file_name, timeout)
+            # if captcha:
+                # # The CAPTCHA was solved; captcha["captcha"] item holds its
+                # # numeric ID, and captcha["text"] item its text.
+                # print "CAPTCHA %s solved: %s" % (captcha["captcha"], captcha["text"])
+
+            
+        # except :
+            # print "Oops!  That was no valid number.  Try again..."
+
+
+
+
+
+
+            
+        # try:
+            # from scrapy.shell import inspect_response
+            # print 'calling the shell'
+            # inspect_response(response, self)
+        # except:
+            # print 'Calling shell error'

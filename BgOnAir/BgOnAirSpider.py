@@ -71,7 +71,7 @@ class BgOnAirSpider(scrapy.Spider):
         
         pageTitle = response.xpath('//div[@class="row Article"]/div[@class="item"]/div[@class="row"]/div/h1[@class="h1_title"]/text()').extract_first()
         
-        pageTexts = response.xpath('//div[@id="article-detail-text"]/span/p/text()').extract()
+        pageTexts = response.xpath('//div[@id="article-detail-text"]/span/p/text() | //div[@id="article-detail-text"]/span/p/span/text()').extract()
         pageText=u' '.join(pageTexts)
         
         # pageDate = response.xpath('//div[@id="content-main"]/article[@class="article-inner"]/header/div[@class="article-info"]/p[@class="time"]/@content').extract_first()
