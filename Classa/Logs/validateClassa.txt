@@ -1,6 +1,6 @@
-VALIDATIONS for Classa/Reports/Classa-2018-04-29.json
+VALIDATIONS for Classa/Reports/Classa-2018-05-26.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 32, Duplicates: 0 ), File: Classa/Reports/Classa-2018-04-29.json
->> Validation of Classa/Reports/Classa-2018-04-29.json 
+Records: (All: 33, Duplicates: 0 ), File: Classa/Reports/Classa-2018-05-26.json
+>> Validation of Classa/Reports/Classa-2018-05-26.json 

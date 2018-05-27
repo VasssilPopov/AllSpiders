@@ -128,7 +128,10 @@ def isDataValid(obj, rowNo):
     if obj['text'].strip() == u'':
         resValue['result'] = False
         resValue['messages'].append(u"'text' is empty")
-        
+    elif len(obj['text'].strip()) < 8:
+        resValue['result'] = False
+        resValue['messages'].append(u"'text' is shorter than 8")
+     
 
     #date  Not empty   ---------------------------------
 

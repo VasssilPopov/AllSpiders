@@ -157,7 +157,7 @@ class EpicenterSpider(scrapy.Spider):
         
         title=response.xpath('//tr/td/h1/text()').extract_first()
         
-        texts=response.xpath('//tr/td/p[@class="description_b"]/text() | //div[@id="adjuster"]/p/text() | //div[@id="adjuster"]/div/text()  | //div[@id="anons"]/text() | //div[@id="content-main"]/article/div/p/text() | //div[@id="content-main"]/article/div/p/strong/text() | //div[@id="adjuster"]/p/span/text() | //div[@id="adjuster"]/div/p/text() | //div[@id="adjuster"]/div/div/p/text() | //div[@id="adjuster"]/p/span/text()').extract()
+        texts=response.xpath('//tr/td/p[@class="description_b"]/text() | //div[@id="adjuster"]/p/text() | //div[@id="adjuster"]/div/text()  | //div[@id="anons"]/text() | //div[@id="content-main"]/article/div/p/text() | //div[@id="content-main"]/article/div/p/strong/text() | //div[@id="adjuster"]/p/span/text() | //div[@id="adjuster"]/div/p/text() | //div[@id="adjuster"]/div/div/p/text() | //div[@id="adjuster"]/p/span/text() | //div[@id="adjuster"]/div/div/text()').extract()
         article=u' '.join(texts)
         
         # pubDate=response.xpath('//tr/td/div/p[@class="tinytext-novina"]/text()').extract_first()

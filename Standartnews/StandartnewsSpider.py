@@ -139,7 +139,7 @@ class StandartNewsSpider(scrapy.Spider):
         
         pageTitle=response.xpath('//div[@id="articleContentHolder"]/div/h2/text()').extract_first().strip()
         
-        texts=response.xpath('//div[@id="articleContentHolder"]/div/div/div["articlBodyHolder"]/p/text()').extract()
+        texts=response.xpath('//div[@id="articleContentHolder"]/div/div/div["articlBodyHolder"]/p/text() | //div[@id="articleContentHolder"]/div/div/div/p/span/text()').extract()
         pageText=u' '.join(texts)
         pageDate=response.meta['pubDate']
         

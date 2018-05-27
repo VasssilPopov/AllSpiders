@@ -17,8 +17,8 @@ print 'Today: %s'%(Today),'-'*20
 system('scrapy runspider Blitz/BlitzSpider.py -o Blitz/Reports/Blitz-'+str(Today)+'.json -t jsonlines 2> Blitz/Logs/outputBlitz.txt')
 system('Python Blitz/CleanBlitz.py > Blitz/Logs/validateBlitz.txt')
 
-# system('scrapy runspider 24chasa/24chasaSpider.py -o 24chasa/Reports/24chasa-'+str(Today)+'.json -t jsonlines 2> 24chasa/Logs/output24chasa.txt')
-# system('Python 24chasa/Clean24chasa.py > 24chasa/Logs/validate24chasa.txt')
+system('scrapy runspider 24chasa/24chasaSpider.py -o 24chasa/Reports/24chasa-'+str(Today)+'.json -t jsonlines 2> 24chasa/Logs/output24chasa.txt')
+system('Python 24chasa/Clean24chasa.py > 24chasa/Logs/validate24chasa.txt')
 
 system('scrapy runspider Trud/TrudSpider.py -o Trud/Reports/Trud-'+str(Today)+'.json -t jsonlines 2> Trud/Logs/outputTrud.txt')
 system('Python Trud/CleanTrud.py > Trud/Logs/validateTrud.txt')
