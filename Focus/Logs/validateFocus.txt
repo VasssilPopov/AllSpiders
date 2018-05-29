@@ -1,9 +1,6 @@
-VALIDATIONS for Focus/Reports/Focus-2018-05-26.json
+VALIDATIONS for Focus/Reports/Focus-2018-05-28.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 253, Duplicates: 0 ), File: Focus/Reports/Focus-2018-05-26.json
->> Validation of Focus/Reports/Focus-2018-05-26.json 
-<54>  http://www.focus-news.net/news/2018/05/26/2526366/denyat-26-may-v-balgarskata-istoriya.html
-'text' is empty
-<<Valid records: 252 of 253
+Records: (All: 400, Duplicates: 0 ), File: Focus/Reports/Focus-2018-05-28.json
+>> Validation of Focus/Reports/Focus-2018-05-28.json 

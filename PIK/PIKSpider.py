@@ -6,7 +6,6 @@ import os
 from sys import exit, path
 from datetime import date, timedelta
 import platform
-
 if platform.system() == 'Linux':
 	path.append('/home/peio/dev/AllSpiders/_LIBRARY/')
 elif platform.system() == 'Windows':
@@ -17,6 +16,7 @@ else:
 
 from ScrapingHelpers import *
 from urllib2 import quote
+from scrapy.exceptions import CloseSpider
 
 # scrapy runspider PIKSpider.py -o Reports/PIK-2017-05-17.json -t jsonlines
 # RunIt 2017-05-17
@@ -60,7 +60,7 @@ class PIKSpider(scrapy.Spider):
         for url in urls:
             # if (url.split('news'))[1] not in self.links_seen:
             # url = response.urljoin(url)
-            print url[-11:]
+            #print url[-11:]
             yield scrapy.Request(url=url, callback=self.parse_details)
         
         # follow pagination link
@@ -77,9 +77,8 @@ class PIKSpider(scrapy.Spider):
         title = response.xpath('//h2[@class="news-title left w100"]/text()').extract_first()
 
         if url.split('news')[0] in ['http://pik.bg/-', 'http://pik.bg/--']:
-            print url
             return
-        
+
         art_alternatives = {}
         art_alternatives[0] = response.xpath('//*[@id="content"]/div[@class="item left first"]/div[@class="text2"]/div[@class="page-header"]/p/text()').extract()
         art_alternatives[1] = response.xpath('//*[@id="content"]/div[@class="item left first"]/div[@class="text2"]/p/text()|//*[@id="content"]/div[@class="item left first"]/div[@class="text2"]/p/a/span/strong/text()').extract()
@@ -120,7 +119,21 @@ class PIKSpider(scrapy.Spider):
         pubTime=response.xpath('//span[@class="txt left"]/text()').extract_first()
         (day,month,year) = pubTime.split('.')
         pubDate='%s.%s.%s'%(year,month,day)
+        sDate='%s-%s-%s'%(year,month,day)
         
+        if (sDate == Today):
+            print sDate,'  >> return'
+            return
+        elif (sDate == Yesterday): 
+            print sDate,'  >> pass'
+            pass
+        elif (sDate < Yesterday):
+            print sDate,'  >> raise'
+            raise CloseSpider('Spider Closed')
+        else:
+            print sDate,'  >> -- return'
+            return
+            
         yield {
             'url': url,
             'title': title,
