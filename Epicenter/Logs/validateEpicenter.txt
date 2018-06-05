@@ -1,6 +1,9 @@
-VALIDATIONS for Epicenter/Reports/Epicenter-2018-05-28.json
+VALIDATIONS for Epicenter/Reports/Epicenter-2018-06-05.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 65, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2018-05-28.json
->> Validation of Epicenter/Reports/Epicenter-2018-05-28.json 
+Records: (All: 91, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2018-06-05.json
+>> Validation of Epicenter/Reports/Epicenter-2018-06-05.json 
+<12>  http://epicenter.bg/article/Georgi-Mamalev-predstavi-avtobiografichnata-si-kniga-/156072/6/0
+'text' is empty
+<<Valid records: 90 of 91

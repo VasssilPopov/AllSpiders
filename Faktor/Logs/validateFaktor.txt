@@ -1,6 +1,9 @@
-VALIDATIONS for Faktor/Reports/Faktor-2018-05-28.json
+VALIDATIONS for Faktor/Reports/Faktor-2018-06-05.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 82, Duplicates: 0 ), File: Faktor/Reports/Faktor-2018-05-28.json
->> Validation of Faktor/Reports/Faktor-2018-05-28.json 
+Records: (All: 91, Duplicates: 0 ), File: Faktor/Reports/Faktor-2018-06-05.json
+>> Validation of Faktor/Reports/Faktor-2018-06-05.json 
+<25>  https://www.faktor.bg/bg/articles/ubietsat-na-hazartniya-bos-ne-mozhel-da-si-obyasni-zashto-e-strelyal
+'text' is empty
+<<Valid records: 90 of 91

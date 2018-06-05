@@ -3,17 +3,17 @@ Today: 2018-05-29
 ------------------------------------
 Source          Date         Records
 ------------------------------------
-Blitz           2018-05-29         0
-24chasa         2018-05-29         0
-Trud            2018-05-29         0
-Duma            2018-05-29         0
-Mediapool       2018-05-29         0
-ClubZ           2018-05-29         0
-Classa          2018-05-29         0
-Epicenter       2018-05-29         0
-Faktor          2018-05-29         0
-Dnes            2018-05-29         0
-StandartNews    2018-05-29         0
+Blitz           2018-05-29        55
+24chasa         2018-05-29       110
+Trud            2018-05-29        71
+Duma            2018-05-29        48
+Mediapool       2018-05-29        50
+ClubZ           2018-05-29        40
+Classa          2018-05-29        33
+Epicenter       2018-05-29        86
+Faktor          2018-05-29        73
+Dnes            2018-05-29        98
+StandartNews    2018-05-29        38
 Actualno        2018-05-28       110
 BNews           2018-05-28        64
 Cross           2018-05-28        59

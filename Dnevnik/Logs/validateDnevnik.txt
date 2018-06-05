@@ -1,6 +1,9 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2018-05-28.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2018-06-04.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 92, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2018-05-28.json
->> Validation of Dnevnik/Reports/Dnevnik-2018-05-28.json 
+Records: (All: 88, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2018-06-04.json
+>> Validation of Dnevnik/Reports/Dnevnik-2018-06-04.json 
+<85>  https://www.dnevnik.bg/video/2018/06/04/3189581_video_drugite_novini/
+'title' is empty
+<<Valid records: 87 of 88

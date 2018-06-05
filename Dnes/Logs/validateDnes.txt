@@ -1,11 +1,9 @@
-VALIDATIONS for Dnes/Reports/Dnes-2018-05-28.json
+VALIDATIONS for Dnes/Reports/Dnes-2018-06-05.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 104, Duplicates: 0 ), File: Dnes/Reports/Dnes-2018-05-28.json
->> Validation of Dnes/Reports/Dnes-2018-05-28.json 
-<17>  https://www.dnes.bg/index/2018/05/28/deniat-v-snimki-28-mai.377726
+Records: (All: 98, Duplicates: 0 ), File: Dnes/Reports/Dnes-2018-06-05.json
+>> Validation of Dnes/Reports/Dnes-2018-06-05.json 
+<17>  https://www.dnes.bg/index/2018/06/05/deniat-v-snimki-5-iuni.378485
 'text' is empty
-<22>  https://www.dnes.bg/obshtestvo/2018/05/28/hemus-gotova-nai-posle-samo-sled-6-godini.377716
-'text' is empty
-<<Valid records: 102 of 104
+<<Valid records: 97 of 98

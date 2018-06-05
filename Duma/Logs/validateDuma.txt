@@ -1,6 +1,6 @@
-VALIDATIONS for Duma/Reports/Duma-2018-05-28.json
+VALIDATIONS for Duma/Reports/Duma-2018-06-05.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 39, Duplicates: 0 ), File: Duma/Reports/Duma-2018-05-28.json
->> Validation of Duma/Reports/Duma-2018-05-28.json 
+Records: (All: 42, Duplicates: 0 ), File: Duma/Reports/Duma-2018-06-05.json
+>> Validation of Duma/Reports/Duma-2018-06-05.json 

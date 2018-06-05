@@ -84,7 +84,7 @@ class TrudSpider(scrapy.Spider):
 		url     = response.url
 		
 		title   = response.xpath('//header[@class="article-header"]/h1[@class="headline-heading"]/text()').extract_first()
-		article = u' '.join(response.xpath('//div[@class="article-content"]/p/text()').extract())
+		article = u' '.join(response.xpath('//div[@class="article-content"]/p/text() | //div[@class="article-content"]/div/div/text() | //div[@id="AppleMailSignature"]/text() | //div[@class="article-content"]/p/span/text()').extract())
 		pubDate=response.xpath('//time[@class="entry-time meta-property--date"]/span[@class="meta-property--date-date"]/text()').extract_first()
 		# 23.06.2017
 
