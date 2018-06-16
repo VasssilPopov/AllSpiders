@@ -1,9 +1,9 @@
-VALIDATIONS for Monitor/Reports/Monitor-2018-06-04.json
+VALIDATIONS for Monitor/Reports/Monitor-2018-06-15.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 99, Duplicates: 0 ), File: Monitor/Reports/Monitor-2018-06-04.json
->> Validation of Monitor/Reports/Monitor-2018-06-04.json 
-<17>  https://www.monitor.bg:443/bg/a/view/alkoholen-turizym-101603
+Records: (All: 90, Duplicates: 0 ), File: Monitor/Reports/Monitor-2018-06-15.json
+>> Validation of Monitor/Reports/Monitor-2018-06-15.json 
+<50>  https://www.monitor.bg:443/bg/a/view/alpinisti-obezopasjavat-opasnija-skat-na-pytja-za-rilskija-manastir-102693
 'text' is empty
-<<Valid records: 98 of 99
+<<Valid records: 89 of 90

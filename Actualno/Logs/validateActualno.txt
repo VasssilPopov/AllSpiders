@@ -1,6 +1,6 @@
-VALIDATIONS for Actualno/Reports/Actualno-2018-06-04.json
+VALIDATIONS for Actualno/Reports/Actualno-2018-06-15.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 123, Duplicates: 0 ), File: Actualno/Reports/Actualno-2018-06-04.json
->> Validation of Actualno/Reports/Actualno-2018-06-04.json 
+Records: (All: 113, Duplicates: 0 ), File: Actualno/Reports/Actualno-2018-06-15.json
+>> Validation of Actualno/Reports/Actualno-2018-06-15.json 

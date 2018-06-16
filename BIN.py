@@ -46,6 +46,7 @@ import HelperTools
 
 #Srcs =['Blitz', '24chasa', 'Trud', 'Duma', 'Mediapool', 'Monitor','ClubZ', 'Classa', 'Dnevnik', 'Focus', 'News', 'OffNews', 'PIK','Monitor','Epicenter','Faktor','Dnes']
 #All -----------------------------------------------------------------------------------------------
+
 #Srcs=['Actualno', 'BNews', 'BgOnAir', 'Cross', 'Dnevnik', 'Focus', 'Monitor', 'News', 'Novinite', 'OffNews', 'PIK'] + ['24chasa', 'Blitz', 'Classa', 'ClubZ', 'Dnes', 'Duma', 'Epicenter', 'Faktor', 'Mediapool', 'StandartNews', 'Trud']
 
 
@@ -62,15 +63,31 @@ Srcs = ['24chasa', 'Blitz', 'Classa', 'ClubZ', 'Dnes', 'Duma', 'Epicenter', 'Fak
 #Srcs =['Blitz', '24chasa', 'Trud', 'Duma', 'Mediapool', 'ClubZ', 'Classa', 'Dnevnik', 'Focus', 'News', 'OffNews', 'PIK','Epicenter','StandartNews']
 
 #Srcs =[ 'StandartNews']
-#Srcs =[ 'Dnes']
+#Srcs =[ 'Trud']
+
+
+#Srcs =[ 'Focus','Classa','Dnes','Epicenter','Trud']
+#Srcs =[ 'Epicenter']
+
 
 for src in Srcs:
 #    HelperTools.scanReports(src+'/Reports/'+src+'-2018-03-*.json')
 #    HelperTools.scanReports(src+'/Reports/'+src+'-2017-05-*.json')
-#    HelperTools.scanReports(src+'/Reports/'+src+'-2018-01-*.json')
+
+#     HelperTools.scanReports(src+'/Reports/'+src+'-2018-01-*.json')
+#     HelperTools.scanReports(src+'/Reports/'+src+'-2017-12-*.json')
+
+
+#    HelperTools.scanReports(src+'/Reports/'+src+'-2018-02-*.json')
 
 #    HelperTools.scanReports(src+'/Reports/'+src+'-2018-04-1*.json')
-    HelperTools.scanReports(src+'/Reports/'+src+'-2018-06-0*.json')
+
+
+    HelperTools.scanReports(src+'/Reports/'+src+'-2018-06-1*.json')
+
+
+
+
 
 #HelperTools.scanReports('PIK/Reports/PIK-2017-10-*.json')
 #HelperTools.scanReports('Mediapool/Reports/Mediapool-2017-10-*.json')

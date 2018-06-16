@@ -1,9 +1,11 @@
-VALIDATIONS for Dnes/Reports/Dnes-2018-06-05.json
+VALIDATIONS for Dnes/Reports/Dnes-2018-06-15.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 98, Duplicates: 0 ), File: Dnes/Reports/Dnes-2018-06-05.json
->> Validation of Dnes/Reports/Dnes-2018-06-05.json 
-<17>  https://www.dnes.bg/index/2018/06/05/deniat-v-snimki-5-iuni.378485
+Records: (All: 94, Duplicates: 0 ), File: Dnes/Reports/Dnes-2018-06-15.json
+>> Validation of Dnes/Reports/Dnes-2018-06-15.json 
+<32>  https://www.dnes.bg/index/2018/06/15/deniat-v-snimki-16-iuni.379457
 'text' is empty
-<<Valid records: 97 of 98
+<91>  https://www.dnes.bg/health/2018/06/15/kozloduiskata-bolnica-se-nujdae-ot-dariteli.379454
+'text' is empty
+<<Valid records: 92 of 94

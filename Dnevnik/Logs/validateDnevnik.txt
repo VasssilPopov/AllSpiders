@@ -1,9 +1,11 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2018-06-04.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2018-06-15.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 88, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2018-06-04.json
->> Validation of Dnevnik/Reports/Dnevnik-2018-06-04.json 
-<85>  https://www.dnevnik.bg/video/2018/06/04/3189581_video_drugite_novini/
+Records: (All: 88, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2018-06-15.json
+>> Validation of Dnevnik/Reports/Dnevnik-2018-06-15.json 
+<14>  https://www.dnevnik.bg/video/2018/06/15/3200902_video_grucki_deputat_se_oburna_kum_makedoncite_na/
 'title' is empty
-<<Valid records: 87 of 88
+<26>  https://www.dnevnik.bg/video/2018/06/15/3190068_video_stadionite_za_svetovnoto_po_futbol_v_360_gradusa/
+'title' is empty
+<<Valid records: 86 of 88
