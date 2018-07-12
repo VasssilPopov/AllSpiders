@@ -69,30 +69,31 @@ class MediapoolSpider(scrapy.Spider):
 				yield scrapy.Request(url=link, callback=self.parse_page)
 
     def parse_page(self, response):
-		url     = response.url
-		title   = response.xpath('//div[@class="main_left"]/h1/text()').extract()[0].strip()
-		article = ''.join(response.xpath('//div[@class="main_left"]/div/p/text()| //div[@class="main_left"]/div[@id="art_font_size"]/p/b/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/text()| //div[@class="main_left"]/div[@id="art_font_size"]/div/div/div/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/div/text() | //div[@id="article-content"]/p/span/span/text() | //div[@id="article-content"]/p/span/text() | //div[@id="article-content"]/span/span/text() | //p/span/text()').extract()).strip() 
+        url     = response.url
+        #view(response)
+        #title   = response.xpath('//div[@class="main_left"]/h1/text()').extract()[0].strip()
+        title   = response.xpath('//div[@class="main_left"]/h1/text() | //main[@class="main_left"]/h1/text() | //main[@class="main_left"]/article/header/h1/text()').extract()[0].strip()
+        article = ''.join(response.xpath('//div[@class="main_left"]/div/p/text()| //div[@class="main_left"]/div[@id="art_font_size"]/p/b/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/text()| //div[@class="main_left"]/div[@id="art_font_size"]/div/div/div/text() | //div[@class="main_left"]/div[@id="art_font_size"]/div/div/text() | //div[@id="article-content"]/p/span/span/text() | //div[@id="article-content"]/p/span/text() | //div[@id="article-content"]/span/span/text() | //p/span/text()').extract()).strip() 
+        pubDate=response.xpath('//div[@class="info wbig"]/text() | //article/footer[@class="info wbig"]/time/text()').extract_first()
+        if (pubDate[0:3] == ' | '):
+            pubDate = pubDate[3:]
+        #extract and prepare Article date
+        (day, month, year)=pubDate.split('|')[1].split()
+        month=HelperTools.bgMonthstoNumber(month)
+        pubDate='%s.%s.%s'%(year,month,day)
+        # dateParts=pubDate.split()
+        # if (dateParts[0]=='|'):
+            # dateParts=dateParts[1:]
+        # trMonth=translateMonth[dateParts[3]]
+        # articleDate= ('%s-%s-%s' %(dateParts[2],trMonth,dateParts[4])).lower()
 
-		pubDate=response.xpath('//div[@class="info wbig"]/text()').extract_first()
-		if (pubDate[0:3] == ' | '):
-			pubDate = pubDate[3:]
-		#extract and prepare Article date
-		(day, month, year)=pubDate.split('|')[1].split()
-		month=HelperTools.bgMonthstoNumber(month)
-		pubDate='%s.%s.%s'%(year,month,day)
-		# dateParts=pubDate.split()
-		# if (dateParts[0]=='|'):
-			# dateParts=dateParts[1:]
-		# trMonth=translateMonth[dateParts[3]]
-		# articleDate= ('%s-%s-%s' %(dateParts[2],trMonth,dateParts[4])).lower()
-
-		todaysDate=date.today().strftime("%Y.%m.%d")
-		
-		# Filter on todays date
-		if (pubDate == todaysDate):
-			yield {
-				'url': url,
-				'title': title,
-				'text': article,
-				'date': pubDate
-			}	
+        todaysDate=date.today().strftime("%Y.%m.%d")
+        
+        # Filter on todays date
+        if (pubDate == todaysDate):
+            yield {
+                'url': url,
+                'title': title,
+                'text': article,
+                'date': pubDate
+            }	

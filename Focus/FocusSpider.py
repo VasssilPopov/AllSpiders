@@ -68,8 +68,8 @@ class FocusSpider(scrapy.Spider):
         try:
             url   = response.url
             title = response.xpath('//div[@class="inside-top-title"]/h1/text()').extract_first().strip()
-            article = u''.join(response.xpath('//div[@class="print-content font-resize-content"]/div[@class="inside-body-content jstf"]/text() | //div[@class="print-content font-resize-content"]/div[@class="inside-body-content jstf"]/b/text()').extract()).strip()
-
+            #article = u''.join(response.xpath('//div[@class="print-content font-resize-content"]/div[@class="inside-body-content jstf"]/text() | //div[@class="print-content font-resize-content"]/div[@class="inside-body-content jstf"]/b/text()').extract()).strip()
+            article = u' '.join(response.xpath('//div[@class="print-content font-resize-content"]/div[@class="inside-body-content jstf"]/text() | //div[@class="print-content font-resize-content"]/div[@class="inside-body-content jstf"]/b/text() | //div[@class="print-content font-resize-content"]/div[@class="inside-body-content jstf"]/i/i/text() | //div[@class="print-content font-resize-content"]/div[@class="inside-body-content jstf"]/i/i/b/text()  | //div[@class="print-content font-resize-content"]/div[@class="inside-body-content jstf"]/i/text()').extract()).strip()
             # pubDate=Yesterday
             
             yield {
