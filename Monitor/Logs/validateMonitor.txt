@@ -1,9 +1,6 @@
-VALIDATIONS for Monitor/Reports/Monitor-2018-07-11.json
+VALIDATIONS for Monitor/Reports/Monitor-2018-07-31.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 107, Duplicates: 0 ), File: Monitor/Reports/Monitor-2018-07-11.json
->> Validation of Monitor/Reports/Monitor-2018-07-11.json 
-<63>  https://www.monitor.bg:443/bg/a/view/alo-izmami-105148
-'text' is empty
-<<Valid records: 106 of 107
+Records: (All: 103, Duplicates: 0 ), File: Monitor/Reports/Monitor-2018-07-31.json
+>> Validation of Monitor/Reports/Monitor-2018-07-31.json 

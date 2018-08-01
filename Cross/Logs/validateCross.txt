@@ -1,9 +1,6 @@
-VALIDATIONS for Cross/Reports/Cross-2018-07-11.json
+VALIDATIONS for Cross/Reports/Cross-2018-07-31.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 89, Duplicates: 0 ), File: Cross/Reports/Cross-2018-07-11.json
->> Validation of Cross/Reports/Cross-2018-07-11.json 
-<8>  http://www.cross.bg/nankov-ministur-suvet-1578919.html
-'text' is shorter than 8
-<<Valid records: 88 of 89
+Records: (All: 80, Duplicates: 0 ), File: Cross/Reports/Cross-2018-07-31.json
+>> Validation of Cross/Reports/Cross-2018-07-31.json 

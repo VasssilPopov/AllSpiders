@@ -1,11 +1,9 @@
-VALIDATIONS for Dnes/Reports/Dnes-2018-07-12.json
+VALIDATIONS for Dnes/Reports/Dnes-2018-08-01.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 93, Duplicates: 0 ), File: Dnes/Reports/Dnes-2018-07-12.json
->> Validation of Dnes/Reports/Dnes-2018-07-12.json 
-<55>  https://www.dnes.bg/sofia/2018/07/12/kupuvame-ednodnevna-karta-za-gradskiia-transport-prez-telefona.381976
+Records: (All: 87, Duplicates: 0 ), File: Dnes/Reports/Dnes-2018-08-01.json
+>> Validation of Dnes/Reports/Dnes-2018-08-01.json 
+<20>  https://www.dnes.bg/index/2018/08/01/deniat-v-snimki-1-avgust.383857
 'text' is empty
-<84>  https://www.dnes.bg/index/2018/07/12/deniat-v-snimki-12-iuli.382040
-'text' is empty
-<<Valid records: 91 of 93
+<<Valid records: 86 of 87
