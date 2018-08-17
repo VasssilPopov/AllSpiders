@@ -8,6 +8,7 @@ import os
 from sys import exit, path
 from datetime import date, timedelta
 import platform
+from types import NoneType
 
 if platform.system() == 'Linux':
 	path.append('/home/peio/dev/AllSpiders/_LIBRARY/')
@@ -97,8 +98,14 @@ class BlitzSpider(scrapy.Spider):
         
         title   = response.xpath('//header/h1[@class="post-title"]/text()').extract()[0].strip()
 
-        introStr = response.xpath('//div[@class="intro"]/text()').extract()[0].strip()
-        texts= ' '.join(response.xpath('//div[@id="articleContent"]/strong/text() | //div[@id="articleContent"]/text()| //div[@id="articleContent"]/p/strong/text()| //div[@id="articleContent"]/p/text()').extract())
+        #introStr = response.xpath('//div[@class="intro"]/text()').extract()[0].strip()
+        
+        introStr = response.xpath('//div[@class="intro"]/text()').extract_first()
+        if (type(introStr) == NoneType):
+            introStr=''
+        else:
+            introStr = introStr.strip()
+        texts= ' '.join(response.xpath('//div[@id="articleContent"]/strong/text() | //div[@id="articleContent"]/text()| //div[@id="articleContent"]/p/strong/text()| //div[@id="articleContent"]/p/text() | //div[@id="articleContent"]/p/strong/font/font/text() | //div[@id="articleContent"]/p/font/font/text()').extract())
         article = introStr + texts
 
         pubDate=response.xpath('//*[@id="page-container"]/div[1]/div/div/article/header/div/ul/li[2]/text()').extract_first()

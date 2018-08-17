@@ -63,11 +63,11 @@ Srcs = ['24chasa', 'Blitz', 'Classa', 'ClubZ', 'Dnes', 'Duma', 'Epicenter', 'Fak
 #Srcs =['Blitz', '24chasa', 'Trud', 'Duma', 'Mediapool', 'ClubZ', 'Classa', 'Dnevnik', 'Focus', 'News', 'OffNews', 'PIK','Epicenter','StandartNews']
 
 #Srcs =[ 'StandartNews']
-#Srcs =[ 'Cross']
+#Srcs =[ 'Blitz']
 
 
 #Srcs =[ 'Focus','Classa','Dnes','Epicenter','Trud']
-#Srcs =[ 'Focus']
+#Srcs =[ 'PIK']
 
 
 for src in Srcs:
@@ -85,7 +85,7 @@ for src in Srcs:
 
 #    HelperTools.scanReports(src+'/Reports/'+src+'-2018-07-0*.json')
 
-    HelperTools.scanReports(src+'/Reports/'+src+'-2018-08-0*.json')
+    HelperTools.scanReports(src+'/Reports/'+src+'-2018-08-1*.json')
 
 
 

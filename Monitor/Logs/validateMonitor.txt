@@ -1,6 +1,9 @@
-VALIDATIONS for Monitor/Reports/Monitor-2018-07-31.json
+VALIDATIONS for Monitor/Reports/Monitor-2018-08-16.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 103, Duplicates: 0 ), File: Monitor/Reports/Monitor-2018-07-31.json
->> Validation of Monitor/Reports/Monitor-2018-07-31.json 
+Records: (All: 90, Duplicates: 0 ), File: Monitor/Reports/Monitor-2018-08-16.json
+>> Validation of Monitor/Reports/Monitor-2018-08-16.json 
+<45>  https://www.monitor.bg:443/bg/a/view/grajdanska-otgovornost-141814
+'text' is empty
+<<Valid records: 89 of 90

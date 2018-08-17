@@ -1,6 +1,6 @@
-VALIDATIONS for PIK/Reports/PIK-2018-07-31.json
+VALIDATIONS for PIK/Reports/PIK-2018-08-16.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 192, Duplicates: 0 ), File: PIK/Reports/PIK-2018-07-31.json
->> Validation of PIK/Reports/PIK-2018-07-31.json 
+Records: (All: 323, Duplicates: 0 ), File: PIK/Reports/PIK-2018-08-16.json
+>> Validation of PIK/Reports/PIK-2018-08-16.json 

@@ -74,8 +74,8 @@ class PIKSpider(scrapy.Spider):
     def parse_details(self, response):
         url   = response.url
         # title = response.xpath('//*[@id="hdscrolll"]/div/text()').extract_first()
-        title = response.xpath('//h2[@class="news-title left w100"]/text()').extract_first()
-
+        #title = response.xpath('//h2[@class="news-title left w100"]/text() | //div[#id="pjax_container"]/div/div/div/div/a/text()').extract_first()
+        title = response.xpath('//h2[@class="news-title left w100"]/text() | //div[@id="pjax_container"]/div/div/div/div/a/text()').extract_first().strip()
         if url.split('news')[0] in ['http://pik.bg/-', 'http://pik.bg/--']:
             return
 
