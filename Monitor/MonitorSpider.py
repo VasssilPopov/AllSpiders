@@ -103,7 +103,7 @@ class MonitorSpider(scrapy.Spider):
         # ' //div[@class="articleContentContainer"]/div/div/text() | //div/div/div/div/div/div/div/div/div/div/div/div/div/p/text()').extract()
 
         title = response.xpath('//article[@class="article"]/header/h1/text()').extract_first()
-        text  = response.xpath('//article[@class="article"]/div/div/p/text()').extract()
+        text  = response.xpath('//article[@class="article"]/div/div/p/text() | //div[@class="articleWraper"]/div[@class="rightPart"]/p/span/span/span/text()').extract()
         article=u' '.join(text)
 		
 		# 'extract and prepare Article date'

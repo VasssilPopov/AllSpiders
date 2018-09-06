@@ -1,6 +1,9 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2018-08-16.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2018-09-05.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 95, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2018-08-16.json
->> Validation of Dnevnik/Reports/Dnevnik-2018-08-16.json 
+Records: (All: 92, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2018-09-05.json
+>> Validation of Dnevnik/Reports/Dnevnik-2018-09-05.json 
+<35>  https://www.dnevnik.bg/video/s_dve_dumi/2018/09/05/3306254_trump_impiichmunt_ili_ne_video/
+'title' is empty
+<<Valid records: 91 of 92

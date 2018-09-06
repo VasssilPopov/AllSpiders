@@ -105,7 +105,7 @@ class BlitzSpider(scrapy.Spider):
             introStr=''
         else:
             introStr = introStr.strip()
-        texts= ' '.join(response.xpath('//div[@id="articleContent"]/strong/text() | //div[@id="articleContent"]/text()| //div[@id="articleContent"]/p/strong/text()| //div[@id="articleContent"]/p/text() | //div[@id="articleContent"]/p/strong/font/font/text() | //div[@id="articleContent"]/p/font/font/text()').extract())
+        texts= ' '.join(response.xpath('//div[@id="articleContent"]/strong/font/font/text()| //div[@id="articleContent"]/h3/text()| //div[@id="articleContent"]/article/p/text()| //div[@id="articleContent"]/article/p/strong/text()| //div[@id="articleContent"]/strong/text() | //div[@id="articleContent"]/text()| //div[@id="articleContent"]/p/strong/text()| //div[@id="articleContent"]/p/text() | //div[@id="articleContent"]/p/strong/font/font/text() | //div[@id="articleContent"]/p/font/font/text()').extract())
         article = introStr + texts
 
         pubDate=response.xpath('//*[@id="page-container"]/div[1]/div/div/article/header/div/ul/li[2]/text()').extract_first()

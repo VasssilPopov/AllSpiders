@@ -52,7 +52,7 @@ class CrossSpider(scrapy.Spider):
         pageTexts = response.xpath('//div[@class="articleWraper"]/div[@class="rightPart"]/p/text()').extract()
         article=u' '.join(pageTexts)
 
-        texts = response.xpath('//div[@class="articleWraper"]/div[@class="rightPart"]/p/text() | //div[@class="articleWraper"]/div[@class="rightPart"]/p/span/text()').extract()
+        texts = response.xpath('//div[@class="articleWraper"]/div[@class="rightPart"]/p/text() | //div[@class="articleWraper"]/div[@class="rightPart"]/p/span/span/span/text() | //div[@class="articleWraper"]/div[@class="rightPart"]/p/span/text()').extract()
         article=u''.join(texts)
         # 'extract and prepare Article date'
         # pageDate = response.xpath('//div[@class="articleWraper"]/div[@class="articleInfo"]/p[@class="fl"]/text()').extract_first()

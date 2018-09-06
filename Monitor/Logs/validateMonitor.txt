@@ -1,9 +1,9 @@
-VALIDATIONS for Monitor/Reports/Monitor-2018-08-16.json
+VALIDATIONS for Monitor/Reports/Monitor-2018-09-05.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 90, Duplicates: 0 ), File: Monitor/Reports/Monitor-2018-08-16.json
->> Validation of Monitor/Reports/Monitor-2018-08-16.json 
-<45>  https://www.monitor.bg:443/bg/a/view/grajdanska-otgovornost-141814
+Records: (All: 99, Duplicates: 0 ), File: Monitor/Reports/Monitor-2018-09-05.json
+>> Validation of Monitor/Reports/Monitor-2018-09-05.json 
+<14>  https://www.monitor.bg:443/bg/a/view/pochivka-ili-bolnichen-143598
 'text' is empty
-<<Valid records: 89 of 90
+<<Valid records: 98 of 99

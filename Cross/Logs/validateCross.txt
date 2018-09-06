@@ -1,9 +1,6 @@
-VALIDATIONS for Cross/Reports/Cross-2018-08-16.json
+VALIDATIONS for Cross/Reports/Cross-2018-09-05.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 84, Duplicates: 0 ), File: Cross/Reports/Cross-2018-08-16.json
->> Validation of Cross/Reports/Cross-2018-08-16.json 
-<78>  http://www.cross.bg/svobodno-dyshi-visochina-1581625.html
-'text' is shorter than 8
-<<Valid records: 83 of 84
+Records: (All: 75, Duplicates: 0 ), File: Cross/Reports/Cross-2018-09-05.json
+>> Validation of Cross/Reports/Cross-2018-09-05.json 

@@ -1,9 +1,11 @@
-VALIDATIONS for Dnes/Reports/Dnes-2018-08-17.json
+VALIDATIONS for Dnes/Reports/Dnes-2018-09-05.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 86, Duplicates: 0 ), File: Dnes/Reports/Dnes-2018-08-17.json
->> Validation of Dnes/Reports/Dnes-2018-08-17.json 
-<20>  https://www.dnes.bg/akoshtete-vqrvaite/2018/08/17/deniat-v-snimki-17-avgust.385353
+Records: (All: 95, Duplicates: 0 ), File: Dnes/Reports/Dnes-2018-09-05.json
+>> Validation of Dnes/Reports/Dnes-2018-09-05.json 
+<78>  https://www.dnes.bg/dnes-te-kazaha/2018/09/05/05-09-2018.387030
 'text' is empty
-<<Valid records: 85 of 86
+<94>  https://www.dnes.bg/index/2018/09/05/deniat-v-snimki-5-septemvri.387057
+'text' is empty
+<<Valid records: 93 of 95
