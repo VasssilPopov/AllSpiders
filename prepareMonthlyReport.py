@@ -32,7 +32,7 @@ from urllib2 import quote
 # Report Year 2017 and report month (August)
 # Please fill in parameters report's year and month
 repYear='2018'
-repMonth=6 
+repMonth=7 
 
 # single month report
 monthlyDataReport(repYear, repMonth)
@@ -41,6 +41,6 @@ monthlyDataReport(repYear, repMonth)
 ## create separate text file reports
 ## from May to September
 #!!!! uncomment next lines to have a report
-# for m in range(3,6):
-  # monthlyDataReport(repYear, m)
+for m in range(10,11):
+    monthlyDataReport(repYear, m)
 #Monthly Reports of collected data (End)------------------------------------

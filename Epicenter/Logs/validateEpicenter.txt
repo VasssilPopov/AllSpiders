@@ -1,6 +1,6 @@
-VALIDATIONS for Epicenter/Reports/Epicenter-2018-09-05.json
+VALIDATIONS for Epicenter/Reports/Epicenter-2018-10-13.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 77, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2018-09-05.json
->> Validation of Epicenter/Reports/Epicenter-2018-09-05.json 
+Records: (All: 55, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2018-10-13.json
+>> Validation of Epicenter/Reports/Epicenter-2018-10-13.json 

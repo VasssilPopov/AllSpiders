@@ -1,9 +1,9 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2018-09-05.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2018-10-12.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 92, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2018-09-05.json
->> Validation of Dnevnik/Reports/Dnevnik-2018-09-05.json 
-<35>  https://www.dnevnik.bg/video/s_dve_dumi/2018/09/05/3306254_trump_impiichmunt_ili_ne_video/
+Records: (All: 109, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2018-10-12.json
+>> Validation of Dnevnik/Reports/Dnevnik-2018-10-12.json 
+<57>  https://www.dnevnik.bg/video/2018/10/12/3326265_video_uraganut_maikul_izravni_sus_zemiata_gradche_vuv/
 'title' is empty
-<<Valid records: 91 of 92
+<<Valid records: 108 of 109

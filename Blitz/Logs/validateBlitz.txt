@@ -1,6 +1,11 @@
-VALIDATIONS for Blitz/Reports/Blitz-2018-09-05.json
+VALIDATIONS for Blitz/Reports/Blitz-2018-10-13.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 181, Duplicates: 0 ), File: Blitz/Reports/Blitz-2018-09-05.json
->> Validation of Blitz/Reports/Blitz-2018-09-05.json 
+Records: (All: 152, Duplicates: 0 ), File: Blitz/Reports/Blitz-2018-10-13.json
+>> Validation of Blitz/Reports/Blitz-2018-10-13.json 
+<52>  https://www.blitz.bg/ikonomika/svetovnata-ikonomika-zavisi-ot-tezi-8-neshcha_news632729.html
+'text' is empty
+<58>  https://www.blitz.bg/zdrave/zdravni-novini/7-prichini-da-yadem-yablki-vseki-den_news632739.html
+'text' is empty
+<<Valid records: 150 of 152
