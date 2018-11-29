@@ -1,0 +1,34 @@
+﻿
+//links
+links=response.xpath("//section/div/div/div[@class='news_list_hdr']")
+
+// link
+for link in links:
+     addr=link.xpath("./div/h3/a/text()").extract_first()
+     date=link.xpath("./div/p/time/@datetime").extract_first()
+     print addr, date
+
+title = response.xpath("//div[@id='newsDtlImgCap']/h1[@class='cap']/text()").extract_first()
+text = response.xpath("//div[@id='newsDtl_Body']/p/text()").extract_first()
+
+
+text = response.xpath("//div[@id='newsDtl_Body']/p/text()").extract()
+article = u' '.join(text)
+
+pubDate = response.xpath("//div[@id = 'newsDtlImgCap']/div/p/time/@datetime").extract_first()
+
+In [22]: print pubDate
+2018-11-10 17:09:00
+
+In [23]: print pubDate[0:10]
+2018-11-10
+
+In [24]: print pubDate[0:10].replace('-','.')
+2018.11.10
+
+next_page = response.xpath("//ul[@class='pagination']/li/a/@href").extract_first()
+
+next_page = response.xpath("//ul[@class='pagination']/li/a[@class='next']/@href").extract_first()
+
+next_page = response.xpath("//ul[@class='pagination']/li/a[@class = 'next']/@href").extract()
+Out[32]: [u'?go=news&p=list&categoryId=1&page=2']

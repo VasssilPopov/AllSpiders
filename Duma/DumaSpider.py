@@ -15,30 +15,33 @@ today = date.today()
 Today = today.strftime("%Y-%m-%d")
 strToday = today.strftime("%Y.%m.%d")
 #yesterday = (date.today() - timedelta(1)).strftime("%Y.%m.%d")
+
+
 def read_ids(file):
 
-    'Read latest 11 chars from urls of the already processed publications '
+#    'Read latest 6 chars from urls of the already processed publications '
+
     ids=set()
 
     try:
         with open(file, 'rb') as f:
             for item in json_lines.reader(f):
-                ids.add(item["url"].split('node/')[1])
+                ids.add(item["url"][-6:])
     except IOError:
         ids = set()
     # print 'error'
 
     return ids
 
-def translateDateBG_EN(strDate):
+# def translateDateBG_EN(strDate):
 
-    monthsBG_EN={u'януари':u'january',u'февруари':u'february',u'март':u'march',u'април':u'april',u'май':u'may',u'юни':u'june',u'юли':u'july',u'август':u'august',u'септември':u'september',u'октомври':u'october',u'ноември':u'november',u'декември':u'december'}
+    # monthsBG_EN={u'януари':u'january',u'февруари':u'february',u'март':u'march',u'април':u'april',u'май':u'may',u'юни':u'june',u'юли':u'july',u'август':u'august',u'септември':u'september',u'октомври':u'october',u'ноември':u'november',u'декември':u'december'}
 
-    dateParts=strDate.split()
-    v=dateParts[1].lower()
-    dateParts[1] = monthsBG_EN[v]
-    result = ' '.join(dateParts[:3])
-    return result
+    # dateParts=strDate.split()
+    # v=dateParts[1].lower()
+    # dateParts[1] = monthsBG_EN[v]
+    # result = ' '.join(dateParts[:3])
+    # return result
 
 def bgMonthstoNumber(monthName):
     monthName=monthName.lower()
@@ -66,12 +69,13 @@ class DumaSpider(scrapy.Spider):
     name = "Duma"
     # allowed_domains = ['http://Duma.bg']
     start_urls = [
-        "http://duma.bg/taxonomy/term/1",
-        "http://duma.bg/taxonomy/term/2",
-        "http://duma.bg/taxonomy/term/3/1",
-        "http://duma.bg/taxonomy/term/4/1",
-        "http://duma.bg/taxonomy/term/5/1",
-        "http://duma.bg/taxonomy/term/6/1",
+        "https://duma.bg/?go=news&p=list&categoryId=1",
+        "https://duma.bg/?go=news&p=list&categoryId=2",
+        "https://duma.bg/?go=news&p=list&categoryId=3",
+        "https://duma.bg/?go=news&p=list&categoryId=4",
+        "https://duma.bg/?go=news&p=list&categoryId=5",
+        "https://duma.bg/?go=news&p=list&categoryId=6",
+        "https://duma.bg/?go=news&p=list&categoryId=7",
     ]
     custom_settings = {
         'FEED_EXPORT_ENCODING': 'utf-8',
@@ -82,55 +86,74 @@ class DumaSpider(scrapy.Spider):
     }
     
     def __init__(self):
+    
         self.json_datafile = 'Duma/Reports/Duma-'+Today+'.json'
         self.links_seen = read_ids(self.json_datafile)
         'take only the end of the Mediapool url. The number after the news string:'
+
         # self.links_seen = map(lambda url: url.split('node/')[1] , self.links_seen)
         print '-'*10,'Duma v(1.0)','-'*10
         print 'seen: %d'% (len(self.links_seen))
         
     def parse(self, response):
         
-        links = response.xpath('//div[@class="view-content"]/div[@class="item-list"]/ul/li')
+        #links=response.xpath("//section/div/div/div[@class='news_list_hdr/div/h3/a/@href']")
         
-        # print "url: %s selected: %d" %(response.url, len(urls))
+        links=response.xpath("//section/div/div/div[@class='news_list_hdr']/div")
+        
         print "url: %s selected: %d" %(response.url, len(links))
         for link in links:
         
-            date_issue = link.xpath('.//span[@class="views-field-field-issue-date-value"]/span[@class="field-content"]/span/text()').extract_first()
-            dateYesterday = convertDate(date_issue)
-            #print dateYesterday, strToday
+            #<old>date_issue = link.xpath('.//span[@class="views-field-field-issue-date-value"]/span[@class="field-content"]/span/text()').extract_first()
+            ##date_issue=link.xpath("./div/p/time/@datetime").extract_first()
+            date_issue= link.xpath("./p[@class='date']/time/@datetime").extract_first()
+            #dateYesterday = convertDate(date_issue)
+            date_issue = str(date_issue)[:10]
+            dateYesterday = date_issue.replace('-','.')
+            print dateYesterday == strToday,dateYesterday, strToday
+
             if (dateYesterday != strToday):
                 return
                 
-            url = link.xpath('.//div[@class="views-field-title"]/span[@class="field-content"]/a/@href').extract_first()
-
-            code=url.split('node/')[1]
+            ##url = link.xpath('.//div/h3[@class="cap"]/a/@href').extract_first()
+            url = link.xpath("./h3[@class='cap']/a/@href").extract_first()
+            #print url
+             #<old>code=url.split('node/')[1]
+            code = url[-6:]
             if code not in self.links_seen:
-                # print url
+                print "add code: "+code
                 self.links_seen.add(code)
                 urlTemp = response.urljoin(url)
                 yield scrapy.Request(url=urlTemp, callback=self.parse_details)
-
+        print ' follow pagination link'
         # follow pagination link
-        next_page_url= response.xpath('//div[@class="item-list"]/ul[@class="pager"]/li[@class="pager-next"]/a[@class="active"]/@href').extract_first()
-        
+        #<old>next_page_url= response.xpath('//div[@class="item-list"]/ul[@class="pager"]/li[@class="pager-next"]/a[@class="active"]/@href').extract_first()
+        next_page_url= response.xpath("//div[@class='wrp_pagination']/ul/li/a[@class='next']/@href").extract_first()
+        #print 'Next Page URL: %s' % (next_page_url)
         if next_page_url:
             next_page_url = response.urljoin(next_page_url)
             print 'Next Page URL: %s' % (next_page_url)
             yield scrapy.Request(url=next_page_url, callback=self.parse)
 
     def parse_details(self, response):
+
         url     = response.url
-        title = response.xpath('//div[@class="container"]/p[@class="title"]/a/text()').extract_first()
-        
-        text = response.xpath('//div[@class="container"]/div[@class="meta"]/div[@class="content"]/p/text() | //div[@class="container"]/div[@class="meta"]/div[@class="content"]/p/strong/text()').extract()
+        #print url
+       #old>title = response.xpath('//div[@class="container"]/p[@class="title"]/a/text()').extract_first()
+        title = response.xpath("//div[@id='newsDtlImgCap']/h1[@class='cap']/text() | //div/div[@class='news_dtl_hdr']/h1[@class='cap']/text()").extract_first()
+
+        #<old>text = response.xpath('//div[@class="container"]/div[@class="meta"]/div[@class="content"]/p/text() | //div[@class="container"]/div[@class="meta"]/div[@class="content"]/p/strong/text()').extract()
+        text = response.xpath("//div[@id='newsDtl_Body']/p/text()").extract()
         article = u' '.join(text)
-        
-        pubDate =response.xpath('//div[@class="container"]/div[@class="meta"]/span[@class="date-display-single"]/text()').extract_first()
-        # 21.06.2017 10:59
-        
-        pubDate=convertDate(pubDate)
+        #print article[:10]
+        #<old>bDate =response.xpath('//div[@class="container"]/div[@class="meta"]/span[@class="date-display-single"]/text()').extract_first()
+        pubDate = response.xpath("//div[@id='newsDtlImgCap']/div/p[@class='date']/time/@datetime | //div[@class='news_dtl_hdr']/div/p/time/@datetime").extract_first()
+        #'2018-11-14 15:38:00'
+        tmp = pubDate[:10]
+        pubDate = tmp.replace('-','.')
+        # 2018.11.13
+        #print "SAVE"
+        #<old>pubDate=convertDate(pubDate)
         # print 'artDate: %s url= %s ' %(articleDate, url)
         # Filter on todays date
         # print pubDate, strToday, (pubDate == strToday), url

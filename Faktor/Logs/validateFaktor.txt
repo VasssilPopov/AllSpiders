@@ -1,6 +1,6 @@
-VALIDATIONS for Faktor/Reports/Faktor-2018-10-13.json
+VALIDATIONS for Faktor/Reports/Faktor-2018-11-29.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 45, Duplicates: 0 ), File: Faktor/Reports/Faktor-2018-10-13.json
->> Validation of Faktor/Reports/Faktor-2018-10-13.json 
+Records: (All: 90, Duplicates: 0 ), File: Faktor/Reports/Faktor-2018-11-29.json
+>> Validation of Faktor/Reports/Faktor-2018-11-29.json 

@@ -1,9 +1,9 @@
-VALIDATIONS for Dnes/Reports/Dnes-2018-10-13.json
+VALIDATIONS for Dnes/Reports/Dnes-2018-11-29.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 56, Duplicates: 0 ), File: Dnes/Reports/Dnes-2018-10-13.json
->> Validation of Dnes/Reports/Dnes-2018-10-13.json 
-<39>  https://www.dnes.bg/notifikacii/2018/10/13/pochina-11-godishnoto-blysnato-ot-piian-v-tyrnak.390437
+Records: (All: 118, Duplicates: 0 ), File: Dnes/Reports/Dnes-2018-11-29.json
+>> Validation of Dnes/Reports/Dnes-2018-11-29.json 
+<110>  https://www.dnes.bg/index/2018/11/29/deniat-v-snimki-29-noemvri.395085
 'text' is empty
-<<Valid records: 55 of 56
+<<Valid records: 117 of 118

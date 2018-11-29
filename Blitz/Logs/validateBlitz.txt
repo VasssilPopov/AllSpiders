@@ -1,11 +1,13 @@
-VALIDATIONS for Blitz/Reports/Blitz-2018-10-13.json
+VALIDATIONS for Blitz/Reports/Blitz-2018-11-29.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 152, Duplicates: 0 ), File: Blitz/Reports/Blitz-2018-10-13.json
->> Validation of Blitz/Reports/Blitz-2018-10-13.json 
-<52>  https://www.blitz.bg/ikonomika/svetovnata-ikonomika-zavisi-ot-tezi-8-neshcha_news632729.html
+Records: (All: 196, Duplicates: 0 ), File: Blitz/Reports/Blitz-2018-11-29.json
+>> Validation of Blitz/Reports/Blitz-2018-11-29.json 
+<37>  https://www.blitz.bg/zdrave/zdravni-novini/tya-e-na-poveche-ot-40-godini-a-stava-vse-po-mlada-pred-ochite-ni-prizna-che-vsyaka-sedmitsa-smesva-evtin-zhelatin-i_news642415.html
 'text' is empty
-<58>  https://www.blitz.bg/zdrave/zdravni-novini/7-prichini-da-yadem-yablki-vseki-den_news632739.html
+<108>  https://www.blitz.bg/zdrave/zdravni-novini/terapiyata-s-kurkuma-shche-vi-prerodi-vizhte-kak-da-ya-pravite_news642428.html
 'text' is empty
-<<Valid records: 150 of 152
+<109>  https://www.blitz.bg/zdrave/zdravni-novini/6-vitamini-koito-vsshchnost-sa-opasni-za-zdraveto_news642419.html
+'text' is empty
+<<Valid records: 193 of 196

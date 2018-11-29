@@ -1,6 +1,9 @@
-VALIDATIONS for Actualno/Reports/Actualno-2018-10-12.json
+VALIDATIONS for Actualno/Reports/Actualno-2018-11-28.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 125, Duplicates: 0 ), File: Actualno/Reports/Actualno-2018-10-12.json
->> Validation of Actualno/Reports/Actualno-2018-10-12.json 
+Records: (All: 143, Duplicates: 0 ), File: Actualno/Reports/Actualno-2018-11-28.json
+>> Validation of Actualno/Reports/Actualno-2018-11-28.json 
+<101>  https://www.actualno.com/vidin/machyt-na-zvezdite-shte-napylni-za-13-ti-pyt-vidinskata-zala-festivalna-news_708805.html
+'text' is empty
+<<Valid records: 142 of 143

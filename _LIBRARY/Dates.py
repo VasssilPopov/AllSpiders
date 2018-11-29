@@ -16,6 +16,19 @@ def bgShortMonthstoNumber(monthName):
     else:
         return'??'
 
+def NumbertoBgShortMonths(monthNumber):
+    monthNumber= ('00'+str(monthNumber))[-2:]
+    months= {'01':u'яну','02':u'фев','03':u'мар',
+             '04':u'апр','05':u'май','06':u'юни',
+             '07':u'юли','08':u'авг','09':u'сеп',
+             '10':u'окт','11':u'ное','12':u'дек'}
+
+    if (monthNumber in months):
+        return months[monthNumber]
+    else:
+        return'?-?'
+        
+        
 def bgShortMonthstoNumber2(monthName):
     monthName=monthName.lower()
     months= {u'ян':'01',u'февр':'02', u'март':'03',

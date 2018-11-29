@@ -1,11 +1,6 @@
-VALIDATIONS for Cross/Reports/Cross-2018-10-12.json
+VALIDATIONS for Cross/Reports/Cross-2018-11-28.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 90, Duplicates: 0 ), File: Cross/Reports/Cross-2018-10-12.json
->> Validation of Cross/Reports/Cross-2018-10-12.json 
-<43>  http://www.cross.bg/asotziatziya-bulgarskite-korneliya-1586087.html
-'text' is shorter than 8
-<45>  http://www.cross.bg/ministur-kytev-nyama-1586091.html
-'text' is shorter than 8
-<<Valid records: 88 of 90
+Records: (All: 93, Duplicates: 0 ), File: Cross/Reports/Cross-2018-11-28.json
+>> Validation of Cross/Reports/Cross-2018-11-28.json 

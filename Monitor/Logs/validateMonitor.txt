@@ -1,9 +1,6 @@
-VALIDATIONS for Monitor/Reports/Monitor-2018-10-12.json
+VALIDATIONS for Monitor/Reports/Monitor-2018-11-28.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 105, Duplicates: 0 ), File: Monitor/Reports/Monitor-2018-10-12.json
->> Validation of Monitor/Reports/Monitor-2018-10-12.json 
-<23>  https://www.monitor.bg:443/bg/a/view/uchenici-fantomi-146801
-'text' is empty
-<<Valid records: 104 of 105
+Records: (All: 92, Duplicates: 0 ), File: Monitor/Reports/Monitor-2018-11-28.json
+>> Validation of Monitor/Reports/Monitor-2018-11-28.json 

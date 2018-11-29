@@ -1,6 +1,9 @@
-VALIDATIONS for Standartnews/Reports/Standartnews-2018-10-13.json
+VALIDATIONS for Standartnews/Reports/Standartnews-2018-11-29.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 35, Duplicates: 0 ), File: Standartnews/Reports/Standartnews-2018-10-13.json
->> Validation of Standartnews/Reports/Standartnews-2018-10-13.json 
+Records: (All: 40, Duplicates: 0 ), File: Standartnews/Reports/Standartnews-2018-11-29.json
+>> Validation of Standartnews/Reports/Standartnews-2018-11-29.json 
+<25>  https://www.standartnews.com/biznes/nakde-trgvat-tsenite-na-zhilishchata-v-sofiya-379361.html
+'text' is empty
+<<Valid records: 39 of 40
