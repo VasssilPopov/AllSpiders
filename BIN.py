@@ -15,25 +15,6 @@ from Dates import *
 import HelperTools
 
 
-#HelperTools.scanReports('Blitz\Reports\Blitz*.json')
-#HelperTools.scanReports('24chasa/Reports/24chasa*.json')
-#HelperTools.scanReports('Trud/Reports/Trud*.json')
-#HelperTools.scanReports('Duma/Reports/Duma*.json')
-#HelperTools.scanReports('Mediapool/Reports/Mediapool*.json')
-##HelperTools.scanReports('ClubZ/Reports/ClubZ*.json')
-#HelperTools.scanReports('Dnevnik\Reports\Dnevnik*.json')
-#HelperTools.scanReports('Focus\Reports\Focus*.json')
-#HelperTools.scanReports('News\Reports\News*.json')
-#HelperTools.scanReports('News\Reports\News-2017-07*.json')
-#HelperTools.scanReports('News\Reports\News-2017-08*.json')
-#HelperTools.scanReports('OffNews\Reports\OffNews-2017-07-2*.json')
-#HelperTools.scanReports('PIK\Reports\PIK*.json')
-
-
-##HelperTools.scanReports('PIK\Reports\PIK-2017-09-15.json')
-##HelperTools.scanReports('PIK\Reports\PIK-2017-09-13.json')
-
-
 #HelperTools.checkReport('PIK/Reports/PIK-2017-09-15.json')
 #HelperTools.checkReport('Classa/Reports/Classa-2017-09-17.json')
 #HelperTools.scanChangeDateDelimiter('PIK\Reports\*.json')
@@ -53,13 +34,13 @@ import HelperTools
 # Yesterday ------------------------------------------------------------------------------------
 #Srcs =['Dnevnik','Focus','Monitor','News','OffNews','PIK','Novinite','Actualno', 'Cross', 'BNews','BgOnAir']
 
+
 #Srcs=['Actualno', 'BNews', 'BgOnAir', 'Cross', 'Dnevnik', 'Focus', 'Monitor', 'News', 'Novinite', 'OffNews', 'PIK']
 
 
 
 #Today ------------------------------------------------------------------------------------
 #Srcs =['24chasa','Blitz','Trud','Duma','Mediapool','ClubZ', 'Classa','Epicenter','Faktor','Dnes','StandartNews']
-
 
 Srcs = ['24chasa', 'Blitz', 'Classa', 'ClubZ', 'Dnes', 'Duma', 'Epicenter', 'Faktor', 'Mediapool', 'StandartNews', 'Trud']
 
@@ -88,7 +69,7 @@ for src in Srcs:
 
 #    HelperTools.scanReports(src+'/Reports/'+src+'-2018-07-0*.json')
 
-    HelperTools.scanReports(src+'/Reports/'+src+'-2018-11-2*.json')
+    HelperTools.scanReports(src+'/Reports/'+src+'-2019-01-1*.json')
 
 
 

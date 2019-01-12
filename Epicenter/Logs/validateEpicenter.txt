@@ -1,6 +1,9 @@
-VALIDATIONS for Epicenter/Reports/Epicenter-2018-11-29.json
+VALIDATIONS for Epicenter/Reports/Epicenter-2019-01-12.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 92, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2018-11-29.json
->> Validation of Epicenter/Reports/Epicenter-2018-11-29.json 
+Records: (All: 58, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2019-01-12.json
+>> Validation of Epicenter/Reports/Epicenter-2019-01-12.json 
+<10>  http://epicenter.bg/article/Spetsialni-predlozheniya-ot-ZORA-i-Sharp/172719/4/0
+'text' is empty
+<<Valid records: 57 of 58

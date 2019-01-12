@@ -1,6 +1,9 @@
-VALIDATIONS for Monitor/Reports/Monitor-2018-11-28.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-01-11.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 92, Duplicates: 0 ), File: Monitor/Reports/Monitor-2018-11-28.json
->> Validation of Monitor/Reports/Monitor-2018-11-28.json 
+Records: (All: 93, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-01-11.json
+>> Validation of Monitor/Reports/Monitor-2019-01-11.json 
+<10>  https://www.monitor.bg:443/bg/a/view/shpionaj-po-sysedski-154355
+'text' is empty
+<<Valid records: 92 of 93

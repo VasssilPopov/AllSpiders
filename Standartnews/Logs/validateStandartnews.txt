@@ -1,9 +1,9 @@
-VALIDATIONS for Standartnews/Reports/Standartnews-2018-11-29.json
+VALIDATIONS for Standartnews/Reports/Standartnews-2019-01-12.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 40, Duplicates: 0 ), File: Standartnews/Reports/Standartnews-2018-11-29.json
->> Validation of Standartnews/Reports/Standartnews-2018-11-29.json 
-<25>  https://www.standartnews.com/biznes/nakde-trgvat-tsenite-na-zhilishchata-v-sofiya-379361.html
+Records: (All: 25, Duplicates: 0 ), File: Standartnews/Reports/Standartnews-2019-01-12.json
+>> Validation of Standartnews/Reports/Standartnews-2019-01-12.json 
+<13>  https://www.standartnews.com/biznes/evroparlamentt-ogranichi-kabotazha-samo-do-3-dni-382128.html
 'text' is empty
-<<Valid records: 39 of 40
+<<Valid records: 24 of 25

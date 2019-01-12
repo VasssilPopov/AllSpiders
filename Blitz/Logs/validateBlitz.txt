@@ -1,13 +1,9 @@
-VALIDATIONS for Blitz/Reports/Blitz-2018-11-29.json
+VALIDATIONS for Blitz/Reports/Blitz-2019-01-12.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 196, Duplicates: 0 ), File: Blitz/Reports/Blitz-2018-11-29.json
->> Validation of Blitz/Reports/Blitz-2018-11-29.json 
-<37>  https://www.blitz.bg/zdrave/zdravni-novini/tya-e-na-poveche-ot-40-godini-a-stava-vse-po-mlada-pred-ochite-ni-prizna-che-vsyaka-sedmitsa-smesva-evtin-zhelatin-i_news642415.html
+Records: (All: 166, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-01-12.json
+>> Validation of Blitz/Reports/Blitz-2019-01-12.json 
+<132>  https://www.blitz.bg/zdrave/zdravni-novini/konsultatsiya-koy-tryabva-da-izdade-napravlenie-za-khospitalizatsiya-na-patsient-s-psoriazis_news650795.html
 'text' is empty
-<108>  https://www.blitz.bg/zdrave/zdravni-novini/terapiyata-s-kurkuma-shche-vi-prerodi-vizhte-kak-da-ya-pravite_news642428.html
-'text' is empty
-<109>  https://www.blitz.bg/zdrave/zdravni-novini/6-vitamini-koito-vsshchnost-sa-opasni-za-zdraveto_news642419.html
-'text' is empty
-<<Valid records: 193 of 196
+<<Valid records: 165 of 166

@@ -1,9 +1,6 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2018-11-28.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-01-11.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 107, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2018-11-28.json
->> Validation of Dnevnik/Reports/Dnevnik-2018-11-28.json 
-<13>  https://www.dnevnik.bg/video/2018/11/28/3353372_video_po_relsite_nasred_remonta_na_grafa/
-'title' is empty
-<<Valid records: 106 of 107
+Records: (All: 105, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-01-11.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-01-11.json 

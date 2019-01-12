@@ -22,6 +22,10 @@ Yesterday = (date.today() - timedelta(1)).strftime("%Y-%m-%d")
 	
 print 'Yesterday: %s'%(Yesterday),'-'*20
 
+system('scrapy runspider Standartnews/StandartnewsSpider.py -o Standartnews/Reports/Standartnews-'+str(Today)+'.json -t jsonlines 2> Standartnews/Logs/outputStandartnews.txt')
+system('Python Standartnews/CleanStandartnews.py > Standartnews/Logs/validateStandartnews.txt')
+
+
 system('scrapy runspider Actualno/ActualnoSpider.py -o Actualno/Reports/Actualno-'+str(Yesterday)+'.json -t jsonlines 2> Actualno/Logs/outputActualno.txt')
 system('Python Actualno/CleanActualno.py > Actualno/Logs/validateActualno.txt')
 
