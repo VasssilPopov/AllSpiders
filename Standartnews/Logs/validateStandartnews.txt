@@ -1,9 +1,6 @@
-VALIDATIONS for Standartnews/Reports/Standartnews-2019-01-12.json
+VALIDATIONS for Standartnews/Reports/Standartnews-2019-01-31.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 25, Duplicates: 0 ), File: Standartnews/Reports/Standartnews-2019-01-12.json
->> Validation of Standartnews/Reports/Standartnews-2019-01-12.json 
-<13>  https://www.standartnews.com/biznes/evroparlamentt-ogranichi-kabotazha-samo-do-3-dni-382128.html
-'text' is empty
-<<Valid records: 24 of 25
+Records: (All: 34, Duplicates: 0 ), File: Standartnews/Reports/Standartnews-2019-01-31.json
+>> Validation of Standartnews/Reports/Standartnews-2019-01-31.json 

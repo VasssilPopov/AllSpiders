@@ -1,6 +1,9 @@
-VALIDATIONS for Dnes/Reports/Dnes-2019-01-12.json
+VALIDATIONS for Dnes/Reports/Dnes-2019-01-31.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 51, Duplicates: 0 ), File: Dnes/Reports/Dnes-2019-01-12.json
->> Validation of Dnes/Reports/Dnes-2019-01-12.json 
+Records: (All: 84, Duplicates: 0 ), File: Dnes/Reports/Dnes-2019-01-31.json
+>> Validation of Dnes/Reports/Dnes-2019-01-31.json 
+<21>  https://www.dnes.bg/index/2019/01/31/deniat-v-snimki-31-ianuari.400846
+'text' is empty
+<<Valid records: 83 of 84

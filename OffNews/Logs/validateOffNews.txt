@@ -1,6 +1,10 @@
-VALIDATIONS for OffNews/Reports/OffNews-2019-01-11.json
+VALIDATIONS for OffNews/Reports/OffNews-2019-01-30.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 57, Duplicates: 0 ), File: OffNews/Reports/OffNews-2019-01-11.json
->> Validation of OffNews/Reports/OffNews-2019-01-11.json 
+Records: (All: 80, Duplicates: 0 ), File: OffNews/Reports/OffNews-2019-01-30.json
+>> Validation of OffNews/Reports/OffNews-2019-01-30.json 
+<78>  https://mamaninja.bg/%d0%b7%d0%b0%d0%b1%d0%b0%d0%b2%d0%bd%d0%be/item/3302-idealniyat-i-realniyat-den
+'title' is empty
+'text' is empty
+<<Valid records: 79 of 80

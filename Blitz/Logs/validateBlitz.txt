@@ -1,9 +1,6 @@
-VALIDATIONS for Blitz/Reports/Blitz-2019-01-12.json
+VALIDATIONS for Blitz/Reports/Blitz-2019-01-31.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 166, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-01-12.json
->> Validation of Blitz/Reports/Blitz-2019-01-12.json 
-<132>  https://www.blitz.bg/zdrave/zdravni-novini/konsultatsiya-koy-tryabva-da-izdade-napravlenie-za-khospitalizatsiya-na-patsient-s-psoriazis_news650795.html
-'text' is empty
-<<Valid records: 165 of 166
+Records: (All: 203, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-01-31.json
+>> Validation of Blitz/Reports/Blitz-2019-01-31.json 

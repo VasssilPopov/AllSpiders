@@ -1,6 +1,6 @@
-VALIDATIONS for Classa/Reports/Classa-2019-01-12.json
+VALIDATIONS for Classa/Reports/Classa-2019-01-31.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 28, Duplicates: 0 ), File: Classa/Reports/Classa-2019-01-12.json
->> Validation of Classa/Reports/Classa-2019-01-12.json 
+Records: (All: 30, Duplicates: 0 ), File: Classa/Reports/Classa-2019-01-31.json
+>> Validation of Classa/Reports/Classa-2019-01-31.json 
