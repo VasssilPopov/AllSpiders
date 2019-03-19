@@ -39,6 +39,10 @@ import HelperTools
 
 
 
+#Srcs=[' Novinite', 'OffNews', 'PIK', 'BgOnAir']
+
+
+
 #Today ------------------------------------------------------------------------------------
 #Srcs =['24chasa','Blitz','Trud','Duma','Mediapool','ClubZ', 'Classa','Epicenter','Faktor','Dnes','StandartNews']
 
@@ -69,7 +73,7 @@ for src in Srcs:
 
 #    HelperTools.scanReports(src+'/Reports/'+src+'-2018-07-0*.json')
 
-    HelperTools.scanReports(src+'/Reports/'+src+'-2019-01-3*.json')
+    HelperTools.scanReports(src+'/Reports/'+src+'-2019-03-1*.json')
 
 
 

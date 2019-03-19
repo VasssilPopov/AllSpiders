@@ -1,6 +1,9 @@
-VALIDATIONS for Actualno/Reports/Actualno-2019-01-30.json
+VALIDATIONS for Actualno/Reports/Actualno-2019-03-18.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 133, Duplicates: 0 ), File: Actualno/Reports/Actualno-2019-01-30.json
->> Validation of Actualno/Reports/Actualno-2019-01-30.json 
+Records: (All: 105, Duplicates: 0 ), File: Actualno/Reports/Actualno-2019-03-18.json
+>> Validation of Actualno/Reports/Actualno-2019-03-18.json 
+<60>  https://www.actualno.com/cars/holandci-spasjavat-mechtata-za-letjasht-avtomobil-news_729378.html
+'text' is empty
+<<Valid records: 104 of 105

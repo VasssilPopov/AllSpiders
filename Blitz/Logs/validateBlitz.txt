@@ -1,6 +1,11 @@
-VALIDATIONS for Blitz/Reports/Blitz-2019-01-31.json
+VALIDATIONS for Blitz/Reports/Blitz-2019-03-19.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 203, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-01-31.json
->> Validation of Blitz/Reports/Blitz-2019-01-31.json 
+Records: (All: 201, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-03-19.json
+>> Validation of Blitz/Reports/Blitz-2019-03-19.json 
+<123>  https://www.blitz.bg/zdrave/zdravni-novini/konsultatsiya-postavyaneto-na-peysmeykr-plashcha-li-se-ot-patsienta_news663289.html
+'text' is empty
+<191>  https://www.blitz.bg/kriminalni/mvr-s-prva-informatsiya-za-brutalnoto-ubiystvo-shokiralo-botevgrad_news663577.html
+'text' is empty
+<<Valid records: 199 of 201

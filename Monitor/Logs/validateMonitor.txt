@@ -1,9 +1,9 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-01-30.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-03-18.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 101, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-01-30.json
->> Validation of Monitor/Reports/Monitor-2019-01-30.json 
-<2>  https://www.monitor.bg:443/bg/a/view/fini-prahovi-chastici-156018
+Records: (All: 103, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-03-18.json
+>> Validation of Monitor/Reports/Monitor-2019-03-18.json 
+<22>  https://www.monitor.bg:443/bg/a/view/taksi-za-obuchenie-160029
 'text' is empty
-<<Valid records: 100 of 101
+<<Valid records: 102 of 103

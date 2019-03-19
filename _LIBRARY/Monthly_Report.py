@@ -146,6 +146,7 @@ repMonth=3
 
 # single month report
 monthlyDataReport(repYear, repMonth)
+print repYear, repMonth
 
 print '...finished'
 # range of months report

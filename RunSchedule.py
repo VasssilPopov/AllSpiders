@@ -13,8 +13,13 @@ def jobToday():
     system('Python RunTodaySpiders.py ')
     print("I'm working... "+str(time.ctime()))
 
+def jobDuma():
+    system('Python RunDumaSpider.py ')
+    print("I'm working... "+str(time.ctime()))
+
 #schedule.every(10).minutes.do(job)
 #schedule.every().hour.do(job)
+schedule.every().day.at("15:00").do(jobDuma)
 schedule.every().day.at("00:15").do(jobYesterday)
 schedule.every().day.at("23:15").do(jobToday)
 #schedule.every().monday.do(job)

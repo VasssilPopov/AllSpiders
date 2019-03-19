@@ -1,9 +1,9 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-01-30.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-03-18.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 107, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-01-30.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-01-30.json 
-<11>  https://www.dnevnik.bg/video/2019/01/30/3382976_maduro_amerikanci_ne_dopuskaite_nov_vietnam_v_latinska/
+Records: (All: 90, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-03-18.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-03-18.json 
+<90>  https://www.dnevnik.bg/sport/2019/03/18/3406371_ot_ribolovni_vuv_voleibolni_mreji_ili_kak_da_se_namali/
 'title' is empty
-<<Valid records: 106 of 107
+<<Valid records: 89 of 90

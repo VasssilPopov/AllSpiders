@@ -34,7 +34,7 @@ strToday = today.strftime("%Y.%m.%d").lower()
 #for src in Srcs:
 #    HelperTools.scanReports(src+'/Reports/'+src+'-2017-11-1*.json')
 
-s='24chasa'        
+s='News'        
 spath='%s\\Reports\\%s-*.json' % (s, s)
 #spathD='%s\\Data\\%s-*.json' % (s, s)
 
