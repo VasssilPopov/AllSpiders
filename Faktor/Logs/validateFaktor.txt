@@ -1,6 +1,9 @@
-VALIDATIONS for Faktor/Reports/Faktor-2019-03-19.json
+VALIDATIONS for Faktor/Reports/Faktor-2019-05-01.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 84, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-03-19.json
->> Validation of Faktor/Reports/Faktor-2019-03-19.json 
+Records: (All: 40, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-05-01.json
+>> Validation of Faktor/Reports/Faktor-2019-05-01.json 
+<29>  https://www.faktor.bg/bg/articles/novini/balgariya/anketa-na-kogo-e-partiyata-bsp
+'text' is empty
+<<Valid records: 39 of 40

@@ -1,9 +1,6 @@
-VALIDATIONS for Dnes/Reports/Dnes-2019-03-19.json
+VALIDATIONS for Dnes/Reports/Dnes-2019-05-01.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 91, Duplicates: 0 ), File: Dnes/Reports/Dnes-2019-03-19.json
->> Validation of Dnes/Reports/Dnes-2019-03-19.json 
-<17>  https://www.dnes.bg/index/2019/03/19/deniat-v-snimki-19-mart.405087
-'text' is empty
-<<Valid records: 90 of 91
+Records: (All: 56, Duplicates: 0 ), File: Dnes/Reports/Dnes-2019-05-01.json
+>> Validation of Dnes/Reports/Dnes-2019-05-01.json 

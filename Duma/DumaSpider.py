@@ -69,13 +69,14 @@ class DumaSpider(scrapy.Spider):
     name = "Duma"
     # allowed_domains = ['http://Duma.bg']
     start_urls = [
-        "https://duma.bg/?go=news&p=list&categoryId=1",
-        "https://duma.bg/?go=news&p=list&categoryId=2",
-        "https://duma.bg/?go=news&p=list&categoryId=3",
-        "https://duma.bg/?go=news&p=list&categoryId=4",
-        "https://duma.bg/?go=news&p=list&categoryId=5",
-        "https://duma.bg/?go=news&p=list&categoryId=6",
-        "https://duma.bg/?go=news&p=list&categoryId=7",
+        "https://duma.bg/?go=newspaper&p=list",
+        # "https://duma.bg/?go=news&p=list&categoryId=1",
+        # "https://duma.bg/?go=news&p=list&categoryId=2",
+        # "https://duma.bg/?go=news&p=list&categoryId=3",
+        # "https://duma.bg/?go=news&p=list&categoryId=4",
+        # "https://duma.bg/?go=news&p=list&categoryId=5",
+        # "https://duma.bg/?go=news&p=list&categoryId=6",
+        # "https://duma.bg/?go=news&p=list&categoryId=7",
     ]
     custom_settings = {
         'FEED_EXPORT_ENCODING': 'utf-8',
@@ -109,12 +110,14 @@ class DumaSpider(scrapy.Spider):
             date_issue= link.xpath("./p[@class='date']/time/@datetime").extract_first()
             #dateYesterday = convertDate(date_issue)
             date_issue = str(date_issue)[:10]
+            
             dateYesterday = date_issue.replace('-','.')
-            print dateYesterday == strToday,dateYesterday, strToday
+            #print ">>>",dateYesterday == strToday,dateYesterday, strToday
+            url = link.xpath("./h3[@class='cap']/a/@href").extract_first()
+            #print url
 
             if (dateYesterday != strToday):
                 return
-                
             ##url = link.xpath('.//div/h3[@class="cap"]/a/@href').extract_first()
             url = link.xpath("./h3[@class='cap']/a/@href").extract_first()
             #print url
