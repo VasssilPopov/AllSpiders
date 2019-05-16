@@ -1,6 +1,9 @@
-VALIDATIONS for Duma/Reports/Duma-2019-05-01.json
+VALIDATIONS for Duma/Reports/Duma-2019-05-16.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 62, Duplicates: 0 ), File: Duma/Reports/Duma-2019-05-01.json
->> Validation of Duma/Reports/Duma-2019-05-01.json 
+Records: (All: 59, Duplicates: 0 ), File: Duma/Reports/Duma-2019-05-16.json
+>> Validation of Duma/Reports/Duma-2019-05-16.json 
+<52>  https://duma.bg/protest-n191890
+'text' is empty
+<<Valid records: 58 of 59

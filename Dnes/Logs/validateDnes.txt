@@ -1,6 +1,6 @@
-VALIDATIONS for Dnes/Reports/Dnes-2019-05-01.json
+VALIDATIONS for Dnes/Reports/Dnes-2019-05-15.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 56, Duplicates: 0 ), File: Dnes/Reports/Dnes-2019-05-01.json
->> Validation of Dnes/Reports/Dnes-2019-05-01.json 
+Records: (All: 98, Duplicates: 0 ), File: Dnes/Reports/Dnes-2019-05-15.json
+>> Validation of Dnes/Reports/Dnes-2019-05-15.json 

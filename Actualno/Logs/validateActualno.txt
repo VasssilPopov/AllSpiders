@@ -1,6 +1,263 @@
-VALIDATIONS for Actualno/Reports/Actualno-2019-05-01.json
+VALIDATIONS for Actualno/Reports/Actualno-2019-05-15.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 60, Duplicates: 0 ), File: Actualno/Reports/Actualno-2019-05-01.json
->> Validation of Actualno/Reports/Actualno-2019-05-01.json 
+Records: (All: 128, Duplicates: 0 ), File: Actualno/Reports/Actualno-2019-05-15.json
+>> Validation of Actualno/Reports/Actualno-2019-05-15.json 
+<1>  https://www.actualno.com/europe/kandidatite-za-predsedatel-na-novata-evropejska-komisija-vijdanija-i-poslanija-video-news_749402.html
+'text' is empty
+<2>  https://www.actualno.com/politics/radev-poiska-poveche-prozrachnost-pri-deklarirane-na-dohodite-na-magistratite-news_749344.html
+'text' is empty
+<3>  https://www.actualno.com/society/vss-osvobodi-zam-glaven-prokuror-po-predlojenie-na-sotir-cacarov-news_749353.html
+'text' is empty
+<4>  https://www.actualno.com/tips/futbolni-prognozi-kakvo-da-ochakvame-ot-finala-za-kupata-na-italija-news_749365.html
+'text' is empty
+<5>  https://www.actualno.com/politics/tomislav-donchev-ima-nujda-ot-smjana-na-ikonomicheskija-model-news_749359.html
+'text' is empty
+<6>  https://www.actualno.com/politics/kostadinov-vylchev-obeshta-da-spre-obuchitelnija-kurs-kojto-izkrivjava-istorijata-ni-news_749343.html
+'text' is empty
+<7>  https://www.actualno.com/america/izsledvane-myjete-misljat-za-futbol-poveche-otkolkoto-za-seks-news_749285.html
+'text' is empty
+<8>  https://www.actualno.com/business/ek-bednostta-i-neravenstvoto-sa-osnovnite-problemi-na-bylgarija-news_749340.html
+'text' is empty
+<9>  https://www.actualno.com/starazagora/starozagorkata-dimka-mihajlova-e-mlad-bibliotekar-na-godinata-za-2018-a-news_749362.html
+'text' is empty
+<10>  https://www.actualno.com/cars/trymp-shte-zabavi-vyvejdaneto-na-mita-za-avtomobilnata-industrija-news_749345.html
+'text' is empty
+<11>  https://www.actualno.com/politics/elena-joncheva-shte-slojim-kraj-na-genocida-vyrhu-vyzrastnite-hora-news_749315.html
+'text' is empty
+<12>  https://www.actualno.com/sofia/strelbishte-poiska-otgovori-dokoga-apetityt-za-nebostyrgach-shte-tormozi-kvartala-video-news_749379.html
+'text' is empty
+<13>  https://www.actualno.com/cars/novijat-samostojatelen-volvo-kompleks-oficialno-otvori-vrati-v-sofija-news_749386.html
+'text' is empty
+<14>  https://www.actualno.com/politics/deputatite-zahvashtat-zakona-za-otbranata-i-vyoryjenite-sili-news_749351.html
+'text' is empty
+<15>  https://www.actualno.com/bgfootball/v-syrceto-na-sofija-lokomotiv-likuva-s-kupata-sled-plovdivskija-final-news_749293.html
+'text' is empty
+<16>  https://www.actualno.com/america/sasht-shokira-sveta-s-novi-zakoni-za-abortite-news_749231.html
+'text' is empty
+<17>  https://www.actualno.com/analysis/merkel-prizna-za-protivorechija-s-makron-toj-syshto-news_749357.html
+'text' is empty
+<18>  https://www.actualno.com/society/nankov-falshiva-novina-e-che-kipyrska-ofshorka-shte-sybira-tol-taksite-news_749332.html
+'text' is empty
+<19>  https://www.actualno.com/sciencelogy/motorola-one-vision-top-kachestvo-na-dostypna-cena-news_749382.html
+'text' is empty
+<20>  https://www.actualno.com/politics/borisov-i-vuchich-obsydiha-bydeshti-energijni-proekti-news_749380.html
+'text' is empty
+<21>  https://www.actualno.com/society/maja-manolova-iska-napylno-nova-strategijata-za-deteto-news_749264.html
+'text' is empty
+<22>  https://www.actualno.com/starazagora/sgrada-simvolizirashta-feniks-shte-izdignat-na-mjastoto-starija-syvet-news_749260.html
+'text' is empty
+<23>  https://www.actualno.com/ruse/mladi-matematici-ot-ruse-s-nominacija-za-nagrada-zelena-lichnost-na-2019-news_749294.html
+'text' is empty
+<24>  https://www.actualno.com/politics/dans-zapochvame-proverki-na-visshi-dyrjavni-slujiteli-news_749292.html
+'text' is empty
+<25>  https://www.actualno.com/politics/dps-otreche-porojanov-da-e-nominiran-ot-peevski-obvini-ninova-v-populizym-news_749185.html
+'text' is empty
+<26>  https://www.actualno.com/plovdiv/pochina-lino-tonan-edna-ot-legendite-na-prehoda-v-plovdiv-news_749275.html
+'text' is empty
+<27>  https://www.actualno.com/sciencelogy/kitaj-s-nova-cenzura-blokira-i-uikipedija-news_749270.html
+'text' is empty
+<28>  https://www.actualno.com/curious/myjkite-zodii-koito-shte-razbijat-syrceto-vi-news_749203.html
+'text' is empty
+<29>  https://www.actualno.com/crime/zadyrjaha-grupa-narkodilyri-v-stara-zagora-news_749221.html
+'text' is empty
+<30>  https://www.actualno.com/starazagora/tri-lycha-na-praznichnoto-shestvie-za-24-maj-v-stara-zagora-news_749184.html
+'text' is empty
+<31>  https://www.actualno.com/analysis/analiz-otvyd-okeana-sasht-trjabva-da-razmenjat-venecuela-za-ukrajna-news_748904.html
+'text' is empty
+<32>  https://www.actualno.com/crime/vytreshnijat-ministyr-zasega-njama-danni-za-nasilstvena-smyrt-pri-otkritija-v-kostenec-trup-news_749279.html
+'text' is empty
+<33>  https://www.actualno.com/politics/nova-direkcija-v-dnsk-shte-kontrolira-licata-uprajnjavashti-stroitelen-nadzor-news_749228.html
+'text' is empty
+<34>  https://www.actualno.com/tips/futbolni-prognozi-kakvo-shte-se-sluchi-na-finala-za-kupata-mejdu-botev-i-lokomotiv-plovdiv-news_749194.html
+'text' is empty
+<35>  https://www.actualno.com/smartguide/google-shte-ni-pokazva-oshte-poveche-reklama-v-mobilnite-ustrojstva-news_749287.html
+'text' is empty
+<36>  https://www.actualno.com/business/zapochna-mejdunarodnoto-izlojenie-bulmedikabuldentalderma-estetika-2019-news_749209.html
+'text' is empty
+<37>  https://www.actualno.com/vidin/knigata-debyrskite-majstori-vyv-vidinska-eparhija-be-predstavena-vyv-vidin-news_749180.html
+'text' is empty
+<38>  https://www.actualno.com/politics/predostavjame-blizo-300-hil-lv-humanitarna-pomosht-na-sirija-i-jemen-news_749207.html
+'text' is empty
+<39>  https://www.actualno.com/curious/dneven-horoskop-za-16-maj-news_749283.html
+'text' is empty
+<40>  https://www.actualno.com/pleven/pleven-dnes-praznuva-news_749179.html
+'text' is empty
+<41>  https://www.actualno.com/dobrich/pijan-i-bez-knijka-se-blysna-s-traktor-v-metalen-most-news_749222.html
+'text' is empty
+<42>  https://www.actualno.com/politics/evroskepticizmyt-otstypva-na-proevropejskata-retorika-v-kampaniite-za-evrovota-news_749218.html
+'text' is empty
+<43>  https://www.actualno.com/velikotarnovo/programa-na-predstojashtite-obshtestveni-meroprijatija-vyv-veliko-tyrnovo-news_748897.html
+'text' is empty
+<44>  https://www.actualno.com/society/atanas-skatov-izkachi-tretija-po-visochina-vryh-kanchendzionga-news_749239.html
+'text' is empty
+<45>  https://www.actualno.com/curious/3-te-zodii-koito-imat-naj-dylgi-vryzki-news_749149.html
+'text' is empty
+<46>  https://www.actualno.com/bgfootball/vreme-e-za-golemija-final-vijte-kyde-da-gledate-macha-news_749113.html
+'text' is empty
+<47>  https://www.actualno.com/politics/joncheva-bylgarite-davame-50-ot-parite-za-zdraveopazvane-ot-djobovete-si-francuzite-8-news_749120.html
+'text' is empty
+<48>  https://www.actualno.com/politics/ot-vmro-predlagat-zatvor-za-politici-koito-lyjat-za-oponentite-si-news_749135.html
+'text' is empty
+<49>  https://www.actualno.com/varna/otkriha-renoviranata-varnenska-ag-bolnica-news_749220.html
+'text' is empty
+<50>  https://www.actualno.com/business/milioni-ot-tol-taksite-v-bylgarija-shte-otivat-v-kipyrska-ofshorka-news_749084.html
+'text' is empty
+<51>  https://www.actualno.com/healthy/otpuskat-3450-mln-lv-za-podobrjavane-na-detskoto-i-majchino-zdraveopazvane-news_749153.html
+'text' is empty
+<52>  https://www.actualno.com/balkani/v-syrbija-vali-snjag-news_749133.html
+'text' is empty
+<53>  https://www.actualno.com/curious/3-te-dvojki-zodii-koito-ne-mogat-edin-bez-drug-news_749151.html
+'text' is empty
+<54>  https://www.actualno.com/business/spestjavanijata-na-bylgarite-minaha-52-mlrd-leva-news_749136.html
+'text' is empty
+<55>  https://www.actualno.com/crime/kola-se-zapali-v-sofija-news_749155.html
+'text' is empty
+<56>  https://www.actualno.com/asia/sasht-iztegljat-vsichki-dyrjavni-slujiteli-ot-irak-news_749160.html
+'text' is empty
+<57>  https://www.actualno.com/politics/cacarov-iziska-ot-dans-danni-za-ofshorni-smetki-i-imoti-v-chujbina-na-hora-na-visoki-postove-news_749122.html
+'text' is empty
+<58>  https://www.actualno.com/crime/jurnalistyt-hristo-geshov-objaven-za-izdirvane-e-otkrit-news_749077.html
+'text' is empty
+<59>  https://www.actualno.com/showbusiness/madona-objasni-zashto-ne-bojkotira-evrovizija-v-izrael-news_749032.html
+'text' is empty
+<60>  https://www.actualno.com/politics/osvobodiha-rumen-porojanov-novijat-zemedelski-ministyr-e-desislava-taneva-news_749068.html
+'text' is empty
+<61>  https://www.actualno.com/actualno/neposilnata-typota-na-koaliciite-news_749141.html
+'text' is empty
+<62>  https://www.actualno.com/politics/valeri-simeonov-pita-zashto-i-angelkova-ne-e-kato-porojanov-news_749058.html
+'text' is empty
+<63>  https://www.actualno.com/america/policaj-v-sasht-zastrelja-jena-kojato-vikala-che-e-bremenna-news_749003.html
+'text' is empty
+<64>  https://www.actualno.com/health/8-bezcenni-prilojenija-na-limona-news_748743.html
+'text' is empty
+<65>  https://www.actualno.com/prasspress/golf-edinichkite-na-evroizborite-news_749164.html
+'text' is empty
+<66>  https://www.actualno.com/blagoevgrad/slabo-zemetresenie-kraj-razlog-news_749094.html
+'text' is empty
+<67>  https://www.actualno.com/sofia/v-jk-studentski-grad-se-nalaga-spirane-na-vodopodavaneto-news_748871.html
+'text' is empty
+<68>  https://www.actualno.com/america/meksiko-dade-ubejishte-na-venecuelski-deputat-news_749040.html
+'text' is empty
+<69>  https://www.actualno.com/society/prognoza-za-vremeto-15-maj-srjada-news_748983.html
+'text' is empty
+<70>  https://www.actualno.com/books/andjela-marsyns-predstavja-trilyra-igri-na-zloto-news_748563.html
+'text' is empty
+<71>  https://www.actualno.com/celebrate/sv-pahomij-veliki-news_748984.html
+'text' is empty
+<72>  https://www.actualno.com/education/d-r-emanuil-najdenov-poslanieto-na-reda-za-specializacija-e-negativno-kym-mladija-specialist-news_749090.html
+'text' is empty
+<73>  https://www.actualno.com/starazagora/stara-zagora-stava-chast-ot-dvijenieto-za-zashtita-na-pchelite-news_749042.html
+'text' is empty
+<74>  https://www.actualno.com/politics/taneva-shte-pravi-kadrovi-promeni-v-zemedelskoto-ministerstvo-objavi-i-pyrvata-si-zadacha-news_749080.html
+'text' is empty
+<75>  https://www.actualno.com/business/povishenie-na-srednata-zaplata-v-stranata-za-mart-news_749037.html
+'text' is empty
+<76>  https://www.actualno.com/society/zapochva-testvaneto-na-tol-sistemata-news_748958.html
+'text' is empty
+<77>  https://www.actualno.com/chronicles/postignata-e-nezavisimostta-na-avstrija-news_748986.html
+'text' is empty
+<78>  https://www.actualno.com/crime/kup-protivorechija-po-osyditelnata-prisyda-na-ivancheva-i-petrova-news_749033.html
+'text' is empty
+<79>  https://www.actualno.com/kustendil/24-dobrovolci-ot-detskoto-policejsko-upravlenie-v-kustendil-uspeshno-zavyrshiha-uchebnata-godina-news_749078.html
+'text' is empty
+<80>  https://www.actualno.com/africa/v-sudan-neshtata-otivat-kym-sporazumenie-news_749011.html
+'text' is empty
+<81>  https://www.actualno.com/curious/mejdunaroden-den-na-semejstvoto-svetoven-den-na-grijata-za-nedonoseni-deca-news_749028.html
+'text' is empty
+<82>  https://www.actualno.com/curious/koga-deteto-e-gotovo-da-ima-kuche-news_749014.html
+'text' is empty
+<83>  https://www.actualno.com/society/novini-ili-novini-kartinata-na-pechata-za-15-maj-news_748996.html
+'text' is empty
+<84>  https://www.actualno.com/sciencelogy/san-francisko-vyrvi-kym-zabrana-na-licevoto-razpoznavane-news_749010.html
+'text' is empty
+<85>  https://www.actualno.com/europe/kristalina-georgieva-se-lansira-kato-vyzmojen-sledvasht-predsedatel-na-ek-news_749035.html
+'text' is empty
+<86>  https://www.actualno.com/interest/na-dynoto-na-marianskata-padina-najlonova-torbichka-i-opakovki-ot-bonboni-video-i-snimka-news_749001.html
+'text' is empty
+<87>  https://www.actualno.com/curious/koi-sa-riskovite-faktori-pri-demencijata-news_749012.html
+'text' is empty
+<88>  https://www.actualno.com/asia/spored-pompeo-ima-sporazumenie-sasht-i-rusija-da-rabotjat-zaedno-po-bydeshtata-konstitucija-na-sirija-news_749006.html
+'text' is empty
+<89>  https://www.actualno.com/showbusiness/avtorite-na-igra-na-tronove-shte-snimat-sledvashtija-epizod-na-mejduzvezdni-vojni-news_749008.html
+'text' is empty
+<90>  https://www.actualno.com/europe/britanskijat-parlament-shte-glasuva-za-brexit-sled-evroizborite-news_749007.html
+'text' is empty
+<91>  https://www.actualno.com/america/trima-motocikletisti-ot-korteja-na-trymp-pretyrpjaha-incident-news_749004.html
+'text' is empty
+<92>  https://www.actualno.com/cite/da-nosi-pecheni-agneta-na-rabotnicite-po-magistralite-jasno-e-news_749051.html
+'text' is empty
+<93>  https://www.actualno.com/curious/trymp-tauyr-naj-malko-jelanata-luksozna-sgrada-v-nu-jork-news_749036.html
+'text' is empty
+<94>  https://www.actualno.com/business/regionalnijat-ministyr-tvyrdi-che-prevozvachite-preuvelichavat-za-tol-sistemata-news_749044.html
+'text' is empty
+<95>  https://www.actualno.com/society/biser-petkov-ima-dosta-operativni-merki-na-koito-ne-im-e-mjastoto-v-strategijata-za-deteto-news_749054.html
+'text' is empty
+<96>  https://www.actualno.com/sofia/pargov-zaradi-zakona-ima-prechka-za-evrofinansirane-za-zavoda-za-gorene-na-otpadyci-v-sofija-news_749034.html
+'text' is empty
+<97>  https://www.actualno.com/sofia/zdravkov-prizna-che-toplofikacija-moje-da-zabavi-remonta-na-grafa-uveri-che-njama-da-ima-nebostyrgach-v-strelbishte-news_749048.html
+'text' is empty
+<98>  https://www.actualno.com/viewpoint/idejata-na-merkel-za-ekoregulacii-hvyrlja-tejest-vyrhu-germanskata-ikonomika-news_748916.html
+'text' is empty
+<99>  https://www.actualno.com/balkani/prezidentyt-na-kosovo-njama-osydeni-syrbi-za-400-klaneta-v-kosovo-news_749104.html
+'text' is empty
+<100>  https://www.actualno.com/politics/po-dobri-kompensacii-pri-prinuditelno-otchujdavane-na-imoti-prie-ns-news_749099.html
+'text' is empty
+<101>  https://www.actualno.com/football/trofej-za-livyrpul-predricha-efbet-news_749103.html
+'text' is empty
+<102>  https://www.actualno.com/blagoevgrad/obshtina-bansko-predlaga-nova-elektronna-usluga-news_749106.html
+'text' is empty
+<103>  https://www.actualno.com/starazagora/starozagorskata-umbal-izliza-na-pechalba-za-pyrvi-pyt-v-svojata-istorija-news_749159.html
+'text' is empty
+<104>  https://www.actualno.com/pleven/shofior-bez-knijka-obyrna-opel-na-tavan-i-se-ukri-ot-policijata-news_749092.html
+'text' is empty
+<105>  https://www.actualno.com/politics/borisov-nacionalna-strategija-za-deteto-njama-news_749114.html
+'text' is empty
+<106>  https://www.actualno.com/starazagora/eto-koga-zapochva-elektronnoto-zapisvane-na-pyrvolaci-v-stara-zagora-news_749096.html
+'text' is empty
+<107>  https://www.actualno.com/society/poveche-razhodi-za-otbrana-na-bylgarija-no-dosta-po-niski-ot-gyrcija-i-rumynija-news_749165.html
+'text' is empty
+<108>  https://www.actualno.com/moresport/komisijata-v-sasht-ne-e-iskala-da-vzeme-pod-vnimanie-povedenieto-na-djeni-sushi-izvyn-celuvkata-news_749052.html
+'text' is empty
+<109>  https://www.actualno.com/crime/nameriha-trup-do-doma-na-izdirvanija-za-ubijstvoto-v-kostenec-news_749242.html
+'text' is empty
+<110>  https://www.actualno.com/blagoevgrad/kmetyt-na-blagoevgrad-se-sreshta-s-abiturienti-news_749107.html
+'text' is empty
+<111>  https://www.actualno.com/society/zadava-li-se-gripna-vylna-nad-380-hil-dushi-sys-symnenija-za-grip-news_749181.html
+'text' is empty
+<112>  https://www.actualno.com/sofia/fandykova-spiraneto-na-zavoda-za-otpadyci-v-sofija-e-falshiva-novina-s-predizborna-cel-news_749245.html
+'text' is empty
+<113>  https://www.actualno.com/kustendil/ultramaratonecyt-krasi-georgiev-trygna-kym-severna-makedonija-s-kustendilskite-lekoatletisti-snimki-news_749226.html
+'text' is empty
+<114>  https://www.actualno.com/tips/3-strahotni-bonusa-v-nacionalnata-lotarija-za-finala-za-kupata-mejdu-botev-i-lokomotiv-news_749247.html
+'text' is empty
+<115>  https://www.actualno.com/bgfootball/lyjata-se-okaza-istina-hubchev-poema-levski-news_749325.html
+'text' is empty
+<116>  https://www.actualno.com/europe/za-kakvo-ne-se-razbraha-putin-i-pompeo-v-sochi-news_749206.html
+'text' is empty
+<117>  https://www.actualno.com/balkani/gryckijat-parlament-glasuva-danychni-oblekchenija-i-bonusi-za-pensioneri-news_749331.html
+'text' is empty
+<118>  https://www.actualno.com/politics/mvr-shtjalo-da-znae-kolko-struva-ohranata-na-evrovota-chak-sled-kraja-mu-news_749301.html
+'text' is empty
+<119>  https://www.actualno.com/balkani/srybski-vestnik-kak-cherna-gora-stana-arena-za-interesite-na-velikite-sili-news_749093.html
+'text' is empty
+<120>  https://www.actualno.com/politics/gerb-uvelichi-tri-pyti-srednata-rabotna-zaplata-tvyrdi-evrodeputatyt-eva-majdel-news_749263.html
+'text' is empty
+<121>  https://www.actualno.com/help/istorijata-na-edna-majka-kojato-izbira-da-ne-izostavi-bolnoto-si-dete-news_749329.html
+'text' is empty
+<122>  https://www.actualno.com/blagoevgrad/prerjazaha-lentata-na-novite-socialni-jilishta-v-blagoevgrad-news_749322.html
+'text' is empty
+<123>  https://www.actualno.com/education/v-ribnovo-shest-klasa-se-vyrtjat-deca-uchat-po-koridori-mazeta-i-rabotilnici-news_749237.html
+'text' is empty
+<124>  https://www.actualno.com/sofia/ek-ne-e-spirala-parite-za-zavoda-za-otpadyci-v-sofija-news_749175.html
+'text' is empty
+<125>  https://www.actualno.com/ruse/nosht-na-literaturata-shte-radva-lubiteli-na-pisanoto-slovo-v-ruse-news_749321.html
+'text' is empty
+<126>  https://www.actualno.com/society/novinite-naj-vajnoto-za-denja-15-maj-news_749330.html
+'text' is empty
+<127>  https://www.actualno.com/vraza/mitropolit-grigorij-otsluji-moleben-za-zrelostnicite-vyv-vraca-news_749337.html
+'text' is empty
+<128>  https://www.actualno.com/crime/jurnalist-tvyrdi-che-e-bil-otvlechen-i-pusnat-chak-sled-kato-negov-material-e-bil-svalen-news_749317.html
+'text' is empty
+<<Valid records: 0 of 128

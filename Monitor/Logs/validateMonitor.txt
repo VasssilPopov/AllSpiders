@@ -1,11 +1,9 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-05-01.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-05-15.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 90, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-05-01.json
->> Validation of Monitor/Reports/Monitor-2019-05-01.json 
-<17>  https://www.monitor.bg:443/bg/a/view/baj-ganio-164030
+Records: (All: 94, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-05-15.json
+>> Validation of Monitor/Reports/Monitor-2019-05-15.json 
+<44>  https://www.monitor.bg:443/bg/a/view/neudobni-vyprosi-165207
 'text' is empty
-<86>  https://www.monitor.bg:443/bg/a/view/den-na-truda-163939
-'text' is empty
-<<Valid records: 88 of 90
+<<Valid records: 93 of 94

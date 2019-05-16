@@ -1,6 +1,9 @@
-VALIDATIONS for Novinite/Reports/Novinite-2019-05-01.json
+VALIDATIONS for Novinite/Reports/Novinite-2019-05-15.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 25, Duplicates: 0 ), File: Novinite/Reports/Novinite-2019-05-01.json
->> Validation of Novinite/Reports/Novinite-2019-05-01.json 
+Records: (All: 50, Duplicates: 0 ), File: Novinite/Reports/Novinite-2019-05-15.json
+>> Validation of Novinite/Reports/Novinite-2019-05-15.json 
+<14>  https://www.novinite.bg/articles/175502/Nad-1600-bolni-ot-grip-samo-za-sedmica
+'text' is empty
+<<Valid records: 49 of 50

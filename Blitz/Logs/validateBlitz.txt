@@ -1,9 +1,6 @@
-VALIDATIONS for Blitz/Reports/Blitz-2019-05-01.json
+VALIDATIONS for Blitz/Reports/Blitz-2019-05-15.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 167, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-05-01.json
->> Validation of Blitz/Reports/Blitz-2019-05-01.json 
-<6>  https://blitz.bg/zdrave/zdravni-novini/ot-khltsane-do-otslabvane-7-polzi-ot-yablkoviya-otset_news671106.html
-'text' is empty
-<<Valid records: 166 of 167
+Records: (All: 190, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-05-15.json
+>> Validation of Blitz/Reports/Blitz-2019-05-15.json 

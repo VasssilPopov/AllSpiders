@@ -1,9 +1,11 @@
-VALIDATIONS for Faktor/Reports/Faktor-2019-05-01.json
+VALIDATIONS for Faktor/Reports/Faktor-2019-05-15.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 40, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-05-01.json
->> Validation of Faktor/Reports/Faktor-2019-05-01.json 
-<29>  https://www.faktor.bg/bg/articles/novini/balgariya/anketa-na-kogo-e-partiyata-bsp
+Records: (All: 74, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-05-15.json
+>> Validation of Faktor/Reports/Faktor-2019-05-15.json 
+<7>  https://www.faktor.bg/bg/articles/novini/svyat/tomislav-donchev
 'text' is empty
-<<Valid records: 39 of 40
+<23>  https://www.faktor.bg/bg/articles/v-rishkiyat-prohod-se-obarna-se-tir-s-200-praseta-za-zakolenie-politsiyata-gi-izdirva
+'text' is empty
+<<Valid records: 72 of 74

@@ -3,23 +3,23 @@ Today: 2019-05-02
 ------------------------------------
 Source          Date         Records
 ------------------------------------
-Blitz           2019-05-02         0
-24chasa         2019-05-02         0
-Trud            2019-05-02         0
+Blitz           2019-05-02       178
+24chasa         2019-05-02       111
+Trud            2019-05-02        70
 Duma            2019-05-02         0
-Mediapool       2019-05-02         0
-ClubZ           2019-05-02         0
-Classa          2019-05-02         0
-Epicenter       2019-05-02         0
-Faktor          2019-05-02         0
-Dnes            2019-05-02         0
+Mediapool       2019-05-02        56
+ClubZ           2019-05-02        29
+Classa          2019-05-02        39
+Epicenter       2019-05-02       103
+Faktor          2019-05-02        70
+Dnes            2019-05-02        92
 StandartNews    2019-05-02        41
 Actualno        2019-05-01        60
 BNews           2019-05-01        36
 Cross           2019-05-01        70
 Dnevnik         2019-05-01        42
 Focus           2019-05-01       245
-Monitor         2019-05-01        90
+Monitor         2019-05-01        88
 News            2019-05-01        66
 Novinite        2019-05-01        25
 OffNews         2019-05-01        55
