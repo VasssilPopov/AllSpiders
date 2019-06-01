@@ -1,9 +1,6 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-05-15.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-05-31.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 94, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-05-15.json
->> Validation of Monitor/Reports/Monitor-2019-05-15.json 
-<44>  https://www.monitor.bg:443/bg/a/view/neudobni-vyprosi-165207
-'text' is empty
-<<Valid records: 93 of 94
+Records: (All: 81, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-05-31.json
+>> Validation of Monitor/Reports/Monitor-2019-05-31.json 

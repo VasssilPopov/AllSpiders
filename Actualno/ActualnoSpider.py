@@ -74,7 +74,7 @@ class ActualnoSpider(scrapy.Spider):
         title=response.xpath('//article[@id="article-content"]/h1/text() | //article[@id="article-content"]/h1/b/text()').extract_first()
         
 #        texts=response.xpath('//div[@id="main_container"]/div/div/text() | //div[@id="main_container"]/div/div/text()').extract()
-        texts=response.xpath('//div[@id="main_container"]/div/div/text() | //div[@id="main_container"]/div/p/text() | //div[@id="main_container"]/div/p/b/text() | //div[@id="main_container"]/div/div/i/text()').extract()
+        texts=response.xpath('//div[@id="main_container"]/div/div/text() | //div[@id="main_container"]/div/p/text() | //div[@id="main_container"]/div/p/b/text() | //div[@id="main_container"]/div/div/i/text()| //div[@id="content_inner_article_box"]/div/div/b/text()| //div[@id="content_inner_article_box"]/div/div/text()').extract()
         l = list()
         for text in texts:
             l.append(text.strip())

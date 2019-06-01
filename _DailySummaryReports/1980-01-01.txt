@@ -1,0 +1,28 @@
+Daily Summary Report
+Today: 1980-01-01
+------------------------------------
+Source          Date         Records
+------------------------------------
+Blitz           1980-01-01         0
+24chasa         1980-01-01         0
+Trud            1980-01-01         0
+Duma            1980-01-01         0
+Mediapool       1980-01-01         0
+ClubZ           1980-01-01         0
+Classa          1980-01-01         0
+Epicenter       1980-01-01         0
+Faktor          1980-01-01         0
+Dnes            1980-01-01         0
+StandartNews    1980-01-01         0
+Actualno        1979-12-31         0
+BNews           1979-12-31         0
+Cross           1979-12-31         0
+Dnevnik         1979-12-31         0
+Focus           1979-12-31         0
+Monitor         1979-12-31         0
+News            1979-12-31         0
+Novinite        1979-12-31         0
+OffNews         1979-12-31         0
+PIK             1979-12-31         0
+BgOnAir         1979-12-31         0
+------------------------------------

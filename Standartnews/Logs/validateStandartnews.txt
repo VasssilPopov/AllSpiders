@@ -1,6 +1,9 @@
-VALIDATIONS for Standartnews/Reports/Standartnews-2019-05-16.json
+VALIDATIONS for Standartnews/Reports/Standartnews-2019-06-01.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 59, Duplicates: 0 ), File: Standartnews/Reports/Standartnews-2019-05-16.json
->> Validation of Standartnews/Reports/Standartnews-2019-05-16.json 
+Records: (All: 73, Duplicates: 0 ), File: Standartnews/Reports/Standartnews-2019-06-01.json
+>> Validation of Standartnews/Reports/Standartnews-2019-06-01.json 
+<68>  https://standartnews.com/svyat/srbiya-v-plna-boyna-gotovnost-393606.html
+'text' is empty
+<<Valid records: 72 of 73

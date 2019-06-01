@@ -1,11 +1,11 @@
-VALIDATIONS for Faktor/Reports/Faktor-2019-05-15.json
+VALIDATIONS for Faktor/Reports/Faktor-2019-05-31.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 74, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-05-15.json
->> Validation of Faktor/Reports/Faktor-2019-05-15.json 
-<7>  https://www.faktor.bg/bg/articles/novini/svyat/tomislav-donchev
+Records: (All: 69, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-05-31.json
+>> Validation of Faktor/Reports/Faktor-2019-05-31.json 
+<49>  https://www.faktor.bg/bg/articles/spetssadat-reshava-da-pusne-li-na-svoboda-bivshiya-shef-na-agentsiyata-za-balgarite-v-chuzhbina
 'text' is empty
-<23>  https://www.faktor.bg/bg/articles/v-rishkiyat-prohod-se-obarna-se-tir-s-200-praseta-za-zakolenie-politsiyata-gi-izdirva
+<56>  https://www.faktor.bg/bg/articles/cherven-sotsiolog-se-olya-tsvetanov-e-chovek-na-tsru
 'text' is empty
-<<Valid records: 72 of 74
+<<Valid records: 67 of 69

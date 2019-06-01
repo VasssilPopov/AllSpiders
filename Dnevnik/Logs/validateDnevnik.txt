@@ -1,11 +1,11 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-05-15.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-05-31.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 88, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-05-15.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-05-15.json 
-<53>  https://www.dnevnik.bg/sport/2019/05/15/3905794_kongrachuleishuns_borisov_video/
+Records: (All: 73, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-05-31.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-05-31.json 
+<10>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2019/05/31/3914443_deniat_s_veselin_dremdjiev_iasen_guev_za_sluchvashtoto/
 'title' is empty
-<83>  https://www.dnevnik.bg/biznes/2019/05/15/3906063_martin_dimitrov_mnogo_hora_sa_protiv_energiinata_borsa/
+<45>  https://www.dnevnik.bg/video/2019/05/31/3914217_video_rushete_stenite_na_nevejestvoto_i_tesnogrudieto/
 'title' is empty
-<<Valid records: 86 of 88
+<<Valid records: 71 of 73

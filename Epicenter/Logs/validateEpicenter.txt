@@ -1,6 +1,10 @@
-VALIDATIONS for Epicenter/Reports/Epicenter-2019-05-15.json
+VALIDATIONS for Epicenter/Reports/Epicenter-2019-05-31.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 112, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2019-05-15.json
->> Validation of Epicenter/Reports/Epicenter-2019-05-15.json 
+Records: (All: 71, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2019-05-31.json
+>> Validation of Epicenter/Reports/Epicenter-2019-05-31.json 
+<1>  http://epicenter.bg/article/Georgi-Harizanov--Tozi-napan-za-publichnost-u-Tsvetanov-drazneshe-v-GERB-i-Borisov-useti-tova/184591/2/0
+'title' is empty
+'text' is empty
+<<Valid records: 70 of 71

@@ -1,6 +1,6 @@
-VALIDATIONS for Blitz/Reports/Blitz-2019-05-15.json
+VALIDATIONS for Blitz/Reports/Blitz-2019-05-31.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 190, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-05-15.json
->> Validation of Blitz/Reports/Blitz-2019-05-15.json 
+Records: (All: 184, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-05-31.json
+>> Validation of Blitz/Reports/Blitz-2019-05-31.json 
