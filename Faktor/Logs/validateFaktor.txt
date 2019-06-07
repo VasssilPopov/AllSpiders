@@ -1,11 +1,6 @@
-VALIDATIONS for Faktor/Reports/Faktor-2019-05-31.json
+VALIDATIONS for Faktor/Reports/Faktor-2019-06-07.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 69, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-05-31.json
->> Validation of Faktor/Reports/Faktor-2019-05-31.json 
-<49>  https://www.faktor.bg/bg/articles/spetssadat-reshava-da-pusne-li-na-svoboda-bivshiya-shef-na-agentsiyata-za-balgarite-v-chuzhbina
-'text' is empty
-<56>  https://www.faktor.bg/bg/articles/cherven-sotsiolog-se-olya-tsvetanov-e-chovek-na-tsru
-'text' is empty
-<<Valid records: 67 of 69
+Records: (All: 83, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-06-07.json
+>> Validation of Faktor/Reports/Faktor-2019-06-07.json 

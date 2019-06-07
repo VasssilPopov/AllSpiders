@@ -1,9 +1,6 @@
-VALIDATIONS for Novinite/Reports/Novinite-2019-05-31.json
+VALIDATIONS for Novinite/Reports/Novinite-2019-06-06.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 56, Duplicates: 0 ), File: Novinite/Reports/Novinite-2019-05-31.json
->> Validation of Novinite/Reports/Novinite-2019-05-31.json 
-<51>  https://www.novinite.bg/articles/176274/Zalojnicheska-drama-v-Cyurih-s-trima-ubiti
-'text' is empty
-<<Valid records: 55 of 56
+Records: (All: 67, Duplicates: 0 ), File: Novinite/Reports/Novinite-2019-06-06.json
+>> Validation of Novinite/Reports/Novinite-2019-06-06.json 

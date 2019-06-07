@@ -1,11 +1,11 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-05-31.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-06.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 73, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-05-31.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-05-31.json 
-<10>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2019/05/31/3914443_deniat_s_veselin_dremdjiev_iasen_guev_za_sluchvashtoto/
+Records: (All: 90, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-06.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-06-06.json 
+<27>  https://www.dnevnik.bg/bulgaria/2019/06/06/3917818_sled_lichna_sreshta_na_iznudvaniia_s_premiera/
 'title' is empty
-<45>  https://www.dnevnik.bg/video/2019/05/31/3914217_video_rushete_stenite_na_nevejestvoto_i_tesnogrudieto/
+<38>  https://www.dnevnik.bg/sport/2019/06/06/3917841_geroichnata_igra_na_kuri_ne_spria_ustrema_na_toronto/
 'title' is empty
-<<Valid records: 71 of 73
+<<Valid records: 88 of 90
