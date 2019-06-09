@@ -1,13 +1,6 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-06-06.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-06-08.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 106, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-06-06.json
->> Validation of Monitor/Reports/Monitor-2019-06-06.json 
-<54>  https://www.monitor.bg:443/bg/a/view/subsidii-167200
-'text' is empty
-<71>  https://www.monitor.bg:443/bg/a/view/sedmoklasnicite-kandidatstvat-za-gimnazija-izcjalo-onlajn-167168
-'text' is empty
-<80>  https://www.monitor.bg:443/bg/a/view/sedmoklasnici-izbirat-gimnazija-izmejdu-2499-paralelki-167178
-'text' is empty
-<<Valid records: 103 of 106
+Records: (All: 45, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-06-08.json
+>> Validation of Monitor/Reports/Monitor-2019-06-08.json 

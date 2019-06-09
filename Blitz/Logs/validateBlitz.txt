@@ -1,6 +1,9 @@
-VALIDATIONS for Blitz/Reports/Blitz-2019-06-07.json
+VALIDATIONS for Blitz/Reports/Blitz-2019-06-09.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 187, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-06-07.json
->> Validation of Blitz/Reports/Blitz-2019-06-07.json 
+Records: (All: 150, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-06-09.json
+>> Validation of Blitz/Reports/Blitz-2019-06-09.json 
+<56>  https://blitz.bg/layfstayl/za-damite/eksperti-opredelikha-nay-dobrata-dieta-za-zheni-nad-40-godini_news678462.html
+'text' is empty
+<<Valid records: 149 of 150
