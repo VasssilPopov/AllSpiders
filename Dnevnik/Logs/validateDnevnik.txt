@@ -1,9 +1,6 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-08.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-09.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 41, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-08.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-06-08.json 
-<4>  https://www.dnevnik.bg/video/2019/06/08/3922624_video_sofiia_praid/
-'title' is empty
-<<Valid records: 40 of 41
+Records: (All: 37, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-09.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-06-09.json 

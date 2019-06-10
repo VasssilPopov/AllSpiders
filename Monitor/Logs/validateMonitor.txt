@@ -1,6 +1,9 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-06-08.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-06-09.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 45, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-06-08.json
->> Validation of Monitor/Reports/Monitor-2019-06-08.json 
+Records: (All: 77, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-06-09.json
+>> Validation of Monitor/Reports/Monitor-2019-06-09.json 
+<16>  https://www.monitor.bg:443/bg/a/view/toplofikacija-167480
+'text' is empty
+<<Valid records: 76 of 77

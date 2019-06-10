@@ -72,7 +72,7 @@ for src in Srcs:
 
 #    HelperTools.scanReports(src+'/Reports/'+src+'-2018-07-0*.json')
 
-    HelperTools.scanReports(src+'/Reports/'+src+'-2019-06-0*.json')
+    HelperTools.scanReports(src+'/Reports/'+src+'-2019-06-1*.json')
 
 
 
