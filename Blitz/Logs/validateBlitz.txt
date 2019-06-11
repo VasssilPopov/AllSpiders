@@ -1,13 +1,15 @@
-VALIDATIONS for Blitz/Reports/Blitz-2019-06-10.json
+VALIDATIONS for Blitz/Reports/Blitz-2019-06-11.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 185, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-06-10.json
->> Validation of Blitz/Reports/Blitz-2019-06-10.json 
-<31>  https://blitz.bg/zdrave/zdravni-novini/5-te-problema-koito-energiynite-napitki-nezabavno-prichinyavat_news678637.html
+Records: (All: 194, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-06-11.json
+>> Validation of Blitz/Reports/Blitz-2019-06-11.json 
+<44>  https://blitz.bg/zdrave/zdravoslovno/malko-izvestni-polzi-za-zdraveto-ot-sireneto_news678513.html
 'text' is empty
-<85>  https://blitz.bg/zdrave/zdravoslovno/malko-izvestni-polzi-za-zdraveto-ot-sireneto_news678513.html
+<45>  https://blitz.bg/zdrave/zdravni-novini/5-te-problema-koito-energiynite-napitki-nezabavno-prichinyavat_news678637.html
 'text' is empty
-<123>  https://blitz.bg/layfstayl/za-damite/eksperti-opredelikha-nay-dobrata-dieta-za-zheni-nad-40-godini_news678462.html
+<65>  https://blitz.bg/zdrave/zdravni-novini/konsultatsiya-ima-li-pravo-lichen-lekar-da-otkazhe-da-me-prieme-za-patsient_news678701.html
 'text' is empty
-<<Valid records: 182 of 185
+<76>  https://blitz.bg/layfstayl/za-damite/eksperti-opredelikha-nay-dobrata-dieta-za-zheni-nad-40-godini_news678462.html
+'text' is empty
+<<Valid records: 190 of 194

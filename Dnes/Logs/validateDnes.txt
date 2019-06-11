@@ -1,9 +1,11 @@
-VALIDATIONS for Dnes/Reports/Dnes-2019-06-10.json
+VALIDATIONS for Dnes/Reports/Dnes-2019-06-11.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 102, Duplicates: 0 ), File: Dnes/Reports/Dnes-2019-06-10.json
->> Validation of Dnes/Reports/Dnes-2019-06-10.json 
-<99>  https://www.dnes.bg/index/2019/06/10/deniat-v-snimki-10-iuni.412978
+Records: (All: 99, Duplicates: 0 ), File: Dnes/Reports/Dnes-2019-06-11.json
+>> Validation of Dnes/Reports/Dnes-2019-06-11.json 
+<3>  https://www.dnes.bg/stranata/2019/06/11/utre-pak-shte-vali-no-gradusite-trygvat-oshte-nagore.413076
 'text' is empty
-<<Valid records: 101 of 102
+<94>  https://www.dnes.bg/index/2019/06/11/deniat-v-snimki-11-iuni.413090
+'text' is empty
+<<Valid records: 97 of 99

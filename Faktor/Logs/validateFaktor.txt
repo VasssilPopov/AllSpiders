@@ -1,6 +1,9 @@
-VALIDATIONS for Faktor/Reports/Faktor-2019-06-10.json
+VALIDATIONS for Faktor/Reports/Faktor-2019-06-11.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 86, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-06-10.json
->> Validation of Faktor/Reports/Faktor-2019-06-10.json 
+Records: (All: 86, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-06-11.json
+>> Validation of Faktor/Reports/Faktor-2019-06-11.json 
+<80>  https://www.faktor.bg/bg/articles/biser-petkov-ne-se-prokarvat-po-nikakav-nachin-printsipni-polozheniya-ot-natsionalnata-strategiya-za-deteto
+'text' is empty
+<<Valid records: 85 of 86

@@ -1,9 +1,6 @@
-VALIDATIONS for Standartnews/Reports/Standartnews-2019-06-10.json
+VALIDATIONS for Standartnews/Reports/Standartnews-2019-06-11.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 36, Duplicates: 0 ), File: Standartnews/Reports/Standartnews-2019-06-10.json
->> Validation of Standartnews/Reports/Standartnews-2019-06-10.json 
-<28>  https://standartnews.com/svyat/sbudi-se-smyatan-za-izcheznal-vulkan-394370.html
-'text' is empty
-<<Valid records: 35 of 36
+Records: (All: 66, Duplicates: 0 ), File: Standartnews/Reports/Standartnews-2019-06-11.json
+>> Validation of Standartnews/Reports/Standartnews-2019-06-11.json 

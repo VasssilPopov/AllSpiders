@@ -1,6 +1,9 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-09.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-10.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 37, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-09.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-06-09.json 
+Records: (All: 82, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-10.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-06-10.json 
+<80>  https://www.dnevnik.bg/sport/2019/06/10/3923361_ilian_iliev_e_iznenadan_che_futbolisti_sa_predpocheli/
+'title' is empty
+<<Valid records: 81 of 82
