@@ -1,6 +1,9 @@
-VALIDATIONS for Novinite/Reports/Novinite-2019-06-10.json
+VALIDATIONS for Novinite/Reports/Novinite-2019-06-11.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 44, Duplicates: 0 ), File: Novinite/Reports/Novinite-2019-06-10.json
->> Validation of Novinite/Reports/Novinite-2019-06-10.json 
+Records: (All: 54, Duplicates: 0 ), File: Novinite/Reports/Novinite-2019-06-11.json
+>> Validation of Novinite/Reports/Novinite-2019-06-11.json 
+<24>  https://www.novinite.bg/articles/176750/Harvatiya-izdigna-ograda-po-granicata-s-Bosna-i-Hercegovina
+'text' is empty
+<<Valid records: 53 of 54

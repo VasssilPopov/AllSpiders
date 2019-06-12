@@ -1,15 +1,9 @@
-VALIDATIONS for Blitz/Reports/Blitz-2019-06-11.json
+VALIDATIONS for Blitz/Reports/Blitz-2019-06-12.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 194, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-06-11.json
->> Validation of Blitz/Reports/Blitz-2019-06-11.json 
-<44>  https://blitz.bg/zdrave/zdravoslovno/malko-izvestni-polzi-za-zdraveto-ot-sireneto_news678513.html
+Records: (All: 191, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-06-12.json
+>> Validation of Blitz/Reports/Blitz-2019-06-12.json 
+<25>  https://blitz.bg/zdrave/zdravoslovno/malko-izvestni-polzi-za-zdraveto-ot-sireneto_news678513.html
 'text' is empty
-<45>  https://blitz.bg/zdrave/zdravni-novini/5-te-problema-koito-energiynite-napitki-nezabavno-prichinyavat_news678637.html
-'text' is empty
-<65>  https://blitz.bg/zdrave/zdravni-novini/konsultatsiya-ima-li-pravo-lichen-lekar-da-otkazhe-da-me-prieme-za-patsient_news678701.html
-'text' is empty
-<76>  https://blitz.bg/layfstayl/za-damite/eksperti-opredelikha-nay-dobrata-dieta-za-zheni-nad-40-godini_news678462.html
-'text' is empty
-<<Valid records: 190 of 194
+<<Valid records: 190 of 191

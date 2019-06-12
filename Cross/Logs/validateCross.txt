@@ -1,9 +1,6 @@
-VALIDATIONS for Cross/Reports/Cross-2019-06-10.json
+VALIDATIONS for Cross/Reports/Cross-2019-06-11.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 90, Duplicates: 0 ), File: Cross/Reports/Cross-2019-06-10.json
->> Validation of Cross/Reports/Cross-2019-06-10.json 
-<14>  http://www.cross.bg/elektrozahranvaneto-rekonstryktziya-razpredelenie-1606437.html
-'text' is empty
-<<Valid records: 89 of 90
+Records: (All: 83, Duplicates: 0 ), File: Cross/Reports/Cross-2019-06-11.json
+>> Validation of Cross/Reports/Cross-2019-06-11.json 

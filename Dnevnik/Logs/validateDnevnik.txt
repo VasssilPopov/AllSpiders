@@ -1,9 +1,9 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-10.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-11.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 82, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-10.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-06-10.json 
-<80>  https://www.dnevnik.bg/sport/2019/06/10/3923361_ilian_iliev_e_iznenadan_che_futbolisti_sa_predpocheli/
+Records: (All: 90, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-11.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-06-11.json 
+<18>  https://www.dnevnik.bg/sport/2019/06/11/3923440_goldun_steit_otkaza_da_sdade_titlata_v_nba_sled/
 'title' is empty
-<<Valid records: 81 of 82
+<<Valid records: 89 of 90
