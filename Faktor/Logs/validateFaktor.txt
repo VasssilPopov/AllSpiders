@@ -1,15 +1,6 @@
-VALIDATIONS for Faktor/Reports/Faktor-2019-06-12.json
+VALIDATIONS for Faktor/Reports/Faktor-2019-06-13.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 89, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-06-12.json
->> Validation of Faktor/Reports/Faktor-2019-06-12.json 
-<13>  https://www.faktor.bg/bg/articles/ot-feysbuk-izmisliha-kak-da-plashtat-na-potrebitelite
-'text' is empty
-<63>  https://www.faktor.bg/bg/articles/novini/balgariya/anketa-saglasni-li-ste-darzhavnata-subsidiya-za-partiite-da-padne-na-1-lev-za-glas
-'text' is empty
-<78>  https://www.faktor.bg/bg/articles/delyan-peevski
-'text' is empty
-<89>  https://www.faktor.bg/bg/articles/rumen-radev-sabira-kragla-masa-za-izbora-na-nov-glaven-prokuror
-'text' is empty
-<<Valid records: 85 of 89
+Records: (All: 100, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-06-13.json
+>> Validation of Faktor/Reports/Faktor-2019-06-13.json 

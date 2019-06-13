@@ -1,9 +1,6 @@
-VALIDATIONS for Standartnews/Reports/Standartnews-2019-06-12.json
+VALIDATIONS for Standartnews/Reports/Standartnews-2019-06-13.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 64, Duplicates: 0 ), File: Standartnews/Reports/Standartnews-2019-06-12.json
->> Validation of Standartnews/Reports/Standartnews-2019-06-12.json 
-<59>  https://standartnews.com/svyat/ruski-su-27-prikhvana-nad-baltiysko-more-razuznavatelni-samoleti-394545.html
-'text' is empty
-<<Valid records: 63 of 64
+Records: (All: 34, Duplicates: 0 ), File: Standartnews/Reports/Standartnews-2019-06-13.json
+>> Validation of Standartnews/Reports/Standartnews-2019-06-13.json 

@@ -1,9 +1,11 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-11.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-12.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 90, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-11.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-06-11.json 
-<18>  https://www.dnevnik.bg/sport/2019/06/11/3923440_goldun_steit_otkaza_da_sdade_titlata_v_nba_sled/
+Records: (All: 86, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-12.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-06-12.json 
+<15>  https://www.dnevnik.bg/sport/2019/06/12/3924395_video_shest_minuti_po_stupkite_na_jurgen_klop_v/
 'title' is empty
-<<Valid records: 89 of 90
+<47>  https://www.dnevnik.bg/video/2019/06/12/3924069_peevski_v_roliata_na_robin_hud_video/
+'title' is empty
+<<Valid records: 84 of 86
