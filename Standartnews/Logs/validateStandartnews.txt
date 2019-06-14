@@ -1,6 +1,6 @@
-VALIDATIONS for Standartnews/Reports/Standartnews-2019-06-13.json
+VALIDATIONS for Standartnews/Reports/Standartnews-2019-06-14.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 34, Duplicates: 0 ), File: Standartnews/Reports/Standartnews-2019-06-13.json
->> Validation of Standartnews/Reports/Standartnews-2019-06-13.json 
+Records: (All: 61, Duplicates: 0 ), File: Standartnews/Reports/Standartnews-2019-06-14.json
+>> Validation of Standartnews/Reports/Standartnews-2019-06-14.json 

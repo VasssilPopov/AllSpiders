@@ -1,11 +1,11 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-12.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-13.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 86, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-12.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-06-12.json 
-<15>  https://www.dnevnik.bg/sport/2019/06/12/3924395_video_shest_minuti_po_stupkite_na_jurgen_klop_v/
+Records: (All: 87, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-13.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-06-13.json 
+<7>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2019/06/13/3924797_iliian_vasilev_trudna_e_sudbata_na_bulgarskiia_rusofil/
 'title' is empty
-<47>  https://www.dnevnik.bg/video/2019/06/12/3924069_peevski_v_roliata_na_robin_hud_video/
+<69>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2019/06/13/3924795_evgenii_dainov_ochakva_golemite_gradove_da_se_opitvat/
 'title' is empty
-<<Valid records: 84 of 86
+<<Valid records: 85 of 87

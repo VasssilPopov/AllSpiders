@@ -1,6 +1,11 @@
-VALIDATIONS for Duma/Reports/Duma-2019-06-13.json
+VALIDATIONS for Duma/Reports/Duma-2019-06-14.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 66, Duplicates: 0 ), File: Duma/Reports/Duma-2019-06-13.json
->> Validation of Duma/Reports/Duma-2019-06-13.json 
+Records: (All: 92, Duplicates: 0 ), File: Duma/Reports/Duma-2019-06-14.json
+>> Validation of Duma/Reports/Duma-2019-06-14.json 
+<1>  https://duma.bg/tsska-sf-vze-sedmi-futbolist-n193965
+'text' is empty
+<2>  https://duma.bg/voleybolistkite-s-parva-pobeda-v-ligata-na-natsiite-sas-silen-mach-sreshtu-koreya-n193950
+'text' is empty
+<<Valid records: 90 of 92

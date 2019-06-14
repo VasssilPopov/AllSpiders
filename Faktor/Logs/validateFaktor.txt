@@ -1,6 +1,11 @@
-VALIDATIONS for Faktor/Reports/Faktor-2019-06-13.json
+VALIDATIONS for Faktor/Reports/Faktor-2019-06-14.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 100, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-06-13.json
->> Validation of Faktor/Reports/Faktor-2019-06-13.json 
+Records: (All: 68, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-06-14.json
+>> Validation of Faktor/Reports/Faktor-2019-06-14.json 
+<46>  https://www.faktor.bg/bg/articles/vks-reshava-da-bade-li-vazobnoveno-deloto-za-smartta-na-chorata
+'text' is empty
+<47>  https://www.faktor.bg/bg/articles/politsai-bili-operiran-mladezh-zaradi-orazhie-igrachka
+'text' is empty
+<<Valid records: 66 of 68

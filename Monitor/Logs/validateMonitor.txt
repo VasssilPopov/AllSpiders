@@ -1,11 +1,9 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-06-12.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-06-13.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 94, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-06-12.json
->> Validation of Monitor/Reports/Monitor-2019-06-12.json 
-<12>  https://www.monitor.bg:443/bg/a/view/kopyrka-167778
+Records: (All: 91, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-06-13.json
+>> Validation of Monitor/Reports/Monitor-2019-06-13.json 
+<10>  https://www.monitor.bg:443/bg/a/view/ostroven-deficit-167876
 'text' is empty
-<38>  https://www.monitor.bg:443/bg/a/view/mon-dava-24-mln-lv-za-obrazovanie-chrez-rabota-167741
-'text' is empty
-<<Valid records: 92 of 94
+<<Valid records: 90 of 91
