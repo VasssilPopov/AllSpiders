@@ -1,11 +1,9 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-13.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-14.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 87, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-13.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-06-13.json 
-<7>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2019/06/13/3924797_iliian_vasilev_trudna_e_sudbata_na_bulgarskiia_rusofil/
+Records: (All: 76, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-14.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-06-14.json 
+<17>  https://www.dnevnik.bg/sport/2019/06/14/3925154_toronto_rapturs_detronira_goldun_steit_i_grabna/
 'title' is empty
-<69>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2019/06/13/3924795_evgenii_dainov_ochakva_golemite_gradove_da_se_opitvat/
-'title' is empty
-<<Valid records: 85 of 87
+<<Valid records: 75 of 76

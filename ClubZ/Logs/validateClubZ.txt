@@ -1,6 +1,6 @@
-VALIDATIONS for ClubZ/Reports/ClubZ-2019-06-14.json
+VALIDATIONS for ClubZ/Reports/ClubZ-2019-06-15.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 35, Duplicates: 0 ), File: ClubZ/Reports/ClubZ-2019-06-14.json
->> Validation of ClubZ/Reports/ClubZ-2019-06-14.json 
+Records: (All: 23, Duplicates: 0 ), File: ClubZ/Reports/ClubZ-2019-06-15.json
+>> Validation of ClubZ/Reports/ClubZ-2019-06-15.json 

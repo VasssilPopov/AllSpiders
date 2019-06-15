@@ -1,9 +1,9 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-06-13.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-06-14.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 91, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-06-13.json
->> Validation of Monitor/Reports/Monitor-2019-06-13.json 
-<10>  https://www.monitor.bg:443/bg/a/view/ostroven-deficit-167876
+Records: (All: 97, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-06-14.json
+>> Validation of Monitor/Reports/Monitor-2019-06-14.json 
+<31>  https://www.monitor.bg:443/bg/a/view/merki-167943
 'text' is empty
-<<Valid records: 90 of 91
+<<Valid records: 96 of 97

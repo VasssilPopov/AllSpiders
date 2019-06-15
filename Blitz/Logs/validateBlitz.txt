@@ -1,6 +1,11 @@
-VALIDATIONS for Blitz/Reports/Blitz-2019-06-14.json
+VALIDATIONS for Blitz/Reports/Blitz-2019-06-15.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 191, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-06-14.json
->> Validation of Blitz/Reports/Blitz-2019-06-14.json 
+Records: (All: 164, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-06-15.json
+>> Validation of Blitz/Reports/Blitz-2019-06-15.json 
+<7>  https://blitz.bg/zdrave/zdravni-novini/kakvo-razkazva-nost-za-zdraveto-ni_news679539.html
+'text' is empty
+<144>  https://blitz.bg/zdrave/zdravni-novini/3-babini-metoda-za-lechenie-na-slnchevo-izgaryane_news679542.html
+'text' is empty
+<<Valid records: 162 of 164
