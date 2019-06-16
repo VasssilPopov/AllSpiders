@@ -1,9 +1,6 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-14.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-15.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 76, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-14.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-06-14.json 
-<17>  https://www.dnevnik.bg/sport/2019/06/14/3925154_toronto_rapturs_detronira_goldun_steit_i_grabna/
-'title' is empty
-<<Valid records: 75 of 76
+Records: (All: 43, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-15.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-06-15.json 

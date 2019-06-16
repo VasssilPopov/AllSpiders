@@ -1,11 +1,17 @@
-VALIDATIONS for Blitz/Reports/Blitz-2019-06-15.json
+VALIDATIONS for Blitz/Reports/Blitz-2019-06-16.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 164, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-06-15.json
->> Validation of Blitz/Reports/Blitz-2019-06-15.json 
-<7>  https://blitz.bg/zdrave/zdravni-novini/kakvo-razkazva-nost-za-zdraveto-ni_news679539.html
+Records: (All: 172, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-06-16.json
+>> Validation of Blitz/Reports/Blitz-2019-06-16.json 
+<117>  https://blitz.bg/zdrave/zdravni-novini/mitove-i-istini-za-meda-kak-da-se-lekuvame_news679554.html
 'text' is empty
-<144>  https://blitz.bg/zdrave/zdravni-novini/3-babini-metoda-za-lechenie-na-slnchevo-izgaryane_news679542.html
+<118>  https://blitz.bg/zdrave/zdravni-novini/zelenchutsite-podobryavat-rabotata-na-srtseto_news679557.html
 'text' is empty
-<<Valid records: 162 of 164
+<119>  https://blitz.bg/zdrave/lekar-izbroi-opasnostite-koito-kriyat-rezkite-promeni-v-temperaturata_news679751.html
+'text' is empty
+<121>  https://blitz.bg/zdrave/zdravni-novini/narodni-sredstva-za-borba-s-komarite-koito-rabotyat_news679540.html
+'text' is empty
+<122>  https://blitz.bg/zdrave/zdravni-novini/3-babini-metoda-za-lechenie-na-slnchevo-izgaryane_news679542.html
+'text' is empty
+<<Valid records: 167 of 172
