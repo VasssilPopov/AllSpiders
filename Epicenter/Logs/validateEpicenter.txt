@@ -1,9 +1,9 @@
-VALIDATIONS for Epicenter/Reports/Epicenter-2019-06-15.json
+VALIDATIONS for Epicenter/Reports/Epicenter-2019-06-16.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 57, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2019-06-15.json
->> Validation of Epicenter/Reports/Epicenter-2019-06-15.json 
-<10>  http://epicenter.bg/article/Spetsialni-predlozheniya-ot-magazini-ZORA/185718/4/0
+Records: (All: 55, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2019-06-16.json
+>> Validation of Epicenter/Reports/Epicenter-2019-06-16.json 
+<52>  http://epicenter.bg/article/Radev--Hramovete-i-vyarata-vinagi-sa-bili-sigurniyat-brod-na-balgarskiya-narod-kam-sakrovenata-ni/185815/2/0
 'text' is empty
-<<Valid records: 56 of 57
+<<Valid records: 54 of 55

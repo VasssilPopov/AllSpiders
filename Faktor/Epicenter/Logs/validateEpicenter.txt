@@ -1,9 +1,0 @@
-VALIDATIONS for Epicenter/Reports/Epicenter-2019-06-16.json
-
->> Duplicates Report
-----------------------------------------------------------------------
-Records: (All: 55, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2019-06-16.json
->> Validation of Epicenter/Reports/Epicenter-2019-06-16.json 
-<52>  http://epicenter.bg/article/Radev--Hramovete-i-vyarata-vinagi-sa-bili-sigurniyat-brod-na-balgarskiya-narod-kam-sakrovenata-ni/185815/2/0
-'text' is empty
-<<Valid records: 54 of 55
