@@ -1,13 +1,6 @@
-VALIDATIONS for Faktor/Reports/Faktor-2019-06-16.json
+VALIDATIONS for Faktor/Reports/Faktor-2019-06-17.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 32, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-06-16.json
->> Validation of Faktor/Reports/Faktor-2019-06-16.json 
-<5>  https://www.faktor.bg/bg/articles/novini/balgariya/lilyana-pavlova-na-kongresa-na-bsp-vidyahme-tsirk-parodiya
-'text' is empty
-<10>  https://www.faktor.bg/bg/articles/protest-sreshtu-politseyskiya-proizvol-se-provede-v-moskva-video
-'text' is empty
-<18>  https://www.faktor.bg/bg/articles/ekaterina-zaharieva-shte-vodi-balgarskata-delegatsiya-za-uchastie-v-savet-vanshni-raboti-v-lyuksemburg
-'text' is empty
-<<Valid records: 29 of 32
+Records: (All: 78, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-06-17.json
+>> Validation of Faktor/Reports/Faktor-2019-06-17.json 

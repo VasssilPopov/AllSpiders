@@ -1,10 +1,10 @@
-VALIDATIONS for OffNews/Reports/OffNews-2019-06-15.json
+VALIDATIONS for OffNews/Reports/OffNews-2019-06-16.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 55, Duplicates: 0 ), File: OffNews/Reports/OffNews-2019-06-15.json
->> Validation of OffNews/Reports/OffNews-2019-06-15.json 
-<29>  https://mamaninja.bg/%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE/%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8/item/3704-imalo-edno-vreme
+Records: (All: 44, Duplicates: 0 ), File: OffNews/Reports/OffNews-2019-06-16.json
+>> Validation of OffNews/Reports/OffNews-2019-06-16.json 
+<44>  https://mamaninja.bg/%D1%81%D0%B5%D0%BC%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%BE/%D0%BE%D1%82%D0%BD%D0%BE%D1%88%D0%B5%D0%BD%D0%B8%D1%8F/item/3707-zhenata%2C-koyato-napravi-dom
 'title' is empty
 'text' is empty
-<<Valid records: 54 of 55
+<<Valid records: 43 of 44

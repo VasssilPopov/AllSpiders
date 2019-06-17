@@ -1,6 +1,9 @@
-VALIDATIONS for Dnes/Reports/Dnes-2019-06-16.json
+VALIDATIONS for Dnes/Reports/Dnes-2019-06-17.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 52, Duplicates: 0 ), File: Dnes/Reports/Dnes-2019-06-16.json
->> Validation of Dnes/Reports/Dnes-2019-06-16.json 
+Records: (All: 93, Duplicates: 0 ), File: Dnes/Reports/Dnes-2019-06-17.json
+>> Validation of Dnes/Reports/Dnes-2019-06-17.json 
+<21>  https://www.dnes.bg/index/2019/06/17/deniat-v-snimki-17-iuni.413662
+'text' is empty
+<<Valid records: 92 of 93
