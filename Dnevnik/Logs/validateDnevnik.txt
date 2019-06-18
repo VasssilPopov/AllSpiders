@@ -1,6 +1,6 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-16.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-17.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 42, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-16.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-06-16.json 
+Records: (All: 75, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-17.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-06-17.json 

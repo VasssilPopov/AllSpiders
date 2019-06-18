@@ -1,11 +1,6 @@
-VALIDATIONS for Blitz/Reports/Blitz-2019-06-17.json
+VALIDATIONS for Blitz/Reports/Blitz-2019-06-18.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 192, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-06-17.json
->> Validation of Blitz/Reports/Blitz-2019-06-17.json 
-<30>  https://blitz.bg/zdrave/zdravni-novini/narodni-sredstva-za-borba-s-komarite-koito-rabotyat_news679540.html
-'text' is empty
-<39>  https://blitz.bg/zdrave/zdravni-novini/mitove-i-istini-za-meda-kak-da-se-lekuvame_news679554.html
-'text' is empty
-<<Valid records: 190 of 192
+Records: (All: 204, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-06-18.json
+>> Validation of Blitz/Reports/Blitz-2019-06-18.json 
