@@ -11,9 +11,8 @@ from rdflib.namespace import RDF, DC
 
 
 
-# print( glob.glob("AllSpiders\Dnevnik\Reports\*.json") )
+# print( glob.glob("../Dnevnik/Reports/*.json") )
 
-exit()
 
 # g = Graph()
 
@@ -22,7 +21,7 @@ sites = ["24chasa", "Actualno", "BgOnAir", "Blitz", "BNews", "Classa", "ClubZ", 
 for site in sites: 
   g = Graph()
   print site
-  for news in glob.glob("AllSpiders\\"+site+"\Reports\*.json"):
+  for news in glob.glob("../"+site+"/Reports/*.json"):
 
     with jsonlines.open(news) as reader:
       for obj in reader:
@@ -34,5 +33,5 @@ for site in sites:
         # g.add( (URIRef(obj['url']), DC.date , obj['date']) )
 
 
-  g.serialize(destination=site+'.ttl', format='turtle')
+  g.serialize(destination='ttl'+site+'.ttl', format='turtle')
 
