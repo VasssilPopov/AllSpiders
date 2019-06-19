@@ -1,6 +1,9 @@
-VALIDATIONS for Actualno/Reports/Actualno-2019-05-31.json
+VALIDATIONS for Actualno/Reports/Actualno-2019-06-17.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 136, Duplicates: 0 ), File: Actualno/Reports/Actualno-2019-05-31.json
->> Validation of Actualno/Reports/Actualno-2019-05-31.json 
+Records: (All: 126, Duplicates: 0 ), File: Actualno/Reports/Actualno-2019-06-17.json
+>> Validation of Actualno/Reports/Actualno-2019-06-17.json 
+<48>  https://www.actualno.com/cars/specialen-defender-shte-spasjava-land-rover-v-kitaj-news_759678.html
+'text' is empty
+<<Valid records: 125 of 126
