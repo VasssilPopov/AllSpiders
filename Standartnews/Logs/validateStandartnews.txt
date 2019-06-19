@@ -1,11 +1,6 @@
-VALIDATIONS for Standartnews/Reports/Standartnews-2019-06-18.json
+VALIDATIONS for Standartnews/Reports/Standartnews-2019-06-19.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 44, Duplicates: 0 ), File: Standartnews/Reports/Standartnews-2019-06-18.json
->> Validation of Standartnews/Reports/Standartnews-2019-06-18.json 
-<21>  https://www.standartnews.com/sport/vv-varna-udarikha-412-058-lv-ot-tototo-394969.html
-'text' is empty
-<44>  https://standartnews.com/sport/vv-varna-udarikha-412-058-lv-ot-tototo-394969.html
-'text' is empty
-<<Valid records: 42 of 44
+Records: (All: 61, Duplicates: 0 ), File: Standartnews/Reports/Standartnews-2019-06-19.json
+>> Validation of Standartnews/Reports/Standartnews-2019-06-19.json 

@@ -1,6 +1,13 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-17.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-18.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 75, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-17.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-06-17.json 
+Records: (All: 73, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-18.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-06-18.json 
+<8>  https://www.dnevnik.bg/sport/2019/06/18/3927011_video_djitbol_po_frenski/
+'title' is empty
+<19>  https://www.dnevnik.bg/sport/2019/06/18/3926619_levski_zapochna_selekciiata_s_grucki_zashtitnik/
+'title' is empty
+<72>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2019/06/18/3926973_antoaneta_coneva_s_mediite_v_bulgariia_se_povtaria/
+'title' is empty
+<<Valid records: 70 of 73

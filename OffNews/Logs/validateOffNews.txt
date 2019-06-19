@@ -1,10 +1,6 @@
-VALIDATIONS for OffNews/Reports/OffNews-2019-06-17.json
+VALIDATIONS for OffNews/Reports/OffNews-2019-06-18.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 71, Duplicates: 0 ), File: OffNews/Reports/OffNews-2019-06-17.json
->> Validation of OffNews/Reports/OffNews-2019-06-17.json 
-<68>  https://mamaninja.bg/%D1%81%D0%B5%D0%BC%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%BE/%D0%BE%D1%82%D0%BD%D0%BE%D1%88%D0%B5%D0%BD%D0%B8%D1%8F/item/3700-zashto-manikyurat-v-pochivnite-dni-ne-e-dostatachen
-'title' is empty
-'text' is empty
-<<Valid records: 70 of 71
+Records: (All: 69, Duplicates: 0 ), File: OffNews/Reports/OffNews-2019-06-18.json
+>> Validation of OffNews/Reports/OffNews-2019-06-18.json 

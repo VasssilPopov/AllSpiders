@@ -1,9 +1,9 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-06-17.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-06-18.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 96, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-06-17.json
->> Validation of Monitor/Reports/Monitor-2019-06-17.json 
-<85>  https://www.monitor.bg:443/bg/a/view/variant-1-na-maturata-v-sedmi-klas-168078
+Records: (All: 95, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-06-18.json
+>> Validation of Monitor/Reports/Monitor-2019-06-18.json 
+<27>  https://www.monitor.bg:443/bg/a/view/otpadyci-168241
 'text' is empty
-<<Valid records: 95 of 96
+<<Valid records: 94 of 95
