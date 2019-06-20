@@ -1,6 +1,9 @@
-VALIDATIONS for Epicenter/Reports/Epicenter-2019-06-19.json
+VALIDATIONS for Epicenter/Reports/Epicenter-2019-06-20.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 81, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2019-06-19.json
->> Validation of Epicenter/Reports/Epicenter-2019-06-19.json 
+Records: (All: 74, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2019-06-20.json
+>> Validation of Epicenter/Reports/Epicenter-2019-06-20.json 
+<51>  http://epicenter.bg/article/Pakistanski-ministar-se-poyavi-s-koteshki-ushi-na-preskonferentsiya/186167/7/0
+'text' is empty
+<<Valid records: 73 of 74

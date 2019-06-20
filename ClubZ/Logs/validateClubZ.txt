@@ -1,9 +1,6 @@
-VALIDATIONS for ClubZ/Reports/ClubZ-2019-06-19.json
+VALIDATIONS for ClubZ/Reports/ClubZ-2019-06-20.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 42, Duplicates: 0 ), File: ClubZ/Reports/ClubZ-2019-06-19.json
->> Validation of ClubZ/Reports/ClubZ-2019-06-19.json 
-<10>  https://clubz.bg/84430-germano_frenski_spor_blokira_sdelkata_za_visshite_postove_v_es
-'text' is empty
-<<Valid records: 41 of 42
+Records: (All: 35, Duplicates: 0 ), File: ClubZ/Reports/ClubZ-2019-06-20.json
+>> Validation of ClubZ/Reports/ClubZ-2019-06-20.json 

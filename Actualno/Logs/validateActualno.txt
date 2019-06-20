@@ -1,9 +1,6 @@
-VALIDATIONS for Actualno/Reports/Actualno-2019-06-18.json
+VALIDATIONS for Actualno/Reports/Actualno-2019-06-19.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 130, Duplicates: 0 ), File: Actualno/Reports/Actualno-2019-06-18.json
->> Validation of Actualno/Reports/Actualno-2019-06-18.json 
-<56>  https://www.actualno.com/cars/hummer-se-vyzrajda-kato-marka-elektromobili-news_759971.html
-'text' is empty
-<<Valid records: 129 of 130
+Records: (All: 138, Duplicates: 0 ), File: Actualno/Reports/Actualno-2019-06-19.json
+>> Validation of Actualno/Reports/Actualno-2019-06-19.json 
