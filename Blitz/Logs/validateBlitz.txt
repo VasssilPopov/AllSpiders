@@ -1,6 +1,11 @@
-VALIDATIONS for Blitz/Reports/Blitz-2019-06-20.json
+VALIDATIONS for Blitz/Reports/Blitz-2019-06-21.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 206, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-06-20.json
->> Validation of Blitz/Reports/Blitz-2019-06-20.json 
+Records: (All: 216, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-06-21.json
+>> Validation of Blitz/Reports/Blitz-2019-06-21.json 
+<106>  https://blitz.bg/zdrave/zdravni-novini/8-neobiknoveni-svoystva-na-mlechniya-trn_news680689.html
+'text' is empty
+<128>  https://blitz.bg/zdrave/zdravni-novini/konsultatsiya-na-kolko-fizioterapevtichni-protseduri-imam-pravo_news680809.html
+'text' is empty
+<<Valid records: 214 of 216

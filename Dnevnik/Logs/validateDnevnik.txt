@@ -1,11 +1,9 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-19.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-20.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 78, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-19.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-06-19.json 
-<26>  https://www.dnevnik.bg/sport/2019/06/19/3927089_krasen_kralev_v_bulgarskiia_futbol_ima_neshto_sburkano/
+Records: (All: 87, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-20.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-06-20.json 
+<77>  https://www.dnevnik.bg/sport/2019/06/20/3928000_levski_produlji_selekciiata_s_arjentinski_half_video/
 'title' is empty
-<28>  https://www.dnevnik.bg/detski_dnevnik/2019/06/19/3927092_sedmoklasnicite_se_uchat_na_vsichko_drugo_no_ne_i_na/
-'title' is empty
-<<Valid records: 76 of 78
+<<Valid records: 86 of 87

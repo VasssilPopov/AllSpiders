@@ -1,9 +1,9 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-06-19.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-06-20.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 115, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-06-19.json
->> Validation of Monitor/Reports/Monitor-2019-06-19.json 
-<28>  https://www.monitor.bg:443/bg/a/view/imitirasht-produkt-168359
+Records: (All: 99, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-06-20.json
+>> Validation of Monitor/Reports/Monitor-2019-06-20.json 
+<12>  https://www.monitor.bg:443/bg/a/view/den-godina-hrani-168466
 'text' is empty
-<<Valid records: 114 of 115
+<<Valid records: 98 of 99

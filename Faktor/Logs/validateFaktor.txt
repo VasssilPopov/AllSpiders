@@ -1,9 +1,9 @@
-VALIDATIONS for Faktor/Reports/Faktor-2019-06-20.json
+VALIDATIONS for Faktor/Reports/Faktor-2019-06-21.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 67, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-06-20.json
->> Validation of Faktor/Reports/Faktor-2019-06-20.json 
-<9>  https://www.faktor.bg/bg/articles/novini/balgariya/anketa-tryabva-li-manipuliranite-uchebnitsi-po-istoriya-da-badat-spreni-i-prenapisani
+Records: (All: 82, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-06-21.json
+>> Validation of Faktor/Reports/Faktor-2019-06-21.json 
+<25>  https://www.faktor.bg/bg/articles/ivet-lalova-specheli-byaganiyata-i-na-200-m-v-bursa
 'text' is empty
-<<Valid records: 66 of 67
+<<Valid records: 81 of 82
