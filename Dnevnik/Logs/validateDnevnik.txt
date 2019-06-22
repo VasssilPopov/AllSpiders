@@ -1,9 +1,9 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-20.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-21.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 87, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-20.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-06-20.json 
-<77>  https://www.dnevnik.bg/sport/2019/06/20/3928000_levski_produlji_selekciiata_s_arjentinski_half_video/
+Records: (All: 90, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-21.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-06-21.json 
+<45>  https://www.dnevnik.bg/sport/2019/06/21/3928197_genialni_otigravaniia_sporove_sus_supernik_i_sudii/
 'title' is empty
-<<Valid records: 86 of 87
+<<Valid records: 89 of 90

@@ -1,9 +1,6 @@
-VALIDATIONS for Novinite/Reports/Novinite-2019-06-20.json
+VALIDATIONS for Novinite/Reports/Novinite-2019-06-21.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 63, Duplicates: 0 ), File: Novinite/Reports/Novinite-2019-06-20.json
->> Validation of Novinite/Reports/Novinite-2019-06-20.json 
-<39>  https://www.novinite.bg/articles/177157/Policaj-zagina-pri-katastrofa-s-motor-v-Pernik
-'text' is empty
-<<Valid records: 62 of 63
+Records: (All: 61, Duplicates: 0 ), File: Novinite/Reports/Novinite-2019-06-21.json
+>> Validation of Novinite/Reports/Novinite-2019-06-21.json 

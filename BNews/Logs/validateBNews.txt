@@ -1,6 +1,6 @@
-VALIDATIONS for BNews/Reports/BNews-2019-06-20.json
+VALIDATIONS for BNews/Reports/BNews-2019-06-21.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 16, Duplicates: 0 ), File: BNews/Reports/BNews-2019-06-20.json
->> Validation of BNews/Reports/BNews-2019-06-20.json 
+Records: (All: 19, Duplicates: 0 ), File: BNews/Reports/BNews-2019-06-21.json
+>> Validation of BNews/Reports/BNews-2019-06-21.json 
