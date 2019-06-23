@@ -1,9 +1,11 @@
-VALIDATIONS for Blitz/Reports/Blitz-2019-06-22.json
+VALIDATIONS for Blitz/Reports/Blitz-2019-06-23.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 164, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-06-22.json
->> Validation of Blitz/Reports/Blitz-2019-06-22.json 
-<130>  https://blitz.bg/zdrave/zdravni-novini/istinski-probiv-v-otslabvaneto-s-prozoretst-na-khraneneto_news680872.html
+Records: (All: 174, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-06-23.json
+>> Validation of Blitz/Reports/Blitz-2019-06-23.json 
+<29>  https://blitz.bg/zdrave/zdravni-novini/istinski-probiv-v-otslabvaneto-s-prozoretst-na-khraneneto_news680872.html
 'text' is empty
-<<Valid records: 163 of 164
+<79>  https://blitz.bg/svyat/semeystvo-na-obama-se-otdade-na-sladko-bezdelie-vv-vilata-na-kluni_news681039.html
+'text' is empty
+<<Valid records: 172 of 174

@@ -1,9 +1,6 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-21.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-22.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 90, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-21.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-06-21.json 
-<45>  https://www.dnevnik.bg/sport/2019/06/21/3928197_genialni_otigravaniia_sporove_sus_supernik_i_sudii/
-'title' is empty
-<<Valid records: 89 of 90
+Records: (All: 38, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-22.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-06-22.json 

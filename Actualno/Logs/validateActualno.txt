@@ -1,6 +1,9 @@
-VALIDATIONS for Actualno/Reports/Actualno-2019-06-21.json
+VALIDATIONS for Actualno/Reports/Actualno-2019-06-22.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 106, Duplicates: 0 ), File: Actualno/Reports/Actualno-2019-06-21.json
->> Validation of Actualno/Reports/Actualno-2019-06-21.json 
+Records: (All: 39, Duplicates: 0 ), File: Actualno/Reports/Actualno-2019-06-22.json
+>> Validation of Actualno/Reports/Actualno-2019-06-22.json 
+<23>  https://www.actualno.com/cars/volkswagen-edva-ne-zagubi-pravata-vyrhu-beetle-news_761371.html
+'text' is empty
+<<Valid records: 38 of 39

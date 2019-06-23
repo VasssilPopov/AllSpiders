@@ -1,6 +1,6 @@
-VALIDATIONS for Trud/Reports/Trud-2019-06-22.json
+VALIDATIONS for Trud/Reports/Trud-2019-06-23.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 33, Duplicates: 0 ), File: Trud/Reports/Trud-2019-06-22.json
->> Validation of Trud/Reports/Trud-2019-06-22.json 
+Records: (All: 32, Duplicates: 0 ), File: Trud/Reports/Trud-2019-06-23.json
+>> Validation of Trud/Reports/Trud-2019-06-23.json 

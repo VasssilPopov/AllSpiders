@@ -1,9 +1,6 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-06-21.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-06-22.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 88, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-06-21.json
->> Validation of Monitor/Reports/Monitor-2019-06-21.json 
-<9>  https://www.monitor.bg:443/bg/a/view/da-ili-ne-na-vaksinite-168561
-'text' is empty
-<<Valid records: 87 of 88
+Records: (All: 30, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-06-22.json
+>> Validation of Monitor/Reports/Monitor-2019-06-22.json 
