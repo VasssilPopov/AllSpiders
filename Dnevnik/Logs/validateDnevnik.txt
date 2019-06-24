@@ -1,6 +1,9 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-22.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-23.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 38, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-22.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-06-22.json 
+Records: (All: 40, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-23.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-06-23.json 
+<38>  https://www.dnevnik.bg/sport/2019/06/23/3929033_levski_zagubi_ot_brazilci_v_purvata_si_kontrola_v/
+'title' is empty
+<<Valid records: 39 of 40

@@ -1,6 +1,6 @@
-VALIDATIONS for Focus/Reports/Focus-2019-06-22.json
+VALIDATIONS for Focus/Reports/Focus-2019-06-23.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 233, Duplicates: 0 ), File: Focus/Reports/Focus-2019-06-22.json
->> Validation of Focus/Reports/Focus-2019-06-22.json 
+Records: (All: 211, Duplicates: 0 ), File: Focus/Reports/Focus-2019-06-23.json
+>> Validation of Focus/Reports/Focus-2019-06-23.json 
