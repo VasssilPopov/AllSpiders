@@ -1,9 +1,17 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-23.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-24.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 40, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-23.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-06-23.json 
-<38>  https://www.dnevnik.bg/sport/2019/06/23/3929033_levski_zagubi_ot_brazilci_v_purvata_si_kontrola_v/
+Records: (All: 72, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-24.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-06-24.json 
+<35>  https://www.dnevnik.bg/sport/2019/06/24/3929187_video_desette_nai-dobri_gola_na_rojdenika_mesi/
 'title' is empty
-<<Valid records: 39 of 40
+<48>  https://www.dnevnik.bg/sviat/2019/06/24/3929386_vzriv_vuv_voenen_sklad_predizvika_trus_ot_35_v/
+'title' is empty
+<63>  https://www.dnevnik.bg/video/2019/06/24/3929549_hubavoe_no_e_pod_voda_video/
+'title' is empty
+<69>  https://www.dnevnik.bg/sport/2019/06/24/3929564_video_cska_vze_s_lekota_purviia_si_mach_na_avstriiska/
+'title' is empty
+<71>  https://www.dnevnik.bg/sport/2019/06/24/3929480_video_da_biagash_kato_uragan_na_103_godini/
+'title' is empty
+<<Valid records: 67 of 72

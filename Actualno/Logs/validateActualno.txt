@@ -1,9 +1,6 @@
-VALIDATIONS for Actualno/Reports/Actualno-2019-06-23.json
+VALIDATIONS for Actualno/Reports/Actualno-2019-06-24.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 74, Duplicates: 0 ), File: Actualno/Reports/Actualno-2019-06-23.json
->> Validation of Actualno/Reports/Actualno-2019-06-23.json 
-<54>  https://www.actualno.com/cars/kolekcijata-na-diktator-otiva-na-tyrg-news_761565.html
-'text' is empty
-<<Valid records: 73 of 74
+Records: (All: 109, Duplicates: 0 ), File: Actualno/Reports/Actualno-2019-06-24.json
+>> Validation of Actualno/Reports/Actualno-2019-06-24.json 

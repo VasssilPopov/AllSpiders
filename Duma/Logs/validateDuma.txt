@@ -1,6 +1,9 @@
-VALIDATIONS for Duma/Reports/Duma-2019-06-24.json
+VALIDATIONS for Duma/Reports/Duma-2019-06-25.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 56, Duplicates: 0 ), File: Duma/Reports/Duma-2019-06-24.json
->> Validation of Duma/Reports/Duma-2019-06-24.json 
+Records: (All: 64, Duplicates: 0 ), File: Duma/Reports/Duma-2019-06-25.json
+>> Validation of Duma/Reports/Duma-2019-06-25.json 
+<54>  https://duma.bg/beroe-vze-vratar-ot-vtora-liga-n194521
+'text' is empty
+<<Valid records: 63 of 64

@@ -1,9 +1,11 @@
-VALIDATIONS for Faktor/Reports/Faktor-2019-06-24.json
+VALIDATIONS for Faktor/Reports/Faktor-2019-06-25.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 79, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-06-24.json
->> Validation of Faktor/Reports/Faktor-2019-06-24.json 
-<69>  https://www.faktor.bg/bg/articles/hristina-vucheva-balgariya-da-nastoyava-da-plati-iztrebitelite-f-16-pri-dostavkata-im
+Records: (All: 82, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-06-25.json
+>> Validation of Faktor/Reports/Faktor-2019-06-25.json 
+<68>  https://www.faktor.bg/bg/articles/novini/balgariya/kakvo-prichini-ogromniya-pozhar-v-tsentralata-tets-maritsa-iztok-2
 'text' is empty
-<<Valid records: 78 of 79
+<72>  https://www.faktor.bg/bg/articles/novini/balgariya/kancho-stoychev-s-prozrenie-tuk-ni-pravyat-vsichki-na-idioti-za-apartamentite
+'text' is empty
+<<Valid records: 80 of 82

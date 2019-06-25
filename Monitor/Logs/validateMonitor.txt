@@ -1,9 +1,9 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-06-23.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-06-24.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 75, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-06-23.json
->> Validation of Monitor/Reports/Monitor-2019-06-23.json 
-<23>  https://www.monitor.bg:443/bg/a/view/ch-ez-168666
+Records: (All: 86, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-06-24.json
+>> Validation of Monitor/Reports/Monitor-2019-06-24.json 
+<22>  https://www.monitor.bg:443/bg/a/view/bdj-168740
 'text' is empty
-<<Valid records: 74 of 75
+<<Valid records: 85 of 86
