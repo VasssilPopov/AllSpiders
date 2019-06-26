@@ -1,11 +1,11 @@
-VALIDATIONS for Faktor/Reports/Faktor-2019-06-25.json
+VALIDATIONS for Faktor/Reports/Faktor-2019-06-26.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 82, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-06-25.json
->> Validation of Faktor/Reports/Faktor-2019-06-25.json 
-<68>  https://www.faktor.bg/bg/articles/novini/balgariya/kakvo-prichini-ogromniya-pozhar-v-tsentralata-tets-maritsa-iztok-2
+Records: (All: 81, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-06-26.json
+>> Validation of Faktor/Reports/Faktor-2019-06-26.json 
+<53>  https://www.faktor.bg/bg/articles/medvedev-kam-karayancheva
 'text' is empty
-<72>  https://www.faktor.bg/bg/articles/novini/balgariya/kancho-stoychev-s-prozrenie-tuk-ni-pravyat-vsichki-na-idioti-za-apartamentite
+<76>  https://www.faktor.bg/bg/articles/narodnoto-sabranie-shte-obsadi-godishniya-doklad-na-visshiya-sadeben-savet
 'text' is empty
-<<Valid records: 80 of 82
+<<Valid records: 79 of 81

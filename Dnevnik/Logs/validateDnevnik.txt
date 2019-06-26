@@ -1,17 +1,25 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-24.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-25.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 72, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-24.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-06-24.json 
-<35>  https://www.dnevnik.bg/sport/2019/06/24/3929187_video_desette_nai-dobri_gola_na_rojdenika_mesi/
+Records: (All: 83, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-25.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-06-25.json 
+<10>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2019/06/25/3929874_zashto_cheshkiiat_parlament_shte_razsledva_pokupkata/
 'title' is empty
-<48>  https://www.dnevnik.bg/sviat/2019/06/24/3929386_vzriv_vuv_voenen_sklad_predizvika_trus_ot_35_v/
+<23>  https://www.dnevnik.bg/video/2019/06/25/3929875_petur_slavov_na_delata_za_ktb_ne_im_se_vijda_kraiat/
 'title' is empty
-<63>  https://www.dnevnik.bg/video/2019/06/24/3929549_hubavoe_no_e_pod_voda_video/
+<28>  https://www.dnevnik.bg/sport/2019/06/25/3929588_video_plachete_v_nachaloto_za_da_se_smeete_nakraia_-/
 'title' is empty
-<69>  https://www.dnevnik.bg/sport/2019/06/24/3929564_video_cska_vze_s_lekota_purviia_si_mach_na_avstriiska/
+<30>  https://www.dnevnik.bg/sviat/2019/06/25/3929655_spacex_zapochna_6_chasa_da_podrejda_24_sputnika_v/
 'title' is empty
-<71>  https://www.dnevnik.bg/sport/2019/06/24/3929480_video_da_biagash_kato_uragan_na_103_godini/
+<33>  https://www.dnevnik.bg/detski_dnevnik/2019/06/25/3929488_deca_mogat_da_praviat_sobstvena_animaciia_v_muzeiko/
 'title' is empty
-<<Valid records: 67 of 72
+<37>  https://www.dnevnik.bg/sport/2019/06/25/3929653_gruckoto_chudo_ianis_antetokumbo_beshe_izbran_za/
+'title' is empty
+<62>  https://www.dnevnik.bg/video/2019/06/25/3929807_kalashnikov_pokaza_purviia_si_dron-kamikadze_video/
+'title' is empty
+<72>  https://www.dnevnik.bg/video/2019/06/25/3930009_kogato_grum_udari_video/
+'title' is empty
+<80>  https://www.dnevnik.bg/sport/2019/06/25/3930045_levski_zagubi_ot_ruskiia_shampion_sled_duzpa/
+'title' is empty
+<<Valid records: 74 of 83
