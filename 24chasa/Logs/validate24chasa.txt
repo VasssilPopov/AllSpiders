@@ -1,9 +1,6 @@
-VALIDATIONS for 24chasa/Reports/24chasa-2019-06-26.json
+VALIDATIONS for 24chasa/Reports/24chasa-2019-06-27.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 112, Duplicates: 0 ), File: 24chasa/Reports/24chasa-2019-06-26.json
->> Validation of 24chasa/Reports/24chasa-2019-06-26.json 
-<91>  https://www.24chasa.bg/novini/article/7524418
-'text' is empty
-<<Valid records: 111 of 112
+Records: (All: 112, Duplicates: 0 ), File: 24chasa/Reports/24chasa-2019-06-27.json
+>> Validation of 24chasa/Reports/24chasa-2019-06-27.json 

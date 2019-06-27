@@ -1,11 +1,9 @@
-VALIDATIONS for Faktor/Reports/Faktor-2019-06-26.json
+VALIDATIONS for Faktor/Reports/Faktor-2019-06-27.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 81, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-06-26.json
->> Validation of Faktor/Reports/Faktor-2019-06-26.json 
-<53>  https://www.faktor.bg/bg/articles/medvedev-kam-karayancheva
+Records: (All: 97, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-06-27.json
+>> Validation of Faktor/Reports/Faktor-2019-06-27.json 
+<14>  https://www.faktor.bg/bg/articles/elena-bineva
 'text' is empty
-<76>  https://www.faktor.bg/bg/articles/narodnoto-sabranie-shte-obsadi-godishniya-doklad-na-visshiya-sadeben-savet
-'text' is empty
-<<Valid records: 79 of 81
+<<Valid records: 96 of 97
