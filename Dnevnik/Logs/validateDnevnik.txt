@@ -1,9 +1,11 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-26.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-28.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 83, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-26.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-06-26.json 
-<68>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2019/06/26/3930318_glavniiat_prokuror_zapoviadva_na_vsichki_prokurori_a/
+Records: (All: 77, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-28.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-06-28.json 
+<25>  https://www.dnevnik.bg/sport/2019/06/28/3931218_drama_s_duzpi_klasira_braziliia_na_polufinal_v_kopa/
 'title' is empty
-<<Valid records: 82 of 83
+<59>  https://www.dnevnik.bg/sport/2019/06/28/3931550_nikolai_mihailov_e_optimist_za_budeshteto_na_levski/
+'title' is empty
+<<Valid records: 75 of 77

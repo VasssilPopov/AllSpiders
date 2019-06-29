@@ -1,9 +1,6 @@
-VALIDATIONS for Blitz/Reports/Blitz-2019-06-27.json
+VALIDATIONS for Blitz/Reports/Blitz-2019-06-29.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 219, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-06-27.json
->> Validation of Blitz/Reports/Blitz-2019-06-27.json 
-<70>  https://blitz.bg/zdrave/zdravni-novini/spetsialist-razvencha-nay-golemite-mitove-za-krlezhite_news681742.html
-'text' is empty
-<<Valid records: 218 of 219
+Records: (All: 166, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-06-29.json
+>> Validation of Blitz/Reports/Blitz-2019-06-29.json 
