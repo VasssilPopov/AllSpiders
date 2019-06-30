@@ -1,6 +1,6 @@
-VALIDATIONS for Mediapool/Reports/Mediapool-2019-06-29.json
+VALIDATIONS for Mediapool/Reports/Mediapool-2019-06-30.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 18, Duplicates: 0 ), File: Mediapool/Reports/Mediapool-2019-06-29.json
->> Validation of Mediapool/Reports/Mediapool-2019-06-29.json 
+Records: (All: 15, Duplicates: 0 ), File: Mediapool/Reports/Mediapool-2019-06-30.json
+>> Validation of Mediapool/Reports/Mediapool-2019-06-30.json 

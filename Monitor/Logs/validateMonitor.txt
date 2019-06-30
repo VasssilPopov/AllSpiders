@@ -1,9 +1,6 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-06-28.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-06-29.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 111, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-06-28.json
->> Validation of Monitor/Reports/Monitor-2019-06-28.json 
-<63>  https://www.monitor.bg:443/bg/a/view/kurorti-169129
-'text' is empty
-<<Valid records: 110 of 111
+Records: (All: 40, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-06-29.json
+>> Validation of Monitor/Reports/Monitor-2019-06-29.json 
