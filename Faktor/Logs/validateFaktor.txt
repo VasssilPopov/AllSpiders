@@ -1,9 +1,6 @@
-VALIDATIONS for Faktor/Reports/Faktor-2019-06-30.json
+VALIDATIONS for Faktor/Reports/Faktor-2019-07-01.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 46, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-06-30.json
->> Validation of Faktor/Reports/Faktor-2019-06-30.json 
-<32>  https://www.faktor.bg/bg/articles/novini/balgariya/anketa-vyarvate-li-na-tvardeniyata-na-rumen-radev-che-samoletite-f-16-ne-sa-boyni-iztrebiteli-a-shou-samoleti
-'text' is empty
-<<Valid records: 45 of 46
+Records: (All: 79, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-07-01.json
+>> Validation of Faktor/Reports/Faktor-2019-07-01.json 

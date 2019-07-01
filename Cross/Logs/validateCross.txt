@@ -1,6 +1,6 @@
-VALIDATIONS for Cross/Reports/Cross-2019-06-29.json
+VALIDATIONS for Cross/Reports/Cross-2019-06-30.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 45, Duplicates: 0 ), File: Cross/Reports/Cross-2019-06-29.json
->> Validation of Cross/Reports/Cross-2019-06-29.json 
+Records: (All: 50, Duplicates: 0 ), File: Cross/Reports/Cross-2019-06-30.json
+>> Validation of Cross/Reports/Cross-2019-06-30.json 

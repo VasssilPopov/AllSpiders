@@ -1,6 +1,9 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-29.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-30.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 44, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-29.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-06-29.json 
+Records: (All: 41, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-30.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-06-30.json 
+<23>  https://www.dnevnik.bg/sport/2019/06/30/3931818_propusnata_duzpa_ot_luis_suares_spria_urugvai_na_kopa/
+'title' is empty
+<<Valid records: 40 of 41
