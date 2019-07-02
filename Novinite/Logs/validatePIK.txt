@@ -1,6 +1,9 @@
-VALIDATIONS for Novinite/Reports/Novinite-2019-06-30.json
+VALIDATIONS for Novinite/Reports/Novinite-2019-07-01.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 28, Duplicates: 0 ), File: Novinite/Reports/Novinite-2019-06-30.json
->> Validation of Novinite/Reports/Novinite-2019-06-30.json 
+Records: (All: 43, Duplicates: 0 ), File: Novinite/Reports/Novinite-2019-07-01.json
+>> Validation of Novinite/Reports/Novinite-2019-07-01.json 
+<18>  https://www.novinite.bg/articles/177682/Predupreditelna-stachka-zapochnaha-medicinski-sestri-v-Sliven
+'text' is empty
+<<Valid records: 42 of 43

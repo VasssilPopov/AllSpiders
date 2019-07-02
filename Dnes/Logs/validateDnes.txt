@@ -1,9 +1,9 @@
-VALIDATIONS for Dnes/Reports/Dnes-2019-07-01.json
+VALIDATIONS for Dnes/Reports/Dnes-2019-07-02.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 91, Duplicates: 0 ), File: Dnes/Reports/Dnes-2019-07-01.json
->> Validation of Dnes/Reports/Dnes-2019-07-01.json 
-<83>  https://www.dnes.bg/sofia/2019/07/01/zaplatite-na-shofiorite-v-sofiia-skachat-s-po-10-za-tri-godini.415077
+Records: (All: 93, Duplicates: 0 ), File: Dnes/Reports/Dnes-2019-07-02.json
+>> Validation of Dnes/Reports/Dnes-2019-07-02.json 
+<23>  https://www.dnes.bg/index/2019/07/02/deniat-v-snimki-2-iuli.415214
 'text' is empty
-<<Valid records: 90 of 91
+<<Valid records: 92 of 93

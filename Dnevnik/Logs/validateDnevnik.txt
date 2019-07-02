@@ -1,9 +1,9 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-30.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-01.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 41, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-30.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-06-30.json 
-<23>  https://www.dnevnik.bg/sport/2019/06/30/3931818_propusnata_duzpa_ot_luis_suares_spria_urugvai_na_kopa/
+Records: (All: 77, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-01.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-07-01.json 
+<71>  https://www.dnevnik.bg/sport/2019/07/01/3932554_bezzashtiten_levski_ponese_razgrom_ot/
 'title' is empty
-<<Valid records: 40 of 41
+<<Valid records: 76 of 77

@@ -1,9 +1,6 @@
-VALIDATIONS for Standartnews/Reports/Standartnews-2019-07-01.json
+VALIDATIONS for Standartnews/Reports/Standartnews-2019-07-02.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 29, Duplicates: 0 ), File: Standartnews/Reports/Standartnews-2019-07-01.json
->> Validation of Standartnews/Reports/Standartnews-2019-07-01.json 
-<13>  https://standartnews.com/svyat/yankite-i-red-soks-podarikha-bebeshki-ekipi-na-megan-i-khari-396045.html
-'text' is empty
-<<Valid records: 28 of 29
+Records: (All: 54, Duplicates: 0 ), File: Standartnews/Reports/Standartnews-2019-07-02.json
+>> Validation of Standartnews/Reports/Standartnews-2019-07-02.json 
