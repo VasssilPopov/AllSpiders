@@ -1,9 +1,11 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-01.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-02.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 77, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-01.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-07-01.json 
-<71>  https://www.dnevnik.bg/sport/2019/07/01/3932554_bezzashtiten_levski_ponese_razgrom_ot/
+Records: (All: 76, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-02.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-07-02.json 
+<43>  https://www.dnevnik.bg/sport/2019/07/02/3932747_video_magicheskiiat_udar_koito_pleni_uimbuldun/
 'title' is empty
-<<Valid records: 76 of 77
+<52>  https://www.dnevnik.bg/evropa/2019/07/02/3932767_video_evrodeputati_ot_partiiata_na_brekzit_oburnaha/
+'title' is empty
+<<Valid records: 74 of 76

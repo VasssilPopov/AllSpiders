@@ -1,6 +1,9 @@
-VALIDATIONS for Epicenter/Reports/Epicenter-2019-07-02.json
+VALIDATIONS for Epicenter/Reports/Epicenter-2019-07-03.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 81, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2019-07-02.json
->> Validation of Epicenter/Reports/Epicenter-2019-07-02.json 
+Records: (All: 77, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2019-07-03.json
+>> Validation of Epicenter/Reports/Epicenter-2019-07-03.json 
+<37>  http://epicenter.bg/article/Monika-Beluchi-otnovo-e-svobodna--vrazkata-y-s-Nikola-Lefevr-priklyuchi/187192/10/100
+'text' is empty
+<<Valid records: 76 of 77

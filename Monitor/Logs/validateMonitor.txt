@@ -1,11 +1,9 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-07-01.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-07-02.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 120, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-07-01.json
->> Validation of Monitor/Reports/Monitor-2019-07-01.json 
-<42>  https://www.monitor.bg:443/bg/a/view/sreshtu-kyrleji-169371
+Records: (All: 88, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-07-02.json
+>> Validation of Monitor/Reports/Monitor-2019-07-02.json 
+<29>  https://www.monitor.bg:443/bg/a/view/cvetno-ljato-169482
 'text' is empty
-<102>  https://www.monitor.bg:443/bg/a/view/djelaj-169269
-'text' is empty
-<<Valid records: 118 of 120
+<<Valid records: 87 of 88
