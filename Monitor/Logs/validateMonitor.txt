@@ -1,9 +1,11 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-07-02.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-07-03.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 88, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-07-02.json
->> Validation of Monitor/Reports/Monitor-2019-07-02.json 
-<29>  https://www.monitor.bg:443/bg/a/view/cvetno-ljato-169482
+Records: (All: 89, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-07-03.json
+>> Validation of Monitor/Reports/Monitor-2019-07-03.json 
+<27>  https://www.monitor.bg:443/bg/a/view/samoobslujvane-na-plaja-169559
 'text' is empty
-<<Valid records: 87 of 88
+<51>  https://www.monitor.bg:443/bg/a/view/zamenki-169542
+'text' is empty
+<<Valid records: 87 of 89

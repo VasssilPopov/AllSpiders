@@ -1,6 +1,6 @@
-VALIDATIONS for News/Reports/News-2019-07-02.json
+VALIDATIONS for News/Reports/News-2019-07-03.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 101, Duplicates: 0 ), File: News/Reports/News-2019-07-02.json
->> Validation of News/Reports/News-2019-07-02.json 
+Records: (All: 120, Duplicates: 0 ), File: News/Reports/News-2019-07-03.json
+>> Validation of News/Reports/News-2019-07-03.json 
