@@ -1,11 +1,9 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-07-03.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-07-04.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 89, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-07-03.json
->> Validation of Monitor/Reports/Monitor-2019-07-03.json 
-<27>  https://www.monitor.bg:443/bg/a/view/samoobslujvane-na-plaja-169559
+Records: (All: 85, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-07-04.json
+>> Validation of Monitor/Reports/Monitor-2019-07-04.json 
+<38>  https://www.monitor.bg:443/bg/a/view/pytna-policija-169640
 'text' is empty
-<51>  https://www.monitor.bg:443/bg/a/view/zamenki-169542
-'text' is empty
-<<Valid records: 87 of 89
+<<Valid records: 84 of 85

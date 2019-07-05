@@ -1,11 +1,11 @@
-2019-07-04 21:07:32 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: scrapybot)
-2019-07-04 21:07:32 [scrapy.utils.log] INFO: Overridden settings: {'SPIDER_LOADER_WARN_ONLY': True, 'FEED_URI': 'Duma/Reports/Duma-2019-07-04.json'}
-2019-07-04 21:07:32 [scrapy.middleware] INFO: Enabled extensions:
+2019-07-05 17:12:52 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: scrapybot)
+2019-07-05 17:12:52 [scrapy.utils.log] INFO: Overridden settings: {'SPIDER_LOADER_WARN_ONLY': True, 'FEED_URI': 'Duma/Reports/Duma-2019-07-05.json'}
+2019-07-05 17:12:52 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.feedexport.FeedExporter',
  'scrapy.extensions.logstats.LogStats',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.corestats.CoreStats']
-2019-07-04 21:07:33 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2019-07-05 17:12:53 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
  'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
@@ -15,34 +15,42 @@
  'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
  'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2019-07-04 21:07:33 [scrapy.middleware] INFO: Enabled spider middlewares:
+2019-07-05 17:12:53 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2019-07-04 21:07:33 [scrapy.middleware] INFO: Enabled item pipelines:
+2019-07-05 17:12:53 [scrapy.middleware] INFO: Enabled item pipelines:
 []
-2019-07-04 21:07:33 [scrapy.core.engine] INFO: Spider opened
-2019-07-04 21:07:33 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2019-07-04 21:07:33 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
-2019-07-04 21:07:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://duma.bg/?go=newspaper&p=list> (referer: None)
-2019-07-04 21:07:33 [scrapy.core.engine] INFO: Closing spider (finished)
-2019-07-04 21:07:33 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 225,
- 'downloader/request_count': 1,
- 'downloader/request_method_count/GET': 1,
- 'downloader/response_bytes': 85639,
- 'downloader/response_count': 1,
- 'downloader/response_status_count/200': 1,
+2019-07-05 17:12:53 [scrapy.core.engine] INFO: Spider opened
+2019-07-05 17:12:53 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-07-05 17:12:53 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2019-07-05 17:12:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://duma.bg/?go=newspaper&p=list> (referer: None)
+2019-07-05 17:12:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://duma.bg/?go=newspaper&p=list&year=2019&month=07&day=05&page=2> (referer: https://duma.bg/?go=newspaper&p=list)
+2019-07-05 17:12:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://duma.bg/?go=newspaper&p=list&year=2019&month=7&day=5&page=3> (referer: https://duma.bg/?go=newspaper&p=list&year=2019&month=07&day=05&page=2)
+2019-07-05 17:12:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://duma.bg/?go=newspaper&p=list&year=2019&month=7&day=5&page=4> (referer: https://duma.bg/?go=newspaper&p=list&year=2019&month=7&day=5&page=3)
+2019-07-05 17:12:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://duma.bg/?go=newspaper&p=list&year=2019&month=7&day=5&page=5> (referer: https://duma.bg/?go=newspaper&p=list&year=2019&month=7&day=5&page=4)
+2019-07-05 17:12:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://duma.bg/?go=newspaper&p=list&year=2019&month=7&day=5&page=6> (referer: https://duma.bg/?go=newspaper&p=list&year=2019&month=7&day=5&page=5)
+2019-07-05 17:12:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://duma.bg/?go=newspaper&p=list&year=2019&month=7&day=5&page=7> (referer: https://duma.bg/?go=newspaper&p=list&year=2019&month=7&day=5&page=6)
+2019-07-05 17:12:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://duma.bg/?go=newspaper&p=list&year=2019&month=7&day=5&page=8> (referer: https://duma.bg/?go=newspaper&p=list&year=2019&month=7&day=5&page=7)
+2019-07-05 17:12:55 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-07-05 17:12:55 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2536,
+ 'downloader/request_count': 8,
+ 'downloader/request_method_count/GET': 8,
+ 'downloader/response_bytes': 678657,
+ 'downloader/response_count': 8,
+ 'downloader/response_status_count/200': 8,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2019, 7, 4, 19, 7, 33, 882000),
- 'log_count/DEBUG': 2,
+ 'finish_time': datetime.datetime(2019, 7, 5, 15, 12, 55, 380000),
+ 'log_count/DEBUG': 9,
  'log_count/INFO': 7,
- 'response_received_count': 1,
- 'scheduler/dequeued': 1,
- 'scheduler/dequeued/memory': 1,
- 'scheduler/enqueued': 1,
- 'scheduler/enqueued/memory': 1,
- 'start_time': datetime.datetime(2019, 7, 4, 19, 7, 33, 441000)}
-2019-07-04 21:07:33 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'request_depth_max': 7,
+ 'response_received_count': 8,
+ 'scheduler/dequeued': 8,
+ 'scheduler/dequeued/memory': 8,
+ 'scheduler/enqueued': 8,
+ 'scheduler/enqueued/memory': 8,
+ 'start_time': datetime.datetime(2019, 7, 5, 15, 12, 53, 332000)}
+2019-07-05 17:12:55 [scrapy.core.engine] INFO: Spider closed (finished)

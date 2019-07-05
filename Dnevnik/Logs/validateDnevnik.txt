@@ -1,11 +1,9 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-03.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-04.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 90, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-03.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-07-03.json 
-<32>  https://www.dnevnik.bg/sport/2019/07/03/3933176_efektivna_braziliia_ukroti_arjentina_i_stigna_finala/
+Records: (All: 77, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-04.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-07-04.json 
+<31>  https://www.dnevnik.bg/video/2019/07/04/3933668_video_45_000_buchvi_s_burbun_izgoriaha_v_sasht/
 'title' is empty
-<85>  https://www.dnevnik.bg/sport/2019/07/03/3933561_video_kogato_david_pobedi_goliat/
-'title' is empty
-<<Valid records: 88 of 90
+<<Valid records: 76 of 77

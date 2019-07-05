@@ -1,11 +1,11 @@
-2019-07-04 20:51:46 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: scrapybot)
-2019-07-04 20:51:46 [scrapy.utils.log] INFO: Overridden settings: {'SPIDER_LOADER_WARN_ONLY': True, 'FEED_URI': 'Standartnews/Reports/Standartnews-2019-07-04.json'}
-2019-07-04 20:51:47 [scrapy.middleware] INFO: Enabled extensions:
+2019-07-05 20:05:11 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: scrapybot)
+2019-07-05 20:05:11 [scrapy.utils.log] INFO: Overridden settings: {'SPIDER_LOADER_WARN_ONLY': True, 'FEED_URI': 'Standartnews/Reports/Standartnews-2019-07-05.json'}
+2019-07-05 20:05:12 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.feedexport.FeedExporter',
  'scrapy.extensions.logstats.LogStats',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.corestats.CoreStats']
-2019-07-04 20:51:48 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2019-07-05 20:05:14 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
  'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
@@ -16,51 +16,51 @@
  'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2019-07-04 20:51:48 [scrapy.middleware] INFO: Enabled spider middlewares:
+2019-07-05 20:05:14 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2019-07-04 20:51:48 [scrapy.middleware] INFO: Enabled item pipelines:
+2019-07-05 20:05:14 [scrapy.middleware] INFO: Enabled item pipelines:
 []
-2019-07-04 20:51:48 [scrapy.core.engine] INFO: Spider opened
-2019-07-04 20:51:48 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2019-07-04 20:51:48 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
-2019-07-04 20:51:48 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/balgariya.html> from <GET http://standartnews.com/balgariya.html>
-2019-07-04 20:51:48 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/mneniya.html> from <GET http://standartnews.com/mneniya.html>
-2019-07-04 20:51:48 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/lyubopitno.html> from <GET http://standartnews.com/lyubopitno.html>
-2019-07-04 20:51:48 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/biznes.html> from <GET http://standartnews.com/biznes.html>
-2019-07-04 20:51:48 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.standartnews.com/sport.html> from <GET http://www.standartnews.com/sport.html>
-2019-07-04 20:51:48 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/sport.html> from <GET http://standartnews.com/sport.html>
-2019-07-04 20:51:48 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/kultura.html> from <GET http://standartnews.com/kultura.html>
-2019-07-04 20:51:48 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/svyat.html> from <GET http://standartnews.com/svyat.html>
-2019-07-04 20:51:48 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.standartnews.com/chudesata_na_balgariya.html> from <GET http://www.standartnews.com/chudesata_na_balgariya.html>
-2019-07-04 20:51:48 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/regionalni.html> from <GET http://standartnews.com/regionalni.html>
-2019-07-04 20:51:49 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://standartnews.com/lyubopitno.html> (referer: None)
-2019-07-04 20:51:49 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://standartnews.com/lyubopitno.html>: HTTP status code is not handled or not allowed
-2019-07-04 20:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/biznes.html> (referer: None)
-2019-07-04 20:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/sport.html> (referer: None)
-2019-07-04 20:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/kultura.html> (referer: None)
-2019-07-04 20:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/regionalni.html> (referer: None)
-2019-07-04 20:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/svyat.html> (referer: None)
-2019-07-04 20:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.standartnews.com/lifestyle.html> (referer: None)
-2019-07-04 20:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.standartnews.com/chudesata_na_balgariya.html> (referer: None)
-2019-07-04 20:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/mneniya.html> (referer: None)
-2019-07-04 20:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.standartnews.com/sport.html> (referer: None)
-2019-07-04 20:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/balgariya.html> (referer: None)
-2019-07-04 20:51:50 [scrapy.core.engine] INFO: Closing spider (finished)
-2019-07-04 20:51:50 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+2019-07-05 20:05:14 [scrapy.core.engine] INFO: Spider opened
+2019-07-05 20:05:14 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-07-05 20:05:14 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2019-07-05 20:05:14 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/kultura.html> from <GET http://standartnews.com/kultura.html>
+2019-07-05 20:05:14 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/balgariya.html> from <GET http://standartnews.com/balgariya.html>
+2019-07-05 20:05:14 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/biznes.html> from <GET http://standartnews.com/biznes.html>
+2019-07-05 20:05:14 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/regionalni.html> from <GET http://standartnews.com/regionalni.html>
+2019-07-05 20:05:14 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/svyat.html> from <GET http://standartnews.com/svyat.html>
+2019-07-05 20:05:14 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/sport.html> from <GET http://standartnews.com/sport.html>
+2019-07-05 20:05:14 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/lyubopitno.html> from <GET http://standartnews.com/lyubopitno.html>
+2019-07-05 20:05:14 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/mneniya.html> from <GET http://standartnews.com/mneniya.html>
+2019-07-05 20:05:14 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.standartnews.com/chudesata_na_balgariya.html> from <GET http://www.standartnews.com/chudesata_na_balgariya.html>
+2019-07-05 20:05:14 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.standartnews.com/sport.html> from <GET http://www.standartnews.com/sport.html>
+2019-07-05 20:05:15 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://standartnews.com/lyubopitno.html> (referer: None)
+2019-07-05 20:05:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://standartnews.com/lyubopitno.html>: HTTP status code is not handled or not allowed
+2019-07-05 20:05:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/regionalni.html> (referer: None)
+2019-07-05 20:05:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/biznes.html> (referer: None)
+2019-07-05 20:05:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.standartnews.com/lifestyle.html> (referer: None)
+2019-07-05 20:05:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/kultura.html> (referer: None)
+2019-07-05 20:05:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/svyat.html> (referer: None)
+2019-07-05 20:05:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/sport.html> (referer: None)
+2019-07-05 20:05:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/balgariya.html> (referer: None)
+2019-07-05 20:05:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.standartnews.com/sport.html> (referer: None)
+2019-07-05 20:05:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.standartnews.com/chudesata_na_balgariya.html> (referer: None)
+2019-07-05 20:05:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/mneniya.html> (referer: None)
+2019-07-05 20:05:15 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-07-05 20:05:15 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
 {'downloader/request_bytes': 4800,
  'downloader/request_count': 21,
  'downloader/request_method_count/GET': 21,
- 'downloader/response_bytes': 464139,
+ 'downloader/response_bytes': 464925,
  'downloader/response_count': 21,
  'downloader/response_status_count/200': 10,
  'downloader/response_status_count/301': 10,
  'downloader/response_status_count/404': 1,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2019, 7, 4, 18, 51, 50, 336000),
+ 'finish_time': datetime.datetime(2019, 7, 5, 18, 5, 15, 924000),
  'log_count/DEBUG': 22,
  'log_count/INFO': 8,
  'response_received_count': 11,
@@ -68,5 +68,5 @@
  'scheduler/dequeued/memory': 21,
  'scheduler/enqueued': 21,
  'scheduler/enqueued/memory': 21,
- 'start_time': datetime.datetime(2019, 7, 4, 18, 51, 48, 308000)}
-2019-07-04 20:51:50 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'start_time': datetime.datetime(2019, 7, 5, 18, 5, 14, 242000)}
+2019-07-05 20:05:15 [scrapy.core.engine] INFO: Spider closed (finished)
