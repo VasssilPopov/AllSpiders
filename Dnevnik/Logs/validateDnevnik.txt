@@ -1,11 +1,9 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-06-28.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-04.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 77, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-06-28.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-06-28.json 
-<25>  https://www.dnevnik.bg/sport/2019/06/28/3931218_drama_s_duzpi_klasira_braziliia_na_polufinal_v_kopa/
+Records: (All: 77, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-04.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-07-04.json 
+<31>  https://www.dnevnik.bg/video/2019/07/04/3933668_video_45_000_buchvi_s_burbun_izgoriaha_v_sasht/
 'title' is empty
-<59>  https://www.dnevnik.bg/sport/2019/06/28/3931550_nikolai_mihailov_e_optimist_za_budeshteto_na_levski/
-'title' is empty
-<<Valid records: 75 of 77
+<<Valid records: 76 of 77
