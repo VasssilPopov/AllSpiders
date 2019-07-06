@@ -1,9 +1,6 @@
-VALIDATIONS for Faktor/Reports/Faktor-2019-07-05.json
+VALIDATIONS for Faktor/Reports/Faktor-2019-07-06.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 84, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-07-05.json
->> Validation of Faktor/Reports/Faktor-2019-07-05.json 
-<49>  https://www.faktor.bg/bg/articles/anketa-dobar-znak-li-e-izbora-na-emil-koshlukov-za-generalen-direktor-na-bnt
-'text' is empty
-<<Valid records: 83 of 84
+Records: (All: 37, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-07-06.json
+>> Validation of Faktor/Reports/Faktor-2019-07-06.json 
