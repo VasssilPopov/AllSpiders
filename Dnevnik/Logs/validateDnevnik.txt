@@ -1,11 +1,6 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-05.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-06.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 83, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-05.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-07-05.json 
-<19>  https://www.dnevnik.bg/sport/2019/07/05/3934175_tozi_fantastichen_tozi_neveroiaten_bobi_mihailov_25/
-'title' is empty
-<67>  https://www.dnevnik.bg/sport/2019/07/05/3934647_video_zlatan_s_kodovoto_ime_irbahimovich/
-'title' is empty
-<<Valid records: 81 of 83
+Records: (All: 46, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-06.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-07-06.json 
