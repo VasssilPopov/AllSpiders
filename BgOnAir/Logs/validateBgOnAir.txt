@@ -1,2 +1,2 @@
-VALIDATIONS for BgOnAir/Reports/BgOnAir-2019-07-07.json
+VALIDATIONS for BgOnAir/Reports/BgOnAir-2019-07-08.json
 

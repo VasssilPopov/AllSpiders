@@ -1,6 +1,11 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-06.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-07.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 46, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-06.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-07-06.json 
+Records: (All: 41, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-07.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-07-07.json 
+<1>  https://www.dnevnik.bg/sport/2019/07/07/3935261_video_nai-dobrite_udari_ot_purvata_sedmica_na_uimbuldun/
+'title' is empty
+<31>  https://www.dnevnik.bg/sport/2019/07/07/3934750_video_stote_godini_na_jultata_flanelka_-_emblemata_na/
+'title' is empty
+<<Valid records: 39 of 41

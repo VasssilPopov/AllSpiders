@@ -1,6 +1,9 @@
-VALIDATIONS for Epicenter/Reports/Epicenter-2019-07-07.json
+VALIDATIONS for Epicenter/Reports/Epicenter-2019-07-08.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 49, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2019-07-07.json
->> Validation of Epicenter/Reports/Epicenter-2019-07-07.json 
+Records: (All: 57, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2019-07-08.json
+>> Validation of Epicenter/Reports/Epicenter-2019-07-08.json 
+<10>  http://epicenter.bg/article/Spetsialni-predlozheniya-ot-ZORA/187498/4/0
+'text' is empty
+<<Valid records: 56 of 57
