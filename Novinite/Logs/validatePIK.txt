@@ -1,11 +1,6 @@
-VALIDATIONS for Novinite/Reports/Novinite-2019-07-07.json
+VALIDATIONS for Novinite/Reports/Novinite-2019-07-08.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 37, Duplicates: 0 ), File: Novinite/Reports/Novinite-2019-07-07.json
->> Validation of Novinite/Reports/Novinite-2019-07-07.json 
-<6>  https://www.novinite.bg/articles/177898/Otkriha-trupove-na-kravi-kraj-Obzor-i-Ahtopol
-'text' is empty
-<27>  https://www.novinite.bg/articles/177876/TIR-se-obarna-na-glaven-pat-Sofiya-Varna-v-mestnostta-Boaza
-'text' is empty
-<<Valid records: 35 of 37
+Records: (All: 30, Duplicates: 0 ), File: Novinite/Reports/Novinite-2019-07-08.json
+>> Validation of Novinite/Reports/Novinite-2019-07-08.json 

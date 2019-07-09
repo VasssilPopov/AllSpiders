@@ -1,11 +1,11 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-07.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-08.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 41, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-07.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-07-07.json 
-<1>  https://www.dnevnik.bg/sport/2019/07/07/3935261_video_nai-dobrite_udari_ot_purvata_sedmica_na_uimbuldun/
+Records: (All: 81, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-08.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-07-08.json 
+<13>  https://www.dnevnik.bg/video/2019/07/08/3935367_danail_kirilov_djurka_vks_s_bial_haker_video/
 'title' is empty
-<31>  https://www.dnevnik.bg/sport/2019/07/07/3934750_video_stote_godini_na_jultata_flanelka_-_emblemata_na/
+<57>  https://www.dnevnik.bg/sport/2019/07/08/3935555_grisha_ganchev_razbrahme_se_da_pobedi_nai-dobriiat/
 'title' is empty
-<<Valid records: 39 of 41
+<<Valid records: 79 of 81
