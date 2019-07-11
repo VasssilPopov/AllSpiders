@@ -1,11 +1,11 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-08.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-10.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 81, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-08.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-07-08.json 
-<13>  https://www.dnevnik.bg/video/2019/07/08/3935367_danail_kirilov_djurka_vks_s_bial_haker_video/
+Records: (All: 89, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-10.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-07-10.json 
+<7>  https://www.dnevnik.bg/sport/2019/07/10/3936712_rolnaldo_i_purvata_mu_godina_v_juventus_-_golove_pod/
 'title' is empty
-<57>  https://www.dnevnik.bg/sport/2019/07/08/3935555_grisha_ganchev_razbrahme_se_da_pobedi_nai-dobriiat/
+<81>  https://www.dnevnik.bg/sport/2019/07/10/3936733_video_l_kato_levski/
 'title' is empty
-<<Valid records: 79 of 81
+<<Valid records: 87 of 89

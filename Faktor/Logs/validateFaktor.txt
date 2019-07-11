@@ -1,6 +1,15 @@
-VALIDATIONS for Faktor/Reports/Faktor-2019-07-09.json
+VALIDATIONS for Faktor/Reports/Faktor-2019-07-11.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 84, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-07-09.json
->> Validation of Faktor/Reports/Faktor-2019-07-09.json 
+Records: (All: 86, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-07-11.json
+>> Validation of Faktor/Reports/Faktor-2019-07-11.json 
+<52>  https://www.faktor.bg/bg/articles/ataka-poiska-reshenieto-za-svalyaneto-na-volen-siderov-da-bade-zalicheno
+'text' is empty
+<54>  https://www.faktor.bg/bg/articles/ot-toplofikatsiya-otkriha-rimsko-zhilishte-i-dreven-grob
+'text' is empty
+<70>  https://www.faktor.bg/bg/articles/evropeyska-obedinena-levitsa-levitsa-nyama-da-podkrepi-ursula-fon-der-layen-za-predsedatel-na-ek
+'text' is empty
+<84>  https://www.faktor.bg/bg/articles/strashna-burya-udari-halkidiki-6-dushi-sa-zaginali-poveche-ot-100-sa-postradali
+'text' is empty
+<<Valid records: 82 of 86

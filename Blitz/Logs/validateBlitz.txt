@@ -1,15 +1,11 @@
-VALIDATIONS for Blitz/Reports/Blitz-2019-07-09.json
+VALIDATIONS for Blitz/Reports/Blitz-2019-07-11.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 219, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-07-09.json
->> Validation of Blitz/Reports/Blitz-2019-07-09.json 
-<8>  https://blitz.bg/zdrave/zdravni-novini/koi-mlechni-produkti-sa-polezni_news684249.html
+Records: (All: 196, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-07-11.json
+>> Validation of Blitz/Reports/Blitz-2019-07-11.json 
+<12>  https://blitz.bg/kriminalni/nakazanie/sdt-poseche-nay-izvestniya-ubiets-v-blgariya_news684851.html
 'text' is empty
-<9>  https://blitz.bg/zdrave/zdravni-novini/7-pravila-za-krasiva-kosa-prez-lyatoto_news684251.html
+<27>  https://blitz.bg/zdrave/eksperti-preporchakha-kolko-chesto-da-perem-charshafite_news684551.html
 'text' is empty
-<11>  https://blitz.bg/zdrave/zdravni-novini/konsultatsiya-dlzha-li-taksa-za-otstranyavane-na-krlezh_news684362.html
-'text' is empty
-<67>  https://blitz.bg/lyubopitno/dzhadzhi/samsung-galaxy-a80-veche-v-magazinite-na-vivacom_news684389.html
-'text' is empty
-<<Valid records: 215 of 219
+<<Valid records: 194 of 196

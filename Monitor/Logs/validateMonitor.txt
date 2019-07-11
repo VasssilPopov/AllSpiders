@@ -1,9 +1,9 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-07-08.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-07-10.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 119, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-07-08.json
->> Validation of Monitor/Reports/Monitor-2019-07-08.json 
-<72>  https://www.monitor.bg:443/bg/a/view/balkoning-169928
+Records: (All: 116, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-07-10.json
+>> Validation of Monitor/Reports/Monitor-2019-07-10.json 
+<24>  https://www.monitor.bg:443/bg/a/view/glarus-ot-nap-170190
 'text' is empty
-<<Valid records: 118 of 119
+<<Valid records: 115 of 116

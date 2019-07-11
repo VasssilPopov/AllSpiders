@@ -53,7 +53,7 @@ class BgOnAirSpider(scrapy.Spider):
             return 'page='+str(ind+1)
 
     def nextPageUrl(self, npUrl):
-        if npUrl.find('?')>-1:
+        if (npUrl.find('?')>-1):
             return npUrl.split('?')[0]+'?'+nextPage(npUrl.split('?')[1])
         else:
             return npUrl.split('?')[0]+'?page=2'

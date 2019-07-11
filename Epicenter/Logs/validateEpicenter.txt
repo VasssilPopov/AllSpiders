@@ -1,9 +1,6 @@
-VALIDATIONS for Epicenter/Reports/Epicenter-2019-07-09.json
+VALIDATIONS for Epicenter/Reports/Epicenter-2019-07-11.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 73, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2019-07-09.json
->> Validation of Epicenter/Reports/Epicenter-2019-07-09.json 
-<1>  http://epicenter.bg/article/Nad-600-dushi-ot-obshtina-Momchilgrad-shte-badat-izsledvani-bezplatno/187639/2/0
-'text' is empty
-<<Valid records: 72 of 73
+Records: (All: 87, Duplicates: 0 ), File: Epicenter/Reports/Epicenter-2019-07-11.json
+>> Validation of Epicenter/Reports/Epicenter-2019-07-11.json 
