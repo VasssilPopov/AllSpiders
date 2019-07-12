@@ -1,11 +1,9 @@
-VALIDATIONS for Blitz/Reports/Blitz-2019-07-11.json
+VALIDATIONS for Blitz/Reports/Blitz-2019-07-12.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 196, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-07-11.json
->> Validation of Blitz/Reports/Blitz-2019-07-11.json 
-<12>  https://blitz.bg/kriminalni/nakazanie/sdt-poseche-nay-izvestniya-ubiets-v-blgariya_news684851.html
+Records: (All: 202, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-07-12.json
+>> Validation of Blitz/Reports/Blitz-2019-07-12.json 
+<157>  https://blitz.bg/zdrave/eksperti-preporchakha-kolko-chesto-da-perem-charshafite_news684551.html
 'text' is empty
-<27>  https://blitz.bg/zdrave/eksperti-preporchakha-kolko-chesto-da-perem-charshafite_news684551.html
-'text' is empty
-<<Valid records: 194 of 196
+<<Valid records: 201 of 202

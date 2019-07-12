@@ -1,11 +1,6 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-10.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-11.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 89, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-10.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-07-10.json 
-<7>  https://www.dnevnik.bg/sport/2019/07/10/3936712_rolnaldo_i_purvata_mu_godina_v_juventus_-_golove_pod/
-'title' is empty
-<81>  https://www.dnevnik.bg/sport/2019/07/10/3936733_video_l_kato_levski/
-'title' is empty
-<<Valid records: 87 of 89
+Records: (All: 87, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-11.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-07-11.json 

@@ -1,9 +1,6 @@
-VALIDATIONS for BNews/Reports/BNews-2019-07-10.json
+VALIDATIONS for BNews/Reports/BNews-2019-07-11.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 25, Duplicates: 0 ), File: BNews/Reports/BNews-2019-07-10.json
->> Validation of BNews/Reports/BNews-2019-07-10.json 
-<8>  http://www.bnews.bg/article/262099-dimitar_bayraktarov_informatsiyata_za_parite_dadeni_ot_vlastta_na_mediite_nyama_nishto_obshto_s_istinata_skandalni_dokumenti
-'text' is empty
-<<Valid records: 24 of 25
+Records: (All: 25, Duplicates: 0 ), File: BNews/Reports/BNews-2019-07-11.json
+>> Validation of BNews/Reports/BNews-2019-07-11.json 
