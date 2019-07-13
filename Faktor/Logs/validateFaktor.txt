@@ -1,13 +1,6 @@
-VALIDATIONS for Faktor/Reports/Faktor-2019-07-12.json
+VALIDATIONS for Faktor/Reports/Faktor-2019-07-13.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 72, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-07-12.json
->> Validation of Faktor/Reports/Faktor-2019-07-12.json 
-<39>  https://www.faktor.bg/bg/articles/kabinetat-emitira-oshte-200-miliona-leva-za-pokupkata-na-f-16
-'text' is empty
-<55>  https://www.faktor.bg/bg/articles/ataka-zapochva-vsekidnevno-da-vnasya-iskane-za-svikvane-na-koalitsionniya-savet-na-op
-'text' is empty
-<57>  https://www.faktor.bg/bg/articles/industrialniyat-kapital
-'text' is empty
-<<Valid records: 69 of 72
+Records: (All: 41, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-07-13.json
+>> Validation of Faktor/Reports/Faktor-2019-07-13.json 

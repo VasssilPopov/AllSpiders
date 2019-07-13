@@ -1,13 +1,9 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-07-11.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-07-12.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 88, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-07-11.json
->> Validation of Monitor/Reports/Monitor-2019-07-11.json 
-<8>  https://www.monitor.bg:443/bg/a/view/studenti-170285
+Records: (All: 81, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-07-12.json
+>> Validation of Monitor/Reports/Monitor-2019-07-12.json 
+<31>  https://www.monitor.bg:443/bg/a/view/kopyrka-170354
 'text' is empty
-<45>  https://www.monitor.bg:443/bg/a/view/sedmoklasnik-ot-smg-s-anuliran-izpit-po-matematika-170244
-'text' is empty
-<60>  https://www.monitor.bg:443/bg/a/view/836-kandidat-gimnazisti-v-stolicata-chakat-vtoro-klasirane-170241
-'text' is empty
-<<Valid records: 85 of 88
+<<Valid records: 80 of 81
