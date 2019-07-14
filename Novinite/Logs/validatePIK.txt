@@ -1,6 +1,6 @@
-VALIDATIONS for Novinite/Reports/Novinite-2019-07-12.json
+VALIDATIONS for Novinite/Reports/Novinite-2019-07-13.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 38, Duplicates: 0 ), File: Novinite/Reports/Novinite-2019-07-12.json
->> Validation of Novinite/Reports/Novinite-2019-07-12.json 
+Records: (All: 15, Duplicates: 0 ), File: Novinite/Reports/Novinite-2019-07-13.json
+>> Validation of Novinite/Reports/Novinite-2019-07-13.json 

@@ -1,9 +1,6 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-07-12.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-07-13.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 81, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-07-12.json
->> Validation of Monitor/Reports/Monitor-2019-07-12.json 
-<31>  https://www.monitor.bg:443/bg/a/view/kopyrka-170354
-'text' is empty
-<<Valid records: 80 of 81
+Records: (All: 46, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-07-13.json
+>> Validation of Monitor/Reports/Monitor-2019-07-13.json 
