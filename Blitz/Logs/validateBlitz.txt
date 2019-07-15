@@ -1,6 +1,11 @@
-VALIDATIONS for Blitz/Reports/Blitz-2019-07-14.json
+VALIDATIONS for Blitz/Reports/Blitz-2019-07-15.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 151, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-07-14.json
->> Validation of Blitz/Reports/Blitz-2019-07-14.json 
+Records: (All: 212, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-07-15.json
+>> Validation of Blitz/Reports/Blitz-2019-07-15.json 
+<5>  https://blitz.bg/zdrave/zdravni-novini/lekari-posochikha-simptomite-na-vnezapnata-smrt_news685449.html
+'text' is empty
+<30>  https://blitz.bg/zdrave/zdravni-novini/konsultatsiya-imam-li-pravo-na-rekhabilitatsiya-sled-izkaran-insult_news685596.html
+'text' is empty
+<<Valid records: 210 of 212
