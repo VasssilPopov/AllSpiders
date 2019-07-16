@@ -1,6 +1,9 @@
-VALIDATIONS for Actualno/Reports/Actualno-2019-07-14.json
+VALIDATIONS for Actualno/Reports/Actualno-2019-07-15.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 44, Duplicates: 0 ), File: Actualno/Reports/Actualno-2019-07-14.json
->> Validation of Actualno/Reports/Actualno-2019-07-14.json 
+Records: (All: 117, Duplicates: 0 ), File: Actualno/Reports/Actualno-2019-07-15.json
+>> Validation of Actualno/Reports/Actualno-2019-07-15.json 
+<40>  https://www.actualno.com/curious/kimbino-eko-bydeshteto-na-pazaruvaneto-news_768622.html
+'text' is empty
+<<Valid records: 116 of 117

@@ -1,9 +1,11 @@
-VALIDATIONS for Novinite/Reports/Novinite-2019-07-14.json
+VALIDATIONS for Novinite/Reports/Novinite-2019-07-15.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 30, Duplicates: 0 ), File: Novinite/Reports/Novinite-2019-07-14.json
->> Validation of Novinite/Reports/Novinite-2019-07-14.json 
-<15>  https://www.novinite.bg/articles/178094/V-Levski-protestirat-zaradi-uvolnen-sveshtenik
+Records: (All: 35, Duplicates: 0 ), File: Novinite/Reports/Novinite-2019-07-15.json
+>> Validation of Novinite/Reports/Novinite-2019-07-15.json 
+<17>  https://www.novinite.bg/articles/178122/Otkriha-za-parvi-pat-meso-zarazeno-s-afrikanska-chuma-vav-Velikobritaniya
 'text' is empty
-<<Valid records: 29 of 30
+<23>  https://www.novinite.bg/articles/178126/V-Starozagorsko-tokovi-udari-sasipaha-bitovata-tehnika-na-horata
+'text' is empty
+<<Valid records: 33 of 35

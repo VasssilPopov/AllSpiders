@@ -1,6 +1,9 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-14.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-15.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 43, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-14.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-07-14.json 
+Records: (All: 78, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-15.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-07-15.json 
+<70>  https://www.dnevnik.bg/video/2019/07/15/3938683_video_vuorujen_izobretatel_smaia_hiliadi_francuzi_kato/
+'title' is empty
+<<Valid records: 77 of 78

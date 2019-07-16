@@ -1,9 +1,6 @@
-VALIDATIONS for Focus/Reports/Focus-2019-07-14.json
+VALIDATIONS for Focus/Reports/Focus-2019-07-15.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 214, Duplicates: 0 ), File: Focus/Reports/Focus-2019-07-14.json
->> Validation of Focus/Reports/Focus-2019-07-14.json 
-<179>  http://www.focus-news.net/news/2019/07/14/2680204/predstoyashti-mezhdunarodni-sabitiya-za-15-yuli-agentsiya-fokus.html
-'text' is shorter than 8
-<<Valid records: 213 of 214
+Records: (All: 315, Duplicates: 0 ), File: Focus/Reports/Focus-2019-07-15.json
+>> Validation of Focus/Reports/Focus-2019-07-15.json 

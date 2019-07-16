@@ -1,13 +1,11 @@
-VALIDATIONS for Faktor/Reports/Faktor-2019-07-15.json
+VALIDATIONS for Faktor/Reports/Faktor-2019-07-16.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 77, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-07-15.json
->> Validation of Faktor/Reports/Faktor-2019-07-15.json 
-<38>  https://www.faktor.bg/bg/articles/ministarka-na-zhan-videnov-skochi-sreshtu-demonopolizatsiyata-na-zdravnata-kasa
+Records: (All: 93, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-07-16.json
+>> Validation of Faktor/Reports/Faktor-2019-07-16.json 
+<68>  https://www.faktor.bg/bg/articles/sasht-i-rusiya-glasyat-novo-tristranno-yadreno-sporazumenie-s-kitay
 'text' is empty
-<44>  https://www.faktor.bg/bg/articles/ekspert-ako-kandidaturata-na-ursula-fon-der-layen-za-glava-na-ek-se-provali-to-veroyatno-golyamata-koalitsiya-v-germaniya-shte-se-razpadne
+<74>  https://www.faktor.bg/bg/articles/ursula-fon-der-layen
 'text' is empty
-<67>  https://www.faktor.bg/bg/articles/evropeyskiyat-parlament-zapochva-plenarnata-si-sesiya
-'text' is empty
-<<Valid records: 74 of 77
+<<Valid records: 91 of 93
