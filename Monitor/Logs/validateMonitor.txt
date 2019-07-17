@@ -1,9 +1,6 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-07-15.json
+VALIDATIONS for Monitor/Reports/Monitor-2019-07-16.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 101, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-07-15.json
->> Validation of Monitor/Reports/Monitor-2019-07-15.json 
-<65>  https://www.monitor.bg:443/bg/a/view/v-novinite-170539
-'text' is empty
-<<Valid records: 100 of 101
+Records: (All: 94, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-07-16.json
+>> Validation of Monitor/Reports/Monitor-2019-07-16.json 

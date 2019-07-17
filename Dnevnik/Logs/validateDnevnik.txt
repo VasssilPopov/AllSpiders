@@ -1,9 +1,11 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-15.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-16.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 78, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-15.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-07-15.json 
-<70>  https://www.dnevnik.bg/video/2019/07/15/3938683_video_vuorujen_izobretatel_smaia_hiliadi_francuzi_kato/
+Records: (All: 85, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-16.json
+>> Validation of Dnevnik/Reports/Dnevnik-2019-07-16.json 
+<32>  https://www.dnevnik.bg/sport/2019/07/16/3938823_hubchev_dva_macha_niama_kak_da_ni_zabludiat_triabvat/
 'title' is empty
-<<Valid records: 77 of 78
+<43>  https://www.dnevnik.bg/sport/2019/07/16/3938851_ne_migaite_red_bul_i_nai-burziiat_pitstop_v_istoriiata/
+'title' is empty
+<<Valid records: 83 of 85

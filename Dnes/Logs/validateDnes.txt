@@ -1,11 +1,9 @@
-VALIDATIONS for Dnes/Reports/Dnes-2019-07-16.json
+VALIDATIONS for Dnes/Reports/Dnes-2019-07-17.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 98, Duplicates: 0 ), File: Dnes/Reports/Dnes-2019-07-16.json
->> Validation of Dnes/Reports/Dnes-2019-07-16.json 
-<19>  https://www.dnes.bg/stranata/2019/07/16/utre-shte-e-slynchevo-no-pak-moje-da-vali.416620
+Records: (All: 95, Duplicates: 0 ), File: Dnes/Reports/Dnes-2019-07-17.json
+>> Validation of Dnes/Reports/Dnes-2019-07-17.json 
+<20>  https://www.dnes.bg/index/2019/07/17/deniat-v-snimki-17-iuli.416742
 'text' is empty
-<21>  https://www.dnes.bg/index/2019/07/16/deniat-v-snimki-16-iuli.416630
-'text' is empty
-<<Valid records: 96 of 98
+<<Valid records: 94 of 95

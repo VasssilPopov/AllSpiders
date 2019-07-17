@@ -1,15 +1,11 @@
-VALIDATIONS for Blitz/Reports/Blitz-2019-07-16.json
+VALIDATIONS for Blitz/Reports/Blitz-2019-07-17.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 213, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-07-16.json
->> Validation of Blitz/Reports/Blitz-2019-07-16.json 
-<23>  https://blitz.bg/zdrave/zdravni-novini/kolko-meso-mozhe-da-yadem-dnevno-za-da-ne-poluchim-rak_news685748.html
+Records: (All: 224, Duplicates: 0 ), File: Blitz/Reports/Blitz-2019-07-17.json
+>> Validation of Blitz/Reports/Blitz-2019-07-17.json 
+<73>  https://blitz.bg/zdrave/zdravni-novini/lekari-posochikha-simptomite-na-vnezapnata-smrt_news685449.html
 'text' is empty
-<49>  https://blitz.bg/zdrave/zdravni-novini/kakvo-da-pravim-ako-nasekomo-vleze-v-ukhoto-ni_news685763.html
+<79>  https://blitz.bg/zdrave/zdravni-novini/kakvo-da-pravim-ako-nasekomo-vleze-v-ukhoto-ni_news685763.html
 'text' is empty
-<52>  https://blitz.bg/zdrave/zdravni-novini/konsultatsiya-zashcho-ne-moga-da-si-platya-za-doplnitelni-izsledvaniya-v-bolnitsata_news685831.html
-'text' is empty
-<56>  https://blitz.bg/zdrave/zdravni-novini/poduvaneto-na-krakata-mozhe-da-bde-simptom-za-pet-opasni-zabolyavaniya_news685603.html
-'text' is empty
-<<Valid records: 209 of 213
+<<Valid records: 222 of 224

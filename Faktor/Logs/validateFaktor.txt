@@ -1,11 +1,11 @@
-VALIDATIONS for Faktor/Reports/Faktor-2019-07-16.json
+VALIDATIONS for Faktor/Reports/Faktor-2019-07-17.json
 
 >> Duplicates Report
 ----------------------------------------------------------------------
-Records: (All: 93, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-07-16.json
->> Validation of Faktor/Reports/Faktor-2019-07-16.json 
-<68>  https://www.faktor.bg/bg/articles/sasht-i-rusiya-glasyat-novo-tristranno-yadreno-sporazumenie-s-kitay
+Records: (All: 91, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-07-17.json
+>> Validation of Faktor/Reports/Faktor-2019-07-17.json 
+<50>  https://www.faktor.bg/bg/articles/politolog-sledvashtata-ek-shte-bade-v-mnogo-slozhna-politicheska-obstanovka
 'text' is empty
-<74>  https://www.faktor.bg/bg/articles/ursula-fon-der-layen
+<82>  https://www.faktor.bg/bg/articles/ursula-fon-der-layen-pred-nova-poznavam-vi-dobre-kakto-i-regiona
 'text' is empty
-<<Valid records: 91 of 93
+<<Valid records: 89 of 91
