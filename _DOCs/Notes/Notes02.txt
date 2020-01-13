@@ -1,0 +1,16 @@
+How to convert existing non-empty directory into a Git working directory and push files to a remote repository
+
+https://stackoverflow.com/questions/3311774/how-to-convert-existing-non-empty-directory-into-a-git-working-directory-and-pus
+
+Creating Your First GitHub Project
+https://www.bing.com/videos/search?q=Creating+Your+First+GitHub+Project&ru=%2fsearch%3fq%3dCreating%2bYour%2bFirst%2bGitHub%2bProject%26form%3dEDNTHT%26mkt%3dbg-bg%26httpsmsn%3d1%26refig%3d39d9f4a4c63b43399f42cc3df93f645e&view=detail&mid=FBB98CC61FDF44063A64FBB98CC61FDF44063A64&&mmscn=vwrc&FORM=VDRVRV
+
+https://github.com/VasssilPopov/AllSpiders
+
+Create a repo
+https://help.github.com/en/articles/create-a-repo
+
+
+https://www.youtube.com/watch?v=BWiAUtwtqjM
+
+

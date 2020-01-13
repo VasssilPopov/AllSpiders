@@ -1,0 +1,14 @@
+PC@DESKTOP-6Q43IIC MINGW64 /c/Study_Spiders/_AllSpiders (master)
+$ git push
+Enumerating objects: 19982, done.
+Counting objects: 100% (19982/19982), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (18775/18775), done.
+error: RPC failed; curl 55 OpenSSL SSL_write: SSL_ERROR_ZERO_RETURN, errno 10053
+fatal: the remote end hung up unexpectedly
+Writing objects: 100% (19981/19981), 2.01 GiB | 93.00 KiB/s, done.
+Total 19981 (delta 1531), reused 17205 (delta 1195)
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+PC@DESKTOP-6Q43IIC MINGW64 /c/Study_Spiders/_AllSpiders (master)
