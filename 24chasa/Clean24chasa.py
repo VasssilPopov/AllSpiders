@@ -18,7 +18,7 @@ import HelperTools
 import Duplicates
 from datetime import date, timedelta
 
-#Get the Today adn Yesterday dates  ------------------------------
+#Get the Today and Yesterday dates  ------------------------------
 Today = date.today().strftime("%Y-%m-%d")
 yesterday = date.today() - timedelta(1)
 Yesterday = yesterday.strftime("%Y-%m-%d")

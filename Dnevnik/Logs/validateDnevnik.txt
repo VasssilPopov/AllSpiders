@@ -1,11 +1,27 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2019-07-16.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2020-01-07.json
 
->> Duplicates Report
+>> Duplicates Report:Dnevnik/Reports/Dnevnik-2020-01-07.json
+>>  
+1
+Files                                                          All Recs  Dupl Recs
+>>Dnevnik/Reports/Dnevnik-2020-01-07.json
 ----------------------------------------------------------------------
-Records: (All: 85, Duplicates: 0 ), File: Dnevnik/Reports/Dnevnik-2019-07-16.json
->> Validation of Dnevnik/Reports/Dnevnik-2019-07-16.json 
-<32>  https://www.dnevnik.bg/sport/2019/07/16/3938823_hubchev_dva_macha_niama_kak_da_ni_zabludiat_triabvat/
+0
+>> Validation of Dnevnik/Reports/Dnevnik-2020-01-07.json 
+<10>  https://www.dnevnik.bg/video/2020/01/07/4012778_zashto_niakoi_hora_iskat_po-malko_evropa/
 'title' is empty
-<43>  https://www.dnevnik.bg/sport/2019/07/16/3938851_ne_migaite_red_bul_i_nai-burziiat_pitstop_v_istoriiata/
+<52>  https://www.dnevnik.bg/sviat/2020/01/07/4013320_desetki_avtomobili_potunaha_v_zamruznalite_vodi_krai/
 'title' is empty
-<<Valid records: 83 of 85
+<54>  https://www.dnevnik.bg/sviat/2020/01/07/4013337_avstraliiskite_voenni_piloti_pokazaha_pri_kakvi/
+'title' is empty
+<56>  https://www.dnevnik.bg/bulgaria/2020/01/07/4013358_kakvo_predstavliava_boklukut_ot_italiia_skladiran_vuv/
+'title' is empty
+<63>  https://www.dnevnik.bg/sviat/2020/01/07/4013411_zlatnite_globusi_2020_vsichki_skoro_shte_umrem_no_da/
+'title' is empty
+<66>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2020/01/07/4013389_voda_ot_podzemna_reka_moje_da_bude_nasochena_kum/
+'title' is empty
+<69>  https://www.dnevnik.bg/video/2020/01/07/4013403_taka_moje_da_izglejda_iztukaniiat_grad_na_budeshteto/
+'title' is empty
+<72>  https://www.dnevnik.bg/video/lice_v_lice/2020/01/07/4013428_korneliia_ninkova_v_bobov_dol_se_karat_desetki_kamioni/
+'title' is empty
+<<Valid records: 72 of 80

@@ -5,7 +5,7 @@ import logging
 import json
 import platform
 from sys import exit, path
-from pathlib import Path
+#from pathlib import path
 
 if platform.system() == 'Linux':
     path.append('/home/peio/dev/AllSpiders/_LIBRARY/')

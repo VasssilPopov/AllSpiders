@@ -61,7 +61,7 @@ class DnevnikSpider(scrapy.Spider):
         yesterdaysDate=yesterday.strftime("%Y.%m.%d")
         self.count = self.count + 1
         # Filter on todays date
-        print ++(self.count), articleDate, yesterdaysDate
+        print '>>> ', ++(self.count), articleDate, yesterdaysDate
         if ((articleDate == yesterdaysDate) and ( len(article)) > 0):
             yield {
                 'url': url,

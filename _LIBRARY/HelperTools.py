@@ -1,4 +1,4 @@
-# # -*- coding: utf-8 -*-
+﻿# # -*- coding: utf-8 -*-
 				
 import jsonlines
 import glob
@@ -125,7 +125,14 @@ def isDataValid(obj, rowNo):
         
     #text  Not empty   ---------------------------------
 #    if obj['text'] == u'':
+
+    #if (obj is None) or (obj.get['text'] is None):
     if obj['text'].strip() == u'':
+
+#    if (obj is None) or (obj.get['text'] is None):
+        resValue['result'] = False
+        resValue['messages'].append(u"'text' is empty")
+    elif obj['text'].strip() == u'':
         resValue['result'] = False
         resValue['messages'].append(u"'text' is empty")
     elif len(obj['text'].strip()) < 8:
@@ -135,7 +142,7 @@ def isDataValid(obj, rowNo):
 
     #date  Not empty   ---------------------------------
 
-    if obj['date'].strip() ==u'':
+    if obj['date'].strip() == u'':
         resValue['result'] = False
         resValue['messages'].append(u"'date' is empty")
         
@@ -197,13 +204,13 @@ def checkReport(jlFile):
 def scanReports(folderPath):
 
     files=glob.glob(folderPath)
-    s20='-'*10 +'Start'+ '-'*10
+    s20='-'*10 +'Start'+ '-'*10 + '\n'
    
     print s20+folderPath
     for file in files:
         checkReport(file)
 
-    s20='-'*10 +'End'+ '-'*10
+    s20='-'*10 +'End'+ '-'*10 + '\n'
     print s20
 
 #scanReports('Dnevnik\Reports\Ready\*.json')

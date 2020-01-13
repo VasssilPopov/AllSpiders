@@ -4,6 +4,7 @@ import logging
 from datetime import date, timedelta
 import json
 import json_lines
+from sys import exit, path
 from scrapy.exceptions import CloseSpider
 import os
 # cd _AllSpiders

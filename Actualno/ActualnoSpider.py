@@ -87,7 +87,7 @@ class ActualnoSpider(scrapy.Spider):
         articleDate = '%s.%s.%s' % (year,month,day)
         
         self.count = self.count + 1
-        print self.count,'/t', articleDate,(articleDate == yesterdaysDate), url
+        print self.count,'\t', articleDate,(articleDate == yesterdaysDate), url
         # Filter on todays date
         if (articleDate == yesterdaysDate):
             yield {

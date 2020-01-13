@@ -1,9 +1,13 @@
-VALIDATIONS for Dnes/Reports/Dnes-2019-07-17.json
+VALIDATIONS for Dnes/Reports/Dnes-2020-01-08.json
 
->> Duplicates Report
+>> Duplicates Report:Dnes/Reports/Dnes-2020-01-08.json
+>>  
+1
+Files                                                          All Recs  Dupl Recs
+>>Dnes/Reports/Dnes-2020-01-08.json
 ----------------------------------------------------------------------
-Records: (All: 95, Duplicates: 0 ), File: Dnes/Reports/Dnes-2019-07-17.json
->> Validation of Dnes/Reports/Dnes-2019-07-17.json 
-<20>  https://www.dnes.bg/index/2019/07/17/deniat-v-snimki-17-iuli.416742
+0
+>> Validation of Dnes/Reports/Dnes-2020-01-08.json 
+<92>  https://www.dnes.bg/index/2020/01/08/deniat-v-snimki-8-ianuari.435257
 'text' is empty
-<<Valid records: 94 of 95
+<<Valid records: 103 of 104

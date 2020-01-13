@@ -32,7 +32,7 @@ import HelperTools
 
 
 # Yesterday ------------------------------------------------------------------------------------
-#Srcs =['Dnevnik','Focus','Monitor','News','OffNews','PIK','Novinite','Actualno', 'Cross', 'BNews','BgOnAir']
+##>Srcs =['Dnevnik','Focus','Monitor','News','OffNews','PIK','Novinite','Actualno', 'Cross', 'BNews','BgOnAir']
 
 
 #Srcs=['Actualno', 'BNews', 'BgOnAir', 'Cross', 'Dnevnik', 'Focus', 'Monitor', 'News', 'Novinite', 'OffNews', 'PIK']
@@ -43,10 +43,15 @@ import HelperTools
 
 
 
-#Today ------------------------------------------------------------------------------------
-#Srcs =['24chasa','Blitz','Trud','Duma','Mediapool','ClubZ', 'Classa','Epicenter','Faktor','Dnes','StandartNews']
+#Yesterday------------------------------------------------------------------------------------
 
-Srcs = ['24chasa', 'Blitz', 'Classa', 'ClubZ', 'Dnes', 'Duma', 'Epicenter', 'Faktor', 'Mediapool', 'StandartNews', 'Trud']
+##>Srcs =['24chasa','Blitz','Trud','Duma','Mediapool','ClubZ', 'Classa','Epicenter','Faktor','Dnes','StandartNews']
+
+
+##>Srcs = ['24chasa', 'Blitz', 'Classa', 'ClubZ', 'Dnes', 'Duma', 'Epicenter', 'Faktor', 'Mediapool', 'StandartNews', 'Trud']
+
+
+#Srcs = ['24chasa', 'Blitz', 'Classa', 'ClubZ', 'Dnes', 'Duma', 'Epicenter', 'Faktor', 'Mediapool', 'StandartNews', 'Trud']
 
 #Srcs =['Blitz', '24chasa', 'Trud', 'Duma', 'Mediapool', 'ClubZ', 'Classa', 'Dnevnik', 'Focus', 'News', 'OffNews', 'PIK','Epicenter','StandartNews']
 
@@ -54,16 +59,22 @@ Srcs = ['24chasa', 'Blitz', 'Classa', 'ClubZ', 'Dnes', 'Duma', 'Epicenter', 'Fak
 #Srcs =[ 'Blitz']
 
 
-#Srcs =[ 'Focus','Classa','Dnes','Epicenter','Trud']
+#Srcs =[ 'Focus','lassa','Dnes','Epicenter','Trud']
 #Srcs =[ 'PIK']
 
+
+# today
+
+##>
+Srcs=['Actualno', 'BNews', 'BgOnAir', 'Cross', 'Dnevnik', 'Focus', 'Monitor', 'News', 'Novinite', 'OffNews', 'PIK']
+##>Srcs= ['24chasa', 'Blitz', 'Classa', 'ClubZ', 'Dnes', 'Duma', 'Epicenter', 'Faktor', 'Mediapool', 'StandartNews', 'Trud']
 
 for src in Srcs:
 #    HelperTools.scanReports(src+'/Reports/'+src+'-2018-03-*.json')
 #    HelperTools.scanReports(src+'/Reports/'+src+'-2017-05-*.json')
 
 #     HelperTools.scanReports(src+'/Reports/'+src+'-2018-01-*.json')
-#     HelperTools.scanReports(src+'/Reports/'+src+'-2017-12-*.json')
+#     HelperTools.scanReports(src+'/Reports/'+src+'-20 17-12-*.json')
 
 
 #    HelperTools.scanReports(src+'/Reports/'+src+'-2018-02-*.json')
@@ -73,8 +84,13 @@ for src in Srcs:
 
 #    HelperTools.scanReports(src+'/Reports/'+src+'-2018-07-0*.json')
 
-    HelperTools.scanReports(src+'/Reports/'+src+'-2019-07-1*.json')
+#>>    HelperTools.scanReports(src+'/Reports/'+src+'-2019-09-2*.json')
+    #HelperTools.scanReports(src+'/Reports/'+src+'-2018-12-*.json')
+    # HelperTools.scanReports(src+'/Reports/'+src+'-2019-09-2*.json')
+    #HelperTools.scanReports(src+'/Reports/'+src+'-2019-09-*.json')
 
+    #HelperTools.scanReports(src+'/Reports/'+src+'-2019-10-28.json')
+    HelperTools.scanReports(src+'/Reports/'+src+'-2019-11-12.json')
 
 
 

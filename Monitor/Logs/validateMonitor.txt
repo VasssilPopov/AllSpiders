@@ -1,6 +1,13 @@
-VALIDATIONS for Monitor/Reports/Monitor-2019-07-16.json
+VALIDATIONS for Monitor/Reports/Monitor-2020-01-07.json
 
->> Duplicates Report
+>> Duplicates Report:Monitor/Reports/Monitor-2020-01-07.json
+>>  
+1
+Files                                                          All Recs  Dupl Recs
+>>Monitor/Reports/Monitor-2020-01-07.json
 ----------------------------------------------------------------------
-Records: (All: 94, Duplicates: 0 ), File: Monitor/Reports/Monitor-2019-07-16.json
->> Validation of Monitor/Reports/Monitor-2019-07-16.json 
+0
+>> Validation of Monitor/Reports/Monitor-2020-01-07.json 
+<11>  https://www.monitor.bg:443/bg/a/view/zdraveopazvane-po-mesta-185230
+'text' is empty
+<<Valid records: 114 of 115

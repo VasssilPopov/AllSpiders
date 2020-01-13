@@ -1,11 +1,10 @@
-VALIDATIONS for Faktor/Reports/Faktor-2019-07-17.json
+VALIDATIONS for Faktor/Reports/Faktor-2020-01-08.json
 
->> Duplicates Report
+>> Duplicates Report:Faktor/Reports/Faktor-2020-01-08.json
+>>  
+1
+Files                                                          All Recs  Dupl Recs
+>>Faktor/Reports/Faktor-2020-01-08.json
 ----------------------------------------------------------------------
-Records: (All: 91, Duplicates: 0 ), File: Faktor/Reports/Faktor-2019-07-17.json
->> Validation of Faktor/Reports/Faktor-2019-07-17.json 
-<50>  https://www.faktor.bg/bg/articles/politolog-sledvashtata-ek-shte-bade-v-mnogo-slozhna-politicheska-obstanovka
-'text' is empty
-<82>  https://www.faktor.bg/bg/articles/ursula-fon-der-layen-pred-nova-poznavam-vi-dobre-kakto-i-regiona
-'text' is empty
-<<Valid records: 89 of 91
+0
+>> Validation of Faktor/Reports/Faktor-2020-01-08.json 

@@ -56,9 +56,10 @@ system('Python OffNews/CleanOffNews.py > OffNews/Logs/validateOffNews.txt')
 system('scrapy runspider PIK/PIKSpider.py -o PIK/Reports/PIK-'+str(Yesterday)+'.json -t jsonlines 2> PIK/Logs/outputPIK.txt')
 system('Python PIK/CleanPIK.py > PIK/Logs/validatePIK.txt')
 
+'''
 system('scrapy runspider BgOnAir/BgOnAirSpider.py -o BgOnAir/Reports/BgOnAir-'+str(Yesterday)+'.json -t jsonlines 2> BgOnAir/Logs/outputBgOnAir.txt')
 system('Python BgOnAir/CleanBgOnAir.py > BgOnAir/Logs/validateBgOnAir.txt')
-
+'''
 
 system('Python SummaryReport.py>_DailySummaryReports/'+Today+'.txt')
 # system('echo Urrra')
