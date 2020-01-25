@@ -1,0 +1,28 @@
+Daily Summary Report
+Today: 2020-01-17
+------------------------------------
+Source          Date         Records
+------------------------------------
+Blitz           2020-01-17         0
+24chasa         2020-01-17         0
+Trud            2020-01-17         0
+Duma            2020-01-17         0
+Mediapool       2020-01-17         0
+ClubZ           2020-01-17         0
+Classa          2020-01-17         0
+Epicenter       2020-01-17         0
+Faktor          2020-01-17         0
+Dnes            2020-01-17         0
+StandartNews    2020-01-17         0
+Actualno        2020-01-16         0
+BNews           2020-01-16         0
+Cross           2020-01-16         0
+Dnevnik         2020-01-16         0
+Focus           2020-01-16         0
+Monitor         2020-01-16         0
+News            2020-01-16         0
+Novinite        2020-01-16         0
+OffNews         2020-01-16         0
+PIK             2020-01-16         0
+BgOnAir         2020-01-16         0
+------------------------------------

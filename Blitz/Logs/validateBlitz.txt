@@ -1,10 +1,10 @@
-VALIDATIONS for Blitz/Reports/Blitz-2020-01-08.json
+VALIDATIONS for Blitz/Reports/Blitz-2020-01-24.json
 
->> Duplicates Report:Blitz/Reports/Blitz-2020-01-08.json
+>> Duplicates Report:Blitz/Reports/Blitz-2020-01-24.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Blitz/Reports/Blitz-2020-01-08.json
+>>Blitz/Reports/Blitz-2020-01-24.json
 ----------------------------------------------------------------------
 0
->> Validation of Blitz/Reports/Blitz-2020-01-08.json 
+>> Validation of Blitz/Reports/Blitz-2020-01-24.json 

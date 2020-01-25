@@ -1,15 +1,10 @@
-VALIDATIONS for 24chasa/Reports/24chasa-2020-01-08.json
+VALIDATIONS for 24chasa/Reports/24chasa-2020-01-24.json
 
->> Duplicates Report:24chasa/Reports/24chasa-2020-01-08.json
+>> Duplicates Report:24chasa/Reports/24chasa-2020-01-24.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>24chasa/Reports/24chasa-2020-01-08.json
+>>24chasa/Reports/24chasa-2020-01-24.json
 ----------------------------------------------------------------------
 0
->> Validation of 24chasa/Reports/24chasa-2020-01-08.json 
-<25>  https://www.24chasa.bg/novini/article/8050772
-'text' is empty
-<73>  https://www.24chasa.bg/novini/article/8049067
-'text' is empty
-<<Valid records: 133 of 135
+>> Validation of 24chasa/Reports/24chasa-2020-01-24.json 

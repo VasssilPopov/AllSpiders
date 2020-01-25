@@ -1,13 +1,10 @@
-VALIDATIONS for ClubZ/Reports/ClubZ-2020-01-08.json
+VALIDATIONS for ClubZ/Reports/ClubZ-2020-01-24.json
 
->> Duplicates Report:ClubZ/Reports/ClubZ-2020-01-08.json
+>> Duplicates Report:ClubZ/Reports/ClubZ-2020-01-24.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>ClubZ/Reports/ClubZ-2020-01-08.json
+>>ClubZ/Reports/ClubZ-2020-01-24.json
 ----------------------------------------------------------------------
 0
->> Validation of ClubZ/Reports/ClubZ-2020-01-08.json 
-<17>  https://clubz.bg/92660-ispaniq_visqshto_na_kosym_pravitelstvo_ot_socialisti_krajnolevi_i_komunisti
-'text' is empty
-<<Valid records: 39 of 40
+>> Validation of ClubZ/Reports/ClubZ-2020-01-24.json 

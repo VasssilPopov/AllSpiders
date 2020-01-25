@@ -1,27 +1,29 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2020-01-07.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2020-01-24.json
 
->> Duplicates Report:Dnevnik/Reports/Dnevnik-2020-01-07.json
+>> Duplicates Report:Dnevnik/Reports/Dnevnik-2020-01-24.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Dnevnik/Reports/Dnevnik-2020-01-07.json
+>>Dnevnik/Reports/Dnevnik-2020-01-24.json
 ----------------------------------------------------------------------
 0
->> Validation of Dnevnik/Reports/Dnevnik-2020-01-07.json 
-<10>  https://www.dnevnik.bg/video/2020/01/07/4012778_zashto_niakoi_hora_iskat_po-malko_evropa/
+>> Validation of Dnevnik/Reports/Dnevnik-2020-01-24.json 
+<4>  https://www.dnevnik.bg/video/btv/2020/01/24/4020391_elektronnite_turgove_za_lekarstva_shte_namaliat_cenite/
 'title' is empty
-<52>  https://www.dnevnik.bg/sviat/2020/01/07/4013320_desetki_avtomobili_potunaha_v_zamruznalite_vodi_krai/
+<6>  https://www.dnevnik.bg/bulgaria/2020/01/24/4020398_desetki_dekari_zashtitena_teritoriia_sa_izgoreli_pri/
 'title' is empty
-<54>  https://www.dnevnik.bg/sviat/2020/01/07/4013337_avstraliiskite_voenni_piloti_pokazaha_pri_kakvi/
+<32>  https://www.dnevnik.bg/sviat/2020/01/24/4020329_afganistanki_se_boriat_sus_stresa_tancuvaiki_kato/
 'title' is empty
-<56>  https://www.dnevnik.bg/bulgaria/2020/01/07/4013358_kakvo_predstavliava_boklukut_ot_italiia_skladiran_vuv/
+<38>  https://www.dnevnik.bg/bulgaria/2020/01/24/4020427_kakvo_poiska_borisov_ot_fenovete_na_levski/
 'title' is empty
-<63>  https://www.dnevnik.bg/sviat/2020/01/07/4013411_zlatnite_globusi_2020_vsichki_skoro_shte_umrem_no_da/
+<72>  https://www.dnevnik.bg/sviat/2020/01/24/4020656_kak_v_uhan_za_6_dni_stroiat_bolnica_za_1000_dushi/
 'title' is empty
-<66>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2020/01/07/4013389_voda_ot_podzemna_reka_moje_da_bude_nasochena_kum/
+<74>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2020/01/24/4020669_krum_zarkov_prez_2018_g_gerb_blokira_ideite_na/
 'title' is empty
-<69>  https://www.dnevnik.bg/video/2020/01/07/4013403_taka_moje_da_izglejda_iztukaniiat_grad_na_budeshteto/
+<79>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2020/01/24/4020681_finansist_do_sredata_na_2020_g_feisbuk_mogat_da/
 'title' is empty
-<72>  https://www.dnevnik.bg/video/lice_v_lice/2020/01/07/4013428_korneliia_ninkova_v_bobov_dol_se_karat_desetki_kamioni/
+<81>  https://www.dnevnik.bg/video/lice_v_lice/2020/01/24/4020690_dps_niama_da_uchastva_v_debata_za_hazarta_zashtoto/
 'title' is empty
-<<Valid records: 72 of 80
+<89>  https://www.dnevnik.bg/sport/2020/01/24/4020658_za_vozniachki_s_ljubov/
+'title' is empty
+<<Valid records: 81 of 90

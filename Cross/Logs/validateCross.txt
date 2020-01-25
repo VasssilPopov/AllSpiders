@@ -1,13 +1,10 @@
-VALIDATIONS for Cross/Reports/Cross-2020-01-07.json
+VALIDATIONS for Cross/Reports/Cross-2020-01-24.json
 
->> Duplicates Report:Cross/Reports/Cross-2020-01-07.json
+>> Duplicates Report:Cross/Reports/Cross-2020-01-24.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Cross/Reports/Cross-2020-01-07.json
+>>Cross/Reports/Cross-2020-01-24.json
 ----------------------------------------------------------------------
 0
->> Validation of Cross/Reports/Cross-2020-01-07.json 
-<39>  http://www.cross.bg/pista-snyag-shofirane-1622062.html
-'text' is shorter than 8
-<<Valid records: 79 of 80
+>> Validation of Cross/Reports/Cross-2020-01-24.json 

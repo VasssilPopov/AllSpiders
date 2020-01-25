@@ -31,8 +31,8 @@ from urllib2 import quote
 # example input parameters
 # Report Year 2017 and report month (August)
 # Please fill in parameters report's year and month
-repYear='2018'
-repMonth=7 
+repYear='2019'
+repMonth=1
 
 # single month report
 #monthlyDataReport(repYear, repMonth)

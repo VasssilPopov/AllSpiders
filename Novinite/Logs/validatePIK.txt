@@ -1,10 +1,10 @@
-VALIDATIONS for Novinite/Reports/Novinite-2020-01-07.json
+VALIDATIONS for Novinite/Reports/Novinite-2020-01-24.json
 
->> Duplicates Report:Novinite/Reports/Novinite-2020-01-07.json
+>> Duplicates Report:Novinite/Reports/Novinite-2020-01-24.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Novinite/Reports/Novinite-2020-01-07.json
+>>Novinite/Reports/Novinite-2020-01-24.json
 ----------------------------------------------------------------------
 0
->> Validation of Novinite/Reports/Novinite-2020-01-07.json 
+>> Validation of Novinite/Reports/Novinite-2020-01-24.json 
