@@ -15,7 +15,7 @@ else:
     print 'Unknown platform' 
     exit() 
 
-from ScrapingHelpers import *
+import ScrapingHelpers
 from datetime import date, timedelta
 import HelperTools 
 import Duplicates

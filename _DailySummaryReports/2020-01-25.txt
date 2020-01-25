@@ -4,15 +4,15 @@ Today: 2020-01-25
 Source          Date         Records
 ------------------------------------
 Blitz           2020-01-25         0
-24chasa         2020-01-25         0
-Trud            2020-01-25         0
+24chasa         2020-01-25        84
+Trud            2020-01-25        69
 Duma            2020-01-25         0
 Mediapool       2020-01-25         0
-ClubZ           2020-01-25         0
-Classa          2020-01-25         0
-Epicenter       2020-01-25         0
-Faktor          2020-01-25         0
-Dnes            2020-01-25         0
+ClubZ           2020-01-25        39
+Classa          2020-01-25        30
+Epicenter       2020-01-25        49
+Faktor          2020-01-25         9
+Dnes            2020-01-25        54
 StandartNews    2020-01-25        55
 Actualno        2020-01-24       136
 BNews           2020-01-24        13
