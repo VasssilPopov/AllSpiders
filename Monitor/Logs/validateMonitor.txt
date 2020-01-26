@@ -1,13 +1,10 @@
-VALIDATIONS for Monitor/Reports/Monitor-2020-01-24.json
+VALIDATIONS for Monitor/Reports/Monitor-2020-01-25.json
 
->> Duplicates Report:Monitor/Reports/Monitor-2020-01-24.json
+>> Duplicates Report:Monitor/Reports/Monitor-2020-01-25.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Monitor/Reports/Monitor-2020-01-24.json
+>>Monitor/Reports/Monitor-2020-01-25.json
 ----------------------------------------------------------------------
 0
->> Validation of Monitor/Reports/Monitor-2020-01-24.json 
-<24>  https://www.monitor.bg:443/bg/a/view/zelena-vakancija-186797
-'text' is empty
-<<Valid records: 106 of 107
+>> Validation of Monitor/Reports/Monitor-2020-01-25.json 

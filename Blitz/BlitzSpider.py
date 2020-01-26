@@ -13,7 +13,7 @@ from types import NoneType
 if platform.system() == 'Linux':
 	path.append('/home/peio/dev/AllSpiders/_LIBRARY/')
 elif platform.system() == 'Windows':
-	path.append('C:\STUDY_SPIDERS\_AllSpiders\_LIBRARY')
+	path.append('C:\STUDY_SPIDERS\AllSpiders\_LIBRARY')
 else: 
 	print 'Unknown platform' 
 	exit() 

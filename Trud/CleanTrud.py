@@ -9,7 +9,7 @@ import platform
 if platform.system() == 'Linux':
 	path.append('/home/peio/dev/AllSpiders/_LIBRARY/')
 elif platform.system() == 'Windows':
-	path.append('C:\STUDY_SPIDERS\_AllSpiders\_LIBRARY')
+	path.append('C:\STUDY_SPIDERS\AllSpiders\_LIBRARY')
 else: 
 	print 'Unknown platform' 
 	exit() 
@@ -28,7 +28,6 @@ Yesterday = yesterday.strftime("%Y-%m-%d")
 json_datafile = 'Trud/Reports/Trud-'+Today+'.json'
 
 print 'VALIDATIONS for %s' %(json_datafile)
-print
 
 if os.path.isfile(json_datafile):
 	#check for duplicates ---------------------------------------------

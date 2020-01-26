@@ -1,0 +1,10 @@
+VALIDATIONS for Dnes/Reports/Dnes-2020-01-26.json
+
+>> Duplicates Report:Dnes/Reports/Dnes-2020-01-26.json
+>>  
+1
+Files                                                          All Recs  Dupl Recs
+>>Dnes/Reports/Dnes-2020-01-26.json
+----------------------------------------------------------------------
+0
+>> Validation of Dnes/Reports/Dnes-2020-01-26.json 

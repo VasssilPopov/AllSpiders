@@ -1,0 +1,10 @@
+VALIDATIONS for Faktor/Reports/Faktor-2020-01-26.json
+
+>> Duplicates Report:Faktor/Reports/Faktor-2020-01-26.json
+>>  
+1
+Files                                                          All Recs  Dupl Recs
+>>Faktor/Reports/Faktor-2020-01-26.json
+----------------------------------------------------------------------
+0
+>> Validation of Faktor/Reports/Faktor-2020-01-26.json 

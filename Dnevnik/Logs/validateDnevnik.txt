@@ -1,29 +1,19 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2020-01-24.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2020-01-25.json
 
->> Duplicates Report:Dnevnik/Reports/Dnevnik-2020-01-24.json
+>> Duplicates Report:Dnevnik/Reports/Dnevnik-2020-01-25.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Dnevnik/Reports/Dnevnik-2020-01-24.json
+>>Dnevnik/Reports/Dnevnik-2020-01-25.json
 ----------------------------------------------------------------------
 0
->> Validation of Dnevnik/Reports/Dnevnik-2020-01-24.json 
-<4>  https://www.dnevnik.bg/video/btv/2020/01/24/4020391_elektronnite_turgove_za_lekarstva_shte_namaliat_cenite/
+>> Validation of Dnevnik/Reports/Dnevnik-2020-01-25.json 
+<1>  https://www.dnevnik.bg/sviat/2020/01/25/4020243_kak_izglejda_sega_epicenturut_na_pojarite_v_astraliia/
 'title' is empty
-<6>  https://www.dnevnik.bg/bulgaria/2020/01/24/4020398_desetki_dekari_zashtitena_teritoriia_sa_izgoreli_pri/
+<23>  https://www.dnevnik.bg/sport/2020/01/25/4020769_porednata_magicheska_vecher_za_tiineidjura_s_golov_njuh/
 'title' is empty
-<32>  https://www.dnevnik.bg/sviat/2020/01/24/4020329_afganistanki_se_boriat_sus_stresa_tancuvaiki_kato/
+<31>  https://www.dnevnik.bg/video/svobodna_evropa/2020/01/25/4020240_kak_filmut_medena_zemia_ot_severna_makedoniia/
 'title' is empty
-<38>  https://www.dnevnik.bg/bulgaria/2020/01/24/4020427_kakvo_poiska_borisov_ot_fenovete_na_levski/
+<38>  https://www.dnevnik.bg/sport/2020/01/25/4020895_ekstremnoto_spuskane_na_shampiona_po_legendarnata/
 'title' is empty
-<72>  https://www.dnevnik.bg/sviat/2020/01/24/4020656_kak_v_uhan_za_6_dni_stroiat_bolnica_za_1000_dushi/
-'title' is empty
-<74>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2020/01/24/4020669_krum_zarkov_prez_2018_g_gerb_blokira_ideite_na/
-'title' is empty
-<79>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2020/01/24/4020681_finansist_do_sredata_na_2020_g_feisbuk_mogat_da/
-'title' is empty
-<81>  https://www.dnevnik.bg/video/lice_v_lice/2020/01/24/4020690_dps_niama_da_uchastva_v_debata_za_hazarta_zashtoto/
-'title' is empty
-<89>  https://www.dnevnik.bg/sport/2020/01/24/4020658_za_vozniachki_s_ljubov/
-'title' is empty
-<<Valid records: 81 of 90
+<<Valid records: 34 of 38
