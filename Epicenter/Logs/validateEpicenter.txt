@@ -1,10 +1,15 @@
-VALIDATIONS for Epicenter/Reports/Epicenter-2020-01-26.json
+VALIDATIONS for Epicenter/Reports/Epicenter-2020-01-27.json
 
->> Duplicates Report:Epicenter/Reports/Epicenter-2020-01-26.json
+>> Duplicates Report:Epicenter/Reports/Epicenter-2020-01-27.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Epicenter/Reports/Epicenter-2020-01-26.json
+>>Epicenter/Reports/Epicenter-2020-01-27.json
 ----------------------------------------------------------------------
 0
->> Validation of Epicenter/Reports/Epicenter-2020-01-26.json 
+>> Validation of Epicenter/Reports/Epicenter-2020-01-27.json 
+<12>  http://epicenter.bg/article/Kinopanorama--posvetena-na-75-ta-godishnina-ot-Pobedata-vav-Velikata-Otechestvena-voyna/205097/6/0
+'text' is empty
+<87>  http://epicenter.bg/article/ZORA-s-nov-adres-v-Sandanski/205062/4/0
+'text' is empty
+<<Valid records: 110 of 112

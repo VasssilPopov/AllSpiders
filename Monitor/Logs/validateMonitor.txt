@@ -1,10 +1,13 @@
-VALIDATIONS for Monitor/Reports/Monitor-2020-01-25.json
+VALIDATIONS for Monitor/Reports/Monitor-2020-01-26.json
 
->> Duplicates Report:Monitor/Reports/Monitor-2020-01-25.json
+>> Duplicates Report:Monitor/Reports/Monitor-2020-01-26.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Monitor/Reports/Monitor-2020-01-25.json
+>>Monitor/Reports/Monitor-2020-01-26.json
 ----------------------------------------------------------------------
 0
->> Validation of Monitor/Reports/Monitor-2020-01-25.json 
+>> Validation of Monitor/Reports/Monitor-2020-01-26.json 
+<66>  https://www.monitor.bg:443/bg/a/view/visoka-skorost-186913
+'text' is empty
+<<Valid records: 66 of 67

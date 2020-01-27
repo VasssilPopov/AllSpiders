@@ -1,10 +1,13 @@
-VALIDATIONS for Dnes/Reports/Dnes-2020-01-26.json
+VALIDATIONS for Dnes/Reports/Dnes-2020-01-27.json
 
->> Duplicates Report:Dnes/Reports/Dnes-2020-01-26.json
+>> Duplicates Report:Dnes/Reports/Dnes-2020-01-27.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Dnes/Reports/Dnes-2020-01-26.json
+>>Dnes/Reports/Dnes-2020-01-27.json
 ----------------------------------------------------------------------
 0
->> Validation of Dnes/Reports/Dnes-2020-01-26.json 
+>> Validation of Dnes/Reports/Dnes-2020-01-27.json 
+<18>  https://www.dnes.bg/index/2020/01/27/deniat-v-snimki-27-ianuari.437223
+'text' is empty
+<<Valid records: 100 of 101

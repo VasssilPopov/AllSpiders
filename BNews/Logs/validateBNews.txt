@@ -1,0 +1,10 @@
+VALIDATIONS for BNews/Reports/BNews-2020-01-26.json
+
+>> Duplicates Report:BNews/Reports/BNews-2020-01-26.json
+>>  
+1
+Files                                                          All Recs  Dupl Recs
+>>BNews/Reports/BNews-2020-01-26.json
+----------------------------------------------------------------------
+0
+>> Validation of BNews/Reports/BNews-2020-01-26.json 

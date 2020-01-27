@@ -57,7 +57,7 @@ class FocusSpider(scrapy.Spider):
     def parse(self, response):
     
         links=response.xpath('//div[@class="cnk-ttl"]/h2/a/@href').extract()
-        links = list (map( lambda str: 'http://www.focus-news.net'+str[1:], links))		
+        links = list (map( lambda str: 'http://www.focus-news.net'+str[1:], links))
         print "url: %s selected: %d" %(response.url, len(links))
         
         for link in links:

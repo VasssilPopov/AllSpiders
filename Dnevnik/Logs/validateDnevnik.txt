@@ -1,19 +1,21 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2020-01-25.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2020-01-26.json
 
->> Duplicates Report:Dnevnik/Reports/Dnevnik-2020-01-25.json
+>> Duplicates Report:Dnevnik/Reports/Dnevnik-2020-01-26.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Dnevnik/Reports/Dnevnik-2020-01-25.json
+>>Dnevnik/Reports/Dnevnik-2020-01-26.json
 ----------------------------------------------------------------------
 0
->> Validation of Dnevnik/Reports/Dnevnik-2020-01-25.json 
-<1>  https://www.dnevnik.bg/sviat/2020/01/25/4020243_kak_izglejda_sega_epicenturut_na_pojarite_v_astraliia/
+>> Validation of Dnevnik/Reports/Dnevnik-2020-01-26.json 
+<3>  https://www.dnevnik.bg/sport/2020/01/26/4021091_obiasnenieto_v_ljubov_na_kobe_braiunt_kum_basketbola/
 'title' is empty
-<23>  https://www.dnevnik.bg/sport/2020/01/25/4020769_porednata_magicheska_vecher_za_tiineidjura_s_golov_njuh/
+<5>  https://www.dnevnik.bg/sport/2020/01/26/4020940_lebron_djeims_izleze_treti_pri_realizatorite_v/
 'title' is empty
-<31>  https://www.dnevnik.bg/video/svobodna_evropa/2020/01/25/4020240_kak_filmut_medena_zemia_ot_severna_makedoniia/
+<20>  https://www.dnevnik.bg/sport/2020/01/26/4020935_da_vkarash_sedem_gola_perfektnata_vecher_na_atalanta_v/
 'title' is empty
-<38>  https://www.dnevnik.bg/sport/2020/01/25/4020895_ekstremnoto_spuskane_na_shampiona_po_legendarnata/
+<25>  https://www.dnevnik.bg/sviat/2020/01/26/4020946_identificiraneto_na_vsichki_zaginali_v_aushvic_vse/
 'title' is empty
-<<Valid records: 34 of 38
+<38>  https://www.dnevnik.bg/video/2020/01/26/4021030_bania_da_bude_ili_da_ne_bude/
+'title' is empty
+<<Valid records: 36 of 41
