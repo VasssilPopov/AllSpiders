@@ -1,10 +1,15 @@
-VALIDATIONS for Faktor/Reports/Faktor-2020-01-27.json
+VALIDATIONS for Faktor/Reports/Faktor-2020-01-28.json
 
->> Duplicates Report:Faktor/Reports/Faktor-2020-01-27.json
+>> Duplicates Report:Faktor/Reports/Faktor-2020-01-28.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Faktor/Reports/Faktor-2020-01-27.json
+>>Faktor/Reports/Faktor-2020-01-28.json
 ----------------------------------------------------------------------
 0
->> Validation of Faktor/Reports/Faktor-2020-01-27.json 
+>> Validation of Faktor/Reports/Faktor-2020-01-28.json 
+<56>  https://faktor.bg/bg/articles/fandakova-1-6
+'text' is empty
+<62>  https://faktor.bg/bg/articles/tragva-li-shotlandiya-kam-nezavisimost
+'text' is empty
+<<Valid records: 63 of 65

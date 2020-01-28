@@ -1,13 +1,10 @@
-VALIDATIONS for Cross/Reports/Cross-2020-01-26.json
+VALIDATIONS for Cross/Reports/Cross-2020-01-27.json
 
->> Duplicates Report:Cross/Reports/Cross-2020-01-26.json
+>> Duplicates Report:Cross/Reports/Cross-2020-01-27.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Cross/Reports/Cross-2020-01-26.json
+>>Cross/Reports/Cross-2020-01-27.json
 ----------------------------------------------------------------------
 0
->> Validation of Cross/Reports/Cross-2020-01-26.json 
-<36>  http://www.cross.bg/subranie-tzveta-tyrtziya-1623676.html
-'text' is shorter than 8
-<<Valid records: 71 of 72
+>> Validation of Cross/Reports/Cross-2020-01-27.json 

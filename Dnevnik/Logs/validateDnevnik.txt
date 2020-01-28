@@ -1,21 +1,33 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2020-01-26.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2020-01-27.json
 
->> Duplicates Report:Dnevnik/Reports/Dnevnik-2020-01-26.json
+>> Duplicates Report:Dnevnik/Reports/Dnevnik-2020-01-27.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Dnevnik/Reports/Dnevnik-2020-01-26.json
+>>Dnevnik/Reports/Dnevnik-2020-01-27.json
 ----------------------------------------------------------------------
 0
->> Validation of Dnevnik/Reports/Dnevnik-2020-01-26.json 
-<3>  https://www.dnevnik.bg/sport/2020/01/26/4021091_obiasnenieto_v_ljubov_na_kobe_braiunt_kum_basketbola/
+>> Validation of Dnevnik/Reports/Dnevnik-2020-01-27.json 
+<11>  https://www.dnevnik.bg/sport/2020/01/27/4021111_nai-velikite_izpulneniia_v_znamenitata_kariera_na_kobe/
 'title' is empty
-<5>  https://www.dnevnik.bg/sport/2020/01/26/4020940_lebron_djeims_izleze_treti_pri_realizatorite_v/
+<14>  https://www.dnevnik.bg/video/btv/2020/01/27/4021137_kak_se_suzdavat_nelegali_za_nujdite_na_razuznavaneto/
 'title' is empty
-<20>  https://www.dnevnik.bg/sport/2020/01/26/4020935_da_vkarash_sedem_gola_perfektnata_vecher_na_atalanta_v/
+<22>  https://www.dnevnik.bg/video/120minuti/2020/01/27/4021158_iliiana_iotova_partiite_shte_se_opitat_da_pozeleneiat/
 'title' is empty
-<25>  https://www.dnevnik.bg/sviat/2020/01/26/4020946_identificiraneto_na_vsichki_zaginali_v_aushvic_vse/
+<26>  https://www.dnevnik.bg/video/120minuti/2020/01/27/4021239_vlizam_v_radioto_bez_nikakuv_politicheski_bagaj_zaiavi/
 'title' is empty
-<38>  https://www.dnevnik.bg/video/2020/01/26/4021030_bania_da_bude_ili_da_ne_bude/
+<29>  https://www.dnevnik.bg/sport/2020/01/27/4021245_petur_hubchev_nie_niamame_pritesneniia/
 'title' is empty
-<<Valid records: 36 of 41
+<33>  https://www.dnevnik.bg/video/2020/01/27/4021268_samolet_sus_150_dushi_se_okaza_po_korem_nasred_ulicata/
+'title' is empty
+<36>  https://www.dnevnik.bg/bulgaria/2020/01/27/4021272_koi_i_zashto_svurza_norvegiia_s_nacionalnata/
+'title' is empty
+<41>  https://www.dnevnik.bg/video/120minuti/2020/01/27/4021315_bezlov_mashtabite_na_hazarta_v_bulgariia_dostignaha/
+'title' is empty
+<68>  https://www.dnevnik.bg/sport/2020/01/27/4021488_koia_e_ludata_lelia_v_tenisa_novoto_shou_na_djon/
+'title' is empty
+<74>  https://www.dnevnik.bg/video/lice_v_lice/2020/01/27/4021526_kvartali_v_sofiia_mogat_da_preminat_na_voden_rejim/
+'title' is empty
+<79>  https://www.dnevnik.bg/sport/2020/01/27/4021547_cska_vze_futbolist_ot_vtoriia_otbor_na_juventus/
+'title' is empty
+<<Valid records: 73 of 84
