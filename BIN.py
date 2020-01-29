@@ -5,7 +5,7 @@ import platform
 if platform.system() == 'Linux':
 	path.append('/home/peio/dev/AllSpiders/_LIBRARY/')
 elif platform.system() == 'Windows':
-	path.append('C:\STUDY_SPIDERS\_AllSpiders\_LIBRARY')
+	path.append('C:\STUDY_SPIDERS\AllSpiders\_LIBRARY')
 else: 
 	print 'Unknown platform' 
 	exit() 
@@ -90,7 +90,7 @@ for src in Srcs:
     #HelperTools.scanReports(src+'/Reports/'+src+'-2019-09-*.json')
 
     #HelperTools.scanReports(src+'/Reports/'+src+'-2019-10-28.json')
-    HelperTools.scanReports(src+'/Reports/'+src+'-2019-11-12.json')
+    HelperTools.scanReports(src+'/Reports/'+src+'-2020-01-29.json')
 
 
 

@@ -1,13 +1,149 @@
-VALIDATIONS for 24chasa/Reports/24chasa-2020-01-28.json
+VALIDATIONS for 24chasa/Reports/24chasa-2020-01-29.json
 
->> Duplicates Report:24chasa/Reports/24chasa-2020-01-28.json
+>> Duplicates Report:24chasa/Reports/24chasa-2020-01-29.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>24chasa/Reports/24chasa-2020-01-28.json
+>>24chasa/Reports/24chasa-2020-01-29.json
 ----------------------------------------------------------------------
-0
->> Validation of 24chasa/Reports/24chasa-2020-01-28.json 
-<33>  https://www.24chasa.bg/novini/article/8121050
+https://www.24chasa.bg/novini/article/8127024
+https://www.24chasa.bg/novini/article/8127037
+https://www.24chasa.bg/novini/article/8127012
+https://www.24chasa.bg/novini/article/8126752
+https://www.24chasa.bg/novini/article/8127095
+https://www.24chasa.bg/novini/article/8127131
+https://www.24chasa.bg/novini/article/8127158
+https://www.24chasa.bg/novini/article/8127219
+https://www.24chasa.bg/novini/article/8127216
+https://www.24chasa.bg/novini/article/8127391
+https://www.24chasa.bg/novini/article/8127254
+https://www.24chasa.bg/novini/article/8127256
+https://www.24chasa.bg/novini/article/8127196
+https://www.24chasa.bg/novini/article/8127473
+https://www.24chasa.bg/novini/article/8127507
+https://www.24chasa.bg/novini/article/8126715
+https://www.24chasa.bg/novini/article/8126756
+https://www.24chasa.bg/novini/article/8126772
+https://www.24chasa.bg/novini/article/8126759
+https://www.24chasa.bg/novini/article/8126793
+https://www.24chasa.bg/novini/article/8126806
+https://www.24chasa.bg/novini/article/8126844
+https://www.24chasa.bg/novini/article/8126868
+https://www.24chasa.bg/novini/article/8126864
+https://www.24chasa.bg/novini/article/8126953
+https://www.24chasa.bg/novini/article/8126938
+https://www.24chasa.bg/novini/article/8126976
+https://www.24chasa.bg/novini/article/8127314
+https://www.24chasa.bg/novini/article/8127236
+https://www.24chasa.bg/novini/article/8127160
+https://www.24chasa.bg/novini/article/8127736
+https://www.24chasa.bg/novini/article/8125824
+https://www.24chasa.bg/novini/article/8125844
+https://www.24chasa.bg/novini/article/8125890
+https://www.24chasa.bg/novini/article/8125958
+https://www.24chasa.bg/novini/article/8125962
+https://www.24chasa.bg/novini/article/8125995
+https://www.24chasa.bg/novini/article/8125963
+https://www.24chasa.bg/novini/article/8126056
+https://www.24chasa.bg/novini/article/8126081
+https://www.24chasa.bg/novini/article/8126120
+https://www.24chasa.bg/novini/article/8126146
+https://www.24chasa.bg/novini/article/8126122
+https://www.24chasa.bg/novini/article/8126316
+https://www.24chasa.bg/novini/article/8126337
+https://www.24chasa.bg/novini/article/8126298
+https://www.24chasa.bg/novini/article/8126405
+https://www.24chasa.bg/novini/article/8125001
+https://www.24chasa.bg/novini/article/8125028
+https://www.24chasa.bg/novini/article/8125000
+https://www.24chasa.bg/novini/article/8125073
+https://www.24chasa.bg/novini/article/8125090
+https://www.24chasa.bg/novini/article/8125161
+https://www.24chasa.bg/novini/article/8125197
+https://www.24chasa.bg/novini/article/8125215
+https://www.24chasa.bg/novini/article/8125249
+https://www.24chasa.bg/novini/article/8125257
+https://www.24chasa.bg/novini/article/8125258
+https://www.24chasa.bg/novini/article/8124873
+https://www.24chasa.bg/novini/article/8125379
+https://www.24chasa.bg/novini/article/8125401
+https://www.24chasa.bg/novini/article/8125412
+https://www.24chasa.bg/novini/article/8125418
+https://www.24chasa.bg/novini/article/8124280
+https://www.24chasa.bg/novini/article/8124294
+https://www.24chasa.bg/novini/article/8124360
+https://www.24chasa.bg/novini/article/8124241
+https://www.24chasa.bg/novini/article/8124366
+https://www.24chasa.bg/novini/article/8124392
+https://www.24chasa.bg/novini/article/8124397
+https://www.24chasa.bg/novini/article/8124378
+https://www.24chasa.bg/novini/article/8124425
+https://www.24chasa.bg/novini/article/8124442
+https://www.24chasa.bg/novini/article/8124443
+https://www.24chasa.bg/novini/article/8124454
+https://www.24chasa.bg/novini/article/8124491
+https://www.24chasa.bg/novini/article/8124517
+https://www.24chasa.bg/novini/article/8124489
+https://www.24chasa.bg/novini/article/8124569
+https://www.24chasa.bg/novini/article/8124662
+https://www.24chasa.bg/novini/article/8124603
+https://www.24chasa.bg/novini/article/8124687
+https://www.24chasa.bg/novini/article/8124693
+https://www.24chasa.bg/novini/article/8124701
+https://www.24chasa.bg/novini/article/8124748
+https://www.24chasa.bg/novini/article/8124765
+https://www.24chasa.bg/novini/article/8123004
+https://www.24chasa.bg/novini/article/8124819
+https://www.24chasa.bg/novini/article/8124584
+https://www.24chasa.bg/novini/article/8124869
+https://www.24chasa.bg/novini/article/8124892
+https://www.24chasa.bg/novini/article/8124899
+https://www.24chasa.bg/novini/article/8124907
+https://www.24chasa.bg/novini/article/8124870
+https://www.24chasa.bg/novini/article/8124937
+https://www.24chasa.bg/novini/article/8124998
+https://www.24chasa.bg/novini/article/8125002
+https://www.24chasa.bg/novini/article/8125390
+https://www.24chasa.bg/novini/article/8125415
+https://www.24chasa.bg/novini/article/8125437
+https://www.24chasa.bg/novini/article/8125474
+https://www.24chasa.bg/novini/article/8125482
+https://www.24chasa.bg/novini/article/8125530
+https://www.24chasa.bg/novini/article/8125514
+https://www.24chasa.bg/novini/article/8125591
+https://www.24chasa.bg/novini/article/8125596
+https://www.24chasa.bg/novini/article/8125636
+https://www.24chasa.bg/novini/article/8125670
+https://www.24chasa.bg/novini/article/8125681
+https://www.24chasa.bg/novini/article/8125726
+https://www.24chasa.bg/novini/article/8125721
+https://www.24chasa.bg/novini/article/8125704
+https://www.24chasa.bg/novini/article/8125758
+https://www.24chasa.bg/novini/article/8125438
+https://www.24chasa.bg/novini/article/8125791
+https://www.24chasa.bg/novini/article/8126393
+https://www.24chasa.bg/novini/article/8126400
+https://www.24chasa.bg/novini/article/8126475
+https://www.24chasa.bg/novini/article/8126503
+https://www.24chasa.bg/novini/article/8126498
+https://www.24chasa.bg/novini/article/8126500
+https://www.24chasa.bg/novini/article/8126532
+https://www.24chasa.bg/novini/article/8126531
+https://www.24chasa.bg/novini/article/8126172
+https://www.24chasa.bg/novini/article/8126575
+https://www.24chasa.bg/novini/article/8126590
+https://www.24chasa.bg/novini/article/8126623
+https://www.24chasa.bg/novini/article/8126617
+https://www.24chasa.bg/novini/article/8126631
+https://www.24chasa.bg/novini/article/8126651
+https://www.24chasa.bg/novini/article/8126646
+https://www.24chasa.bg/novini/article/8126670
+https://www.24chasa.bg/novini/article/8126693
+https://www.24chasa.bg/novini/article/8127493
+134
+>> Validation of 24chasa/Reports/24chasa-2020-01-29.json 
+<71>  https://www.24chasa.bg/novini/article/8124366
 'text' is empty
-<<Valid records: 135 of 136
+<205>  https://www.24chasa.bg/novini/article/8124366
+'text' is empty
+<<Valid records: 270 of 272

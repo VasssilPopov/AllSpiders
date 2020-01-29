@@ -22,6 +22,7 @@ Yesterday = yesterday.strftime("%Y.%m.%d")
 class FocusSpider(scrapy.Spider):
     name = "focus"
     start_urls = ['http://www.focus-news.net/news/Yesterday/']
+
     custom_settings = {
         'FEED_EXPORT_ENCODING': 'utf-8',
         # 'DOWNLOAD_DELAY':'5',
@@ -45,7 +46,7 @@ class FocusSpider(scrapy.Spider):
 
     def get_ids(self, json_datafile):
         ids = []
-        
+
         try:
             ids = read_ids(json_datafile)
         except (IOError,ValueError):
@@ -55,11 +56,11 @@ class FocusSpider(scrapy.Spider):
         
         
     def parse(self, response):
-    
+
         links=response.xpath('//div[@class="cnk-ttl"]/h2/a/@href').extract()
+
         links = list (map( lambda str: 'http://www.focus-news.net'+str[1:], links))
         print "url: %s selected: %d" %(response.url, len(links))
-        
         for link in links:
             yield scrapy.Request(url=link, callback=self.parse_page)
 

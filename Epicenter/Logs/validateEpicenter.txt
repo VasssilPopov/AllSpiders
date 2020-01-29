@@ -1,13 +1,20 @@
-VALIDATIONS for Epicenter/Reports/Epicenter-2020-01-28.json
+VALIDATIONS for Epicenter/Reports/Epicenter-2020-01-29.json
 
->> Duplicates Report:Epicenter/Reports/Epicenter-2020-01-28.json
+>> Duplicates Report:Epicenter/Reports/Epicenter-2020-01-29.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Epicenter/Reports/Epicenter-2020-01-28.json
+>>Epicenter/Reports/Epicenter-2020-01-29.json
 ----------------------------------------------------------------------
 0
->> Validation of Epicenter/Reports/Epicenter-2020-01-28.json 
-<51>  http://epicenter.bg/article/Petkova--Shte-prodalzhim-da-razvivame-satrudnichestvo-mezhdu-Balgariya-i-SASht-/205131/2/0
+>> Validation of Epicenter/Reports/Epicenter-2020-01-29.json 
+<55>  http://epicenter.bg/article/PG-na--BSP-za-Balgariya--shte-glasuva-protiv-ratifikatsiyata-na-SETA/205277/2/0
+'title' is empty
 'text' is empty
-<<Valid records: 99 of 100
+<56>  http://epicenter.bg/article/Dvama-dushi-v-Balgariya-sa-pod-nablyudenie-sas-samneniya-za-kitayskiya-koronavirus/205278/2/0
+'title' is empty
+'text' is empty
+<87>  http://epicenter.bg/article/Namereno-e-tyaloto-na-obyaven-za-izdirvane-mazh/205270/3/0
+'title' is empty
+'text' is empty
+<<Valid records: 102 of 105

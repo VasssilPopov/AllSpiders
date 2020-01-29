@@ -1,10 +1,10 @@
-VALIDATIONS for Focus/Reports/Focus-2020-01-27.json
+VALIDATIONS for Focus/Reports/Focus-2020-01-28.json
 
->> Duplicates Report:Focus/Reports/Focus-2020-01-27.json
+>> Duplicates Report:Focus/Reports/Focus-2020-01-28.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Focus/Reports/Focus-2020-01-27.json
+>>Focus/Reports/Focus-2020-01-28.json
 ----------------------------------------------------------------------
 0
->> Validation of Focus/Reports/Focus-2020-01-27.json 
+>> Validation of Focus/Reports/Focus-2020-01-28.json 
