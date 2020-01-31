@@ -1,10 +1,11 @@
-VALIDATIONS for PIK/Reports/PIK-2020-01-28.json
+VALIDATIONS for PIK/Reports/PIK-2020-01-30.json
 
->> Duplicates Report:PIK/Reports/PIK-2020-01-28.json
+>> Duplicates Report:PIK/Reports/PIK-2020-01-30.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>PIK/Reports/PIK-2020-01-28.json
+>>PIK/Reports/PIK-2020-01-30.json
 ----------------------------------------------------------------------
 0
->> Validation of PIK/Reports/PIK-2020-01-28.json 
+>2>
+>> Validation of PIK/Reports/PIK-2020-01-30.json 

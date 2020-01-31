@@ -1,13 +1,11 @@
-VALIDATIONS for Monitor/Reports/Monitor-2020-01-28.json
+VALIDATIONS for Monitor/Reports/Monitor-2020-01-30.json
 
->> Duplicates Report:Monitor/Reports/Monitor-2020-01-28.json
+>> Duplicates Report:Monitor/Reports/Monitor-2020-01-30.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Monitor/Reports/Monitor-2020-01-28.json
+>>Monitor/Reports/Monitor-2020-01-30.json
 ----------------------------------------------------------------------
 0
->> Validation of Monitor/Reports/Monitor-2020-01-28.json 
-<26>  https://www.monitor.bg:443/bg/a/view/minimalna-zaplata-187153
-'text' is empty
-<<Valid records: 102 of 103
+>2>
+>> Validation of Monitor/Reports/Monitor-2020-01-30.json 

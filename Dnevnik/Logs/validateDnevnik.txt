@@ -1,41 +1,44 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2020-01-28.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2020-01-30.json
 
->> Duplicates Report:Dnevnik/Reports/Dnevnik-2020-01-28.json
+>> Duplicates Report:Dnevnik/Reports/Dnevnik-2020-01-30.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Dnevnik/Reports/Dnevnik-2020-01-28.json
+>>Dnevnik/Reports/Dnevnik-2020-01-30.json
 ----------------------------------------------------------------------
 0
->> Validation of Dnevnik/Reports/Dnevnik-2020-01-28.json 
-<7>  https://www.dnevnik.bg/sport/2020/01/28/4022058_kato_hudini_kak_maestroto_se_spasi_v_melburn/
+>2>
+>> Validation of Dnevnik/Reports/Dnevnik-2020-01-30.json 
+<8>  https://www.dnevnik.bg/bulgaria/2020/01/30/4023090_kak_izglejda_novata_metrostanciia_krai_orlov_most/
 'title' is empty
-<25>  https://www.dnevnik.bg/video/2020/01/28/4021388_video_na_jivo_prezidentut_i_viceprezidentut_otchitat/
+<9>  https://www.dnevnik.bg/video/boiko_borisov/2020/01/30/4023104_bulgariia_niama_da_izprashta_samolet_da_pribere/
 'title' is empty
-<32>  https://www.dnevnik.bg/video/2020/01/28/4021399_video_na_jivo_boiko_borisov_obiaviava_prioritetite_na/
-'title' is empty
-<33>  https://www.dnevnik.bg/video/2020/01/28/4021390_ivan_krustev_da_se_svurzva_demografskata_kriza_s/
-'title' is empty
-<38>  https://www.dnevnik.bg/bulgaria/2020/01/28/4021684_bliznashki_triabva_da_se_iziasni_statusa_na_imuniteta/
-'title' is empty
-<42>  https://www.dnevnik.bg/video/btv/2020/01/28/4021694_vuprosite_na_geshev_do_konstitucionniia_sud_sa_nelepi/
-'title' is empty
-<51>  https://www.dnevnik.bg/video/btv/2020/01/28/4021740_general_rumen_milanov_nso_ne_e_turgovsko_drujestvo/
-'title' is empty
-<58>  https://www.dnevnik.bg/bulgaria/2020/01/28/4021763_prezidentut_niamal_idei_zashto_geshev_zadava_vuprosi/
-'title' is empty
-<61>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2020/01/28/4021815_georgi_filipov_bulgarskiiat_sport_vurvi_vse_poveche/
-'title' is empty
-<68>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2020/01/28/4021829_svetlana_djamdjieva_geshev_prevrushta_rumen_radev_v/
-'title' is empty
-<71>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2020/01/28/4021853_demokratichna_bulgariia_iska_novo_otlagane_na/
-'title' is empty
-<72>  https://www.dnevnik.bg/bulgaria/2020/01/28/4021914_za_godina_zapovedite_za_nezabavna_zashtita_ot_domashno/
+<22>  https://www.dnevnik.bg/sviat/2020/01/30/4021498_dokato_bulgariia_umuva_v_centralna_evropa_zapochva/
 'text' is empty
-<76>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2020/01/28/4021909_ivo_indjov_upravliavashtite_v_bulgariia_tolerirat/
+<25>  https://www.dnevnik.bg/sport/2020/01/30/4022692_kamen_alipiev_ako_fenovete_na_levski_izliazat_na/
 'title' is empty
-<81>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2020/01/28/4021997_energien_ekspert_seriozno_da_se_namali_kolichestvoto/
+<26>  https://www.dnevnik.bg/video/s_dve_dumi/2020/01/30/4022544_mogat_li_maskite_da_ni_spasiat_v_sezona_na_gripa/
 'title' is empty
-<91>  https://www.dnevnik.bg/video/lice_v_lice/2020/01/28/4022003_prezidentut_ne_se_strahuva_ot_impiichmunt_tvurdi/
+<49>  https://www.dnevnik.bg/analizi/2020/01/30/4022934_vot_haos_i_zalozi/
+'text' is empty
+<50>  https://www.dnevnik.bg/zelen/2020/01/30/4022911_sustezanie_shte_pomogne_za_vuzstanoviavane_na/
+'text' is empty
+<53>  https://www.dnevnik.bg/video/btv/2020/01/30/4022950_bivsh_shef_na_komsiiata_po_hazarta_ochevidno_za/
 'title' is empty
-<<Valid records: 79 of 94
+<57>  https://www.dnevnik.bg/sviat/2020/01/30/4022978_na_sboguvane_evropeiskiiat_parlament_izprati/
+'title' is empty
+<59>  https://www.dnevnik.bg/bulgaria/2020/01/30/4022957_kursut_na_leva_kum_evroto_niama_da_se_promenia_do/
+'title' is empty
+<65>  https://www.dnevnik.bg/video/antikorupcionen_fond/2020/01/30/4023022_kak_pari_ot_ktb_sa_vlizali_v_bulgarski_medii_i_kakvo/
+'title' is empty
+<69>  https://www.dnevnik.bg/video/btv/2020/01/30/4022925_geshev_ne_se_sreshtal_s_oligarsi_a_samo_s_obiknoveni/
+'title' is empty
+<73>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2020/01/30/4023160_osman_oktai_bojkov_e_mnogo_goliama_lujica_za_ustata_na/
+'title' is empty
+<75>  https://www.dnevnik.bg/sviat/2020/01/30/4022377_navsiakude_se_sipeshe_pepel_ot_krematoriuma_-_razkaz/
+'title' is empty
+<89>  https://www.dnevnik.bg/sviat/2020/01/30/4023201_zashto_hiliadi_turisti_poluchiha_zabrana_da_sliazat_ot/
+'title' is empty
+<92>  https://www.dnevnik.bg/video/2020/01/30/4023335_radev_ednostrannite_deistviia_sa_predizvikatelstvo/
+'title' is empty
+<<Valid records: 81 of 97

@@ -1,13 +1,13 @@
-2020-01-29 22:27:12 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: scrapybot)
-2020-01-29 22:27:12 [scrapy.utils.log] INFO: Versions: lxml 4.3.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 2.7.16 (v2.7.16:413a49145e, Mar  4 2019, 01:37:19) [MSC v.1500 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.18362
-2020-01-29 22:27:12 [scrapy.crawler] INFO: Overridden settings: {'SPIDER_LOADER_WARN_ONLY': True, 'FEED_EXPORT_ENCODING': 'utf-8', 'FEED_URI': 'Standartnews/Reports/Standartnews-2020-01-29.json'}
-2020-01-29 22:27:12 [scrapy.extensions.telnet] INFO: Telnet Password: 7db9c05579e2d5ed
-2020-01-29 22:27:12 [scrapy.middleware] INFO: Enabled extensions:
+2020-01-31 21:49:12 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: scrapybot)
+2020-01-31 21:49:12 [scrapy.utils.log] INFO: Versions: lxml 4.3.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 2.7.16 (v2.7.16:413a49145e, Mar  4 2019, 01:37:19) [MSC v.1500 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.18362
+2020-01-31 21:49:12 [scrapy.crawler] INFO: Overridden settings: {'SPIDER_LOADER_WARN_ONLY': True, 'FEED_EXPORT_ENCODING': 'utf-8', 'FEED_URI': 'Standartnews/Reports/Standartnews-2020-01-31.json'}
+2020-01-31 21:49:12 [scrapy.extensions.telnet] INFO: Telnet Password: d3725551255e2c11
+2020-01-31 21:49:12 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.feedexport.FeedExporter',
  'scrapy.extensions.logstats.LogStats',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.corestats.CoreStats']
-2020-01-29 22:27:12 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2020-01-31 21:49:12 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
  'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
@@ -19,59 +19,107 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2020-01-29 22:27:12 [scrapy.middleware] INFO: Enabled spider middlewares:
+2020-01-31 21:49:12 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2020-01-29 22:27:12 [scrapy.middleware] INFO: Enabled item pipelines:
+2020-01-31 21:49:12 [scrapy.middleware] INFO: Enabled item pipelines:
 []
-2020-01-29 22:27:12 [scrapy.core.engine] INFO: Spider opened
-2020-01-29 22:27:12 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2020-01-29 22:27:12 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2020-01-29 22:27:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/mneniya.html> from <GET http://standartnews.com/mneniya.html>
-2020-01-29 22:27:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.standartnews.com/sport.html> from <GET http://www.standartnews.com/sport.html>
-2020-01-29 22:27:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/biznes.html> from <GET http://standartnews.com/biznes.html>
-2020-01-29 22:27:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/lyubopitno.html> from <GET http://standartnews.com/lyubopitno.html>
-2020-01-29 22:27:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/sport.html> from <GET http://standartnews.com/sport.html>
-2020-01-29 22:27:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/regionalni.html> from <GET http://standartnews.com/regionalni.html>
-2020-01-29 22:27:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/balgariya.html> from <GET http://standartnews.com/balgariya.html>
-2020-01-29 22:27:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.standartnews.com/chudesata_na_balgariya.html> from <GET http://www.standartnews.com/chudesata_na_balgariya.html>
-2020-01-29 22:27:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/svyat.html> from <GET http://standartnews.com/svyat.html>
-2020-01-29 22:27:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/kultura.html> from <GET http://standartnews.com/kultura.html>
-2020-01-29 22:27:13 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://standartnews.com/lyubopitno.html> (referer: None)
-2020-01-29 22:27:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://standartnews.com/lyubopitno.html>: HTTP status code is not handled or not allowed
-2020-01-29 22:27:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.standartnews.com/lifestyle.html> (referer: None)
-2020-01-29 22:27:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/kultura.html> (referer: None)
-2020-01-29 22:27:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/mneniya.html> (referer: None)
-2020-01-29 22:27:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/regionalni.html> (referer: None)
-2020-01-29 22:27:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/svyat.html> (referer: None)
-2020-01-29 22:27:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/balgariya.html> (referer: None)
-2020-01-29 22:27:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/biznes.html> (referer: None)
-2020-01-29 22:27:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.standartnews.com/chudesata_na_balgariya.html> (referer: None)
-2020-01-29 22:27:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.standartnews.com/sport.html> (referer: None)
-2020-01-29 22:27:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://standartnews.com/sport.html> (referer: None)
-2020-01-29 22:27:18 [scrapy.core.engine] INFO: Closing spider (finished)
-2020-01-29 22:27:18 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 4821,
- 'downloader/request_count': 21,
- 'downloader/request_method_count/GET': 21,
- 'downloader/response_bytes': 456904,
- 'downloader/response_count': 21,
- 'downloader/response_status_count/200': 10,
+2020-01-31 21:49:12 [scrapy.core.engine] INFO: Spider opened
+2020-01-31 21:49:12 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-01-31 21:49:12 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-01-31 21:49:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/biznes.html> from <GET http://standartnews.com/biznes.html>
+2020-01-31 21:49:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/kultura.html> from <GET http://standartnews.com/kultura.html>
+2020-01-31 21:49:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.standartnews.com/chudesata_na_balgariya.html> from <GET http://www.standartnews.com/chudesata_na_balgariya.html>
+2020-01-31 21:49:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/mneniya.html> from <GET http://standartnews.com/mneniya.html>
+2020-01-31 21:49:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/sport.html> from <GET http://standartnews.com/sport.html>
+2020-01-31 21:49:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.standartnews.com/sport.html> from <GET http://www.standartnews.com/sport.html>
+2020-01-31 21:49:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/lyubopitno.html> from <GET http://standartnews.com/lyubopitno.html>
+2020-01-31 21:49:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/regionalni.html> from <GET http://standartnews.com/regionalni.html>
+2020-01-31 21:49:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/balgariya.html> from <GET http://standartnews.com/balgariya.html>
+2020-01-31 21:49:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://standartnews.com/svyat.html> from <GET http://standartnews.com/svyat.html>
+2020-01-31 21:49:15 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://standartnews.com/regionalni.html> (failed 1 times): 500 Internal Server Error
+2020-01-31 21:49:15 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://www.standartnews.com/sport.html> (failed 1 times): 500 Internal Server Error
+2020-01-31 21:49:15 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://standartnews.com/biznes.html> (failed 1 times): 500 Internal Server Error
+2020-01-31 21:49:15 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://www.standartnews.com/chudesata_na_balgariya.html> (failed 1 times): 500 Internal Server Error
+2020-01-31 21:49:15 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://standartnews.com/svyat.html> (failed 1 times): 500 Internal Server Error
+2020-01-31 21:49:17 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://standartnews.com/biznes.html> (failed 2 times): 500 Internal Server Error
+2020-01-31 21:49:17 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://standartnews.com/balgariya.html> (failed 1 times): 500 Internal Server Error
+2020-01-31 21:49:17 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://standartnews.com/sport.html> (failed 1 times): 500 Internal Server Error
+2020-01-31 21:49:17 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://www.standartnews.com/sport.html> (failed 2 times): 500 Internal Server Error
+2020-01-31 21:49:17 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://standartnews.com/mneniya.html> (failed 1 times): 500 Internal Server Error
+2020-01-31 21:49:17 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://standartnews.com/kultura.html> (failed 1 times): 500 Internal Server Error
+2020-01-31 21:49:17 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://standartnews.com/lyubopitno.html> (failed 1 times): 500 Internal Server Error
+2020-01-31 21:49:17 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://standartnews.com/regionalni.html> (failed 2 times): 500 Internal Server Error
+2020-01-31 21:49:18 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://standartnews.com/balgariya.html> (failed 2 times): 500 Internal Server Error
+2020-01-31 21:49:19 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://www.standartnews.com/chudesata_na_balgariya.html> (failed 2 times): 500 Internal Server Error
+2020-01-31 21:49:19 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://standartnews.com/kultura.html> (failed 2 times): 500 Internal Server Error
+2020-01-31 21:49:19 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://standartnews.com/mneniya.html> (failed 2 times): 500 Internal Server Error
+2020-01-31 21:49:19 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://standartnews.com/sport.html> (failed 2 times): 500 Internal Server Error
+2020-01-31 21:49:19 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET https://standartnews.com/regionalni.html> (failed 3 times): 500 Internal Server Error
+2020-01-31 21:49:19 [scrapy.core.engine] DEBUG: Crawled (500) <GET https://standartnews.com/regionalni.html> (referer: None)
+2020-01-31 21:49:19 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://standartnews.com/lyubopitno.html> (failed 2 times): 500 Internal Server Error
+2020-01-31 21:49:19 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://standartnews.com/svyat.html> (failed 2 times): 500 Internal Server Error
+2020-01-31 21:49:19 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET https://standartnews.com/biznes.html> (failed 3 times): 500 Internal Server Error
+2020-01-31 21:49:19 [scrapy.core.engine] DEBUG: Crawled (500) <GET https://standartnews.com/biznes.html> (referer: None)
+2020-01-31 21:49:19 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET https://www.standartnews.com/sport.html> (failed 3 times): 500 Internal Server Error
+2020-01-31 21:49:19 [scrapy.core.engine] DEBUG: Crawled (500) <GET https://www.standartnews.com/sport.html> (referer: None)
+2020-01-31 21:49:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <500 https://standartnews.com/regionalni.html>: HTTP status code is not handled or not allowed
+2020-01-31 21:49:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <500 https://standartnews.com/biznes.html>: HTTP status code is not handled or not allowed
+2020-01-31 21:49:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <500 https://www.standartnews.com/sport.html>: HTTP status code is not handled or not allowed
+2020-01-31 21:49:20 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET https://standartnews.com/balgariya.html> (failed 3 times): 500 Internal Server Error
+2020-01-31 21:49:20 [scrapy.core.engine] DEBUG: Crawled (500) <GET https://standartnews.com/balgariya.html> (referer: None)
+2020-01-31 21:49:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <500 https://standartnews.com/balgariya.html>: HTTP status code is not handled or not allowed
+2020-01-31 21:49:20 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET https://standartnews.com/sport.html> (failed 3 times): 500 Internal Server Error
+2020-01-31 21:49:20 [scrapy.core.engine] DEBUG: Crawled (500) <GET https://standartnews.com/sport.html> (referer: None)
+2020-01-31 21:49:21 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <500 https://standartnews.com/sport.html>: HTTP status code is not handled or not allowed
+2020-01-31 21:49:21 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET https://standartnews.com/kultura.html> (failed 3 times): 500 Internal Server Error
+2020-01-31 21:49:21 [scrapy.core.engine] DEBUG: Crawled (500) <GET https://standartnews.com/kultura.html> (referer: None)
+2020-01-31 21:49:21 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <500 https://standartnews.com/kultura.html>: HTTP status code is not handled or not allowed
+2020-01-31 21:49:21 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET https://standartnews.com/lyubopitno.html> (failed 3 times): 500 Internal Server Error
+2020-01-31 21:49:21 [scrapy.core.engine] DEBUG: Crawled (500) <GET https://standartnews.com/lyubopitno.html> (referer: None)
+2020-01-31 21:49:21 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET https://standartnews.com/mneniya.html> (failed 3 times): 500 Internal Server Error
+2020-01-31 21:49:21 [scrapy.core.engine] DEBUG: Crawled (500) <GET https://standartnews.com/mneniya.html> (referer: None)
+2020-01-31 21:49:21 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET https://www.standartnews.com/chudesata_na_balgariya.html> (failed 3 times): 500 Internal Server Error
+2020-01-31 21:49:21 [scrapy.core.engine] DEBUG: Crawled (500) <GET https://www.standartnews.com/chudesata_na_balgariya.html> (referer: None)
+2020-01-31 21:49:21 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET https://standartnews.com/svyat.html> (failed 3 times): 500 Internal Server Error
+2020-01-31 21:49:21 [scrapy.core.engine] DEBUG: Crawled (500) <GET https://standartnews.com/svyat.html> (referer: None)
+2020-01-31 21:49:21 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <500 https://standartnews.com/mneniya.html>: HTTP status code is not handled or not allowed
+2020-01-31 21:49:21 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <500 https://standartnews.com/lyubopitno.html>: HTTP status code is not handled or not allowed
+2020-01-31 21:49:21 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <500 https://www.standartnews.com/chudesata_na_balgariya.html>: HTTP status code is not handled or not allowed
+2020-01-31 21:49:21 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <500 https://standartnews.com/svyat.html>: HTTP status code is not handled or not allowed
+2020-01-31 21:50:12 [scrapy.extensions.logstats] INFO: Crawled 10 pages (at 10 pages/min), scraped 0 items (at 0 items/min)
+2020-01-31 21:50:12 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://www.standartnews.com/lifestyle.html> (failed 1 times): 504 Gateway Time-out
+2020-01-31 21:50:15 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://www.standartnews.com/lifestyle.html> (failed 2 times): 500 Internal Server Error
+2020-01-31 21:50:20 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET https://www.standartnews.com/lifestyle.html> (failed 3 times): 500 Internal Server Error
+2020-01-31 21:50:20 [scrapy.core.engine] DEBUG: Crawled (500) <GET https://www.standartnews.com/lifestyle.html> (referer: None)
+2020-01-31 21:50:21 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <500 https://www.standartnews.com/lifestyle.html>: HTTP status code is not handled or not allowed
+2020-01-31 21:50:21 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-01-31 21:50:21 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 26557,
+ 'downloader/request_count': 43,
+ 'downloader/request_method_count/GET': 43,
+ 'downloader/response_bytes': 167058,
+ 'downloader/response_count': 43,
  'downloader/response_status_count/301': 10,
- 'downloader/response_status_count/404': 1,
+ 'downloader/response_status_count/500': 32,
+ 'downloader/response_status_count/504': 1,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2020, 1, 29, 20, 27, 18, 626000),
- 'httperror/response_ignored_count': 1,
- 'httperror/response_ignored_status_count/404': 1,
- 'log_count/DEBUG': 21,
- 'log_count/INFO': 10,
+ 'finish_time': datetime.datetime(2020, 1, 31, 19, 50, 21, 38000),
+ 'httperror/response_ignored_count': 11,
+ 'httperror/response_ignored_status_count/500': 11,
+ 'log_count/DEBUG': 54,
+ 'log_count/INFO': 21,
  'response_received_count': 11,
- 'scheduler/dequeued': 21,
- 'scheduler/dequeued/memory': 21,
- 'scheduler/enqueued': 21,
- 'scheduler/enqueued/memory': 21,
- 'start_time': datetime.datetime(2020, 1, 29, 20, 27, 12, 829000)}
-2020-01-29 22:27:18 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'retry/count': 22,
+ 'retry/max_reached': 11,
+ 'retry/reason_count/500 Internal Server Error': 21,
+ 'retry/reason_count/504 Gateway Time-out': 1,
+ 'scheduler/dequeued': 43,
+ 'scheduler/dequeued/memory': 43,
+ 'scheduler/enqueued': 43,
+ 'scheduler/enqueued/memory': 43,
+ 'start_time': datetime.datetime(2020, 1, 31, 19, 49, 12, 499000)}
+2020-01-31 21:50:21 [scrapy.core.engine] INFO: Spider closed (finished)

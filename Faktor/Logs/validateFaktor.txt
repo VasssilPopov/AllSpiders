@@ -1,13 +1,11 @@
-VALIDATIONS for Faktor/Reports/Faktor-2020-01-29.json
+VALIDATIONS for Faktor/Reports/Faktor-2020-01-31.json
 
->> Duplicates Report:Faktor/Reports/Faktor-2020-01-29.json
+>> Duplicates Report:Faktor/Reports/Faktor-2020-01-31.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Faktor/Reports/Faktor-2020-01-29.json
+>>Faktor/Reports/Faktor-2020-01-31.json
 ----------------------------------------------------------------------
 0
->> Validation of Faktor/Reports/Faktor-2020-01-29.json 
-<67>  https://faktor.bg/bg/articles/novini-balgariya-netanyahu-pristiga-v-moskva-predstavya-na-putin-sdelkata-na-veka-na-tramp-za-blizkiya-iztok
-'text' is empty
-<<Valid records: 68 of 69
+>2>
+>> Validation of Faktor/Reports/Faktor-2020-01-31.json 

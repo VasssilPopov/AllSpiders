@@ -1,114 +1,14 @@
-VALIDATIONS for Dnes/Reports/Dnes-2020-01-29.json
+VALIDATIONS for Dnes/Reports/Dnes-2020-01-31.json
 
->> Duplicates Report:Dnes/Reports/Dnes-2020-01-29.json
+>> Duplicates Report:Dnes/Reports/Dnes-2020-01-31.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Dnes/Reports/Dnes-2020-01-29.json
+>>Dnes/Reports/Dnes-2020-01-31.json
 ----------------------------------------------------------------------
-https://www.dnes.bg/snimka-na-denia/2020/01/29/fevruari-syshto-shte-e-topyl-valejite-pod-normata.437455
-https://www.dnes.bg/obshtestvo/2020/01/29/godni-za-voenna-slujba-i-na-40-ms-odobri-na-hod-sa-deputatite.437462
-https://www.dnes.bg/akoshtete-vqrvaite/2020/01/29/shantav-trend-stiagane-na-pantalonite-s-obuvkite.437441
-https://www.dnes.bg/obshtestvo/2020/01/29/vasil-bojkov-iavno-sa-reshili-da-me-premahnat.437491
-https://www.dnes.bg/stranata/2020/01/29/pleven-edinstveniiat-grad-u-nas-sys-100-ekotransport.437484
-https://www.dnes.bg/akoshtete-vqrvaite/2020/01/29/top-3-zodii-koito-poemat-nai-mnogo-riskove.437444
-https://www.dnes.bg/obshtestvo/2020/01/29/nove-ad-holding-s-oficialna-poziciia-po-sluchaia-s-vasil-bojkov.437492
-https://www.dnes.bg/notifikacii/2020/01/29/visoka-zabolevaemost-v-sofiia-byrzite-testove-za-grip-svyrshiha.437469
-https://www.dnes.bg/obshtestvo/2020/01/29/za-sigurnostta-na-energiinata-sistema-nad-1-8-mlrd-lv.437486
-https://www.dnes.bg/izlojbi/2020/01/29/hudojnik-zove-pravete-liubov-a-ne-war.437471
-https://www.dnes.bg/sport/2020/01/29/cska-zavyrshi-naravno-s-chonbuk-hiundai-motors.437495
-https://www.dnes.bg/zvezdi/2020/01/29/bleik-laivli-otnovo-e-tuk-po-krasiva-otvsiakoga.437478
-https://www.dnes.bg/index/2020/01/29/plan-b-za-chovechestvoto-voda-ot-vyzduha-20-te-otkritiia-na-godinata.437403
-https://www.dnes.bg/rusia/2020/01/29/nova-dlyjnost-putin-da-ne-e-prezident-a-vyrhoven-upravitel.437456
-https://www.dnes.bg/balkani/2020/01/29/policai-zagina-pri-vzriv-v-kosovo.437465
-https://www.dnes.bg/usa/2020/01/29/eto-ia-kartata-na-izrael-i-palestina-taka-ia-vijda-trymp.437418
-https://www.dnes.bg/temida/2020/01/29/kpkonpi-s-isk-sreshtu-banevi-za-nad-140-mln-lv-imoti-zlato.437451
-https://www.dnes.bg/zvezdi/2020/01/29/bili-ailish-planirala-da-se-samoubie.437443
-https://www.dnes.bg/politika/2020/01/29/radev-atakite-sreshtu-men-i-semeistvoto-mi-pridobivat-urodlivi-izmereniia.437448
-https://www.dnes.bg/obshtestvo/2020/01/29/restorantiori-i-hotelieri-pred-ns-zapazete-malkiia-biznes.437457
-https://www.dnes.bg/world/2020/01/29/ot-sasht-aushvic-e-osvoboden-ot-amerikanskata-armiia.437435
-https://www.dnes.bg/zvezdi/2020/01/29/bratyt-na-niki-minaj-v-zatvora-za-iznasilvane.437439
-https://www.dnes.bg/politika/2020/01/29/partiite-podkrepiali-chlenstvoto-v-evrozonata.437459
-https://www.dnes.bg/akoshtete-vqrvaite/2020/01/29/koi-zodii-shte-se-radvat-na-prekrasen-fevruari-mesec.437340
-https://www.dnes.bg/obrazovanie/2020/01/29/uchiteli-za-noviia-format-na-nvo-v-iv-klas-nenujen-stres.437454
-https://www.dnes.bg/stranata/2020/01/29/policai-spriaha-piian-makedonec-zad-volana-krai-kiustendil.437446
-https://www.dnes.bg/stranata/2020/01/29/obiaviha-gripna-epidemiia-i-v-stara-zagora.437461
-https://www.dnes.bg/health/2020/01/29/kak-izboryt-ni-na-sportna-aktivnost-vliiae-na-otslabvaneto.437343
-https://www.dnes.bg/obshtestvo/2020/01/29/slavi-ne-se-otkazva-uchrediava-partiiata-si-na-16-fevruari.437463
-https://www.dnes.bg/obshtestvo/2020/01/29/da-pomognem-na-iosif-da-ima-shtastlivo-detstvo.437452
-https://www.dnes.bg/sofia/2020/01/29/protestirashtite-sreshtu-naredba-n-18-blokiraha-orlov-most.437468
-https://www.dnes.bg/obshtestvo/2020/01/29/bebe-na-2-dni-pochina-v-montana-lekarska-greshka-li-e.437425
-https://www.dnes.bg/blizak-iztok/2020/01/29/noviiat-koronavirus-stigna-i-v-blizkiia-iztok.437399
-https://www.dnes.bg/sofia/2020/01/29/6-dni-po-kysno-vse-oshte-niama-i-sleda-ot-20-godishniia-nikolai.437405
-https://www.dnes.bg/world/2020/01/29/prolivni-dyjdove-i-navodneniia-v-braziliia-pone-45-jertvi.437398
-https://www.dnes.bg/obshtestvo/2020/01/29/bylgarin-ot-kitai-maskite-svyrshiha-metroto-e-poluprazno.437411
-https://www.dnes.bg/sport/2020/01/29/zverev-obyrna-vavrinka-i-stigna-svoia-pyrvi-polufinal-v-melbyrn.437407
-https://www.dnes.bg/stranata/2020/01/29/dva-koraba-zasednaha-v-dunav-za-den.437406
-https://www.dnes.bg/politika/2020/01/29/ochakvano-votyt-na-nedoverie-sreshtu-kabineta-borisov-ne-mina.437414
-https://www.dnes.bg/stranata/2020/01/29/po-8-pyti-na-den-sofiianci-vikat-paiaka.437401
-https://www.dnes.bg/obshtestvo/2020/01/29/evroto-e-vse-po-blizo-no-kak-shte-se-otrazi-na-djoba-ni.437412
-https://www.dnes.bg/sofia/2020/01/29/kyde-v-chetvyrtyk-niama-da-ima-voda-v-sofiia.437416
-https://www.dnes.bg/sofia/2020/01/29/zaradi-gripnata-vakanciia-cgm-puska-avtobusi-do-vitosha.437417
-https://www.dnes.bg/politika/2020/01/29/korneliia-ninova-dyrjavata-e-v-poliorganna-nedostatychnost.437419
-https://www.dnes.bg/temida/2020/01/29/prokuraturata-prekratiava-kontakti-s-prezidentstvoto.437421
-https://www.dnes.bg/sofia/2020/01/29/akciia-i-v-komisiiata-po-hazarta-ima-arestuvani-slujiteli.437423
-https://www.dnes.bg/muzika/2020/01/29/film-za-ara-malikian-specheli-nagrada-goya.437427
-https://www.dnes.bg/obshtestvo/2020/01/29/vse-poveche-uchenici-ot-slivensko-zaminavat-v-chujbina.437415
-https://www.dnes.bg/stranata/2020/01/29/problemi-v-kv-gorna-bania-kucheta-lipsa-na-trotoari-bokluci.437298
-https://www.dnes.bg/rusia/2020/01/29/moskovskiiat-patriarh-bylgarite-triabva-da-sa-ni-blagodarni.437390
-https://www.dnes.bg/world/2020/01/29/kakyv-e-mirniiat-plan-na-donald-trymp-za-blizkiia-iztok.437391
-https://www.dnes.bg/politika/2020/01/29/pir-po-vreme-na-chuma-dnes-glasuvat-vota-na-nedoverie-sreshtu-borisov-3.437392
-https://www.dnes.bg/index/2020/01/29/receptata-dnes-guakamole-s-domati-i-laim.437294
-https://www.dnes.bg/obshtestvo/2020/01/29/temperaturite-ostavat-neobichaino-visoki-za-ianuari.437393
-https://www.dnes.bg/stranata/2020/01/29/tejka-katastrofa-krai-ruse-ubi-dvama.437394
-https://www.dnes.bg/world/2020/01/29/bylgarski-prepodavatel-v-kitai-situaciiata-e-spokoina.437395
-https://www.dnes.bg/stranata/2020/01/29/katastrofa-zatvori-trakiia-kym-sofiia.437396
-https://www.dnes.bg/football/2020/01/29/fenove-na-iunaited-podpaliha-doma-na-shef-na-tima.437397
-https://www.dnes.bg/politika/2020/01/29/akciia-prokuraturata-i-mvr-vliazoha-v-ofisite-na-vasil-bojkov.437404
-https://www.dnes.bg/world/2020/01/29/ep-glasuva-dnes-sporazumenieto-za-razdialata-s-velikobritaniia.437402
-https://www.dnes.bg/politika/2020/01/29/borisov-siguren-bsp-i-dps-oformiat-nova-koaliciia.437430
-https://www.dnes.bg/world/2020/01/29/60-mln-v-kitai-pod-chastichna-ili-pylna-karantina.437400
-https://www.dnes.bg/notifikacii/2020/01/29/radeva-vyv-facebook-dyrjavnata-izmiana-debne-otvsiakyde.437428
-https://www.dnes.bg/index/2020/01/29/predavaneto-direktno-s-otlichie-na-godishnite-nagradi-za-pytna-bezopasnost.437433
-https://www.dnes.bg/politika/2020/01/29/zlatanova-za-srs-tata-sreshtu-radev-ustanoviava-se-rumynskiiat-model.437429
-https://www.dnes.bg/notifikacii/2020/01/29/ploshtad-v-redjo-emiliia-shte-nosi-imeto-na-kobi-braiynt.437424
-https://www.dnes.bg/stranata/2020/01/29/myj-postrada-pri-pojar-v-lom.437438
-https://www.dnes.bg/politika/2020/01/29/popravkata-simeonov-v-zakona-za-hazarta-mina-na-pyrvo-chetene.437437
-https://www.dnes.bg/politika/2020/01/29/borisov-za-evrozonata-da-ne-stavat-greshki-dori-bsp-da-doide-na-vlast.437436
-https://www.dnes.bg/index/2020/01/29/bojkov-pred-bulgaria-on-air-nikoi-ne-me-izdirva-nikoi-ne-mi-se-e-obajdal.437449
-https://www.dnes.bg/akoshtete-vqrvaite/2020/01/29/trend-kostiumi-ot-koprina.437445
-https://www.dnes.bg/sofia/2020/01/29/padnali-dyrveta-kloni-silniiat-viatyr-vdigna-na-krak-stolichnata-obshtina.437434
-https://www.dnes.bg/temida/2020/01/29/kpkonpi-podhvana-bivsh-kmet-obshtinar-ot-varna-i-shef-na-rzi.437450
-https://www.dnes.bg/muzika/2020/01/29/pamela-atakuva-rap-scenata-s-final-boss.437447
-https://www.dnes.bg/sofia/2020/01/29/kakvo-sirene-iadem-babh-trygna-na-proverki.437467
-https://www.dnes.bg/stranata/2020/01/29/dve-bylgarki-pod-nabliudenie-vyrnali-se-ot-kitai-i-tailand.437466
-https://www.dnes.bg/sport/2020/01/29/biografiiata-na-enco-ferari-istoriia-na-avtomobilna-italiia.437442
-https://www.dnes.bg/world/2020/01/29/aviokompanii-prekratiavat-poleti-zaradi-kitaiskiia-virus.437453
-https://www.dnes.bg/stranata/2020/01/29/ekosistemata-v-blizo-30-km-na-marica-e-unishtojena.437472
-https://www.dnes.bg/sport/2020/01/29/otkriha-seriozen-propusk-v-helikoptera-na-kobi-braiynt.437473
-https://www.dnes.bg/temida/2020/01/29/myj-karal-bremennata-si-jena-da-prostituira-shte-leji-12-g.437474
-https://www.dnes.bg/notifikacii/2020/01/29/berlin-zatvori-city-hostel-operiral-v-sgradata-na-kndr.437458
-https://www.dnes.bg/world/2020/01/29/peticii-v-tri-dyrjavi-ne-iskat-da-puskat-kitaici.437476
-https://www.dnes.bg/health/2020/01/29/kak-svetyt-prie-stanovishteto-na-szo-za-e-cigarite.437475
-https://www.dnes.bg/temida/2020/01/29/vasil-bojkov-sys-sedem-obvineniia-obiaven-e-za-izdirvane.437483
-https://www.dnes.bg/stranata/2020/01/29/stranata-ni-ima-nerazvit-potencial-za-ustoichiv-turizym.437464
-https://www.dnes.bg/index/2020/01/29/deniat-v-snimki-29-ianuari.437470
-https://www.dnes.bg/stranata/2020/01/29/piiana-sedna-zad-volana-i-katastrofira-v-plovdiv.437477
-https://www.dnes.bg/eu/2020/01/29/i-bylgari-se-evakuirat-sys-samoletite-na-es-ot-kitai.437496
-https://www.dnes.bg/usa/2020/01/29/uoryn-byfet-prekratiava-vestnikarskiia-si-biznes.437490
-https://www.dnes.bg/stranata/2020/01/29/turski-turist-padna-ot-lift-v-pamporovo.437489
-https://www.dnes.bg/football/2020/01/29/levski-pobedi-piunik-s-3-2.437497
-https://www.dnes.bg/akoshtete-vqrvaite/2020/01/29/fasting-ili-pohapvane-na-2-3-chasa-eto-kakvo-da-izberete.437482
-https://www.dnes.bg/world/2020/01/29/dyshteria-na-prezident-natrupa-2-mlrd-dolara-ot-korupciia-li-sa.437493
-https://www.dnes.bg/zvezdi/2020/01/29/charliiz-teron-andjelina-djoli-koi-zvezdi-otglejdat-polovo-neutralni-deca.437480
-https://www.dnes.bg/eu/2020/01/29/s-pregrydki-sylzi-i-pesen-evroparlamentyt-ratificira-brexit.437498
-https://www.dnes.bg/world/2020/01/29/fashizoidno-ili-cheren-humor-turisti-s-tabelki-not-from-china.437282
-https://www.dnes.bg/stranata/2020/01/29/velosipedist-zagina-v-prohoda-na-republikata.437499
-https://www.dnes.bg/index/2020/01/29/prilojeniia-za-zapoznanstva-po-lesno-li-e-obshtuvaneto-onlain.437485
-99
->> Validation of Dnes/Reports/Dnes-2020-01-29.json 
-<18>  https://www.dnes.bg/index/2020/01/29/deniat-v-snimki-29-ianuari.437470
+0
+>2>
+>> Validation of Dnes/Reports/Dnes-2020-01-31.json 
+<101>  https://www.dnes.bg/index/2020/01/31/deniat-v-snimki-31-ianuari.437706
 'text' is empty
-<188>  https://www.dnes.bg/index/2020/01/29/deniat-v-snimki-29-ianuari.437470
-'text' is empty
-<<Valid records: 199 of 201
+<<Valid records: 102 of 103

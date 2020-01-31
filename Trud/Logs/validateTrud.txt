@@ -1,9 +1,10 @@
-VALIDATIONS for Trud/Reports/Trud-2020-01-29.json
->> Duplicates Report:Trud/Reports/Trud-2020-01-29.json
+VALIDATIONS for Trud/Reports/Trud-2020-01-31.json
+>> Duplicates Report:Trud/Reports/Trud-2020-01-31.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Trud/Reports/Trud-2020-01-29.json
+>>Trud/Reports/Trud-2020-01-31.json
 ----------------------------------------------------------------------
 0
->> Validation of Trud/Reports/Trud-2020-01-29.json 
+>2>
+>> Validation of Trud/Reports/Trud-2020-01-31.json 

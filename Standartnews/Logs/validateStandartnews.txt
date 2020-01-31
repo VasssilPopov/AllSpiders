@@ -1,15 +1,11 @@
-VALIDATIONS for Standartnews/Reports/Standartnews-2020-01-29.json
+VALIDATIONS for Standartnews/Reports/Standartnews-2020-01-31.json
 
->> Duplicates Report:Standartnews/Reports/Standartnews-2020-01-29.json
+>> Duplicates Report:Standartnews/Reports/Standartnews-2020-01-31.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Standartnews/Reports/Standartnews-2020-01-29.json
+>>Standartnews/Reports/Standartnews-2020-01-31.json
 ----------------------------------------------------------------------
 0
->> Validation of Standartnews/Reports/Standartnews-2020-01-29.json 
-<47>  https://www.standartnews.com/sport/albert-popov-pak-e-v-top-20-za-svetovnata-kupa-413135.html
-'text' is empty
-<58>  https://standartnews.com/sport/albert-popov-pak-e-v-top-20-za-svetovnata-kupa-413135.html
-'text' is empty
-<<Valid records: 57 of 59
+>2>
+>> Validation of Standartnews/Reports/Standartnews-2020-01-31.json 
