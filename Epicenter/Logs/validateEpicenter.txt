@@ -1,16 +1,11 @@
-VALIDATIONS for Epicenter/Reports/Epicenter-2020-01-31.json
+VALIDATIONS for Epicenter/Reports/Epicenter-2020-02-01.json
 
->> Duplicates Report:Epicenter/Reports/Epicenter-2020-01-31.json
+>> Duplicates Report:Epicenter/Reports/Epicenter-2020-02-01.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Epicenter/Reports/Epicenter-2020-01-31.json
+>>Epicenter/Reports/Epicenter-2020-02-01.json
 ----------------------------------------------------------------------
 0
 >2>
->> Validation of Epicenter/Reports/Epicenter-2020-01-31.json 
-<25>  http://epicenter.bg/article/Tasko-Ermenkov--Da-se-obedinim-za-garantirane-na-energiynata-i-natsionalnata-ni-sigurnost/205456/2/0
-'text' is shorter than 8
-<28>  http://epicenter.bg/article/Ninova-osvobodi-Boyana-Bozadzhieva-kato-svoy-medien-savetnik/205464/2/0
-'text' is empty
-<<Valid records: 77 of 79
+>> Validation of Epicenter/Reports/Epicenter-2020-02-01.json 

@@ -1,11 +1,15 @@
-VALIDATIONS for OffNews/Reports/OffNews-2020-01-30.json
+VALIDATIONS for OffNews/Reports/OffNews-2020-01-31.json
 
->> Duplicates Report:OffNews/Reports/OffNews-2020-01-30.json
+>> Duplicates Report:OffNews/Reports/OffNews-2020-01-31.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>OffNews/Reports/OffNews-2020-01-30.json
+>>OffNews/Reports/OffNews-2020-01-31.json
 ----------------------------------------------------------------------
 0
 >2>
->> Validation of OffNews/Reports/OffNews-2020-01-30.json 
+>> Validation of OffNews/Reports/OffNews-2020-01-31.json 
+<53>  https://mamaninja.bg/%D0%B7%D0%B0%D0%B1%D0%B0%D0%B2%D0%BD%D0%BE/item/3925-mama-pak-ne-stana-skior
+'title' is empty
+'text' is empty
+<<Valid records: 88 of 89

@@ -1,44 +1,20 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2020-01-30.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2020-01-31.json
 
->> Duplicates Report:Dnevnik/Reports/Dnevnik-2020-01-30.json
+>> Duplicates Report:Dnevnik/Reports/Dnevnik-2020-01-31.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Dnevnik/Reports/Dnevnik-2020-01-30.json
+>>Dnevnik/Reports/Dnevnik-2020-01-31.json
 ----------------------------------------------------------------------
 0
 >2>
->> Validation of Dnevnik/Reports/Dnevnik-2020-01-30.json 
-<8>  https://www.dnevnik.bg/bulgaria/2020/01/30/4023090_kak_izglejda_novata_metrostanciia_krai_orlov_most/
+>> Validation of Dnevnik/Reports/Dnevnik-2020-01-31.json 
+<3>  https://www.dnevnik.bg/video/lice_v_lice/2020/01/31/4023751_metodi_andreev_hora_kato_bojkov_imat_parlamentarni/
 'title' is empty
-<9>  https://www.dnevnik.bg/video/boiko_borisov/2020/01/30/4023104_bulgariia_niama_da_izprashta_samolet_da_pribere/
+<13>  https://www.dnevnik.bg/sport/2020/01/31/4023372_golovete_s_koito_lionel_mesi_doprinese_za_svoiata/
 'title' is empty
-<22>  https://www.dnevnik.bg/sviat/2020/01/30/4021498_dokato_bulgariia_umuva_v_centralna_evropa_zapochva/
-'text' is empty
-<25>  https://www.dnevnik.bg/sport/2020/01/30/4022692_kamen_alipiev_ako_fenovete_na_levski_izliazat_na/
+<39>  https://www.dnevnik.bg/bulgaria/2020/01/31/4023532_i_sled_brekzit_bulgarite_shte_mogat_da_putuvat_do/
 'title' is empty
-<26>  https://www.dnevnik.bg/video/s_dve_dumi/2020/01/30/4022544_mogat_li_maskite_da_ni_spasiat_v_sezona_na_gripa/
+<71>  https://www.dnevnik.bg/sviat/2020/01/31/4023742_miniatjurni_hameleoni_se_izljupiha_v_britanski_zoopark/
 'title' is empty
-<49>  https://www.dnevnik.bg/analizi/2020/01/30/4022934_vot_haos_i_zalozi/
-'text' is empty
-<50>  https://www.dnevnik.bg/zelen/2020/01/30/4022911_sustezanie_shte_pomogne_za_vuzstanoviavane_na/
-'text' is empty
-<53>  https://www.dnevnik.bg/video/btv/2020/01/30/4022950_bivsh_shef_na_komsiiata_po_hazarta_ochevidno_za/
-'title' is empty
-<57>  https://www.dnevnik.bg/sviat/2020/01/30/4022978_na_sboguvane_evropeiskiiat_parlament_izprati/
-'title' is empty
-<59>  https://www.dnevnik.bg/bulgaria/2020/01/30/4022957_kursut_na_leva_kum_evroto_niama_da_se_promenia_do/
-'title' is empty
-<65>  https://www.dnevnik.bg/video/antikorupcionen_fond/2020/01/30/4023022_kak_pari_ot_ktb_sa_vlizali_v_bulgarski_medii_i_kakvo/
-'title' is empty
-<69>  https://www.dnevnik.bg/video/btv/2020/01/30/4022925_geshev_ne_se_sreshtal_s_oligarsi_a_samo_s_obiknoveni/
-'title' is empty
-<73>  https://www.dnevnik.bg/video/deniat_s_veselin_dremdjiev/2020/01/30/4023160_osman_oktai_bojkov_e_mnogo_goliama_lujica_za_ustata_na/
-'title' is empty
-<75>  https://www.dnevnik.bg/sviat/2020/01/30/4022377_navsiakude_se_sipeshe_pepel_ot_krematoriuma_-_razkaz/
-'title' is empty
-<89>  https://www.dnevnik.bg/sviat/2020/01/30/4023201_zashto_hiliadi_turisti_poluchiha_zabrana_da_sliazat_ot/
-'title' is empty
-<92>  https://www.dnevnik.bg/video/2020/01/30/4023335_radev_ednostrannite_deistviia_sa_predizvikatelstvo/
-'title' is empty
-<<Valid records: 81 of 97
+<<Valid records: 68 of 72

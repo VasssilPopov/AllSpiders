@@ -87,10 +87,10 @@ for src in Srcs:
 #>>    HelperTools.scanReports(src+'/Reports/'+src+'-2019-09-2*.json')
     #HelperTools.scanReports(src+'/Reports/'+src+'-2018-12-*.json')
     # HelperTools.scanReports(src+'/Reports/'+src+'-2019-09-2*.json')
-    #HelperTools.scanReports(src+'/Reports/'+src+'-2019-09-*.json')
+    HelperTools.scanReports(src+'/Reports/'+src+'-2019-09-*.json')
 
     #HelperTools.scanReports(src+'/Reports/'+src+'-2019-10-28.json')
-    HelperTools.scanReports(src+'/Reports/'+src+'-2020-01-30.json')
+    #HelperTools.scanReports(src+'/Reports/'+src+'-2020-02-01.json')
 
 
 

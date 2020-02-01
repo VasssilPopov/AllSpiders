@@ -1,14 +1,11 @@
-VALIDATIONS for Cross/Reports/Cross-2020-01-30.json
+VALIDATIONS for Cross/Reports/Cross-2020-01-31.json
 
->> Duplicates Report:Cross/Reports/Cross-2020-01-30.json
+>> Duplicates Report:Cross/Reports/Cross-2020-01-31.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Cross/Reports/Cross-2020-01-30.json
+>>Cross/Reports/Cross-2020-01-31.json
 ----------------------------------------------------------------------
 0
 >2>
->> Validation of Cross/Reports/Cross-2020-01-30.json 
-<57>  http://www.cross.bg/prokyratyrata-prokyror-glavniya-1624024.html
-'text' is empty
-<<Valid records: 97 of 98
+>> Validation of Cross/Reports/Cross-2020-01-31.json 

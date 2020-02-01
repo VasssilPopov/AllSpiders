@@ -1,11 +1,14 @@
-VALIDATIONS for Monitor/Reports/Monitor-2020-01-30.json
+VALIDATIONS for Monitor/Reports/Monitor-2020-01-31.json
 
->> Duplicates Report:Monitor/Reports/Monitor-2020-01-30.json
+>> Duplicates Report:Monitor/Reports/Monitor-2020-01-31.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Monitor/Reports/Monitor-2020-01-30.json
+>>Monitor/Reports/Monitor-2020-01-31.json
 ----------------------------------------------------------------------
 0
 >2>
->> Validation of Monitor/Reports/Monitor-2020-01-30.json 
+>> Validation of Monitor/Reports/Monitor-2020-01-31.json 
+<58>  https://www.monitor.bg:443/bg/a/view/eu-brexit-187404
+'text' is empty
+<<Valid records: 97 of 98

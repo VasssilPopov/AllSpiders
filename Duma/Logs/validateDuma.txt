@@ -1,11 +1,11 @@
-VALIDATIONS for Duma/Reports/Duma-2020-01-31.json
+VALIDATIONS for Duma/Reports/Duma-2020-02-01.json
 
->> Duplicates Report:Duma/Reports/Duma-2020-01-31.json
+>> Duplicates Report:Duma/Reports/Duma-2020-02-01.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Duma/Reports/Duma-2020-01-31.json
+>>Duma/Reports/Duma-2020-02-01.json
 ----------------------------------------------------------------------
 0
 >2>
->> Validation of Duma/Reports/Duma-2020-01-31.json 
+>> Validation of Duma/Reports/Duma-2020-02-01.json 

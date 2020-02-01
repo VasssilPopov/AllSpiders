@@ -1,10 +1,13 @@
-VALIDATIONS for Trud/Reports/Trud-2020-01-31.json
->> Duplicates Report:Trud/Reports/Trud-2020-01-31.json
+VALIDATIONS for Trud/Reports/Trud-2020-02-01.json
+>> Duplicates Report:Trud/Reports/Trud-2020-02-01.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Trud/Reports/Trud-2020-01-31.json
+>>Trud/Reports/Trud-2020-02-01.json
 ----------------------------------------------------------------------
 0
 >2>
->> Validation of Trud/Reports/Trud-2020-01-31.json 
+>> Validation of Trud/Reports/Trud-2020-02-01.json 
+<15>  https://trud.bg/%d0%bc%d0%b0%d1%87%d0%be%d0%b2%d0%b5%d1%82%d0%b5-%d0%b8-%d1%81%d0%bf%d0%be%d1%80%d1%82%d1%8a%d1%82-%d0%bf%d0%be-%d1%82%d0%b5%d0%bb%d0%b5%d0%b2%d0%b8%d0%b7%d0%b8%d1%8f%d1%82%d0%b0-%d0%b4%d0%bd%d0%b5-69/
+'text' is empty
+<<Valid records: 20 of 21

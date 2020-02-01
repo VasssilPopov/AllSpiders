@@ -1,14 +1,11 @@
-VALIDATIONS for Novinite/Reports/Novinite-2020-01-30.json
+VALIDATIONS for Novinite/Reports/Novinite-2020-01-31.json
 
->> Duplicates Report:Novinite/Reports/Novinite-2020-01-30.json
+>> Duplicates Report:Novinite/Reports/Novinite-2020-01-31.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Novinite/Reports/Novinite-2020-01-30.json
+>>Novinite/Reports/Novinite-2020-01-31.json
 ----------------------------------------------------------------------
 0
 >2>
->> Validation of Novinite/Reports/Novinite-2020-01-30.json 
-<32>  https://www.novinite.bg/articles/185193/Evropejskiya-parlament-Sporazumenieto-za-Brekzit-odobreno
-'text' is empty
-<<Valid records: 46 of 47
+>> Validation of Novinite/Reports/Novinite-2020-01-31.json 

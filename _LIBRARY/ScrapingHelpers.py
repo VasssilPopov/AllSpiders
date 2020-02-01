@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
-import json
 from sys import exit
+
+import json
 import json_lines
 import codecs 
 

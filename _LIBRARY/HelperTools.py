@@ -204,13 +204,16 @@ def checkReport(jlFile):
 #checkReport('ClubZ/Reports\ClubZ-2017-07-03.json')
 # check data of multiple report files
 def scanReports(folderPath):
-    print folderPath
+    print '>> '+folderPath
 
     files=glob.glob(folderPath)
+
+    print len(files)
     s20='-'*10 +'Start'+ '-'*10 + '\n'
    
     print s20+folderPath
     for file in files:
+        print '>2>'
         checkReport(file)
 
 
@@ -354,7 +357,7 @@ def checkReports(folderPath):
         print jsonFileType(file), file
 
         
-#checkReports('PIK\Reports\*.json')
+##checkReports('PIK\Reports\*.json')
 
 
 #-------------------------------------------------------------------------

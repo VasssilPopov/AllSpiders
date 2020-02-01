@@ -1,16 +1,16 @@
-VALIDATIONS for Blitz/Reports/Blitz-2020-01-31.json
+VALIDATIONS for Blitz/Reports/Blitz-2020-02-01.json
 
->> Duplicates Report:Blitz/Reports/Blitz-2020-01-31.json
+>> Duplicates Report:Blitz/Reports/Blitz-2020-02-01.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Blitz/Reports/Blitz-2020-01-31.json
+>>Blitz/Reports/Blitz-2020-02-01.json
 ----------------------------------------------------------------------
 0
 >2>
->> Validation of Blitz/Reports/Blitz-2020-01-31.json 
-<117>  https://blitz.bg/politika/zdravnoto-ministerstvo-obyavi-vazhna-informatsiya-za-onkolekarstvata_news724012.html
+>> Validation of Blitz/Reports/Blitz-2020-02-01.json 
+<35>  https://blitz.bg/ikonomika/karolev-kaza-gorchivata-istina-pri-priemaneto-na-evroto-shche-ima-dva-izbora-obeztsenyavane-na-leva-ili-namalyavane-na-zaplatite_news724207.html
 'text' is empty
-<145>  https://blitz.bg/zdrave/zdravni-novini/kak-da-preborim-kherpes-zoster_news723537.html
+<45>  https://blitz.bg/obshtestvo/deputat-ot-gerb-pred-mrrb-nyamashe-khora-ot-pernik_news724222.html
 'text' is empty
-<<Valid records: 207 of 209
+<<Valid records: 187 of 189

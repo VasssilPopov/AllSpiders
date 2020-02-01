@@ -1,11 +1,11 @@
-VALIDATIONS for Mediapool/Reports/Mediapool-2020-01-31.json
+VALIDATIONS for Mediapool/Reports/Mediapool-2020-02-01.json
 
->> Duplicates Report:Mediapool/Reports/Mediapool-2020-01-31.json
+>> Duplicates Report:Mediapool/Reports/Mediapool-2020-02-01.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Mediapool/Reports/Mediapool-2020-01-31.json
+>>Mediapool/Reports/Mediapool-2020-02-01.json
 ----------------------------------------------------------------------
 0
 >2>
->> Validation of Mediapool/Reports/Mediapool-2020-01-31.json 
+>> Validation of Mediapool/Reports/Mediapool-2020-02-01.json 
