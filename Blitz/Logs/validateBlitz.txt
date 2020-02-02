@@ -1,16 +1,15 @@
-VALIDATIONS for Blitz/Reports/Blitz-2020-02-01.json
+VALIDATIONS for Blitz/Reports/Blitz-2020-02-02.json
 
->> Duplicates Report:Blitz/Reports/Blitz-2020-02-01.json
+>> Duplicates Report:Blitz/Reports/Blitz-2020-02-02.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Blitz/Reports/Blitz-2020-02-01.json
+>>Blitz/Reports/Blitz-2020-02-02.json
 ----------------------------------------------------------------------
 0
->2>
->> Validation of Blitz/Reports/Blitz-2020-02-01.json 
-<35>  https://blitz.bg/ikonomika/karolev-kaza-gorchivata-istina-pri-priemaneto-na-evroto-shche-ima-dva-izbora-obeztsenyavane-na-leva-ili-namalyavane-na-zaplatite_news724207.html
+>> Validation of Blitz/Reports/Blitz-2020-02-02.json 
+<61>  https://blitz.bg/svyat/deputat-posvetva-baba-da-prodade-kucheto-si-za-da-si-plati-smetkite_news724235.html
 'text' is empty
-<45>  https://blitz.bg/obshtestvo/deputat-ot-gerb-pred-mrrb-nyamashe-khora-ot-pernik_news724222.html
+<62>  https://blitz.bg/lyubopitno/predlagat-nagrada-za-tozi-koyto-uspee-da-izmkne-krokodil-ot-video_news724237.html
 'text' is empty
-<<Valid records: 187 of 189
+<<Valid records: 172 of 174

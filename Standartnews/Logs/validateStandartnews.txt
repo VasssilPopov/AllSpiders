@@ -1,14 +1,10 @@
-VALIDATIONS for Standartnews/Reports/Standartnews-2020-02-01.json
+VALIDATIONS for Standartnews/Reports/Standartnews-2020-02-02.json
 
->> Duplicates Report:Standartnews/Reports/Standartnews-2020-02-01.json
+>> Duplicates Report:Standartnews/Reports/Standartnews-2020-02-02.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Standartnews/Reports/Standartnews-2020-02-01.json
+>>Standartnews/Reports/Standartnews-2020-02-02.json
 ----------------------------------------------------------------------
 0
->2>
->> Validation of Standartnews/Reports/Standartnews-2020-02-01.json 
-<34>  https://standartnews.com/balgariya/vzemete-noviya-broy-na-vestnik-standart-413379.html
-'text' is empty
-<<Valid records: 44 of 45
+>> Validation of Standartnews/Reports/Standartnews-2020-02-02.json 

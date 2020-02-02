@@ -13,8 +13,9 @@ else:
 from ScrapingHelpers import *
 from Dates import *
 import HelperTools
+import json_lines
 
-
+#print (help('modules') )
 #HelperTools.checkReport('PIK/Reports/PIK-2017-09-15.json')
 #HelperTools.checkReport('Classa/Reports/Classa-2017-09-17.json')
 #HelperTools.scanChangeDateDelimiter('PIK\Reports\*.json')
@@ -66,8 +67,7 @@ import HelperTools
 # today
 
 ##>
-Srcs=['Actualno', 'BNews', 'BgOnAir', 'Cross', 'Dnevnik', 'Focus', 'Monitor', 'News', 'Novinite', 'OffNews', 'PIK']
-##>Srcs= ['24chasa', 'Blitz', 'Classa', 'ClubZ', 'Dnes', 'Duma', 'Epicenter', 'Faktor', 'Mediapool', 'StandartNews', 'Trud']
+Srcs=['Actualno', 'BNews', 'BgOnAir', 'Cross', 'Dnevnik', 'Focus', 'Monitor', 'News', 'Novinite', 'OffNews', 'PIK'] + ['24chasa', 'Blitz', 'Classa', 'ClubZ', 'Dnes', 'Duma', 'Epicenter', 'Faktor', 'Mediapool', 'StandartNews', 'Trud']
 
 for src in Srcs:
 #    HelperTools.scanReports(src+'/Reports/'+src+'-2018-03-*.json')
@@ -87,10 +87,10 @@ for src in Srcs:
 #>>    HelperTools.scanReports(src+'/Reports/'+src+'-2019-09-2*.json')
     #HelperTools.scanReports(src+'/Reports/'+src+'-2018-12-*.json')
     # HelperTools.scanReports(src+'/Reports/'+src+'-2019-09-2*.json')
-    HelperTools.scanReports(src+'/Reports/'+src+'-2019-09-*.json')
+    #HelperTools.scanReports(src+'/Reports/'+src+'-2019-09-*.json')
 
     #HelperTools.scanReports(src+'/Reports/'+src+'-2019-10-28.json')
-    #HelperTools.scanReports(src+'/Reports/'+src+'-2020-02-01.json')
+    HelperTools.scanReports(src+'/Reports/'+src+'-2020-01-03.json')
 
 
 

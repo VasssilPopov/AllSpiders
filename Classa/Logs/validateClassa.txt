@@ -1,11 +1,10 @@
-VALIDATIONS for Classa/Reports/Classa-2020-02-01.json
+VALIDATIONS for Classa/Reports/Classa-2020-02-02.json
 
->> Duplicates Report:Classa/Reports/Classa-2020-02-01.json
+>> Duplicates Report:Classa/Reports/Classa-2020-02-02.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Classa/Reports/Classa-2020-02-01.json
+>>Classa/Reports/Classa-2020-02-02.json
 ----------------------------------------------------------------------
 0
->2>
->> Validation of Classa/Reports/Classa-2020-02-01.json 
+>> Validation of Classa/Reports/Classa-2020-02-02.json 

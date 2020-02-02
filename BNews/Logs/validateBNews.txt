@@ -1,11 +1,11 @@
-VALIDATIONS for BNews/Reports/BNews-2020-01-31.json
+VALIDATIONS for BNews/Reports/BNews-2020-02-01.json
 
->> Duplicates Report:BNews/Reports/BNews-2020-01-31.json
+>> Duplicates Report:BNews/Reports/BNews-2020-02-01.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>BNews/Reports/BNews-2020-01-31.json
+>>BNews/Reports/BNews-2020-02-01.json
 ----------------------------------------------------------------------
 0
 >2>
->> Validation of BNews/Reports/BNews-2020-01-31.json 
+>> Validation of BNews/Reports/BNews-2020-02-01.json 

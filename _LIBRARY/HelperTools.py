@@ -177,7 +177,6 @@ count=0
 
 # check data of single report file
 def checkReport(jlFile):
-    print '>2>'
 
 
     d=dict()
@@ -204,22 +203,22 @@ def checkReport(jlFile):
 #checkReport('ClubZ/Reports\ClubZ-2017-07-03.json')
 # check data of multiple report files
 def scanReports(folderPath):
-    print '>> '+folderPath
+#    print '>> '+folderPath
 
     files=glob.glob(folderPath)
 
-    print len(files)
+#    print len(files)
     s20='-'*10 +'Start'+ '-'*10 + '\n'
    
     print s20+folderPath
     for file in files:
-        print '>2>'
+#        print '>2>'
         checkReport(file)
 
 
     s20='-'*10 +'End'+ '-'*10 + '\n'
     print s20
-    print '>1>'
+#    print '>1>'
 
 #scanReports('Dnevnik\Reports\Ready\*.json')
 
