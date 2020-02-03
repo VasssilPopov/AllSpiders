@@ -1,11 +1,13 @@
-VALIDATIONS for Monitor/Reports/Monitor-2020-02-01.json
+VALIDATIONS for Monitor/Reports/Monitor-2020-02-02.json
 
->> Duplicates Report:Monitor/Reports/Monitor-2020-02-01.json
+>> Duplicates Report:Monitor/Reports/Monitor-2020-02-02.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Monitor/Reports/Monitor-2020-02-01.json
+>>Monitor/Reports/Monitor-2020-02-02.json
 ----------------------------------------------------------------------
 0
->2>
->> Validation of Monitor/Reports/Monitor-2020-02-01.json 
+>> Validation of Monitor/Reports/Monitor-2020-02-02.json 
+<1>  https://www.monitor.bg/bg/a/view/visjashti-dela-187573
+'text' is empty
+<<Valid records: 67 of 68

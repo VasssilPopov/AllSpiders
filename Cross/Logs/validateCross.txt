@@ -1,14 +1,10 @@
-VALIDATIONS for Cross/Reports/Cross-2020-02-01.json
+VALIDATIONS for Cross/Reports/Cross-2020-02-02.json
 
->> Duplicates Report:Cross/Reports/Cross-2020-02-01.json
+>> Duplicates Report:Cross/Reports/Cross-2020-02-02.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Cross/Reports/Cross-2020-02-01.json
+>>Cross/Reports/Cross-2020-02-02.json
 ----------------------------------------------------------------------
 0
->2>
->> Validation of Cross/Reports/Cross-2020-02-01.json 
-<32>  http://www.cross.bg/komisiya-hazarta-georgiev-1624260.html
-'text' is empty
-<<Valid records: 80 of 81
+>> Validation of Cross/Reports/Cross-2020-02-02.json 

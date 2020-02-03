@@ -1,18 +1,18 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2020-02-01.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2020-02-02.json
 
->> Duplicates Report:Dnevnik/Reports/Dnevnik-2020-02-01.json
+>> Duplicates Report:Dnevnik/Reports/Dnevnik-2020-02-02.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Dnevnik/Reports/Dnevnik-2020-02-01.json
+>>Dnevnik/Reports/Dnevnik-2020-02-02.json
 ----------------------------------------------------------------------
 0
->2>
->> Validation of Dnevnik/Reports/Dnevnik-2020-02-01.json 
-<20>  https://www.dnevnik.bg/sport/2020/02/01/4023815_kak_superboul_se_prevurna_v_biznes_za_miliardi/
+>> Validation of Dnevnik/Reports/Dnevnik-2020-02-02.json 
+<6>  https://www.dnevnik.bg/sport/2020/02/02/4024106_fintut_koito_donese_jult_karton_na_neimar/
 'title' is empty
-<29>  https://www.dnevnik.bg/bulgaria/2020/02/01/4023640_kak_pravilno_da_miem_rucete_si/
+<29>  https://www.dnevnik.bg/video/2020/02/02/4024164_iovo_nikolov_prokliatieto_na_prehoda_e_che/
 'title' is empty
-<40>  https://www.dnevnik.bg/video/svobodna_evropa/2020/02/01/4023679_kak_ljubovta_kum_sofiia_se_prevurna_v_teatralna/
+<39>  https://www.dnevnik.bg/bulgaria/2020/02/01/4023683_kakvi_dinozavri_sa_jiveli_po_bulgarski_zemi/
 'title' is empty
-<<Valid records: 47 of 50
+'text' is empty
+<<Valid records: 43 of 46

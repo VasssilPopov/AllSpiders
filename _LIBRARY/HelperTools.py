@@ -185,7 +185,7 @@ def checkReport(jlFile):
     s20='-'*20
     #print 
     # print s20+jlFile+
-    print '>> Validation of %s '% (jlFile)
+    #print '>> Validation of %s '% (jlFile)
     with jsonlines.open(jlFile) as reader:
         for obj in reader:
             countAll +=1

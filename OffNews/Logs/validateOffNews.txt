@@ -1,11 +1,10 @@
-VALIDATIONS for OffNews/Reports/OffNews-2020-02-01.json
+VALIDATIONS for OffNews/Reports/OffNews-2020-02-02.json
 
->> Duplicates Report:OffNews/Reports/OffNews-2020-02-01.json
+>> Duplicates Report:OffNews/Reports/OffNews-2020-02-02.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>OffNews/Reports/OffNews-2020-02-01.json
+>>OffNews/Reports/OffNews-2020-02-02.json
 ----------------------------------------------------------------------
 0
->2>
->> Validation of OffNews/Reports/OffNews-2020-02-01.json 
+>> Validation of OffNews/Reports/OffNews-2020-02-02.json 

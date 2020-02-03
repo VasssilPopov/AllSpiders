@@ -1,10 +1,9 @@
-VALIDATIONS for Mediapool/Reports/Mediapool-2020-02-02.json
+VALIDATIONS for Mediapool/Reports/Mediapool-2020-02-03.json
 
->> Duplicates Report:Mediapool/Reports/Mediapool-2020-02-02.json
+>> Duplicates Report:Mediapool/Reports/Mediapool-2020-02-03.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Mediapool/Reports/Mediapool-2020-02-02.json
+>>Mediapool/Reports/Mediapool-2020-02-03.json
 ----------------------------------------------------------------------
 0
->> Validation of Mediapool/Reports/Mediapool-2020-02-02.json 
