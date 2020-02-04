@@ -1,9 +1,9 @@
-VALIDATIONS for Faktor/Reports/Faktor-2020-02-03.json
+VALIDATIONS for Faktor/Reports/Faktor-2020-02-04.json
 
->> Duplicates Report:Faktor/Reports/Faktor-2020-02-03.json
+>> Duplicates Report:Faktor/Reports/Faktor-2020-02-04.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Faktor/Reports/Faktor-2020-02-03.json
+>>Faktor/Reports/Faktor-2020-02-04.json
 ----------------------------------------------------------------------
 0

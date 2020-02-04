@@ -1,9 +1,9 @@
-VALIDATIONS for ClubZ/Reports/ClubZ-2020-02-03.json
+VALIDATIONS for ClubZ/Reports/ClubZ-2020-02-04.json
 
->> Duplicates Report:ClubZ/Reports/ClubZ-2020-02-03.json
+>> Duplicates Report:ClubZ/Reports/ClubZ-2020-02-04.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>ClubZ/Reports/ClubZ-2020-02-03.json
+>>ClubZ/Reports/ClubZ-2020-02-04.json
 ----------------------------------------------------------------------
 0

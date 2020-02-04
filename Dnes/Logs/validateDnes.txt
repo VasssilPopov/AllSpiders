@@ -1,12 +1,14 @@
-VALIDATIONS for Dnes/Reports/Dnes-2020-02-03.json
+VALIDATIONS for Dnes/Reports/Dnes-2020-02-04.json
 
->> Duplicates Report:Dnes/Reports/Dnes-2020-02-03.json
+>> Duplicates Report:Dnes/Reports/Dnes-2020-02-04.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Dnes/Reports/Dnes-2020-02-03.json
+>>Dnes/Reports/Dnes-2020-02-04.json
 ----------------------------------------------------------------------
 0
-<31>  https://www.dnes.bg/index/2020/02/03/deniat-v-snimki-3-fevruari.437938
+<43>  https://www.dnes.bg/dnes-te-kazaha/2020/02/04/2-2-2020.438041
 'text' is empty
-<<Valid records: 104 of 105
+<102>  https://www.dnes.bg/index/2020/02/04/deniat-v-snimki-4-fevruari.438054
+'text' is empty
+<<Valid records: 100 of 102

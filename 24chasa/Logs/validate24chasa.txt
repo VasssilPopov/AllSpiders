@@ -1,9 +1,9 @@
-VALIDATIONS for 24chasa/Reports/24chasa-2020-02-03.json
+VALIDATIONS for 24chasa/Reports/24chasa-2020-02-04.json
 
->> Duplicates Report:24chasa/Reports/24chasa-2020-02-03.json
+>> Duplicates Report:24chasa/Reports/24chasa-2020-02-04.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>24chasa/Reports/24chasa-2020-02-03.json
+>>24chasa/Reports/24chasa-2020-02-04.json
 ----------------------------------------------------------------------
 0

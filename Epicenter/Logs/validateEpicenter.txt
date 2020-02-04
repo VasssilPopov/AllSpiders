@@ -1,9 +1,12 @@
-VALIDATIONS for Epicenter/Reports/Epicenter-2020-02-03.json
+VALIDATIONS for Epicenter/Reports/Epicenter-2020-02-04.json
 
->> Duplicates Report:Epicenter/Reports/Epicenter-2020-02-03.json
+>> Duplicates Report:Epicenter/Reports/Epicenter-2020-02-04.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Epicenter/Reports/Epicenter-2020-02-03.json
+>>Epicenter/Reports/Epicenter-2020-02-04.json
 ----------------------------------------------------------------------
 0
+<15>  http://epicenter.bg/article/Razpalvat-se-chuvstva-na-nedovolstvo-i-strast--koito-shte-se-prezhivyavat-na-vatreshen-plan/205707/10/101
+'text' is empty
+<<Valid records: 98 of 99

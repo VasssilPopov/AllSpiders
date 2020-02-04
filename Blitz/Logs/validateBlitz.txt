@@ -1,9 +1,12 @@
-VALIDATIONS for Blitz/Reports/Blitz-2020-02-03.json
+VALIDATIONS for Blitz/Reports/Blitz-2020-02-04.json
 
->> Duplicates Report:Blitz/Reports/Blitz-2020-02-03.json
+>> Duplicates Report:Blitz/Reports/Blitz-2020-02-04.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Blitz/Reports/Blitz-2020-02-03.json
+>>Blitz/Reports/Blitz-2020-02-04.json
 ----------------------------------------------------------------------
 0
+<183>  https://blitz.bg/zdrave/zdravni-novini/dlzhen-li-e-lekaryat-da-izvrshi-domashen-pregled-na-patsient-s-ogranichena-podvizhnost_news724725.html
+'text' is empty
+<<Valid records: 229 of 230

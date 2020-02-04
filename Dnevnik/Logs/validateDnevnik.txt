@@ -1,18 +1,26 @@
-VALIDATIONS for Dnevnik/Reports/Dnevnik-2020-02-02.json
+VALIDATIONS for Dnevnik/Reports/Dnevnik-2020-02-03.json
 
->> Duplicates Report:Dnevnik/Reports/Dnevnik-2020-02-02.json
+>> Duplicates Report:Dnevnik/Reports/Dnevnik-2020-02-03.json
 >>  
 1
 Files                                                          All Recs  Dupl Recs
->>Dnevnik/Reports/Dnevnik-2020-02-02.json
+>>Dnevnik/Reports/Dnevnik-2020-02-03.json
 ----------------------------------------------------------------------
 0
->> Validation of Dnevnik/Reports/Dnevnik-2020-02-02.json 
-<6>  https://www.dnevnik.bg/sport/2020/02/02/4024106_fintut_koito_donese_jult_karton_na_neimar/
+<8>  https://www.dnevnik.bg/video/lice_v_lice/2020/02/03/4024807_ivailo_penchev_durjavna_monopolna_firma_v_hazarta_shte/
 'title' is empty
-<29>  https://www.dnevnik.bg/video/2020/02/02/4024164_iovo_nikolov_prokliatieto_na_prehoda_e_che/
+<25>  https://www.dnevnik.bg/video/2020/02/03/4024347_shouto_na_shakira_i_djei_lo_na_superboul/
 'title' is empty
-<39>  https://www.dnevnik.bg/bulgaria/2020/02/01/4023683_kakvi_dinozavri_sa_jiveli_po_bulgarski_zemi/
+<43>  https://www.dnevnik.bg/video/btv/2020/02/03/4024522_goranov_da_napusne_finansovoto_ministerstvo_poiska/
 'title' is empty
-'text' is empty
-<<Valid records: 43 of 46
+<48>  https://www.dnevnik.bg/sport/2020/02/03/4024540_pavel_kolev_neiasnotite_pred_levski_sa_mnogo/
+'title' is empty
+<52>  https://www.dnevnik.bg/video/120minuti/2020/02/03/4024577_rashkov_prokuraturata_grubo_narushi_zakona_s/
+'title' is empty
+<64>  https://www.dnevnik.bg/video/2020/02/03/4024702_kak_margo_robi_se_prevurna_v_brad_pit_za_dve_minuti/
+'title' is empty
+<67>  https://www.dnevnik.bg/bulgaria/2020/02/03/4024675_vidimo_i_nevidimo_s_kalin_manolov_cenata_na_vodata/
+'title' is empty
+<71>  https://www.dnevnik.bg/sviat/2020/02/03/4024594_miliardi_skakalci_opostushavat_ogromni_ploshti_v/
+'title' is empty
+<<Valid records: 72 of 80
